@@ -14,6 +14,7 @@ BUGUN = datetime.date.today().isoformat()
 
 INSTAGRAM = 'https://www.instagram.com/clickbaitdijital/'
 LINKEDIN = 'https://www.linkedin.com/company/clickbait-digital-agency/'
+HARITA = 'https://share.google/u1DfuQgwwOlqnDbwp'   # Google İşletme Profili
 TEL_GORUNEN, TEL_LINK, WHATSAPP = '0507 923 85 75', 'tel:+905079238575', 'https://wa.me/905079238575'
 
 # ---------------------------------------------------------------- İçerik
@@ -190,7 +191,7 @@ def alt_bilgi():
       </nav>
       <div class="md:col-span-3">
         <p class="text-xs font-bold tracking-widest text-slate-900">İLETİŞİM</p>
-        <ul class="mt-4 grid gap-2.5"><li><a class="hover:text-slate-900" href="{TEL_LINK}">{TEL_GORUNEN}</a></li><li><a class="hover:text-slate-900" href="mailto:info@clickbait.com.tr">info@clickbait.com.tr</a></li><li>Ümit Mah. Meksika Cad. No:56/21<br>Çayyolu, Ankara</li></ul>
+        <ul class="mt-4 grid gap-2.5"><li><a class="hover:text-slate-900" href="{TEL_LINK}">{TEL_GORUNEN}</a></li><li><a class="hover:text-slate-900" href="mailto:info@clickbait.com.tr">info@clickbait.com.tr</a></li><li><a class="hover:text-slate-900" href="{HARITA}" target="_blank" rel="noopener">Ümit Mah. Meksika Cad. No:56/21<br>Çayyolu, Ankara</a></li><li><a class="inline-flex items-center gap-1.5 font-semibold text-slate-900 hover:underline" href="{HARITA}" target="_blank" rel="noopener">Haritada aç <span aria-hidden="true">↗</span></a></li></ul>
       </div>
     </div>
     <div class="mt-12 pt-6 border-t border-slate-100 text-xs text-slate-500">© 2013–{datetime.date.today().year} Clickbait Medya Limited Şirketi, Ankara. Tüm hakları saklıdır.</div>
