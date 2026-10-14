@@ -1,0 +1,75 @@
+# Proje hafızası — Clickbait Digital web sitesi
+
+Bu dosya, projeye yeni başlayan bir Claude oturumunun önceki çalışmaları bilmesi için yazıldı.
+Kullanıcıyla **Türkçe** konuş. Kullanıcı MacBook kullanıyor; klavye kısayollarını Mac'e göre ver (⌘, ⌥).
+Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz" şeklinde ver.
+
+## Şirket
+- Clickbait Digital — Clickbait Medya Limited Şirketi, Ankara. Alan adı: https://clickbait.com.tr
+- Adres: Meksika Caddesi, Çayyolu / Ankara ("Çankaya", "Yenimahalle" deme; "Çayyolu" de).
+- E-posta: info@clickbait.com.tr (Google Workspace).
+- Instagram: https://www.instagram.com/clickbaitdijital/ · LinkedIn: https://www.linkedin.com/company/clickbait-digital-agency/
+- Facebook paylaşılmak istenmiyor; YouTube kanalı yok.
+- Google İşletme Profili: https://share.google/u1DfuQgwwOlqnDbwp · Yorum bağlantısı: https://g.page/r/CVZVcZ6LobnvEBM/review
+- Rakamlar: 10+ yıl, 300+ proje, 50+ marka, 7/24 destek.
+
+## Hizmetler (bu sırayla; yapay zeka öne çıkarılıyor)
+1. Yapay zeka danışmanlığı — /yapay-zeka-danismanligi/
+2. Web tasarım — /web-tasarim/
+3. Dijital pazarlama — /dijital-pazarlama/ (eski adı "Dijital medya")
+4. Sosyal medya yönetimi — /sosyal-medya-yonetimi/
+5. Kreatif hizmetler — /kreatif-hizmetler/
+Sağlık turizmi hizmeti **kaldırıldı**, geri ekleme.
+
+## Tasarım
+Kullanıcının Google Stitch'te yaptırdığı tasarım esas alındı: gök mavisi degrade açılış, 3B yay kartlar, bento ızgara,
+lime vurgu rengi `#D8F83C`, Plus Jakarta Sans (yerel font dosyaları `site/assets/fonts/`).
+Statik HTML + derlenmiş Tailwind 3.4.17 (CDN değil) + sade JS (`site/assets/js/site.js`).
+Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
+
+## Yayın akışı (ÖNEMLİ)
+- GitHub: `Clickbait-Digital/clickbait-web` (herkese açık repo). `site/` = sunucudaki `public_html`.
+- Sunucu cPanel; terminal yok. Cron 5 dakikada bir `public_html/guncelle.php` çalıştırır,
+  `site/SURUM` değiştiyse repodaki `site/` içeriğini indirip yazar.
+- **Yayına almak için:** değişikliği yap → `site/SURUM` içindeki sayıyı 1 artır → `main`'e push. Kullanıcıdan dosya yükleme/silme isteme.
+- Sunucudan dosya silmek için yolunu `site/SILINECEKLER` dosyasına yaz.
+- `guncelle.php` ve onun gizli anahtarı repoda YOK ve repoya asla yazılmamalı (repo herkese açık). Anahtar kullanıcıda.
+- İletişim formu: `site/contact.php`, Gmail SMTP (smtp.gmail.com:465). Şifre sunucuda `/home/clickbait/clickbait-ayarlar.php`
+  dosyasında; repoya veya sohbete şifre yazdırma. Hata olursa form "Hata kodu: …" gösterir.
+
+## Üretici: `dev/sayfalar.py`
+`python3 dev/sayfalar.py` şunları üretir: 5 hizmet sayfası (veri `HIZMETLER` listesinde), ortak alt bilgi
+(index.html ve kvkk sayfasındaki ALT BİLGİ bölümüne yazılır), blog listesi, blog yazıları, ana sayfadaki BLOG bölümü,
+hizmet sayfalarındaki "Konuyla ilgili yazılar", `sitemap.xml`. Üretilen dosyaları elle düzenleme; üreticiyi düzenle.
+Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
+`site/index.html` bölümleri `BÖLÜM: X — BAŞLANGIÇ/BİTİŞ` yorumlarıyla işaretli.
+
+## Blog
+- Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,
+  ör. `web-tasarim`), etiket (ör. `WEB TASARIM`), isteğe bağlı guncelleme.
+- Markdown desteği: ##, ###, -, 1., >, **kalın**, [bağlantı](/adres/).
+- İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
+- Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
+  sonda Clickbait'i anlatan kısa bir `>` notu (Çayyolu ofisi + online çalışma). Haftada en az 1 yazı, kümeler dönüşümlü.
+- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları.
+- Sıradaki: "Google İşletme Profili ile yerel aramalarda öne çıkmak", sonra "Şirketinizde yapay zekaya nereden başlamalısınız?".
+
+## SEO (kullanıcının en önemli önceliği)
+- Hedef: önce Ankara aramaları, ikinci olarak uzaktan verilebilen hizmetlerde Türkiye geneli.
+- Kurulu: JSON-LD (ProfessionalService `#isletme`, Service, FAQPage, BreadcrumbList, Blog/BlogPosting), canonical,
+  site haritası, robots.txt, OG görseli, eski WordPress adreslerinden 301 yönlendirmeler (`site/.htaccess`), özel 404.
+- Search Console doğrulandı, site haritası gönderildi. Yeni sayfadan sonra kullanıcıya "URL denetimi → Dizine eklenmeyi iste" hatırlat.
+- Google Analytics `G-3GSS5F5FTT`, yalnızca çerez onayından sonra yüklenir (KVKK metninde 7. bölüm çerezler).
+  Form başarılı gönderilince `generate_lead` olayı gider.
+- 4–6 hafta sonra Search Console verisine bakılıp içerik planı güncellenecek.
+
+## Test
+Her değişiklikten sonra `site/` klasörünü `php -S` ile sunup Playwright (Chromium: `/opt/pw-browsers/chromium`)
+ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok, sayfa başına tek H1, JSON-LD geçerli.
+
+## Kullanıcıdan beklenenler
+- Gerçek müşteri yorumu (metin, kişi, marka) — ana sayfada yer tutucu kart var.
+- Proje görselleri / ekran görüntüleri; German Dental logosunun yüksek çözünürlüklü hali.
+- Referans markalara verilen hizmetler.
+- Hizmet sayfalarındaki şu ifadelerin onayı: "hesaplar sizin adınıza", "fotoğraf/video çekimi", "ilk görüşme ücretsiz".
+- Blog yazarı olarak gösterilecek kişi (ad, kısa biyografi, fotoğraf) — şu an "Clickbait ekibi".
