@@ -1,0 +1,46 @@
+/* Clickbait Digital — özel stiller (Tailwind dışındaki her şey) */
+:root { color-scheme: light; }
+  [hidden] { display: none !important; }
+  html { scroll-behavior: smooth; }
+  body { margin: 0; background: #ffffff; overflow-x: hidden; }
+  section[id] { scroll-margin-top: 16px; }
+  :focus-visible { outline: 3px solid #111315; outline-offset: 3px; border-radius: 12px; }
+  .on-blue :focus-visible { outline-color: #ffffff; }
+
+  .hero-perspective-container { perspective: 1200px; }
+  .sky-clouds-bg { background: linear-gradient(180deg, #0866c9 0%, #1283e8 34%, #48a6fb 60%, #8ec5fc 82%, #ffffff 100%); position: relative; }
+  .cloud-layer {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 55%; pointer-events: none;
+    background-image:
+      radial-gradient(circle at 10% 80%, rgba(255,255,255,.95) 0%, rgba(255,255,255,.6) 22%, transparent 45%),
+      radial-gradient(circle at 35% 88%, rgba(255,255,255,.98) 0%, rgba(255,255,255,.7) 26%, transparent 52%),
+      radial-gradient(circle at 65% 82%, rgba(255,255,255,.92) 0%, rgba(255,255,255,.55) 24%, transparent 50%),
+      radial-gradient(circle at 90% 75%, rgba(255,255,255,.95) 0%, rgba(255,255,255,.5) 25%, transparent 50%),
+      radial-gradient(circle at 50% 92%, #ffffff 0%, rgba(255,255,255,.9) 35%, transparent 60%);
+    filter: blur(12px);
+    -webkit-mask-image: linear-gradient(to bottom, transparent, #000 40%); mask-image: linear-gradient(to bottom, transparent, #000 40%);
+  }
+
+  .card-arc-1 { --base-transform: rotateY(28deg) translateZ(-40px) translateY(45px) rotateZ(-6deg) scale(.85); transform: var(--base-transform); animation: floatSlow 5.2s ease-in-out infinite; }
+  .card-arc-2 { --base-transform: rotateY(20deg) translateZ(-20px) translateY(22px) rotateZ(-3deg) scale(.92); transform: var(--base-transform); animation: floatMedium 4.6s ease-in-out .8s infinite; }
+  .card-arc-3 { --base-transform: rotateY(12deg) translateZ(-5px) translateY(8px) scale(.97); transform: var(--base-transform); animation: floatGentle 5.8s ease-in-out 1.4s infinite; }
+  .card-arc-4 { --base-transform: rotateY(0deg) translateZ(15px) translateY(0px) scale(1.02); transform: var(--base-transform); z-index: 20; animation: floatMedium 4.8s ease-in-out .4s infinite; }
+  .card-arc-5 { --base-transform: rotateY(-10deg) translateZ(0px) translateY(6px) scale(.98); transform: var(--base-transform); z-index: 15; animation: floatSlow 5.6s ease-in-out 1.1s infinite; }
+  .card-arc-6 { --base-transform: rotateY(-18deg) translateZ(-15px) translateY(18px) rotateZ(2deg) scale(.93); transform: var(--base-transform); animation: floatMedium 4.4s ease-in-out 1.7s infinite; }
+  .card-arc-7 { --base-transform: rotateY(-26deg) translateZ(-35px) translateY(38px) rotateZ(5deg) scale(.86); transform: var(--base-transform); animation: floatGentle 6s ease-in-out .6s infinite; }
+  @keyframes floatSlow { 0%,100% { transform: var(--base-transform) translateY(0); } 50% { transform: var(--base-transform) translateY(-7px); } }
+  @keyframes floatMedium { 0%,100% { transform: var(--base-transform) translateY(0); } 50% { transform: var(--base-transform) translateY(-9px); } }
+  @keyframes floatGentle { 0%,100% { transform: var(--base-transform) translateY(0); } 50% { transform: var(--base-transform) translateY(-6px); } }
+  .hero-arc-card { transition: transform .35s cubic-bezier(.16,1,.3,1), box-shadow .35s cubic-bezier(.16,1,.3,1); will-change: transform; }
+  .hero-arc-card:hover { animation-play-state: paused; transform: var(--base-transform) translateY(-10px) scale(1.05) !important; box-shadow: 0 25px 35px -5px rgba(0,0,0,.25), 0 15px 15px -5px rgba(0,0,0,.12) !important; z-index: 30 !important; }
+  .arc-scroll { scrollbar-width: none; } .arc-scroll::-webkit-scrollbar { display: none; }
+
+  .bento-card-interactive { transition: transform .3s cubic-bezier(.16,1,.3,1), box-shadow .3s cubic-bezier(.16,1,.3,1); will-change: transform, box-shadow; }
+  .bento-card-interactive:hover { transform: translateY(-6px); box-shadow: 0 20px 25px -5px rgba(0,0,0,.1), 0 10px 10px -5px rgba(0,0,0,.04); }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .card-arc-1,.card-arc-2,.card-arc-3,.card-arc-4,.card-arc-5,.card-arc-6,.card-arc-7,.animate-pulse { animation: none !important; }
+    .hero-arc-card:hover { transform: var(--base-transform) !important; }
+    .bento-card-interactive:hover { transform: none !important; }
+  }

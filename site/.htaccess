@@ -1,0 +1,36 @@
+# Clickbait Digital — sunucu ayarları
+
+DirectoryIndex index.html index.php
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# --- HTTPS yönlendirmesi ---
+# https://alanadiniz.com.tr açılıyorsa aşağıdaki iki satırın başındaki # işaretini kaldırın.
+# RewriteCond %{HTTPS} off
+# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --- Eski sitenin adreslerini yeni bölümlere yönlendir (Google sıralaması korunur) ---
+RewriteRule ^ajansimiz/?$ /#hakkimizda [R=301,L,NE]
+RewriteRule ^our_services/.*$ /#hizmetler [R=301,L,NE]
+RewriteRule ^saglik-turizmi-reklamlari/?$ /#hizmetler [R=301,L,NE]
+RewriteRule ^referanslarimiz/?$ /#projeler [R=301,L,NE]
+RewriteRule ^iletisim/?$ /#iletisim [R=301,L,NE]
+RewriteRule ^blog/?$ /#blog [R=301,L,NE]
+</IfModule>
+
+# --- Sıkıştırma ---
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css application/javascript image/svg+xml application/json
+</IfModule>
+
+# --- Önbellek: HTML/CSS/JS her ziyarette kontrol edilir, değişiklikler hemen görünür ---
+<IfModule mod_headers.c>
+<FilesMatch "\.(html|css|js)$">
+Header set Cache-Control "no-cache"
+</FilesMatch>
+<FilesMatch "\.(svg|png|jpe?g|webp|gif|ico|woff2?)$">
+Header set Cache-Control "public, max-age=604800"
+</FilesMatch>
+</IfModule>
