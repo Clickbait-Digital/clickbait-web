@@ -6,10 +6,10 @@ Options -Indexes
 <IfModule mod_rewrite.c>
 RewriteEngine On
 
-# --- HTTPS yönlendirmesi ---
-# https://alanadiniz.com.tr açılıyorsa aşağıdaki iki satırın başındaki # işaretini kaldırın.
-# RewriteCond %{HTTPS} off
-# RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# --- HTTPS ve www'suz adrese yönlendirme ---
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^ https://clickbait.com.tr%{REQUEST_URI} [L,R=301]
 
 # --- Eski sitenin adreslerini yeni bölümlere yönlendir (Google sıralaması korunur) ---
 RewriteRule ^ajansimiz/?$ /#hakkimizda [R=301,L,NE]
