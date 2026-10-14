@@ -2,7 +2,7 @@
 /* ---- Google Analytics + çerez onayı (KVKK) ----
    Ölçüm kimliği girilene kadar hiçbir şey yüklenmez ve bant görünmez.
    Analytics yalnızca ziyaretçi "Kabul et" derse yüklenir. */
-var GA_ID = '';   // Örn: 'G-ABC123XYZ'
+var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
 (function () {
   if (!GA_ID) return;
   var ANAHTAR = 'cb_cerez_onayi';
@@ -17,6 +17,17 @@ var GA_ID = '';   // Örn: 'G-ABC123XYZ'
     var s = document.createElement('script'); s.async = true;
     s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
     document.head.appendChild(s);
+  }
+  function sil() {   // onay geri çekilirse Analytics çerezlerini kaldır
+    document.cookie.split(';').forEach(function (c) {
+      var ad = c.split('=')[0].trim();
+      if (ad.indexOf('_ga') === 0) {
+        var alanlar = [location.hostname, '.' + location.hostname.replace(/^www\./, '')];
+        alanlar.forEach(function (al) { document.cookie = ad + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=' + al; });
+        document.cookie = ad + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/';
+      }
+    });
+    if (window.gtag) window['ga-disable-' + GA_ID] = true;
   }
   function bant() {
     if (document.getElementById('cerezBandi')) return;
@@ -33,7 +44,7 @@ var GA_ID = '';   // Örn: 'G-ABC123XYZ'
       var b = e.target.closest('button[data-c]'); if (!b) return;
       var onay = b.getAttribute('data-c') === '1';
       yaz(onay ? 'evet' : 'hayir'); d.remove();
-      if (onay) yukle();
+      if (onay) yukle(); else sil();
     });
     document.body.appendChild(d);
   }
