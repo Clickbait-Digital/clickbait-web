@@ -56,3 +56,19 @@
     .hero-arc-card:hover { transform: var(--base-transform) !important; }
     .bento-card-interactive:hover { transform: none !important; }
   }
+
+/* Blog yazısı tipografisi */
+.yazi { color: #334155; font-size: 1.0625rem; line-height: 1.8; }
+.yazi > * + * { margin-top: 1.25em; }
+.yazi h2 { margin-top: 2.2em; font-size: 1.6rem; line-height: 1.25; font-weight: 800; letter-spacing: -0.02em; color: #0f172a; scroll-margin-top: 1.5rem; }
+.yazi h3 { margin-top: 1.8em; font-size: 1.25rem; font-weight: 800; color: #0f172a; scroll-margin-top: 1.5rem; }
+.yazi h2:first-child { margin-top: 0; }
+.yazi strong { color: #0f172a; font-weight: 700; }
+.yazi a { color: #0369a1; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; }
+.yazi ul, .yazi ol { padding-left: 1.4em; }
+.yazi ul { list-style: disc; }
+.yazi ol { list-style: decimal; }
+.yazi li + li { margin-top: .5em; }
+.yazi li::marker { color: #0284c7; font-weight: 700; }
+.yazi-not { border-radius: 24px; background: #f5fde0; border: 1px solid #e3f6a8; padding: 1.25rem 1.5rem; color: #1e293b; font-weight: 500; }
+@media (min-width: 768px) { .yazi { font-size: 1.125rem; } .yazi h2 { font-size: 1.875rem; } }

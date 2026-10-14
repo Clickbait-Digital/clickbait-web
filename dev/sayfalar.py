@@ -164,6 +164,7 @@ HIZMETLER = [
 
 # ---------------------------------------------------------------- Parçalar
 def e(s): return html.escape(s, quote=True)
+def buyuk(s): return s.replace('i', 'İ').upper()   # Türkçe büyük harf
 
 IKON_IG = '<svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>'
 IKON_LI = '<svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.86V21H9z"/></svg>'
@@ -188,7 +189,7 @@ def alt_bilgi():
       </nav>
       <nav class="md:col-span-2" aria-label="Kurumsal">
         <p class="text-xs font-bold tracking-widest text-slate-900">KURUMSAL</p>
-        <ul class="mt-4 grid gap-2.5"><li><a class="hover:text-slate-900" href="/#projeler">Projeler</a></li><li><a class="hover:text-slate-900" href="/#hakkimizda">Hakkımızda</a></li><li><a class="hover:text-slate-900" href="/#blog">Blog</a></li><li><a class="hover:text-slate-900" href="/kvkk/">KVKK</a></li></ul>
+        <ul class="mt-4 grid gap-2.5"><li><a class="hover:text-slate-900" href="/#projeler">Projeler</a></li><li><a class="hover:text-slate-900" href="/#hakkimizda">Hakkımızda</a></li><li><a class="hover:text-slate-900" href="/blog/">Blog</a></li><li><a class="hover:text-slate-900" href="/kvkk/">KVKK</a></li></ul>
       </nav>
       <div class="md:col-span-3">
         <p class="text-xs font-bold tracking-widest text-slate-900">İLETİŞİM</p>
@@ -201,8 +202,8 @@ def alt_bilgi():
 <!-- ▲▲▲▲▲ BÖLÜM: ALT BİLGİ — BİTİŞ ▲▲▲▲▲ -->'''
 
 def menu():
-    linkler = [('/#hizmetler', 'Hizmetler'), ('/#projeler', 'Projeler'), ('/#hakkimizda', 'Hakkımızda'), ('/#blog', 'Blog'), ('/#iletisim', 'İletişim')]
-    ust = ''.join(f'\n        <a class="hover:text-white transition-colors" href="{u}">{a.upper().replace("i","İ") if False else a.replace("i","İ").upper()}</a>' for u, a in linkler)
+    linkler = [('/#hizmetler', 'Hizmetler'), ('/#projeler', 'Projeler'), ('/#hakkimizda', 'Hakkımızda'), ('/blog/', 'Blog'), ('/#iletisim', 'İletişim')]
+    ust = ''.join(f'\n        <a class="hover:text-white transition-colors" href="{u}">{buyuk(a)}</a>' for u, a in linkler)
     mob = ''.join(f'\n        <a class="px-4 py-3.5 rounded-2xl text-lg font-bold text-slate-900 hover:bg-slate-100" href="{u}">{a}</a>' for u, a in linkler)
     return f'''  <!-- ▼▼▼▼▼ BÖLÜM: MENÜ — BAŞLANGIÇ ▼▼▼▼▼ -->
   <header class="relative z-40 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -371,6 +372,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: SIK SORULANLAR — BİTİŞ ▲▲▲▲▲ -->
 
+{ilgili_yazilar(h['adres'])}
 <!-- ▼▼▼▼▼ BÖLÜM: GÖRÜŞME ÇAĞRISI — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="cagri">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -404,15 +406,250 @@ def blok_degistir(dosya, ad, yeni):
     open(p, 'w', encoding='utf-8').write(s[:a] + yeni + s[b:])
 
 def site_haritasi():
-    urller = [('/', 'weekly', '1.0')] + [(f'/{h["adres"]}/', 'monthly', '0.9') for h in HIZMETLER] + [('/kvkk/', 'yearly', '0.2')]
-    satir = ''.join(f'  <url><loc>{ALAN}{u}</loc><lastmod>{BUGUN}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n' for u, c, p in urller)
+    son = max([y['tarih'] for y in YAZILAR], default=BUGUN)
+    urller = [('/', 'weekly', '1.0', BUGUN)] + [(f'/{h["adres"]}/', 'monthly', '0.9', BUGUN) for h in HIZMETLER] \
+           + [('/blog/', 'weekly', '0.7', son)] + [(f'/blog/{y["adres"]}/', 'monthly', '0.6', y['tarih']) for y in YAZILAR] + [('/kvkk/', 'yearly', '0.2', BUGUN)]
+    satir = ''.join(f'  <url><loc>{ALAN}{u}</loc><lastmod>{t}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n' for u, c, p, t in urller)
     open(os.path.join(KOK, 'sitemap.xml'), 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + satir + '</urlset>\n')
+
+# ---------------------------------------------------------------- Blog
+# Yazılar dev/blog/*.md dosyalarındadır. Üstte "---" arasında başlık bilgileri, altında Markdown metin.
+# Desteklenen biçimler: ## ara başlık, ### alt başlık, - madde, 1. numaralı madde, > not kutusu, **kalın**, [bağlantı](adres)
+AYLAR = ['Ocak', 'Şubat', 'Mart', 'Nisan', 'Mayıs', 'Haziran', 'Temmuz', 'Ağustos', 'Eylül', 'Ekim', 'Kasım', 'Aralık']
+def tarih_tr(t):
+    y, a, g = t.split('-'); return f'{int(g)} {AYLAR[int(a) - 1]} {y}'
+
+def kisa_ad(s):
+    tablo = str.maketrans('çğıöşüÇĞİÖŞÜ', 'cgiosuCGIOSU')
+    return re.sub(r'[^a-z0-9]+', '-', s.translate(tablo).lower()).strip('-')
+
+def satir_ici(t):
+    t = e(t)
+    t = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', t)
+    t = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', t)
+    return t
+
+def md_html(metin):
+    out, icindekiler, para = [], [], []
+    liste = None
+    def para_bitir():
+        if para:
+            out.append('<p>' + satir_ici(' '.join(para)) + '</p>'); para.clear()
+    def liste_bitir():
+        nonlocal liste
+        if liste:
+            out.append(f'<{liste[0]}>' + ''.join(f'<li>{satir_ici(x)}</li>' for x in liste[1]) + f'</{liste[0]}>')
+            liste = None
+    for satir in metin.split('\n'):
+        s = satir.rstrip()
+        m_ul, m_ol = re.match(r'^- (.*)', s), re.match(r'^\d+\. (.*)', s)
+        if not s:
+            para_bitir(); liste_bitir(); continue
+        if s.startswith('## ') or s.startswith('### '):
+            para_bitir(); liste_bitir()
+            seviye = 2 if s.startswith('## ') else 3
+            yazi = s[seviye + 1:]
+            kimlik = kisa_ad(yazi)
+            if seviye == 2: icindekiler.append((kimlik, yazi))
+            out.append(f'<h{seviye} id="{kimlik}">{satir_ici(yazi)}</h{seviye}>')
+        elif s.startswith('> '):
+            para_bitir(); liste_bitir()
+            out.append('<aside class="yazi-not"><p>' + satir_ici(s[2:]) + '</p></aside>')
+        elif m_ul or m_ol:
+            para_bitir()
+            tur = 'ul' if m_ul else 'ol'
+            if not liste or liste[0] != tur:
+                liste_bitir(); liste = (tur, [])
+            liste[1].append((m_ul or m_ol).group(1))
+        else:
+            liste_bitir(); para.append(s)
+    para_bitir(); liste_bitir()
+    return '\n'.join(out), icindekiler
+
+def yazilari_oku():
+    klasor = os.path.join(os.path.dirname(__file__), 'blog')
+    yazilar = []
+    for ad in (sorted(os.listdir(klasor)) if os.path.isdir(klasor) else []):
+        if not ad.endswith('.md'): continue
+        ham = open(os.path.join(klasor, ad), encoding='utf-8').read()
+        _, ust, govde = ham.split('---', 2)
+        y = {}
+        for satir in ust.strip().split('\n'):
+            k, v = satir.split(':', 1); y[k.strip()] = v.strip()
+        y['adres'] = ad[:-3]
+        y['govde'], y['icindekiler'] = md_html(govde.strip())
+        y['dakika'] = max(1, round(len(re.sub('<[^>]+>', ' ', y['govde']).split()) / 200))
+        yazilar.append(y)
+    return sorted(yazilar, key=lambda y: (y['tarih'], y['adres']), reverse=True)
+
+YAZILAR = yazilari_oku()
+def hizmet_adi(adres): return next((h['kisa'] for h in HIZMETLER if h['adres'] == adres), '')
+def etiket_baslik(s): return s[:1] + s[1:].replace('I', 'ı').replace('İ', 'i').lower()
+
+def yazi_karti(y):
+    return f"""
+      <li class="bento-card-interactive rounded-[28px] bg-white border border-slate-100 shadow-sm">
+        <a href="/blog/{y['adres']}/" class="flex h-full flex-col gap-5 p-6">
+          <span class="self-start text-[10px] font-bold tracking-wider rounded-full bg-[#eefbb8] text-slate-800 px-2.5 py-1">{e(y['etiket'])}</span>
+          <span class="text-lg font-bold text-slate-900 leading-snug">{e(y['baslik'])}</span>
+          <span class="text-sm text-slate-600 leading-relaxed">{e(y['ozet'])}</span>
+          <span class="mt-auto text-xs font-semibold text-slate-500">{tarih_tr(y['tarih'])} · {y['dakika']} dk okuma</span>
+        </a>
+      </li>"""
+
+def ilgili_yazilar(kume):
+    ilgili = [y for y in YAZILAR if y['kume'] == kume][:3]
+    if not ilgili: return ''
+    return f"""<!-- ▼▼▼▼▼ BÖLÜM: İLGİLİ YAZILAR — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pb-20 md:pb-28 bg-white" aria-labelledby="ilgili">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-wrap items-end justify-between gap-4">
+      <h2 id="ilgili" class="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Konuyla ilgili yazılar</h2>
+      <a href="/blog/" class="text-sm font-bold text-slate-900 hover:underline">Tüm yazılar ↗</a>
+    </div>
+    <ul class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">{''.join(yazi_karti(y) for y in ilgili)}
+    </ul>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: İLGİLİ YAZILAR — BİTİŞ ▲▲▲▲▲ -->
+"""
+
+def sayfa_basi(baslik_html, ust_bilgi, alt_html=''):
+    return f"""<section class="on-blue relative pt-5 pb-16 md:pb-20 overflow-hidden rounded-b-[40px] md:rounded-b-[56px]" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)" aria-labelledby="h1">
+{menu()}
+  <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16">
+    {ust_bilgi}
+    {baslik_html}
+    {alt_html}
+  </div>
+</section>"""
+
+def ld_script(veri): return '<script type="application/ld+json">\n' + json.dumps(veri, ensure_ascii=False, indent=1) + '\n</script>\n'
+
+def blog_liste():
+    ld = {"@context": "https://schema.org", "@type": "Blog", "name": "Clickbait Blog", "url": ALAN + "/blog/", "inLanguage": "tr-TR",
+          "publisher": {"@id": ALAN + "/#isletme"},
+          "blogPost": [{"@type": "BlogPosting", "headline": y['baslik'], "url": f"{ALAN}/blog/{y['adres']}/", "datePublished": y['tarih']} for y in YAZILAR]}
+    bas_html = bas('Blog: Yapay Zeka, Web Tasarım ve Dijital Pazarlama | Clickbait',
+                   'Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler. Clickbait ekibinden yazılar.', '/blog/', ld_script(ld))
+    ust = '<nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">Blog</li></ol></nav>'
+    h1 = '<h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">Blog</h1>'
+    alt = '<p class="mt-5 max-w-2xl text-base md:text-lg text-white leading-relaxed">Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler.</p>'
+    kartlar = ''.join(yazi_karti(y) for y in YAZILAR)
+    return bas_html + f"""<div class="font-sans antialiased text-slate-800 bg-white selection:bg-brand-lime selection:text-black" id="top">
+{sayfa_basi(h1, ust, alt)}
+<main id="icerik" class="py-16 md:py-24 bg-[#fafafa]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">{kartlar}
+    </ul>
+  </div>
+</main>
+{alt_bilgi()}
+</div>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
+"""
+
+def yazi_sayfasi(y):
+    adres = f"/blog/{y['adres']}/"
+    hizmet = hizmet_adi(y['kume'])
+    ld = {"@context": "https://schema.org", "@graph": [
+      {"@type": "BlogPosting", "headline": y['baslik'], "description": y['description'], "url": ALAN + adres, "mainEntityOfPage": ALAN + adres,
+       "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
+       "image": ALAN + "/assets/img/og-clickbait.jpg",
+       "author": {"@type": "Organization", "name": "Clickbait", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
+      {"@type": "BreadcrumbList", "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": ALAN + "/blog/"},
+        {"@type": "ListItem", "position": 3, "name": y['baslik'], "item": ALAN + adres}]}]}
+    ekler = ld_script(ld) + f'<meta property="article:published_time" content="{y["tarih"]}">\n'
+    ust = f'<nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li><a href="/blog/" class="hover:text-white">Blog</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">{e(etiket_baslik(y["etiket"]))}</li></ol></nav>'
+    h1 = f'<h1 id="h1" class="mt-6 max-w-4xl text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight leading-[1.1]" style="text-wrap:balance">{e(y["baslik"])}</h1>'
+    alt = f'<p class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-white/90"><span class="text-[10px] font-bold tracking-wider rounded-full bg-[#D8F83C] text-black px-2.5 py-1">{e(y["etiket"])}</span><span>Clickbait ekibi</span><time datetime="{y["tarih"]}">{tarih_tr(y["tarih"])}</time><span>{y["dakika"]} dk okuma</span></p>'
+    toc = ''.join(f'<li><a href="#{k}" class="hover:text-slate-900">{e(b)}</a></li>' for k, b in y['icindekiler'])
+    diger = [x for x in YAZILAR if x is not y][:3]
+    diger_html = (f"""
+<section class="py-16 md:py-24 bg-[#fafafa]" aria-labelledby="diger">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 id="diger" class="text-3xl font-extrabold text-slate-900 tracking-tight">Diğer yazılar</h2>
+    <ul class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">{''.join(yazi_karti(x) for x in diger)}
+    </ul>
+  </div>
+</section>""" if diger else '')
+    sayfa = bas(y['title'], y['description'], adres, ekler).replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
+    return sayfa + f"""<div class="font-sans antialiased text-slate-800 bg-white selection:bg-brand-lime selection:text-black" id="top">
+<a href="#icerik" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:rounded-full focus:font-bold">İçeriğe geç</a>
+{sayfa_basi(h1, ust, alt)}
+<main id="icerik" class="py-14 md:py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
+    <article class="yazi lg:col-span-8 min-w-0">
+{y['govde']}
+    </article>
+    <aside class="lg:col-span-4">
+      <div class="lg:sticky lg:top-8 grid gap-6">
+        <nav class="rounded-[24px] bg-[#fafafa] border border-slate-100 p-6" aria-label="İçindekiler">
+          <p class="text-xs font-bold tracking-widest text-slate-500">İÇİNDEKİLER</p>
+          <ol class="mt-4 grid gap-2.5 text-sm text-slate-600">{toc}</ol>
+        </nav>
+        <div class="on-blue rounded-[24px] p-6 text-white" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)">
+          <p class="text-xs font-bold tracking-widest text-white/85">İLGİLİ HİZMET</p>
+          <p class="mt-2 text-xl font-extrabold">{e(hizmet)}</p>
+          <p class="mt-2 text-sm text-white leading-relaxed">Ankara’daki ofisimizde ya da online görüşebiliriz. İlk görüşme ücretsiz.</p>
+          <div class="mt-5 flex flex-wrap gap-2">
+            <a href="/{y['kume']}/" class="inline-flex items-center gap-2 rounded-full bg-white text-slate-900 px-4 py-2 text-xs font-bold tracking-wider hover:scale-105 transition-all">HİZMETİ İNCELE ↗</a>
+            <a href="/#iletisim" class="inline-flex items-center gap-2 rounded-full bg-[#D8F83C] text-black px-4 py-2 text-xs font-bold tracking-wider hover:scale-105 transition-all">GÖRÜŞME AYARLA</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </div>
+</main>
+{diger_html}
+{alt_bilgi()}
+</div>
+<script src="/assets/js/site.js"></script>
+</body>
+</html>
+"""
+
+def ana_sayfa_blogu():
+    kartlar = ''.join(yazi_karti(y) for y in YAZILAR[:3])
+    return f"""<!-- ▼▼▼▼▼ BÖLÜM: BLOG — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section id="blog" class="py-20 md:py-24 bg-[#fafafa]" aria-labelledby="bt">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-3">
+      <div>
+        <div class="inline-flex items-center gap-1.5 text-xs font-bold tracking-widest text-slate-500"><span class="w-1.5 h-1.5 rounded-full bg-slate-900"></span><span>BLOG</span></div>
+        <h2 id="bt" class="mt-4 text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight">Dijital üzerine notlar</h2>
+      </div>
+      <a href="/blog/" class="inline-flex self-start sm:self-auto items-center gap-2 rounded-full bg-[#111315] text-white px-5 py-2.5 text-xs font-bold tracking-wider hover:scale-105 transition-all">TÜM YAZILAR <span aria-hidden="true">↗</span></a>
+    </div>
+    <ul class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">{kartlar}
+    </ul>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: BLOG — BİTİŞ ▲▲▲▲▲ -->"""
+
+def bloglari_yaz():
+    os.makedirs(os.path.join(KOK, 'blog'), exist_ok=True)
+    open(os.path.join(KOK, 'blog', 'index.html'), 'w', encoding='utf-8').write(blog_liste())
+    for y in YAZILAR:
+        os.makedirs(os.path.join(KOK, 'blog', y['adres']), exist_ok=True)
+        open(os.path.join(KOK, 'blog', y['adres'], 'index.html'), 'w', encoding='utf-8').write(yazi_sayfasi(y))
+        print('yazı:', y['adres'])
+    if YAZILAR:
+        blok_degistir('index.html', 'BLOG', ana_sayfa_blogu())
+    p = os.path.join(KOK, 'index.html'); s = open(p, encoding='utf-8').read()
+    open(p, 'w', encoding='utf-8').write(s.replace('href="#blog"', 'href="/blog/"'))
+
 
 if __name__ == '__main__':
     for h in HIZMETLER:
         os.makedirs(os.path.join(KOK, h['adres']), exist_ok=True)
         open(os.path.join(KOK, h['adres'], 'index.html'), 'w', encoding='utf-8').write(hizmet_sayfasi(h))
         print('yazıldı:', h['adres'])
+    bloglari_yaz()
     for d in ['index.html', 'kvkk/index.html']:
         blok_degistir(d, 'ALT BİLGİ', alt_bilgi())
     site_haritasi()
