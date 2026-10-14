@@ -2,15 +2,19 @@
 (function () {
   /* ---- Mobil menü ---- */
   var btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
+  if (btn && menu) {
   function setMenu(open) { menu.hidden = !open; btn.setAttribute('aria-expanded', open); btn.textContent = open ? 'KAPAT' : 'MENÜ'; }
   btn.addEventListener('click', function () { setMenu(menu.hidden); });
   menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { setMenu(false); btn.focus(); } });
+  }
 
   /* ---- Açılıştaki kart kavisini mobilde ortadan başlat ---- */
   var arc = document.getElementById('arc');
-  function center() { arc.scrollLeft = (arc.scrollWidth - arc.clientWidth) / 2; }
-  center(); window.addEventListener('load', center);
+  if (arc) {
+    var center = function () { arc.scrollLeft = (arc.scrollWidth - arc.clientWidth) / 2; };
+    center(); window.addEventListener('load', center);
+  }
 
   /* ---- Kopyala düğmeleri ---- */
   async function copy(text, el) {
@@ -25,7 +29,9 @@
   });
 
   /* ---- İletişim formu: contact.php'ye gönderir ---- */
-  var form = document.getElementById('form'), result = document.getElementById('result'), success = document.getElementById('success');
+  var form = document.getElementById('form');
+  if (!form) return;
+  var result = document.getElementById('result'), success = document.getElementById('success');
   var msg = document.getElementById('msg'), submitBtn = document.getElementById('submitBtn'), submitLabel = document.getElementById('submitLabel');
   function val(id) { return document.getElementById(id).value.trim(); }
   function showErr(id, t) {
