@@ -61,7 +61,7 @@ Site yayına alındıktan sonra bir sorun çıktığında kime ulaşacağınız�
 
 ## Teklifleri karşılaştırırken
 
-Web sitesi teklifleri arasında büyük fiyat farkları görebilirsiniz. Karşılaştırma yaparken yalnızca fiyata değil, yukarıdaki maddelerin hangilerinin teklife dahil olduğuna bakın. Kısa bir kontrol listesi:
+Web sitesi teklifleri arasında büyük fiyat farkları görebilirsiniz. Karşılaştırma yaparken yalnızca fiyata değil, yukarıdaki maddelerin hangilerinin teklife dahil olduğuna bakın. Fiyat farklarının nedenlerini [Web sitesi fiyatlarını neler belirler?](/blog/web-sitesi-fiyatlarini-neler-belirler/) yazımızda ayrıntılı anlattık. Kısa bir kontrol listesi:
 
 - Alan adı ve hosting kimin adına?
 - Mobil uyum ve hız için ne yapılıyor?
