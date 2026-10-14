@@ -39,7 +39,11 @@ function smtp_komut($fp, $komut, $beklenen) {
 }
 function smtp_gonder($a, $alici, $konu, $govde, $yanitla) {
   $guvenlik = isset($a['guvenlik']) ? $a['guvenlik'] : 'ssl';
-  $ctx = stream_context_create(array('ssl' => array('verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true)));
+  // Uzak sunucuda (ör. smtp.gmail.com) sertifika doğrulanır; yalnızca aynı makinedeki sunucuda atlanır
+  $yerel = in_array($a['sunucu'], array('localhost', '127.0.0.1'));
+  $ctx = stream_context_create(array('ssl' => $yerel
+    ? array('verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true)
+    : array('verify_peer' => true, 'verify_peer_name' => true, 'peer_name' => $a['sunucu'])));
   $adres = ($guvenlik === 'ssl' ? 'ssl://' : 'tcp://') . $a['sunucu'] . ':' . $a['port'];
   $fp = @stream_socket_client($adres, $no, $msj, 20, STREAM_CLIENT_CONNECT, $ctx);
   if (!$fp) return 'smtp_baglanti';
