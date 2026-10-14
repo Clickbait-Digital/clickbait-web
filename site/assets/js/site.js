@@ -1,4 +1,54 @@
 /* Clickbait Digital — site davranışları */
+/* ---- Google Analytics + çerez onayı (KVKK) ----
+   Ölçüm kimliği girilene kadar hiçbir şey yüklenmez ve bant görünmez.
+   Analytics yalnızca ziyaretçi "Kabul et" derse yüklenir. */
+var GA_ID = '';   // Örn: 'G-ABC123XYZ'
+(function () {
+  if (!GA_ID) return;
+  var ANAHTAR = 'cb_cerez_onayi';
+  function oku() { try { return localStorage.getItem(ANAHTAR); } catch (e) { return null; } }
+  function yaz(v) { try { localStorage.setItem(ANAHTAR, v); } catch (e) {} }
+  function yukle() {
+    if (window.gtag) return;
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); };
+    gtag('js', new Date());
+    gtag('config', GA_ID, { anonymize_ip: true });
+    var s = document.createElement('script'); s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+    document.head.appendChild(s);
+  }
+  function bant() {
+    if (document.getElementById('cerezBandi')) return;
+    var d = document.createElement('div');
+    d.id = 'cerezBandi';
+    d.setAttribute('role', 'dialog'); d.setAttribute('aria-live', 'polite'); d.setAttribute('aria-label', 'Çerez tercihleri');
+    d.className = 'fixed z-50 left-4 right-4 bottom-4 md:left-auto md:right-6 md:bottom-6 md:max-w-md bg-white text-slate-800 rounded-[24px] shadow-2xl border border-slate-100 p-5';
+    d.style.marginBottom = 'env(safe-area-inset-bottom, 0px)';
+    d.innerHTML = '<p class="text-sm font-bold text-slate-900">Çerez tercihiniz</p>' +
+      '<p class="mt-2 text-xs leading-relaxed text-slate-600">Sitemizin nasıl kullanıldığını anlamak için, onay verirseniz Google Analytics çerezlerini kullanırız. Zorunlu olmayan hiçbir çerez onayınız olmadan çalışmaz. Ayrıntılar için <a href="/kvkk/" class="font-semibold text-slate-900 underline">KVKK Aydınlatma Metni</a>.</p>' +
+      '<div class="mt-4 flex flex-wrap gap-2"><button type="button" data-c="1" class="px-5 py-2.5 rounded-full text-xs font-bold tracking-wider text-black bg-[#D8F83C] hover:bg-[#c7e92e]">KABUL ET</button>' +
+      '<button type="button" data-c="0" class="px-5 py-2.5 rounded-full text-xs font-bold tracking-wider border border-slate-300 hover:border-slate-900">REDDET</button></div>';
+    d.addEventListener('click', function (e) {
+      var b = e.target.closest('button[data-c]'); if (!b) return;
+      var onay = b.getAttribute('data-c') === '1';
+      yaz(onay ? 'evet' : 'hayir'); d.remove();
+      if (onay) yukle();
+    });
+    document.body.appendChild(d);
+  }
+  var karar = oku();
+  if (karar === 'evet') yukle(); else if (karar !== 'hayir') bant();
+  // Alt bilgiye "Çerez tercihleri" bağlantısı
+  var kurumsal = document.querySelector('nav[aria-label="Kurumsal"] ul');
+  if (kurumsal) {
+    var li = document.createElement('li'), a = document.createElement('a');
+    a.href = '#'; a.className = 'hover:text-slate-900'; a.textContent = 'Çerez tercihleri';
+    a.addEventListener('click', function (e) { e.preventDefault(); bant(); });
+    li.appendChild(a); kurumsal.appendChild(li);
+  }
+})();
+
 (function () {
   /* ---- Mobil menü ---- */
   var btn = document.getElementById('menuBtn'), menu = document.getElementById('mobileMenu');
@@ -62,7 +112,7 @@
     document.getElementById('errCode').textContent = ok ? '' : 'Hata kodu: ' + kod;
     submitBtn.disabled = false; submitLabel.textContent = 'GERİ ARAMA İSTE';
     form.hidden = true;
-    if (ok) { form.reset(); success.hidden = false; success.focus(); }
+    if (ok) { form.reset(); success.hidden = false; success.focus(); if (window.gtag) gtag('event', 'generate_lead', { form: 'geri_arama' }); }
     else { msg.textContent = buildText(); result.hidden = false; result.focus(); }
   });
   document.getElementById('copyMsg').addEventListener('click', async function (e) { var ok = await copy(msg.textContent, msg); e.target.textContent = ok ? 'KOPYALANDI' : 'METİN SEÇİLDİ, CTRL+C'; });
