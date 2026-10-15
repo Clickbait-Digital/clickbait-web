@@ -162,6 +162,149 @@ HIZMETLER = [
   },
 ]
 
+# ---------------------------------------------------------------- Ankara'ya özel sayfalar
+# Yüksek hacimli "Ankara + hizmet" aramaları için. Ana hizmet sayfalarıyla aynı kelimeyi hedeflemezler
+# (çakışma olmasın diye); her biri bir ana hizmetin altındadır ('ust'). Alanlar HIZMETLER ile aynı, ek olarak:
+# 'metin' = sayfaya özgü açıklayıcı bölümler (başlık, paragraf; [bağlantı](/adres/) ve **kalın** kullanılabilir).
+ANKARA = [
+  {
+    'adres': 'ankara-seo', 'kisa': 'Ankara SEO', 'ust': 'dijital-pazarlama', 'renk': 'blue',
+    'title': 'Ankara SEO Ajansı | Google’da Üst Sıralar İçin SEO | Clickbait',
+    'description': 'Ankara SEO hizmeti: teknik SEO, yerel SEO, Google İşletme Profili ve içerik çalışmasıyla sitenizi Google’da üst sıralara taşımak için çalışıyoruz. Her ay şeffaf rapor.',
+    'h1': 'Ankara SEO: Google’da sizi arayan müşteriler sizi bulsun',
+    'giris': 'Sitenizin teknik altyapısını düzeltiyor, müşterilerinizin Ankara’da ve Türkiye genelinde gerçekten aradığı kelimelere göre içerik planlıyor, Google İşletme Profilinizi güçlendiriyoruz. Her ay neyin değiştiğini sade bir raporla paylaşıyoruz.',
+    'kapsam': 'Ankara SEO çalışmamızda neler var?',
+    'kartlar': [
+      ('Teknik SEO', 'Site hızı, mobil uyum, dizine eklenme hataları, site haritası ve yönlendirmeleri düzeltiyoruz.'),
+      ('Anahtar kelime araştırması', 'Müşterilerinizin Google’da gerçekte ne aradığını verilerle çıkarıyor, öncelik sırasına koyuyoruz.'),
+      ('Yerel SEO', 'Google İşletme Profili, müşteri yorumları ve tutarlı adres bilgileriyle harita sonuçlarında görünmenizi sağlıyoruz.'),
+      ('Sayfa içi SEO', 'Başlık, açıklama, ara başlık, iç bağlantı ve yapılandırılmış veriyi her sayfa için düzenliyoruz.'),
+      ('İçerik planı', 'Hizmet sayfalarınızı destekleyen, müşterilerinizin sorularını cevaplayan yazılar planlıyor ve yazıyoruz.'),
+      ('Aylık rapor', 'Search Console ve Analytics verileriyle hangi aramalarda yükseldiğinizi gösteriyoruz.'),
+    ],
+    'adimlar': [
+      ('SEO denetimi', 'Sitenizin teknik durumunu, içeriklerini ve rakiplerinizi inceliyoruz.'),
+      ('Strateji', 'Hedef kelimeleri ve hangi sayfanın hangi kelimeyle sıralanacağını belirliyoruz.'),
+      ('Uygulama', 'Teknik düzeltmeleri yapıyor, sayfaları ve içerikleri hazırlıyoruz.'),
+      ('Ölçüm ve iyileştirme', 'Sıralamaları izliyor, yükselmeye yakın sayfaları güçlendiriyoruz.'),
+    ],
+    'metin': [
+      ('Ankara’da SEO neden ayrı bir çalışma ister?', 'Birisi “Ankara diş kliniği” ya da “Çayyolu emlak ofisi” diye aradığında Google sonuçları arayanın konumuna göre sıralar. Bu yüzden Ankara’da hizmet veren bir işletme için SEO yalnızca web sitesinden ibaret değildir: Google İşletme Profili, müşteri yorumları, adres ve telefon bilgilerinin her yerde aynı olması da sıralamayı etkiler. Çalışmaya bu yerel sinyallerle başlıyor, ardından Türkiye genelinde aranan kelimelere geçiyoruz. Profilinizi nasıl güçlendireceğinizi [Google İşletme Profili rehberimizde](/blog/google-isletme-profili-ile-yerel-aramalarda-one-cikmak/) anlattık.'),
+      ('SEO mu, Google Ads mi?', 'Google Ads ile reklam verdiğiniz sürece üst sıralarda görünürsünüz; bütçe bittiğinde görünürlük de durur. SEO ise organik sonuçlarda kalıcı bir yer edinmek için yapılan çalışmadır: sonuç vermesi zaman alır ama tıklama başına ödeme yapmazsınız. Çoğu işletmeye ikisini birlikte yürütmeyi, reklamdan gelen verilerle SEO önceliklerini belirlemeyi öneriyoruz. Farkları [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımızda karşılaştırdık; reklam tarafı için [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/) sayfamıza bakabilirsiniz.'),
+      ('Neyi söz veriyoruz, neyi vermiyoruz?', 'Sıralamayı Google kendi algoritmasıyla belirler; “bir ayda ilk sıra” gibi sözler veren bir ajansa temkinli yaklaşmanızı öneririz. Bizim sözümüz yaptığımız her işi açıkça raporlamak, Google’ın kurallarına uygun çalışmak ve sonuçları Search Console verileriyle ölçmektir. Sitenizi yeniliyorsanız sıralamanızı kaybetmemek için eski adresleri yeni sayfalara yönlendirmeyi de bu sürece dahil ediyoruz.'),
+    ],
+    'sss': [
+      ('SEO ne kadar sürede sonuç verir?', 'İlk iyileşmeler genellikle birkaç ay içinde görülmeye başlar. Rekabetin yüksek olduğu kelimelerde bu süre uzar. Sitenizin mevcut durumuna bakıp size gerçekçi bir takvim veriyoruz.'),
+      ('SEO fiyatları neye göre belirlenir?', 'Sitenizin teknik durumu, hedeflediğiniz kelimelerin sayısı ve rekabeti, ne kadar içerik üretileceği fiyatı belirler. Denetimden sonra kalem kalem teklif hazırlıyoruz.'),
+      ('Sitemizi siz yapmadınız, yine de SEO yapabilir misiniz?', 'Evet. Önce mevcut sitenin altyapısını inceliyoruz. Düzeltilmesi gereken teknik sorunları raporluyor, sitenizi yapan ekiple ya da doğrudan biz düzenliyoruz.'),
+      ('Yerel SEO nedir?', 'İşletmenizin “Ankara” ya da “yakınımdaki” gibi konum içeren aramalarda ve Google Haritalar’da görünmesi için yapılan çalışmadır. Google İşletme Profili, müşteri yorumları ve tutarlı iletişim bilgileri bu çalışmanın temelidir.'),
+      ('Aylık raporda neler oluyor?', 'Hangi aramalarda göründüğünüz, sıralama değişimleri, siteye gelen ziyaretçi ve talep sayısı ile o ay yaptığımız işler. Bir sonraki ayın planını da rapora ekliyoruz.'),
+    ],
+  },
+  {
+    'adres': 'ankara-google-ads-ajansi', 'kisa': 'Ankara Google Ads ajansı', 'ust': 'dijital-pazarlama', 'renk': 'blue',
+    'title': 'Ankara Google Ads Ajansı | Google Reklam Yönetimi | Clickbait',
+    'description': 'Ankara Google Ads ajansı: arama, YouTube ve Performance Max kampanyalarınızı kuruyor, dönüşüm takibiyle ölçüyor, her ay raporluyoruz. Reklam bütçeniz müşteri getiren aramalara gitsin.',
+    'h1': 'Ankara Google Ads ajansı: reklam bütçeniz müşteri getiren aramalara gitsin',
+    'giris': 'Google reklamlarınızı sıfırdan kuruyor ya da mevcut hesabınızı devralıyoruz. Doğru kelimeleri seçiyor, alakasız tıklamaları eliyor, form, telefon ve WhatsApp taleplerini ölçüyoruz. Her ay harcanan bütçenin neye dönüştüğünü açıkça raporluyoruz.',
+    'kapsam': 'Google Ads yönetimimizde neler var?',
+    'kartlar': [
+      ('Arama ağı kampanyaları', 'Hizmetinizi arayan kişilere, aradıkları anda Google’ın en üstünde görünürsünüz.'),
+      ('Performance Max ve Alışveriş', 'E-ticaret siteleri için ürünlerinizi Google’ın tüm kanallarında gösteren kampanyalar.'),
+      ('YouTube ve görüntülü reklam', 'Markanızı hedef kitlenize video ve görsellerle tanıtan kampanyalar.'),
+      ('Kelime ve negatif kelime yönetimi', 'Bütçeyi boşa harcatan alakasız aramaları düzenli olarak eliyoruz.'),
+      ('Dönüşüm takibi', 'Form, telefon araması ve WhatsApp taleplerini ölçerek hangi reklamın müşteri getirdiğini gösteriyoruz.'),
+      ('Konum ve saat hedefleme', 'Reklamları Ankara’ya, belirli ilçelere ya da ofisinize belirli bir mesafeye ve çalışma saatlerinize göre sınırlıyoruz.'),
+    ],
+    'adimlar': [
+      ('Hedef ve bütçe', 'Hangi hizmeti, kime, hangi bütçeyle duyurmak istediğinizi netleştiriyoruz.'),
+      ('Kurulum', 'Hesabı, dönüşüm takibini ve ilk kampanyaları kuruyoruz.'),
+      ('Optimizasyon', 'İlk haftalardan itibaren kelimeleri, metinleri ve teklifleri iyileştiriyoruz.'),
+      ('Raporlama', 'Her ay harcamayı, gelen talepleri ve sonraki ayın planını paylaşıyoruz.'),
+    ],
+    'metin': [
+      ('Ankara’yı hedefleyen bir kampanya nasıl kurulur?', 'Google Ads’te konum ayarı sanıldığından önemlidir. Varsayılan ayar, reklamınızı Ankara’da bulunan kişilerin yanında “Ankara ile ilgilenen” başka şehirlerdeki kişilere de gösterebilir. Yerel hizmet veren bir işletmede bu ayarı yalnızca Ankara’da bulunan kişilerle sınırlıyor; gerekirse belirli ilçelere ya da ofisinize belirli bir mesafeye daraltıyoruz. Reklamları çalışma saatlerinize göre planlayıp telefonu açamayacağınız saatlerde bütçe harcanmasını önlüyoruz.'),
+      ('Bütçe ne kadar olmalı?', 'Tek bir doğru rakam yoktur; sektörünüzdeki rekabet, hedef bölgenin büyüklüğü ve bir müşterinin size kazandırdığı tutar belirler. Küçük bir test bütçesiyle başlayıp hangi kelimelerin gerçekten talep getirdiğini görmeyi, sonra bütçeyi bu kelimelere yoğunlaştırmayı öneriyoruz. Konuyu [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımızda da ele aldık.'),
+      ('Reklam hesabı kimin adına açılır?', 'Hesabın sizin adınıza açılmasını ve sahipliğin sizde kalmasını öneriyoruz; biz yönetici olarak erişiyoruz. Böylece birlikte çalışmayı bıraksanız bile geçmiş veriler ve kampanyalar sizde kalır. Organik görünürlük için reklamla birlikte [Ankara SEO](/ankara-seo/) çalışması da yürütebiliriz.'),
+    ],
+    'sss': [
+      ('Mevcut Google Ads hesabımızı devralabilir misiniz?', 'Evet. Önce hesabı inceleyip boşa giden harcamaları ve eksik dönüşüm takibini raporluyoruz, ardından iyileştirmeye başlıyoruz.'),
+      ('Reklamlar ne zaman yayına girer?', 'Hesap ve dönüşüm takibi kurulup reklamlar Google’ın onayından geçtikten sonra yayına girer. Kurulum takvimini ilk görüşmede netleştiriyoruz.'),
+      ('Sadece Ankara’daki kişilere reklam gösterebilir miyiz?', 'Evet. Reklamları il, ilçe ya da belirli bir mesafeyle sınırlayabiliyoruz. Türkiye geneline açılan kampanyalar da hazırlıyoruz.'),
+      ('Reklam bütçesi ile ajans ücreti ayrı mı?', 'Evet. Reklam bütçesi doğrudan Google’a ödenir; yönetim ücretimizi teklifte ayrıca belirtiyoruz.'),
+      ('Instagram reklamlarını da yönetiyor musunuz?', 'Evet. Meta (Instagram ve Facebook) reklamlarını da aynı ekipte yönetiyor, iki kanalın sonuçlarını tek raporda karşılaştırıyoruz.'),
+    ],
+  },
+  {
+    'adres': 'ankara-reklam-ajansi', 'kisa': 'Ankara reklam ajansı', 'ust': 'dijital-pazarlama', 'renk': 'dark',
+    'title': 'Ankara Reklam Ajansı | Dijital Reklam ve Kreatif | Clickbait',
+    'description': 'Ankara’da dijital reklam ajansı: Google ve Meta reklamları, sosyal medya, reklam kreatifleri ve web sitesi tek ekipte. 2013’ten beri Ankara’daki markalarla çalışıyoruz.',
+    'h1': 'Ankara reklam ajansı: dijitalde reklam, kreatif ve web tek ekipte',
+    'giris': 'Reklam fikrini, tasarımını, yayınlanacağı kanalı ve ölçümünü aynı ekipte yürütüyoruz. Google ve Instagram reklamlarından sosyal medya içeriklerine, reklamın yönlendirdiği web sayfasına kadar her parçayı birlikte planlıyoruz. 2013’ten beri Çayyolu’ndaki ofisimizden Ankara’daki markalarla çalışıyoruz.',
+    'kapsam': 'Reklam ajansı olarak neler yapıyoruz?',
+    'kartlar': [
+      ('Google reklamları', 'Arama, YouTube ve görüntülü reklam kampanyalarını kuruyor ve yönetiyoruz.'),
+      ('Instagram ve Facebook reklamları', 'Hedef kitle, kreatif ve bütçe yönetimiyle Meta reklamları.'),
+      ('Reklam kreatifleri', 'Reklam görselleri, kısa videolar ve reklam metinleri üretiyoruz.'),
+      ('Sosyal medya yönetimi', 'Reklamlarınızı destekleyen düzenli ve markanıza ait içerikler.'),
+      ('Açılış sayfası ve web sitesi', 'Reklamdan gelen ziyaretçiyi müşteriye çeviren sayfalar tasarlıyoruz.'),
+      ('Ölçüm ve raporlama', 'Hangi kanalın ne kadar talep getirdiğini ölçüp her ay raporluyoruz.'),
+    ],
+    'adimlar': [
+      ('Tanışma', 'Markanızı, hedef kitlenizi, rakiplerinizi ve bütçenizi konuşuyoruz.'),
+      ('Plan', 'Hangi kanalda, hangi mesajla, ne kadar bütçeyle görüneceğinizi planlıyoruz.'),
+      ('Üretim ve yayın', 'Kreatifleri hazırlıyor, onayınızdan sonra kampanyaları yayına alıyoruz.'),
+      ('Ölçüm', 'Sonuçları izliyor, işe yarayan kanala daha fazla bütçe ayırıyoruz.'),
+    ],
+    'metin': [
+      ('Dijital reklam ajansı ne yapar?', 'Geleneksel bir reklam ajansı televizyon, radyo ya da açık hava reklamlarıyla geniş kitlelere ulaşır. Dijital reklam ajansı ise reklamı doğrudan ilgilenen kişiye gösterir ve sonucunu ölçer: kaç kişinin reklamı gördüğünü, kaçının sitenize girdiğini ve kaçının sizi aradığını bilirsiniz. Uzmanlığımız dijital kanallardadır; televizyon, radyo ve açık hava reklamı yapmıyoruz.'),
+      ('Ankara’daki bir işletme için doğru kanal hangisi?', 'Sizi zaten arayan müşterilere ulaşmak istiyorsanız Google arama reklamları en hızlı yoldur. Ürününüz ya da hizmetiniz görsel olarak güçlüyse ve henüz kimse sizi aramıyorsa Instagram reklamları ilgi uyandırmak için daha uygundur. Kalıcı görünürlük için bunlara [SEO](/ankara-seo/) eklenir. Çoğu zaman doğru cevap küçük bütçelerle birkaç kanalı test edip sonuç vereni büyütmektir. Google tarafını [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/) sayfamızda ayrıntılı anlattık.'),
+      ('Neden tek ekip?', 'Reklamı bir ajans, tasarımı başka bir tasarımcı, web sitesini üçüncü bir firma yaptığında mesajlar birbirini tutmaz ve sorun çıktığında kimin sorumlu olduğu belirsizleşir. Reklam, kreatif, [web sitesi](/web-tasarim/) ve [sosyal medya](/sosyal-medya-yonetimi/) aynı ekipte olduğunda kampanya tek bir plandan çıkar ve sonuçlar tek raporda görülür.'),
+    ],
+    'sss': [
+      ('Televizyon, radyo ya da billboard reklamı yapıyor musunuz?', 'Hayır. Uzmanlığımız dijital kanallar: Google, Instagram, Facebook, YouTube, sosyal medya ve web sitesi.'),
+      ('Küçük bir bütçeyle başlayabilir miyiz?', 'Evet. Küçük bir test bütçesiyle başlayıp sonuç veren kanalı büyütmeyi öneriyoruz.'),
+      ('Reklam görsellerini ve videolarını siz mi hazırlıyorsunuz?', 'Evet. Reklam görsellerini, kısa videoları ve metinleri ekibimiz hazırlıyor; tüm içerikler yayından önce onayınıza sunuluyor.'),
+      ('Sonuçları nasıl görüyoruz?', 'Her ay hangi kanala ne kadar harcandığını ve kaç talep geldiğini gösteren sade bir rapor paylaşıyoruz.'),
+      ('Ankara dışındaki markalarla çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlama süreçlerini online yürütüyoruz; Ankara’daki müşterilerimizle Çayyolu’ndaki ofisimizde de buluşuyoruz.'),
+    ],
+  },
+  {
+    'adres': 'ankara-e-ticaret-sitesi', 'kisa': 'Ankara e-ticaret sitesi', 'ust': 'web-tasarim', 'renk': 'sky',
+    'title': 'Ankara E-Ticaret Sitesi Kurulumu | Online Mağaza | Clickbait',
+    'description': 'Ankara’da e-ticaret sitesi kurulumu: mobil uyumlu mağaza tasarımı, ürün yönetimi, ödeme ve kargo entegrasyonları, SEO altyapısı ve reklam ölçümüyle satış yapan online mağazalar.',
+    'h1': 'Ankara e-ticaret sitesi: satışa hazır, yönetmesi kolay bir online mağaza',
+    'giris': 'İşinize uygun altyapıyı seçiyor, mağazanızı tasarlıyor, ödeme ve kargo bağlantılarını kuruyor, ürünlerinizi Google’da bulunur hâle getiriyoruz. Açılıştan sonra reklam ve ölçümle satışların artmasına da yardımcı oluyoruz.',
+    'kapsam': 'E-ticaret sitesi kurulumunda neler var?',
+    'kartlar': [
+      ('Mağaza tasarımı', 'Mobilde hızlı açılan, ürünü öne çıkaran ve satın almayı kolaylaştıran bir tasarım.'),
+      ('Ürün ve stok yönetimi', 'Ürünleri, varyantları ve stokları ekibinizin kolayca yöneteceği bir panel.'),
+      ('Ödeme altyapısı', 'Kullandığınız ödeme kuruluşu ya da bankanın sanal POS bağlantısını kuruyoruz.'),
+      ('Kargo bağlantısı', 'Sipariş ve kargo takibini anlaşmalı kargo firmanızla birlikte çalışacak şekilde kuruyoruz.'),
+      ('E-ticaret SEO’su', 'Kategori ve ürün sayfalarını Google’da bulunacak şekilde yapılandırıyoruz.'),
+      ('Reklam ve ölçüm', 'Google Alışveriş ve Meta katalog reklamları için ürün akışı ve satış takibi.'),
+    ],
+    'adimlar': [
+      ('İhtiyaç analizi', 'Ürün sayınızı, satış kanallarınızı ve büyüme planınızı konuşuyoruz.'),
+      ('Altyapı ve tasarım', 'Size uygun altyapıyı seçiyor, mağaza tasarımını onayınıza sunuyoruz.'),
+      ('Kurulum ve entegrasyon', 'Ürünleri, ödeme ve kargo bağlantılarını kuruyor, test siparişleriyle deniyoruz.'),
+      ('Yayın ve büyüme', 'Mağazayı açıyor, reklam ve SEO ile ziyaretçi getirmeye başlıyoruz.'),
+    ],
+    'metin': [
+      ('Hangi altyapıyı seçmeli?', 'İki temel yol var. Aylık ücretli hazır e-ticaret altyapıları hızlı açılır, bakımı altyapı firmasındadır; buna karşılık tasarım ve özellikler o altyapının sunduklarıyla sınırlıdır. WooCommerce gibi açık kaynak altyapılar daha esnektir ve site tamamen sizindir; buna karşılık sunucu, güncelleme ve güvenlik bakımı gerekir. Ürün sayınıza, bütçenize ve ekibinizin teknik imkânlarına göre birlikte karar veriyoruz.'),
+      ('Açmadan önce hazır olması gerekenler', 'Ürün fotoğrafları ve açıklamaları, fiyat ve stok bilgileri, bir ödeme kuruluşu ya da banka ile sanal POS anlaşması ve bir kargo anlaşması. Yasal metinler (mesafeli satış sözleşmesi, ön bilgilendirme formu, iade koşulları, KVKK aydınlatma metni) de gereklidir; bunları hukuk danışmanınızla hazırlamanızı öneriyoruz, biz siteye yerleştiriyoruz. Genel olarak dikkat edilecekleri [Ankara’da web sitesi yaptırırken dikkat edilmesi gereken 10 şey](/blog/ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler/) yazımızda topladık.'),
+      ('Açıldıktan sonra satış nasıl gelir?', 'Yeni bir mağazaya ziyaretçi kendiliğinden gelmez. İlk aylarda Google Alışveriş ve Instagram reklamlarıyla satış başlatıyor, aynı anda kategori sayfaları ve blog içerikleriyle organik trafiği büyütüyoruz. Reklam tarafını [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/), organik tarafı [Ankara SEO](/ankara-seo/) sayfalarımızda anlattık. Maliyeti etkileyen kalemler için [web sitesi fiyatlarını neler belirler?](/blog/web-sitesi-fiyatlarini-neler-belirler/) yazımıza bakabilirsiniz.'),
+    ],
+    'sss': [
+      ('E-ticaret sitesi ne kadar sürede açılır?', 'Ürün sayısına, seçilen altyapıya ve içeriklerin hazır olmasına göre değişir. İhtiyaç analizinden sonra size net bir takvim veriyoruz.'),
+      ('Ürünleri kendimiz ekleyebilir miyiz?', 'Evet. Yönetim panelini kuruyor ve ekibinize ürün ekleme, sipariş ve stok takibini gösteriyoruz.'),
+      ('Pazaryerlerinde de satış yapıyoruz, site gerekli mi?', 'Pazaryerleri hızlı satış sağlar ama müşteri ve marka pazaryerine aittir. Kendi siteniz markanızı büyütmenizi, müşterilerinize doğrudan ulaşmanızı ve komisyon ödememenizi sağlar. Çoğu marka ikisini birlikte yürütür.'),
+      ('Mevcut e-ticaret sitemizi yenileyebilir misiniz?', 'Evet. Ürünleri, müşteri verilerini ve Google’daki sıralamanızı koruyarak yeni altyapıya taşıyabiliyoruz.'),
+      ('Siteyi açtıktan sonra destek veriyor musunuz?', 'Evet. Bakım, güncelleme ve teknik destek hizmeti sunuyor; isterseniz reklam ve SEO çalışmasını da sürdürüyoruz.'),
+    ],
+  },
+]
+
 # ---------------------------------------------------------------- Parçalar
 def e(s): return html.escape(s, quote=True)
 def buyuk(s): return s.replace('i', 'İ').upper()   # Türkçe büyük harf
@@ -200,7 +343,8 @@ def alt_bilgi():
         <ul class="mt-4 grid gap-2.5"><li><a class="hover:text-slate-900" href="{TEL_LINK}">{TEL_GORUNEN}</a></li><li><a class="hover:text-slate-900" href="mailto:info@clickbait.com.tr">info@clickbait.com.tr</a></li><li><a class="hover:text-slate-900" href="{HARITA}" target="_blank" rel="noopener">Ümit Mah. Meksika Cad. No:56/21<br>Çayyolu, Ankara</a></li><li><a class="inline-flex items-center gap-1.5 font-semibold text-slate-900 hover:underline" href="{HARITA}" target="_blank" rel="noopener">Haritada aç <span aria-hidden="true">↗</span></a></li><li><a class="inline-flex items-center gap-1.5 font-semibold text-slate-900 hover:underline" href="{YORUM}" target="_blank" rel="noopener">Google’da bizi değerlendirin <span aria-hidden="true">★</span></a></li></ul>
       </div>
     </div>
-    <div class="mt-12 pt-6 border-t border-slate-100 text-xs text-slate-500">© 2013–{datetime.date.today().year} Clickbait Medya Limited Şirketi, Ankara. Tüm hakları saklıdır.</div>
+    <nav aria-label="Ankara hizmetleri" class="mt-10 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-600"><span class="font-bold tracking-widest text-slate-900">ANKARA</span>{''.join(f'<a class="hover:text-slate-900" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)}</nav>
+    <div class="mt-6 pt-6 border-t border-slate-100 text-xs text-slate-500">© 2013–{datetime.date.today().year} Clickbait Medya Limited Şirketi, Ankara. Tüm hakları saklıdır.</div>
   </div>
 </footer>
 <!-- Mobil hızlı iletişim çubuğu (yalnızca telefonda görünür) -->
@@ -288,6 +432,22 @@ def referans_seridi():
 
 def hizmet_sayfasi(h):
     adres = f'/{h["adres"]}/'
+    ust = next((x for x in HIZMETLER if x['adres'] == h.get('ust')), None)   # Ankara sayfalarında bağlı olduğu hizmet
+    kirinti = (ust['kisa'], f'/{ust["adres"]}/') if ust else ('Hizmetler', '/#hizmetler')
+    alt_sayfalar = [x for x in ANKARA if x['ust'] == h['adres']]
+    metin = ''.join(f'''
+      <h2 class="mt-12 first:mt-0 text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">{e(b)}</h2>
+      <p class="mt-4 text-base md:text-lg text-slate-600 leading-relaxed [&_a]:font-semibold [&_a]:text-slate-900 [&_a]:underline">{satir_ici(p)}</p>''' for b, p in h.get('metin', []))
+    metin_bolumu = f'''<!-- ▼▼▼▼▼ BÖLÜM: AÇIKLAMA — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pb-20 md:pb-28 bg-white">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">{metin}
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: AÇIKLAMA — BİTİŞ ▲▲▲▲▲ -->
+''' if metin else ''
+    ozel = (f'<p class="text-center text-xs font-bold tracking-widest text-slate-500">ANKARA’YA ÖZEL</p><ul class="mt-5 mb-10 flex flex-wrap justify-center gap-3">'
+            + ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full bg-[#D8F83C] px-4 py-2.5 text-sm font-semibold text-black hover:bg-[#c7e92e] transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in alt_sayfalar)
+            + '</ul>') if alt_sayfalar else ''
     on, yazi, alt, rozet = KART_RENK[h['renk']]
     kartlar = ''.join(f'''
       <li class="bento-card-interactive bg-white rounded-[28px] p-6 md:p-7 border border-slate-100 shadow-sm">
@@ -307,10 +467,10 @@ def hizmet_sayfasi(h):
     ld = {"@context": "https://schema.org", "@graph": [
       {"@type": "Service", "name": h['kisa'], "serviceType": h['kisa'], "description": h['description'], "url": ALAN + adres,
        "provider": {"@id": ALAN + "/#isletme"},
-       "areaServed": [{"@type": "City", "name": "Ankara"}, {"@type": "Country", "name": "Türkiye"}]},
+       "areaServed": [{"@type": "City", "name": "Ankara"}] + ([] if ust else [{"@type": "Country", "name": "Türkiye"}])},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
-        {"@type": "ListItem", "position": 2, "name": "Hizmetler", "item": ALAN + "/#hizmetler"},
+        {"@type": "ListItem", "position": 2, "name": kirinti[0], "item": ALAN + kirinti[1]},
         {"@type": "ListItem", "position": 3, "name": h['kisa'], "item": ALAN + adres}]},
       {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": s, "acceptedAnswer": {"@type": "Answer", "text": c}} for s, c in h['sss']]}]}
     ld_html = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=1) + '\n</script>\n'
@@ -322,7 +482,7 @@ def hizmet_sayfasi(h):
 <section class="on-blue relative pt-5 pb-16 md:pb-24 overflow-hidden rounded-b-[40px] md:rounded-b-[56px]" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)" aria-labelledby="h1">
 {menu()}
   <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20">
-    <nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li><a href="/#hizmetler" class="hover:text-white">Hizmetler</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">{e(h['kisa'])}</li></ol></nav>
+    <nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li><a href="{kirinti[1]}" class="hover:text-white">{e(kirinti[0])}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">{e(h['kisa'])}</li></ol></nav>
     <h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">{e(h['h1'])}</h1>
     <p class="mt-6 max-w-2xl text-base md:text-lg text-white leading-relaxed">{e(h['giris'])}</p>
     <div class="mt-8 flex flex-wrap items-center gap-3.5">
@@ -339,7 +499,7 @@ def hizmet_sayfasi(h):
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl">
       <p class="inline-flex items-center gap-1.5 text-xs font-bold tracking-widest text-slate-500"><span class="w-1.5 h-1.5 rounded-full bg-slate-900"></span>KAPSAM</p>
-      <h2 id="neler" class="mt-4 text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">{e(h['kisa'])} hizmetimizde neler var?</h2>
+      <h2 id="neler" class="mt-4 text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">{e(h.get('kapsam', h['kisa'] + ' hizmetimizde neler var?'))}</h2>
     </div>
     <ul class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">{kartlar}
     </ul>
@@ -347,6 +507,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: NELER YAPIYORUZ — BİTİŞ ▲▲▲▲▲ -->
 
+{metin_bolumu}
 <!-- ▼▼▼▼▼ BÖLÜM: SÜREÇ VE NEDEN BİZ — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="surec">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -389,12 +550,12 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: SIK SORULANLAR — BİTİŞ ▲▲▲▲▲ -->
 
-{ilgili_yazilar(h['adres'])}
+{ilgili_yazilar(h.get('ust', h['adres']))}
 <!-- ▼▼▼▼▼ BÖLÜM: GÖRÜŞME ÇAĞRISI — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="cagri">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="on-blue rounded-[40px] md:rounded-[56px] p-8 sm:p-12 md:p-16 text-white text-center" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 45%,#48a6fb 100%)">
-      <h2 id="cagri" class="text-3xl md:text-5xl font-extrabold tracking-tight" style="text-wrap:balance">{e(h['kisa'])} için görüşelim</h2>
+      <h2 id="cagri" class="text-3xl md:text-5xl font-extrabold tracking-tight" style="text-wrap:balance">{'Ücretsiz ön görüşme ayarlayalım' if ust else e(h['kisa']) + ' için görüşelim'}</h2>
       <p class="mt-4 max-w-xl mx-auto text-white leading-relaxed">İhtiyacınızı dinleyelim, size uygun bir yol haritası çıkaralım. İlk görüşme ücretsiz.</p>
       <div class="mt-8 flex flex-wrap justify-center gap-3.5">
         <a class="inline-flex items-center gap-2 px-6 py-3 rounded-full text-xs font-bold tracking-wider text-black bg-[#D8F83C] hover:bg-[#c7e92e] transition-all shadow-lg hover:scale-105" href="/#iletisim"><span>GERİ ARAMA İSTE</span><span class="w-5 h-5 rounded-full bg-black text-[#D8F83C] flex items-center justify-center" aria-hidden="true">↗</span></a>
@@ -402,6 +563,7 @@ def hizmet_sayfasi(h):
       </div>
     </div>
     <div class="mt-12">
+      {ozel}
       <p class="text-center text-xs font-bold tracking-widest text-slate-500">DİĞER HİZMETLERİMİZ</p>
       <ul class="mt-5 flex flex-wrap justify-center gap-3">{diger}</ul>
     </div>
@@ -425,6 +587,7 @@ def blok_degistir(dosya, ad, yeni):
 def site_haritasi():
     son = max([y['tarih'] for y in YAZILAR], default=BUGUN)
     urller = [('/', 'weekly', '1.0', BUGUN)] + [(f'/{h["adres"]}/', 'monthly', '0.9', BUGUN) for h in HIZMETLER] \
+           + [(f'/{h["adres"]}/', 'monthly', '0.8', BUGUN) for h in ANKARA] \
            + [('/blog/', 'weekly', '0.7', son)] + [(f'/blog/{y["adres"]}/', 'monthly', '0.6', y['tarih']) for y in YAZILAR] + [('/kvkk/', 'yearly', '0.2', BUGUN)]
     satir = ''.join(f'  <url><loc>{ALAN}{u}</loc><lastmod>{t}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n' for u, c, p, t in urller)
     open(os.path.join(KOK, 'sitemap.xml'), 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + satir + '</urlset>\n')
@@ -662,7 +825,7 @@ def bloglari_yaz():
 
 
 if __name__ == '__main__':
-    for h in HIZMETLER:
+    for h in HIZMETLER + ANKARA:
         os.makedirs(os.path.join(KOK, h['adres']), exist_ok=True)
         open(os.path.join(KOK, h['adres'], 'index.html'), 'w', encoding='utf-8').write(hizmet_sayfasi(h))
         print('yazıldı:', h['adres'])

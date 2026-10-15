@@ -50,6 +50,12 @@ Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
 Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<!-- /KAYAN ŞERİT -->`, logolar iki kez yazılı, `@keyframes kaydir` dev/in.css'te).
 Üretici bu bloğu index.html'den alıp hizmet sayfalarına kopyalar; logo eklerken iki listeye de ekle (ikincisinde alt="").
 
+## Ankara'ya özel sayfalar
+- `dev/sayfalar.py` içindeki `ANKARA` listesi; hizmet sayfası şablonuyla üretilir, her biri bir ana hizmete bağlı (`ust`), ek olarak `metin` bölümleri var.
+- Yayında: /ankara-seo/, /ankara-google-ads-ajansi/, /ankara-reklam-ajansi/ (dijital pazarlama altında), /ankara-e-ticaret-sitesi/ (web tasarım altında).
+- Ana hizmet sayfalarının hedeflediği kelimelerle (Ankara web tasarım, Ankara sosyal medya yönetimi, Ankara dijital pazarlama ajansı) çakışan sayfa açma.
+- Arama hacmi doğrulanmadı; kullanıcı Google Ads Anahtar Kelime Planlayıcısı'na erişebiliyor. Reklam ajansı sayfası TV/radyo/açık hava yapmadığımızı söyler (kullanıcı onayladı).
+
 ## Blog
 - Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,
   ör. `web-tasarim`), etiket (ör. `WEB TASARIM`), isteğe bağlı guncelleme.
