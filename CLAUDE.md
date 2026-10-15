@@ -73,7 +73,8 @@ ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok
 
 ## Kullanıcıdan beklenenler
 - Gerçek müşteri yorumu (metin, kişi, marka) — ana sayfada yer tutucu kart var.
-- Proje görselleri / ekran görüntüleri; German Dental logosunun yüksek çözünürlüklü hali.
+- Proje görselleri: Active English, HUBEK, Psychology Times, Uslu Yapı ekran görüntüleri eklendi (`site/assets/img/projeler/`, tarayıcı çerçeveli kartlar).
+  Diğer markaların ekran görüntüleri ve sitelerin adresleri (kartlara bağlantı için) bekleniyor; German Dental logosunun yüksek çözünürlüklü hali.
 - Referans markalara verilen hizmetler.
 - Hizmet sayfalarındaki şu ifadelerin onayı: "hesaplar sizin adınıza", "fotoğraf/video çekimi", "ilk görüşme ücretsiz".
 - Blog yazarı olarak gösterilecek kişi (ad, kısa biyografi, fotoğraf) — şu an "Clickbait ekibi".
