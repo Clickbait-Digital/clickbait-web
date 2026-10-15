@@ -34,7 +34,7 @@ var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
     var d = document.createElement('div');
     d.id = 'cerezBandi';
     d.setAttribute('role', 'dialog'); d.setAttribute('aria-live', 'polite'); d.setAttribute('aria-label', 'Çerez tercihleri');
-    d.className = 'fixed z-50 left-4 right-4 bottom-4 md:left-auto md:right-6 md:bottom-6 md:max-w-md bg-white text-slate-800 rounded-[24px] shadow-2xl border border-slate-100 p-5';
+    d.className = 'fixed z-50 left-4 right-4 bottom-24 md:left-auto md:right-6 md:bottom-6 md:max-w-md bg-white text-slate-800 rounded-[24px] shadow-2xl border border-slate-100 p-5';
     d.style.marginBottom = 'env(safe-area-inset-bottom, 0px)';
     d.innerHTML = '<p class="text-sm font-bold text-slate-900">Çerez tercihiniz</p>' +
       '<p class="mt-2 text-xs leading-relaxed text-slate-600">Sitemizin nasıl kullanıldığını anlamak için, onay verirseniz Google Analytics çerezlerini kullanırız. Zorunlu olmayan hiçbir çerez onayınız olmadan çalışmaz. Ayrıntılar için <a href="/kvkk/" class="font-semibold text-slate-900 underline">KVKK Aydınlatma Metni</a>.</p>' +
@@ -69,6 +69,12 @@ var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
   menu.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', function () { setMenu(false); }); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) { setMenu(false); btn.focus(); } });
   }
+
+  /* ---- Telefon / WhatsApp tıklamalarını Analytics'e bildir (yalnızca onay verildiyse yüklü) ---- */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest('a[href^="tel:"], a[href*="wa.me/"]');
+    if (a && window.gtag) gtag('event', 'iletisim_tiklama', { yontem: a.href.indexOf('tel:') === 0 ? 'telefon' : 'whatsapp' });
+  });
 
   /* ---- Açılıştaki kart kavisini mobilde ortadan başlat ---- */
   var arc = document.getElementById('arc');

@@ -169,10 +169,14 @@ def buyuk(s): return s.replace('i', 'İ').upper()   # Türkçe büyük harf
 IKON_IG = '<svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>'
 IKON_LI = '<svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 11-.01 5 2.5 2.5 0 01.01-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.4c0-1.3-.02-2.95-1.8-2.95-1.8 0-2.08 1.4-2.08 2.86V21H9z"/></svg>'
 
+IKON_TEL = '<svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.8 19.8 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.8 19.8 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>'
+IKON_WA = '<svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.7.63.71.22 1.36.19 1.87.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.05 21.5h-.01a9.4 9.4 0 01-4.8-1.32l-.34-.2-3.57.94.95-3.48-.22-.36a9.4 9.4 0 01-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43 2.52 0 4.89.98 6.67 2.77a9.37 9.37 0 012.76 6.67c0 5.2-4.23 9.43-9.44 9.43zm8.03-17.47A11.3 11.3 0 0012.05.7C5.79.7.7 5.8.7 12.05c0 2 .52 3.95 1.52 5.67L.6 23.3l5.71-1.5a11.3 11.3 0 005.43 1.38h.01c6.26 0 11.35-5.09 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02z"/></svg>'
+WA_METIN = 'Merhaba%20Clickbait%2C%20web%20sitenizden%20yaz%C4%B1yorum.'
+
 def alt_bilgi():
     hiz = ''.join(f'<li><a class="hover:text-slate-900" href="/{h["adres"]}/">{e(h["kisa"])}</a></li>' for h in HIZMETLER)
     return f'''<!-- ▼▼▼▼▼ BÖLÜM: ALT BİLGİ — BAŞLANGIÇ ▼▼▼▼▼ -->
-<footer class="bg-white border-t border-slate-200 pt-12 pb-[calc(2.5rem+env(safe-area-inset-bottom,0px))]">
+<footer class="bg-white border-t border-slate-200 pt-12 pb-[calc(7rem+env(safe-area-inset-bottom,0px))] md:pb-[calc(2.5rem+env(safe-area-inset-bottom,0px))]">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid gap-10 md:grid-cols-12 text-sm text-slate-600">
       <div class="md:col-span-4">
@@ -199,6 +203,19 @@ def alt_bilgi():
     <div class="mt-12 pt-6 border-t border-slate-100 text-xs text-slate-500">© 2013–{datetime.date.today().year} Clickbait Medya Limited Şirketi, Ankara. Tüm hakları saklıdır.</div>
   </div>
 </footer>
+<!-- Mobil hızlı iletişim çubuğu (yalnızca telefonda görünür) -->
+<nav aria-label="Hızlı iletişim" class="md:hidden fixed inset-x-0 bottom-0 z-40 px-3 pt-2 pb-[calc(0.75rem+env(safe-area-inset-bottom,0px))] bg-gradient-to-t from-white via-white/90 to-transparent">
+  <div class="grid grid-cols-2 gap-2">
+    <a href="{TEL_LINK}" data-iletisim="telefon" class="flex items-center gap-2 rounded-full bg-[#111315] text-white pl-2 pr-3 py-2 shadow-lg shadow-black/20 active:scale-[0.97] transition-transform">
+      <span class="shrink-0 w-8 h-8 min-[380px]:w-9 min-[380px]:h-9 rounded-full bg-white/10 flex items-center justify-center">{IKON_TEL}</span>
+      <span class="min-w-0 leading-tight whitespace-nowrap"><span class="block text-xs min-[360px]:text-[13px] min-[380px]:text-sm font-bold">Hemen ara</span><span class="block text-[11px] text-white/70">{TEL_GORUNEN}</span></span>
+    </a>
+    <a href="{WHATSAPP}?text={WA_METIN}" target="_blank" rel="noopener" data-iletisim="whatsapp" class="flex items-center gap-2 rounded-full bg-[#D8F83C] text-black pl-2 pr-3 py-2 shadow-lg shadow-black/20 active:scale-[0.97] transition-transform">
+      <span class="shrink-0 w-8 h-8 min-[380px]:w-9 min-[380px]:h-9 rounded-full bg-black/10 flex items-center justify-center">{IKON_WA}</span>
+      <span class="min-w-0 leading-tight whitespace-nowrap"><span class="block text-xs min-[360px]:text-[13px] min-[380px]:text-sm font-bold">WhatsApp’tan yaz</span><span class="block text-[11px] text-black/60">Hemen yanıtlıyoruz</span></span>
+    </a>
+  </div>
+</nav>
 <!-- ▲▲▲▲▲ BÖLÜM: ALT BİLGİ — BİTİŞ ▲▲▲▲▲ -->'''
 
 def menu():
