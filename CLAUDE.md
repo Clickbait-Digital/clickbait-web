@@ -73,7 +73,7 @@ ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok
 
 ## Kullanıcıdan beklenenler
 - Gerçek müşteri yorumu (metin, kişi, marka) — ana sayfada yer tutucu kart var.
-- Proje görselleri: Active English, HUBEK, Psychology Times, Uslu Yapı ekran görüntüleri eklendi (`site/assets/img/projeler/`, tarayıcı çerçeveli kartlar).
+- Proje görselleri: Active English, HUBEK, Psychology Times, Uslu Yapı, Form Çayyolu (otel, tam genişlik kart) ekran görüntüleri eklendi (`site/assets/img/projeler/`, tarayıcı çerçeveli kartlar).
   Rojin Nazik: Instagram profil kartı (SOSYAL MEDYA). German Dental, İstanbul Hair Center, Saye Emlak, EKM: kullanıcı bunların
   Meta & Google Ads hesaplarını yönetiyor, görsel yok → logo + "Google Ads · Meta Ads" kartı (REKLAM YÖNETİMİ); grafikte rakam yok, uydurma sonuç koyma.
   Bekleniyor: sitelerin adresleri (kartlara bağlantı için), gerçek reklam sonuçları (isteğe bağlı), German Dental logosunun yüksek çözünürlüklü hali.
