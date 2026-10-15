@@ -72,4 +72,6 @@ En verimli yöntem küçük başlamaktır:
 3. Kazanılan zamanı ölçün; işe yarıyorsa aynı yaklaşımı diğer işlere taşıyın.
 4. Ekibinizi araçları güvenle kullanacak şekilde eğitin.
 
+Bu süreçte dışarıdan destek almayı düşünüyorsanız [yapay zeka danışmanlığı nedir?](/blog/yapay-zeka-danismanligi-nedir/) rehberimizde danışmanlığın nasıl ilerlediğini ve doğru danışmanı nasıl seçeceğinizi anlattık.
+
 > Clickbait olarak işletmelerin yapay zekayı günlük işlerine yerleştirmesine yardımcı oluyoruz. Ekibinizin iş akışını birlikte inceliyor, ilk kurulumu yapıyor ve ekibinizi eğitiyoruz. Ankara'daki ofisimizde ya da online görüşebiliriz.

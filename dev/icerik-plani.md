@@ -15,6 +15,7 @@ Hedef kelimeler: yapay zeka danışmanlığı, işletmeler için yapay zeka, yap
 | Durum | Yazı | Ana kelime |
 |---|---|---|
 | ✅ | İşletmeler için yapay zeka: zaman kazandıran 8 kullanım alanı | işletmeler için yapay zeka |
+| ✅ | Yapay zeka danışmanlığı nedir? Ankara'daki işletmeler için rehber | ankara yapay zeka danışmanlığı, yapay zeka danışmanlığı nedir |
 | ⏳ | Şirketinizde yapay zekaya nereden başlamalısınız? | şirketlerde yapay zeka kullanımı |
 | ⏳ | Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak | yapay zeka KVKK |
 | ⏳ | Yapay zeka ile müşteri hizmetleri: neyi otomatikleştirmeli, neyi değil? | yapay zeka müşteri hizmetleri |

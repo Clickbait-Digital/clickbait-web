@@ -63,7 +63,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
   sonda Clickbait'i anlatan kısa bir `>` notu (Çayyolu ofisi + online çalışma). Haftada en az 1 yazı, kümeler dönüşümlü.
-- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili.
+- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler).
 - Sıradaki: "Şirketinizde yapay zekaya nereden başlamalısınız?", sonra "Kurumsal web sitesinde mutlaka olması gereken sayfalar".
 
 ## SEO (kullanıcının en önemli önceliği)
