@@ -33,6 +33,9 @@ Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
   `site/SURUM` değiştiyse repodaki `site/` içeriğini indirip yazar.
 - **Yayına almak için:** değişikliği yap → `site/SURUM` içindeki sayıyı 1 artır → `main`'e push. Kullanıcıdan dosya yükleme/silme isteme.
 - Sunucudan dosya silmek için yolunu `site/SILINECEKLER` dosyasına yaz.
+- Not (15.10.2026): Cron, söylenen 5 dakikadan seyrek çalışıyor gibi görünüyor (8+ dakikada almadı). Acil yayında kullanıcı izin verirse
+  kullanıcının sohbete verdiği güncelleme bağlantısı çalıştırılır; anahtarı yine repoya yazma.
+- Mobilde tüm sayfaların altında sabit "Hemen ara / WhatsApp'tan yaz" çubuğu var (`alt_bilgi()` içinde); tıklamalar `iletisim_tiklama` olayı.
 - `guncelle.php` ve onun gizli anahtarı repoda YOK ve repoya asla yazılmamalı (repo herkese açık). Anahtar kullanıcıda.
 - İletişim formu: `site/contact.php`, Gmail SMTP (smtp.gmail.com:465). Şifre sunucuda `/home/clickbait/clickbait-ayarlar.php`
   dosyasında; repoya veya sohbete şifre yazdırma. Hata olursa form "Hata kodu: …" gösterir.
