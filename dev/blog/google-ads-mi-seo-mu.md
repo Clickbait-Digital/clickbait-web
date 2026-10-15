@@ -45,7 +45,7 @@ SEO ise sitenizin reklam alanlarının altındaki organik sonuçlarda üst sıra
 
 - **Yeni açılan bir işletmeyseniz:** Hemen müşteri kazanmak için Google Ads ile başlayın, paralel olarak SEO temelini kurun.
 - **Kampanya ya da sezonluk satışınız varsa:** Google Ads, belirli bir tarih aralığında görünür olmanın en hızlı yoludur.
-- **Yerel bir işletmeyseniz:** Google İşletme Profili'nizi eksiksiz doldurmak ve müşteri yorumlarını toplamak, harita sonuçlarında görünmenin temelidir. Bunu SEO çalışmanızın ilk adımı olarak düşünün.
+- **Yerel bir işletmeyseniz:** [Google İşletme Profili](/blog/google-isletme-profili-ile-yerel-aramalarda-one-cikmak/)'nizi eksiksiz doldurmak ve müşteri yorumlarını toplamak, harita sonuçlarında görünmenin temelidir. Bunu SEO çalışmanızın ilk adımı olarak düşünün.
 - **Uzun vadeli büyüme hedefliyorsanız:** SEO'ya erken başlayın; ne kadar erken başlarsanız o kadar erken meyvesini alırsınız.
 - **Bütçeniz sınırlıysa:** Küçük bir reklam bütçesiyle hangi kelimelerin müşteri getirdiğini test edin, SEO çalışmasını bu kelimelere yoğunlaştırın.
 
