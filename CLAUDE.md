@@ -35,6 +35,7 @@ Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
 - Sunucudan dosya silmek için yolunu `site/SILINECEKLER` dosyasına yaz.
 - Not (15.10.2026): Cron, söylenen 5 dakikadan seyrek çalışıyor gibi görünüyor (8+ dakikada almadı). Acil yayında kullanıcı izin verirse
   kullanıcının sohbete verdiği güncelleme bağlantısı çalıştırılır; anahtarı yine repoya yazma.
+  Push'tan hemen sonra bağlantı GitHub önbelleği yüzünden 2–3 dakika eski sürümü görebilir ("Site güncel (sürüm N-1)"); ~45 sn arayla tekrar dene.
 - Mobilde tüm sayfaların altında sabit "Hemen ara / WhatsApp'tan yaz" çubuğu var (`alt_bilgi()` içinde); tıklamalar `iletisim_tiklama` olayı.
 - `guncelle.php` ve onun gizli anahtarı repoda YOK ve repoya asla yazılmamalı (repo herkese açık). Anahtar kullanıcıda.
 - İletişim formu: `site/contact.php`, Gmail SMTP (smtp.gmail.com:465). Şifre sunucuda `/home/clickbait/clickbait-ayarlar.php`
