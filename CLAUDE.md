@@ -47,6 +47,8 @@ Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
 hizmet sayfalarındaki "Konuyla ilgili yazılar", `sitemap.xml`. Üretilen dosyaları elle düzenleme; üreticiyi düzenle.
 Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
 `site/index.html` bölümleri `BÖLÜM: X — BAŞLANGIÇ/BİTİŞ` yorumlarıyla işaretli.
+Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<!-- /KAYAN ŞERİT -->`, logolar iki kez yazılı, `@keyframes kaydir` dev/in.css'te).
+Üretici bu bloğu index.html'den alıp hizmet sayfalarına kopyalar; logo eklerken iki listeye de ekle (ikincisinde alt="").
 
 ## Blog
 - Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,

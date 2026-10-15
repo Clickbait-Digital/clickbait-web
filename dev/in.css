@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Referans şeridi: sürekli kayan logolar (yarım genişlik = bir tur) */
+@keyframes kaydir { from { transform: translateX(0); } to { transform: translateX(-50%); } }

@@ -283,7 +283,7 @@ KART_RENK = {
 
 def referans_seridi():
     s = open(os.path.join(KOK, 'index.html'), encoding='utf-8').read()
-    m = re.search(r'<ul class="mt-7 [^"]*">.*?</ul>', s[s.index('BÖLÜM: REFERANS ŞERİDİ'):], re.S)
+    m = re.search(r'<!-- KAYAN ŞERİT.*?<!-- /KAYAN ŞERİT -->', s, re.S)
     return m.group(0).replace('src="assets/', 'src="/assets/') if m else ''
 
 def hizmet_sayfasi(h):
