@@ -15,7 +15,7 @@ RewriteRule ^ https://clickbait.com.tr%{REQUEST_URI} [L,R=301]
 # --- Eski sitenin adreslerini yeni bölümlere yönlendir (Google sıralaması korunur) ---
 RewriteRule ^ajansimiz/?$ /#hakkimizda [R=301,L,NE]
 RewriteRule ^our_services/web-tasarim/?$ /web-tasarim/ [R=301,L]
-RewriteRule ^our_services/e-ticaret/?$ /web-tasarim/ [R=301,L]
+RewriteRule ^our_services/e-ticaret/?$ /ankara-e-ticaret-sitesi/ [R=301,L]
 RewriteRule ^our_services/digital-medya/?$ /dijital-pazarlama/ [R=301,L]
 RewriteRule ^our_services/kreatif-hizmetler/?$ /kreatif-hizmetler/ [R=301,L]
 RewriteRule ^our_services/.*$ /#hizmetler [R=301,L,NE]

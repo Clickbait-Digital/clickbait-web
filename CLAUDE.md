@@ -52,7 +52,8 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 
 ## Ankara'ya özel sayfalar
 - `dev/sayfalar.py` içindeki `ANKARA` listesi; hizmet sayfası şablonuyla üretilir, her biri bir ana hizmete bağlı (`ust`), ek olarak `metin` bölümleri var.
-- Yayında: /ankara-seo/, /ankara-google-ads-ajansi/, /ankara-reklam-ajansi/ (dijital pazarlama altında), /ankara-e-ticaret-sitesi/ (web tasarım altında).
+- Yayında: /ankara-seo/, /ankara-google-ads-ajansi/, /ankara-reklam-ajansi/, /ankara-instagram-reklam-ajansi/ (dijital pazarlama altında), /ankara-e-ticaret-sitesi/ (web tasarım altında).
+- Ana sayfada hizmetlerin altında "ANKARA'YA ÖZEL HİZMETLER" bağlantıları (`<!-- ANKARA BAĞLANTILARI -->`, üretici yazar).
 - Ana hizmet sayfalarının hedeflediği kelimelerle (Ankara web tasarım, Ankara sosyal medya yönetimi, Ankara dijital pazarlama ajansı) çakışan sayfa açma.
 - Arama hacmi doğrulanmadı; kullanıcı Google Ads Anahtar Kelime Planlayıcısı'na erişebiliyor. Reklam ajansı sayfası TV/radyo/açık hava yapmadığımızı söyler (kullanıcı onayladı).
 
@@ -64,9 +65,10 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
   sonda Clickbait'i anlatan kısa bir `>` notu (Çayyolu ofisi + online çalışma). Haftada en az 1 yazı, kümeler dönüşümlü.
 - Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler).
-- Sıradaki: "Şirketinizde yapay zekaya nereden başlamalısınız?", sonra "Kurumsal web sitesinde mutlaka olması gereken sayfalar".
+- Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 1: "Şirketinizde yapay zekaya nereden başlamalısınız?").
 
 ## SEO (kullanıcının en önemli önceliği)
+- **Plan ve kelime haritası: `dev/seo-plani.md`** (12 haftalık takvim, hangi sayfa hangi kelimeyi hedefler, kullanıcının site dışı işleri). Yeni sayfa/yazı açmadan önce kelime haritasına bak, çakışma yaratma; işi bitince planı güncelle.
 - Hedef: önce Ankara aramaları, ikinci olarak uzaktan verilebilen hizmetlerde Türkiye geneli.
 - Kurulu: JSON-LD (ProfessionalService `#isletme`, Service, FAQPage, BreadcrumbList, Blog/BlogPosting), canonical,
   site haritası, robots.txt, OG görseli, eski WordPress adreslerinden 301 yönlendirmeler (`site/.htaccess`), özel 404.

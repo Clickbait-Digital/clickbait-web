@@ -50,8 +50,8 @@ HIZMETLER = [
   },
   {
     'adres': 'web-tasarim', 'kisa': 'Web tasarım', 'renk': 'sky',
-    'title': 'Ankara Web Tasarım | Kurumsal Web Sitesi ve E-Ticaret | Clickbait',
-    'description': 'Ankara’da kurumsal web sitesi ve e-ticaret tasarımı. Mobil uyumlu, hızlı ve arama motorlarına hazır siteler; hosting ve bakım dahil. Türkiye geneline online hizmet.',
+    'title': 'Ankara Web Tasarım | Kurumsal Web Sitesi Yaptırma | Clickbait',
+    'description': 'Ankara web tasarım: kurumsal web sitesi yaptırmak isteyen işletmeler için mobil uyumlu, hızlı ve Google’a hazır siteler; hosting ve bakım dahil. Türkiye geneline online hizmet.',
     'h1': 'Ankara web tasarım: hızlı, mobil uyumlu ve Google’da bulunabilir siteler',
     'giris': '2013’ten beri Ankara’dan kurumsal web siteleri ve e-ticaret mağazaları tasarlıyoruz. Tasarım, geliştirme, hosting ve bakımı tek ekipte yürütüyoruz; Türkiye’nin her yerinden müşterilerimizle online da çalışıyoruz.',
     'kartlar': [
@@ -106,9 +106,9 @@ HIZMETLER = [
   },
   {
     'adres': 'sosyal-medya-yonetimi', 'kisa': 'Sosyal medya yönetimi', 'renk': 'dark',
-    'title': 'Ankara Sosyal Medya Yönetimi | Instagram ve LinkedIn | Clickbait',
-    'description': 'Ankara’da sosyal medya yönetimi: aylık içerik planı, post ve story tasarımı, paylaşım takvimi ve raporlama. Instagram ve LinkedIn’de markanızın sesi oluyoruz.',
-    'h1': 'Ankara sosyal medya yönetimi: planlı, tutarlı ve markanıza ait içerikler',
+    'title': 'Ankara Sosyal Medya Ajansı | Sosyal Medya Yönetimi | Clickbait',
+    'description': 'Ankara sosyal medya ajansı: aylık içerik planı, post, story ve reels tasarımı, paylaşım takvimi ve raporlama. Instagram ve LinkedIn’de markanızın sesi oluyoruz.',
+    'h1': 'Ankara sosyal medya ajansı: planlı, tutarlı ve markanıza ait içerikler',
     'giris': 'Her ay hedeflerinize göre bir içerik planı hazırlıyor, tasarımları üretiyor, paylaşımları takvime göre yayınlıyor ve ay sonunda sonuçları raporluyoruz. Ankara’daki markalarla yüz yüze, Türkiye genelindeki markalarla online çalışıyoruz.',
     'kartlar': [
       ('Aylık içerik planı', 'Hedeflerinize ve önemli günlere göre bir ayın paylaşımlarını önceden planlıyoruz.'),
@@ -134,9 +134,9 @@ HIZMETLER = [
   },
   {
     'adres': 'kreatif-hizmetler', 'kisa': 'Kreatif hizmetler', 'renk': 'lime',
-    'title': 'Ankara Kurumsal Kimlik, Logo ve Grafik Tasarım | Clickbait',
-    'description': 'Ankara’da kurumsal kimlik, logo ve grafik tasarım. Markanızın her yerde aynı dili konuşması için logo, renk, yazı tipi, şablon ve basılı işler. Türkiye geneline online hizmet.',
-    'h1': 'Kurumsal kimlik ve grafik tasarım: markanız her yerde aynı dili konuşsun',
+    'title': 'Ankara Logo Tasarım ve Kurumsal Kimlik | Clickbait',
+    'description': 'Ankara logo tasarım ve kurumsal kimlik: markanızın her yerde aynı dili konuşması için logo, renk, yazı tipi, şablon ve basılı işler. Türkiye geneline online hizmet.',
+    'h1': 'Ankara logo tasarım ve kurumsal kimlik: markanız her yerde aynı dili konuşsun',
     'giris': 'Logodan kartvizite, sosyal medya şablonundan sunum dosyasına kadar markanızın tüm görsel dilini tek elden tasarlıyoruz. Ankara’daki ofisimizde ya da online çalışabiliriz.',
     'kartlar': [
       ('Logo tasarımı', 'Markanızın karakterini taşıyan, her boyutta okunabilir logolar.'),
@@ -301,6 +301,40 @@ ANKARA = [
       ('Pazaryerlerinde de satış yapıyoruz, site gerekli mi?', 'Pazaryerleri hızlı satış sağlar ama müşteri ve marka pazaryerine aittir. Kendi siteniz markanızı büyütmenizi, müşterilerinize doğrudan ulaşmanızı ve komisyon ödememenizi sağlar. Çoğu marka ikisini birlikte yürütür.'),
       ('Mevcut e-ticaret sitemizi yenileyebilir misiniz?', 'Evet. Ürünleri, müşteri verilerini ve Google’daki sıralamanızı koruyarak yeni altyapıya taşıyabiliyoruz.'),
       ('Siteyi açtıktan sonra destek veriyor musunuz?', 'Evet. Bakım, güncelleme ve teknik destek hizmeti sunuyor; isterseniz reklam ve SEO çalışmasını da sürdürüyoruz.'),
+    ],
+  },
+  {
+    'adres': 'ankara-instagram-reklam-ajansi', 'kisa': 'Ankara Instagram reklam ajansı', 'ust': 'dijital-pazarlama', 'renk': 'dark',
+    'title': 'Ankara Instagram Reklam Ajansı | Meta Reklam Yönetimi | Clickbait',
+    'description': 'Ankara Instagram reklam ajansı: Instagram ve Facebook reklamlarınızı hedef kitle, kreatif ve bütçe yönetimiyle kuruyor, talepleri ölçüyor ve her ay raporluyoruz.',
+    'h1': 'Ankara Instagram reklam ajansı: doğru kişiye, doğru görselle, ölçülebilir sonuçla',
+    'giris': 'Instagram ve Facebook reklamlarınızı tek ekipte planlıyor, tasarlıyor ve yönetiyoruz. Reklamı kime göstereceğinizi, ne söyleyeceğinizi ve bütçenin nasıl harcanacağını birlikte belirliyor; gelen mesaj, form ve aramaları ölçüyoruz.',
+    'kapsam': 'Instagram reklam yönetimimizde neler var?',
+    'kartlar': [
+      ('Hedef kitle kurgusu', 'Konum, yaş, ilgi alanı ve mevcut müşteri listelerinize benzer kitlelerle reklamı doğru kişiye gösteriyoruz.'),
+      ('Reklam kreatifleri', 'Instagram’ın akış, story ve reels alanlarına uygun görsel, video ve metinler üretiyoruz.'),
+      ('Mesaj ve form kampanyaları', 'WhatsApp’a, Instagram DM’e ya da form doldurmaya yönlendiren kampanyalar kuruyoruz.'),
+      ('Yeniden pazarlama', 'Sitenizi ziyaret eden ya da profilinizle etkileşime geçen kişilere tekrar ulaşıyoruz.'),
+      ('Ölçüm kurulumu', 'Meta pikseli ve dönüşüm takibiyle reklamdan gelen talepleri ölçüyoruz.'),
+      ('Aylık rapor', 'Harcanan bütçeyi, gelen talepleri ve bir sonraki ayın planını sade bir raporla paylaşıyoruz.'),
+    ],
+    'adimlar': [
+      ('Hedef ve kitle', 'Neyi, kime, hangi bütçeyle duyurmak istediğinizi netleştiriyoruz.'),
+      ('Kreatif ve kurulum', 'Görselleri ve metinleri hazırlıyor, kampanyaları ve ölçümü kuruyoruz.'),
+      ('Test ve iyileştirme', 'Farklı görsel ve kitleleri deniyor, iyi sonuç vereni büyütüyoruz.'),
+      ('Raporlama', 'Her ay sonuçları ve sonraki adımları paylaşıyoruz.'),
+    ],
+    'metin': [
+      ('Instagram reklamı kimler için uygun?', 'Google’da sizi arayan müşteriler zaten bir ihtiyacı fark etmiş kişilerdir. Instagram ise henüz aramaya başlamamış kişilere ulaşmanın yoludur: ürününüz ya da hizmetiniz görsel olarak anlatılabiliyorsa, belirli bir yaş grubuna ya da bölgeye hitap ediyorsa ve yeni müşterilerin sizi tanıması gerekiyorsa Instagram reklamları güçlü bir kanaldır. Restoran ve kafeler, güzellik ve sağlık işletmeleri, eğitim kurumları, emlak ve e-ticaret markaları bu kanaldan sıkça faydalanır.'),
+      ('Ankara’daki kişilere nasıl ulaşılır?', 'Meta reklamlarında konumu il, ilçe ya da belirli bir noktanın çevresindeki mesafe olarak seçebiliyoruz. Ofisinize ya da mağazanıza gelebilecek kişilere ulaşmak için bu alanı daraltıyor, online satış yapan markalarda Türkiye geneline açıyoruz. Reklamı gören kişinin WhatsApp’tan ya da Instagram mesajından tek dokunuşla size yazabilmesi, yerel işletmelerde en çok talep getiren kurgulardan biridir.'),
+      ('Takipçi mi, müşteri mi?', 'Takipçi sayısı ya da beğeni, tek başına işinizi büyütmez. Kampanyaları başından itibaren mesaj, form ya da satış gibi ölçülebilir bir hedefe göre kuruyor ve sonuçları bu hedefe göre raporluyoruz. Arama tarafında görünür olmak için [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/), düzenli içerik için [sosyal medya yönetimi](/sosyal-medya-yonetimi/) sayfalarımıza bakabilirsiniz.'),
+    ],
+    'sss': [
+      ('Instagram reklam bütçesi ne kadar olmalı?', 'Hedef bölgenize, sektörünüze ve hedefinize göre değişir. Küçük bir test bütçesiyle başlayıp sonuç veren görsel ve kitleye bütçeyi aktarmayı öneriyoruz.'),
+      ('Reklam bütçesi ile ajans ücreti ayrı mı?', 'Evet. Reklam bütçesi doğrudan Meta’ya ödenir; yönetim ücretimizi teklifte ayrıca belirtiyoruz.'),
+      ('Reklam görsellerini siz mi hazırlıyorsunuz?', 'Evet. Görselleri, kısa videoları ve metinleri ekibimiz hazırlıyor; tüm içerikler yayından önce onayınıza sunuluyor.'),
+      ('Reklam hesabı kimin adına açılıyor?', 'Reklam hesabının ve iş hesabının sizin adınıza olmasını, bizim yönetici olarak erişmemizi öneriyoruz. Böylece veriler ve kampanyalar sizde kalır.'),
+      ('Facebook’ta da reklam çıkıyor mu?', 'Evet. Instagram ve Facebook reklamları aynı panelden yönetilir; hangi alanda görüneceğini sonuçlara göre birlikte belirliyoruz.'),
     ],
   },
 ]
@@ -832,5 +866,11 @@ if __name__ == '__main__':
     bloglari_yaz()
     for d in ['index.html', 'kvkk/index.html']:
         blok_degistir(d, 'ALT BİLGİ', alt_bilgi())
+    # Ana sayfa, hizmetler bölümünün altı: Ankara'ya özel sayfalara bağlantılar
+    p = os.path.join(KOK, 'index.html'); s = open(p, encoding='utf-8').read()
+    baglantilar = ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:border-slate-900 transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in ANKARA)
+    blok = f'<!-- ANKARA BAĞLANTILARI -->\n    <div class="mt-12"><p class="text-center text-xs font-bold tracking-widest text-slate-500">ANKARA’YA ÖZEL HİZMETLER</p><ul class="mt-5 flex flex-wrap justify-center gap-3">{baglantilar}</ul></div>\n    <!-- /ANKARA BAĞLANTILARI -->'
+    s = re.sub(r'<!-- ANKARA BAĞLANTILARI -->.*?<!-- /ANKARA BAĞLANTILARI -->', lambda _: blok, s, flags=re.S)
+    open(p, 'w', encoding='utf-8').write(s)
     site_haritasi()
     print('alt bilgi ve site haritası güncellendi')
