@@ -40,6 +40,11 @@ Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
 - `guncelle.php` ve onun gizli anahtarı repoda YOK ve repoya asla yazılmamalı (repo herkese açık). Anahtar kullanıcıda.
 - İletişim formu: `site/contact.php`, Gmail SMTP (smtp.gmail.com:465). Şifre sunucuda `/home/clickbait/clickbait-ayarlar.php`
   dosyasında; repoya veya sohbete şifre yazdırma. Hata olursa form "Hata kodu: …" gösterir.
+- Formlar: ana sayfa formu (`#form`, site.js'teki eski kod), hizmet/Ankara sayfalarının altında `data-form="hizmet"` formu (`#teklif`),
+  ücretsiz site analizi penceresi (`data-form="analiz"`, site.js oluşturur). contact.php `tur` (geri_arama/analiz), `kaynak` (sayfa) ve
+  `site_adresi` alanlarını e-postaya yazar. Analiz penceresi: bilgisayarda 35 sn / çıkış niyeti, telefonda %60 kaydırma + 15 sn; kapatılırsa
+  7 gün, gönderilirse bir daha kendiliğinden açılmaz; çerez bandı açıkken açılmaz. Elle: `data-analiz` ya da adres sonuna `#analiz`.
+- Yerel testte PHP yok (python http.server); form gönderimi 501 verir, başarı yolu fetch taklidiyle denenir.
 
 ## Üretici: `dev/sayfalar.py`
 `python3 dev/sayfalar.py` şunları üretir: 5 hizmet sayfası (veri `HIZMETLER` listesinde), ortak alt bilgi

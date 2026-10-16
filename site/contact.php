@@ -80,6 +80,9 @@ function smtp_gonder($a, $alici, $konu, $govde, $yanitla) {
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') cevap(false, 405, 'yalnizca_post');
 if (al('website') !== '') cevap(true, 200, '');   // bot tuzağı
 
+$tur    = al('tur') === 'analiz' ? 'analiz' : 'geri_arama';   // hangi form: geri arama ya da ücretsiz site analizi
+$kaynak = tek_satir(al('kaynak'), 200);                        // formun gönderildiği sayfa
+$site   = tek_satir(al('site_adresi'), 200);                   // analiz edilecek web sitesi
 $ad     = tek_satir(al('name'), 100);
 $marka  = tek_satir(al('company'), 120);
 $ulasim = tek_satir(al('reach'), 150);
@@ -89,19 +92,22 @@ if (isset($_POST['services']) && is_array($_POST['services'])) {
   foreach (array_slice($_POST['services'], 0, 10) as $h) $hizmet[] = tek_satir($h, 60);
 }
 if ($ad === '' || $ulasim === '') cevap(false, 422, 'eksik_alan');
+if ($tur === 'analiz' && $site === '') cevap(false, 422, 'eksik_alan');
 
 $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 'x';
 $iz = sys_get_temp_dir() . '/cb_form_' . md5($ip);
 if (is_file($iz) && (time() - filemtime($iz)) < $BEKLEME_SN) cevap(false, 429, 'cok_sik');
 
-$govde  = "Web sitesinden yeni geri arama talebi\n\n";
+$govde  = $tur === 'analiz' ? "Web sitesinden yeni ÜCRETSİZ SİTE ANALİZİ talebi\n\n" : "Web sitesinden yeni geri arama talebi\n\n";
+if ($site !== '') $govde .= "Analiz edilecek site: $site\n";
 $govde .= "Ad: $ad\n";
 if ($marka !== '') $govde .= "Marka: $marka\n";
 $govde .= "Telefon / e-posta: $ulasim\n";
 if ($hizmet) $govde .= "İlgilendiği hizmetler: " . implode(', ', $hizmet) . "\n";
 if ($not !== '') $govde .= "\nNot:\n$not\n";
+if ($kaynak !== '') $govde .= "\nGönderildiği sayfa: $kaynak";
 $govde .= "\nTarih: " . date('d.m.Y H:i') . "\nIP: $ip\n";
-$konu    = 'Web sitesi: Geri arama talebi - ' . $ad;
+$konu    = ($tur === 'analiz' ? 'Web sitesi: Ücretsiz site analizi talebi - ' : 'Web sitesi: Geri arama talebi - ') . $ad;
 $yanitla = filter_var($ulasim, FILTER_VALIDATE_EMAIL) ? $ulasim : '';
 
 $ayarDosyasi = dirname(__DIR__) . '/clickbait-ayarlar.php';
