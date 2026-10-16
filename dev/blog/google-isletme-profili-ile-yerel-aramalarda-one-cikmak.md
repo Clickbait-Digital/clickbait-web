@@ -6,6 +6,8 @@ ozet: Müşterileriniz "yakınımdaki" diye aradığında haritada siz mi çık�
 tarih: 2026-10-15
 kume: dijital-pazarlama
 etiket: DİJİTAL PAZARLAMA
+kapak: Yerel arama
+simge: konum
 ---
 Birisi Google'da "Ankara web tasarım", "Çayyolu diş kliniği" ya da yalnızca "yakınımdaki kafe" diye arattığında, sonuçların en üstünde çoğu zaman bir harita ve altında birkaç işletme görür. Bu alanda yer almak için reklam vermeniz gerekmez; anahtar, ücretsiz bir araç olan **Google İşletme Profili**'dir.
 

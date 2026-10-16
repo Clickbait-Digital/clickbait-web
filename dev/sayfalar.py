@@ -9,7 +9,7 @@ Metinleri değiştirmek için aşağıdaki HIZMETLER listesini düzenleyip çal�
 import json, os, re, datetime, html, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from cizimler import cizim   # açılış bölümündeki hizmete özel çizimler
+from cizimler import cizim, kart_simgesi, blog_kapagi   # açılış bölümündeki hizmete özel çizimler
 
 KOK = os.path.join(os.path.dirname(__file__), '..', 'site')
 ALAN = 'https://clickbait.com.tr'
@@ -424,7 +424,7 @@ def menu():
   </header>
   <!-- ▲▲▲▲▲ BÖLÜM: MENÜ — BİTİŞ ▲▲▲▲▲ -->'''
 
-def bas(baslik, aciklama, adres, ekler=''):
+def bas(baslik, aciklama, adres, ekler='', gorsel='/assets/img/og-clickbait.jpg'):
     return f'''<!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -439,7 +439,7 @@ def bas(baslik, aciklama, adres, ekler=''):
 <meta property="og:url" content="{ALAN}{adres}">
 <meta property="og:title" content="{e(baslik)}">
 <meta property="og:description" content="{e(aciklama)}">
-<meta property="og:image" content="{ALAN}/assets/img/og-clickbait.jpg">
+<meta property="og:image" content="{ALAN}{gorsel}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -488,7 +488,7 @@ def hizmet_sayfasi(h):
     on, yazi, alt, rozet = KART_RENK[h['renk']]
     kartlar = ''.join(f'''
       <li class="bento-card-interactive bg-white rounded-[28px] p-6 md:p-7 border border-slate-100 shadow-sm">
-        <span class="w-9 h-9 rounded-full bg-[#D8F83C] text-black text-xs font-bold flex items-center justify-center" aria-hidden="true">{i:02d}</span>
+        <span class="flex items-center justify-between" aria-hidden="true"><span class="w-11 h-11 rounded-2xl bg-[#D8F83C] text-black flex items-center justify-center">{kart_simgesi(b)}</span><span class="text-xs font-bold text-slate-300">{i:02d}</span></span>
         <h3 class="mt-5 text-lg font-extrabold text-slate-900 tracking-tight">{e(b)}</h3>
         <p class="mt-2 text-sm text-slate-600 leading-relaxed">{e(a)}</p>
       </li>''' for i, (b, a) in enumerate(h['kartlar'], 1))
@@ -726,12 +726,15 @@ def etiket_baslik(s): return s[:1] + s[1:].replace('I', 'ı').replace('İ', 'i')
 
 def yazi_karti(y):
     return f"""
-      <li class="bento-card-interactive rounded-[28px] bg-white border border-slate-100 shadow-sm">
-        <a href="/blog/{y['adres']}/" class="flex h-full flex-col gap-5 p-6">
+      <li class="bento-card-interactive overflow-hidden rounded-[28px] bg-white border border-slate-100 shadow-sm">
+        <a href="/blog/{y['adres']}/" class="flex h-full flex-col">
+          {blog_kapagi(y)}
+          <span class="flex flex-1 flex-col gap-5 p-6">
           <span class="self-start text-[10px] font-bold tracking-wider rounded-full bg-[#eefbb8] text-slate-800 px-2.5 py-1">{e(y['etiket'])}</span>
           <span class="text-lg font-bold text-slate-900 leading-snug">{e(y['baslik'])}</span>
           <span class="text-sm text-slate-600 leading-relaxed">{e(y['ozet'])}</span>
           <span class="mt-auto text-xs font-semibold text-slate-500">{tarih_tr(y['tarih'])} · {y['dakika']} dk okuma</span>
+          </span>
         </a>
       </li>"""
 
@@ -752,7 +755,19 @@ def ilgili_yazilar(kume):
 <!-- ▲▲▲▲▲ BÖLÜM: İLGİLİ YAZILAR — BİTİŞ ▲▲▲▲▲ -->
 """
 
-def sayfa_basi(baslik_html, ust_bilgi, alt_html=''):
+def sayfa_basi(baslik_html, ust_bilgi, alt_html='', yan=''):
+    if yan:   # yazı sayfası: sağda kapak (yalnızca geniş ekranda)
+        return f"""<section class="on-blue relative pt-5 pb-16 md:pb-20 overflow-hidden rounded-b-[40px] md:rounded-b-[56px]" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)" aria-labelledby="h1">
+{menu()}
+  <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16 grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+    <div class="lg:col-span-7">
+    {ust_bilgi}
+    {baslik_html}
+    {alt_html}
+    </div>
+    <div class="hidden lg:block lg:col-span-5"><span class="block overflow-hidden rounded-[28px] shadow-2xl shadow-sky-950/30">{yan}</span></div>
+  </div>
+</section>"""
     return f"""<section class="on-blue relative pt-5 pb-16 md:pb-20 overflow-hidden rounded-b-[40px] md:rounded-b-[56px]" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)" aria-labelledby="h1">
 {menu()}
   <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-16">
@@ -791,11 +806,13 @@ def blog_liste():
 
 def yazi_sayfasi(y):
     adres = f"/blog/{y['adres']}/"
+    gorsel = f"/assets/img/blog/{y['adres']}.jpg"   # dev/kapaklar.py üretir
+    if not os.path.exists(os.path.join(KOK, gorsel.lstrip('/'))): gorsel = '/assets/img/og-clickbait.jpg'
     hizmet = hizmet_adi(y['kume'])
     ld = {"@context": "https://schema.org", "@graph": [
       {"@type": "BlogPosting", "headline": y['baslik'], "description": y['description'], "url": ALAN + adres, "mainEntityOfPage": ALAN + adres,
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
-       "image": ALAN + "/assets/img/og-clickbait.jpg",
+       "image": ALAN + gorsel,
        "author": {"@type": "Organization", "name": "Clickbait", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
@@ -815,10 +832,10 @@ def yazi_sayfasi(y):
     </ul>
   </div>
 </section>""" if diger else '')
-    sayfa = bas(y['title'], y['description'], adres, ekler).replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
+    sayfa = bas(y['title'], y['description'], adres, ekler, gorsel).replace('<meta property="og:type" content="website">', '<meta property="og:type" content="article">')
     return sayfa + f"""<div class="font-sans antialiased text-slate-800 bg-white selection:bg-brand-lime selection:text-black" id="top">
 <a href="#icerik" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-white focus:px-4 focus:py-2 focus:rounded-full focus:font-bold">İçeriğe geç</a>
-{sayfa_basi(h1, ust, alt)}
+{sayfa_basi(h1, ust, alt, blog_kapagi(y, 'text-base'))}
 <main id="icerik" class="py-14 md:py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
     <article class="yazi lg:col-span-8 min-w-0">

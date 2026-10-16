@@ -53,7 +53,8 @@ hizmet sayfalarındaki "Konuyla ilgili yazılar", `sitemap.xml`. Üretilen dosya
 Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
 `site/index.html` bölümleri `BÖLÜM: X — BAŞLANGIÇ/BİTİŞ` yorumlarıyla işaretli.
 Hizmet ve Ankara sayfalarının açılışında sağda hizmete özel çizim var: `dev/cizimler.py` (HTML + Tailwind arayüz görselleri, görsel dosya yok,
-`aria-hidden`; rakam/sonuç uydurma). Yeni sayfa eklenirse `CIZIMLER` sözlüğüne çizimini ekle. Yüzen kartlar: `.cizim-yuz` (dev/in.css).
+`aria-hidden`; rakam/sonuç uydurma). Yeni sayfa eklenirse `CIZIMLER` sözlüğüne çizimini ekle. Kapsam kartlarının simgeleri `KART_SIMGE` (kart başlığı → simge); yeni kart başlığı eklersen buraya da ekle.
+Ana sayfa hizmet kartlarındaki mini çizimler index.html'de elle yazılı. Yüzen kartlar: `.cizim-yuz` (dev/in.css).
 Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<!-- /KAYAN ŞERİT -->`, logolar iki kez yazılı, `@keyframes kaydir` dev/in.css'te).
 Üretici bu bloğu index.html'den alıp hizmet sayfalarına kopyalar; logo eklerken iki listeye de ekle (ikincisinde alt="").
 
@@ -67,6 +68,9 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 ## Blog
 - Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,
   ör. `web-tasarim`), etiket (ör. `WEB TASARIM`), isteğe bağlı guncelleme.
+- Kapak: ön bilgide `kapak` (kapakta görünen kısa etiket, ör. `7 adımda başlangıç`) ve `simge` (`dev/cizimler.py` → `BLOG_SIMGE` adlarından biri).
+  Kapak rengi kümeden gelir (`KAPAK_TEMA`). Yeni yazıdan sonra `python3 dev/kapaklar.py` çalıştır (1200x630 paylaşım görseli,
+  `site/assets/img/blog/<adres>.jpg`; Chrome + sips), sonra `python3 dev/sayfalar.py` og:image'i bağlar.
 - Markdown desteği: ##, ###, -, 1., >, **kalın**, [bağlantı](/adres/).
 - İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;

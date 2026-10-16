@@ -6,6 +6,8 @@ ozet: Aynı iş için birbirinden çok farklı teklifler almanız tesadüf deği
 tarih: 2026-10-15
 kume: web-tasarim
 etiket: WEB TASARIM
+kapak: Fiyat rehberi
+simge: kredi
 ---
 Web sitesi yaptırmak için birkaç firmadan teklif aldığınızda, fiyatlar arasında kat kat fark görmeniz çok olasıdır. Bu farkın nedeni çoğu zaman firmaların "pahalı" ya da "ucuz" olması değil, **teklifin içinde neyin olduğudur.** Biri hazır bir temayı birkaç günde kurmayı teklif ederken, diğeri işletmenize özel tasarlanmış, içerikleri yazılmış ve Google için hazırlanmış bir siteyi teklif ediyor olabilir.
 

@@ -6,6 +6,8 @@ ozet: Alan adı kimin adına olmalı, site neden mobilde hızlı açılmalı, te
 tarih: 2026-10-15
 kume: web-tasarim
 etiket: WEB TASARIM
+kapak: 10 madde
+simge: site
 ---
 Bir web sitesi, işletmenizin internetteki ofisidir. Müşterileriniz sizi Google'da aradığında ilk gördükleri şey çoğu zaman sitenizdir ve ilk izlenim birkaç saniye içinde oluşur. Bu yüzden web sitesi yaptırmak; yalnızca güzel bir tasarım seçmekten ibaret değildir.
 

@@ -220,3 +220,123 @@ CIZIMLER = {
 def cizim(adres):
     f = CIZIMLER.get(adres)
     return f() if f else ''
+
+
+# ---------------------------------------------------------------- "Kapsam" kartlarının simgeleri
+DISLI = '<circle cx="12" cy="12" r="3"/><path d="M12 3v2.5M12 18.5V21M4.2 7.5l2.2 1.2M17.6 15.3l2.2 1.2M4.2 16.5l2.2-1.2M17.6 8.7l2.2-1.2"/>'
+KEP = '<path d="M3 9.5L12 5l9 4.5-9 4.5z"/><path d="M7 11.5v4c1.5 1.5 3 2 5 2s3.5-.5 5-2v-4M21 9.5v5"/>'
+KALKAN = '<path d="M12 3l7 3v5.5c0 4.5-3 7.8-7 9.5-4-1.7-7-5-7-9.5V6z"/><path d="M9 12l2 2 4-4"/>'
+SITE = '<rect x="3" y="4.5" width="18" height="15" rx="2.5"/><path d="M3 9h18M7 6.8h.01M9.5 6.8h.01"/>'
+KALEM = '<path d="M4 20l1-4.5L15.5 5a2.1 2.1 0 013 3L8 18.5z"/><path d="M13.5 7l3 3"/>'
+FIRCA = '<path d="M14 4l6 6-7.5 7.5-6-6z"/><path d="M6.5 11.5L4 20l8.5-2.5"/>'
+SUNUCU = '<rect x="4" y="4" width="16" height="7" rx="2"/><rect x="4" y="13" width="16" height="7" rx="2"/><path d="M8 7.5h.01M8 16.5h.01"/>'
+KAMERA = '<path d="M4 8.5A2 2 0 016 6.5h2l1.5-2h5l1.5 2h2a2 2 0 012 2V17a2 2 0 01-2 2H6a2 2 0 01-2-2z"/><circle cx="12" cy="12.5" r="3.3"/>'
+BELGE = '<path d="M7 3.5h7l4 4V19a1.5 1.5 0 01-1.5 1.5h-9A1.5 1.5 0 016 19V5a1.5 1.5 0 011-1.5z"/><path d="M14 3.5V8h4M9 12.5h6M9 16h4"/>'
+OYNAT = '<rect x="3" y="5" width="18" height="14" rx="3.5"/><path d="M10.5 9.5v5l4-2.5z" fill="currentColor"/>'
+SEKIL = '<circle cx="8.5" cy="8.5" r="4.5"/><rect x="12" y="12" width="8" height="8" rx="1.5"/>'
+KITAP = '<path d="M4 5.5A1.5 1.5 0 015.5 4H11v16H5.5A1.5 1.5 0 014 18.5zM20 5.5A1.5 1.5 0 0018.5 4H13v16h5.5a1.5 1.5 0 001.5-1.5z"/>'
+KART = '<rect x="3" y="6" width="18" height="12" rx="2.5"/><path d="M7 10.5h5M7 13.5h3M15.5 11h2"/>'
+IZGARA = '<rect x="4" y="4" width="7" height="7" rx="1.5"/><rect x="13" y="4" width="7" height="7" rx="1.5"/><rect x="4" y="13" width="7" height="7" rx="1.5"/><rect x="13" y="13" width="7" height="7" rx="1.5"/>'
+SUNUM = '<rect x="3" y="4" width="18" height="12" rx="2"/><path d="M12 16v4M8.5 20h7M8 12l2.5-3 2 2 3-4"/>'
+KOD = '<path d="M8.5 8L4.5 12l4 4M15.5 8l4 4-4 4M13.5 5.5l-3 13"/>'
+FILTRE = '<path d="M4 5h16l-6 7.5V19l-4-2v-4.5z"/>'
+KREDI = '<rect x="3" y="5.5" width="18" height="13" rx="2.5"/><path d="M3 10h18M7 15h4"/>'
+KAMYON = '<path d="M3 6.5h11v9H3zM14 9.5h3.5L21 13v2.5h-7"/><circle cx="7" cy="17.5" r="1.8"/><circle cx="17" cy="17.5" r="1.8"/>'
+KUTU = '<path d="M4 7.5L12 4l8 3.5v9L12 20l-8-3.5z"/><path d="M4 7.5L12 11l8-3.5M12 11v9"/>'
+YENILE = '<path d="M19.5 12a7.5 7.5 0 01-13 5.1M4.5 12a7.5 7.5 0 0113-5.1"/><path d="M17.5 3.5v3.4h-3.4M6.5 20.5v-3.4h3.4"/>'
+KITLE = '<circle cx="9" cy="8.5" r="3.2"/><path d="M3.5 19a5.5 5.5 0 0111 0"/><circle cx="17" cy="9.5" r="2.4"/><path d="M15.5 14.2A4.5 4.5 0 0120.5 19"/>'
+DUYURU = '<path d="M4 10v4a1 1 0 001 1h2l5 4V5L7 9H5a1 1 0 00-1 1z"/><path d="M16 9a4 4 0 010 6M18.5 6.5a7.5 7.5 0 010 11"/>'
+DUZEN = '<rect x="3.5" y="4" width="17" height="16" rx="2.5"/><path d="M3.5 9.5h17M9.5 9.5V20"/>'
+
+KART_SIMGE = {
+  'İhtiyaç analizi': ARA, 'Raporlama ve otomasyon': DISLI, 'İçerik ve görsel üretimi': PARILTI, 'Müşteri iletişimi': MESAJ,
+  'Ekip eğitimi': KEP, 'Veri güvenliği ve KVKK': KALKAN,
+  'Kurumsal web sitesi': SITE, 'E-ticaret ve WooCommerce': SEPET, 'UI/UX tasarım': DUZEN, 'Özel ikon ve illüstrasyon': FIRCA,
+  'Hosting ve bakım': SUNUCU, 'Performans ve güvenlik denetimi': SIMSEK,
+  'Google Ads yönetimi': ARA, 'Meta reklamları': HEDEF, 'SEO': GRAFIK, 'Dijital medya planlama': TAKVIM, 'Dönüşüm takibi': HEDEF, 'Raporlama': BELGE,
+  'Aylık içerik planı': TAKVIM, 'Post, story ve reels': OYNAT, 'Metin yazımı': KALEM, 'Paylaşım takvimi': SAAT,
+  'Fotoğraf ve video çekimi': KAMERA, 'Aylık raporlama': GRAFIK,
+  'Logo tasarımı': SEKIL, 'Kurumsal kimlik kılavuzu': KITAP, 'Kartvizit ve basılı işler': KART, 'Sosyal medya şablonları': IZGARA,
+  'Sunum ve katalog': SUNUM,
+  'Teknik SEO': KOD, 'Anahtar kelime araştırması': ARA, 'Yerel SEO': KONUM, 'Sayfa içi SEO': BELGE, 'İçerik planı': KALEM, 'Aylık rapor': GRAFIK,
+  'Arama ağı kampanyaları': ARA, 'Performance Max ve Alışveriş': SEPET, 'YouTube ve görüntülü reklam': OYNAT,
+  'Kelime ve negatif kelime yönetimi': FILTRE, 'Konum ve saat hedefleme': KONUM,
+  'Google reklamları': ARA, 'Instagram ve Facebook reklamları': HEDEF, 'Reklam kreatifleri': FIRCA, 'Sosyal medya yönetimi': KALP,
+  'Açılış sayfası ve web sitesi': SITE, 'Ölçüm ve raporlama': GRAFIK,
+  'Mağaza tasarımı': SITE, 'Ürün ve stok yönetimi': KUTU, 'Ödeme altyapısı': KREDI, 'Kargo bağlantısı': KAMYON,
+  'E-ticaret SEO’su': GRAFIK, 'Reklam ve ölçüm': DUYURU,
+  'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,
+}
+
+def kart_simgesi(baslik):
+    """Kapsam kartının simgesi; listede yoksa parıltı simgesi."""
+    return _svg(KART_SIMGE.get(baslik, PARILTI), 'w-5 h-5')
+
+
+# ---------------------------------------------------------------- Blog kapakları
+# Yazının ön bilgisindeki `kapak` (kısa etiket) ve `simge` (aşağıdaki adlardan biri) kullanılır.
+BLOG_SIMGE = {'site': SITE, 'ara': ARA, 'parilti': PARILTI, 'konum': KONUM, 'kredi': KREDI, 'hedef': HEDEF, 'kep': KEP,
+              'grafik': GRAFIK, 'takvim': TAKVIM, 'kalem': KALEM, 'sepet': SEPET, 'kalkan': KALKAN, 'mesaj': MESAJ, 'sekil': SEKIL}
+
+# küme → (zemin, yazı rengi, ikon kutusu, nokta deseni rengi, logo dosyası)
+KAPAK_TEMA = {
+  'yapay-zeka-danismanligi': ('bg-[#D8F83C]', 'text-slate-900', 'bg-[#111315] text-[#D8F83C]', '#00000014', 'logo-siyah.svg'),
+  'web-tasarim': ('bg-gradient-to-br from-sky-500 to-sky-700', 'text-white', 'bg-[#D8F83C] text-black', '#ffffff22', 'logo-beyaz.svg'),
+  'dijital-pazarlama': ('bg-gradient-to-br from-sky-100 to-sky-200', 'text-slate-900', 'bg-sky-500 text-white', '#0284c71f', 'logo-siyah.svg'),
+}
+KAPAK_TEMA_VARSAYILAN = KAPAK_TEMA['dijital-pazarlama']
+
+def _kapak_motif(y, olcek=''):
+    """Kapakların sağındaki üst üste iki kart: arkada eğik bir kart, önde simge ve satırlar."""
+    zemin, yazi, kutu, desen, logo = KAPAK_TEMA.get(y['kume'], KAPAK_TEMA_VARSAYILAN)
+    cip = 'bg-[#111315] text-white'
+    arka = 'bg-sky-300/60' if 'sky-100' in zemin else 'bg-white/35'   # arkadaki eğik kart
+    simge = BLOG_SIMGE.get(y.get('simge', ''), PARILTI)
+    return (f'<span class="absolute right-[7%] top-1/2 -translate-y-1/2 w-[38%] {olcek}">'
+            f'<span class="absolute inset-0 rotate-6 translate-x-[8%] rounded-[18%_18%_18%_18%/22%] {arka}"></span>'
+            f'<span class="relative block rounded-[14%/18%] bg-white p-[9%] shadow-2xl shadow-black/20">'
+            f'<span class="flex w-[34%] aspect-square rounded-[28%] {kutu} items-center justify-center">{_svg(simge, "w-1/2 h-1/2")}</span>'
+            f'<span class="mt-[12%] block h-[0.55em] w-full rounded-full bg-slate-800"></span>'
+            f'<span class="mt-[6%] block h-[0.55em] w-3/4 rounded-full bg-slate-800"></span>'
+            f'<span class="mt-[10%] block h-[0.35em] w-full rounded-full bg-slate-200"></span>'
+            f'<span class="mt-[5%] block h-[0.35em] w-5/6 rounded-full bg-slate-200"></span>'
+            f'<span class="mt-[5%] block h-[0.35em] w-2/3 rounded-full bg-slate-200"></span>'
+            f'</span>'
+            f'<span class="absolute -bottom-[10%] -right-[6%] inline-flex items-center gap-[0.4em] rounded-[0.7em] bg-[#111315] px-[0.8em] py-[0.5em] text-[0.7em] font-bold {cip} shadow-xl whitespace-nowrap">{_svg(ONAY, "w-[1.1em] h-[1.1em]")}Rehber</span>'
+            f'</span>')
+
+def blog_kapagi(y, sinif='text-[11px] sm:text-xs'):
+    """Blog kartlarının ve yazı sayfasının üstündeki kapak (16:9)."""
+    zemin, yazi, kutu, desen, logo = KAPAK_TEMA.get(y['kume'], KAPAK_TEMA_VARSAYILAN)
+    return (f'<span class="relative block overflow-hidden aspect-[16/9] {zemin} {sinif}" aria-hidden="true">'
+            f'<span class="absolute inset-0" style="background-image:radial-gradient({desen} 1.2px,transparent 1.2px);background-size:16px 16px"></span>'
+            f'<span class="absolute -left-[12%] -bottom-[40%] w-[60%] aspect-square rounded-full bg-white/10"></span>'
+            f'<span class="absolute left-[7%] top-1/2 -translate-y-1/2 max-w-[44%] text-[1.9em] font-extrabold leading-[1.05] tracking-tight {yazi}" style="text-wrap:balance">{y.get("kapak", "")}</span>'
+            f'{_kapak_motif(y)}</span>')
+
+def paylasim_gorseli(y, baslik_html, site_kok):
+    """1200x630 paylaşım görseli için bağımsız HTML sayfası (dev/kapaklar.py ekran görüntüsünü alır)."""
+    zemin, yazi, kutu, desen, logo = KAPAK_TEMA.get(y['kume'], KAPAK_TEMA_VARSAYILAN)
+    # file:// sayfasında yazı tipi dosyası yüklenmez; sayfaya gömülür
+    import base64, os
+    klasor = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'site', 'assets', 'fonts')
+    import re   # site.css'teki @font-face kuralları (karakter aralıklarıyla), dosya yolu yerine gömülü veri
+    css = open(os.path.join(klasor, '..', 'css', 'site.css'), encoding='utf-8').read()
+    yazi_tipi = ''.join(re.findall(r'@font-face\s*\{[^}]*\}', css))
+    yazi_tipi = re.sub(r'url\(/assets/fonts/([^)]+)\)', lambda m: 'url(data:font/woff2;base64,'
+                       + base64.b64encode(open(os.path.join(klasor, m.group(1)), 'rb').read()).decode() + ')', yazi_tipi)
+    return f'''<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">
+<link rel="stylesheet" href="{site_kok}/assets/css/tailwind.css"><link rel="stylesheet" href="{site_kok}/assets/css/site.css">
+<style>{yazi_tipi}
+html,body{{margin:0;width:1200px;height:630px;overflow:hidden}}</style></head>
+<body class="font-sans antialiased"><div class="relative w-[1200px] h-[630px] overflow-hidden {zemin} text-[30px]">
+<span class="absolute inset-0" style="background-image:radial-gradient({desen} 2px,transparent 2px);background-size:28px 28px"></span>
+<span class="absolute -left-[8%] -bottom-[45%] w-[50%] aspect-square rounded-full bg-white/10"></span>
+<img src="{site_kok}/assets/img/{logo}" alt="" class="absolute left-[72px] top-[56px] h-[38px] w-auto">
+<div class="absolute left-[72px] top-[40px] bottom-0 w-[600px] flex flex-col justify-center">
+  <span class="self-start rounded-full bg-white px-4 py-1.5 text-[15px] font-bold tracking-wider text-slate-900">{y["etiket"]}</span>
+  <p class="mt-5 text-[52px] font-extrabold leading-[1.06] tracking-tight {yazi}">{baslik_html}</p><!-- text-wrap:balance yok: başsız Chrome İ'nin noktasını çizmiyor -->
+  <p class="mt-6 text-[20px] font-semibold {yazi} opacity-80">clickbait.com.tr/blog</p>
+</div>
+{_kapak_motif(y, "!w-[30%] !right-[6%]")}
+</div></body></html>'''
