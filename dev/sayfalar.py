@@ -6,7 +6,10 @@ Metinleri değiştirmek için aşağıdaki HIZMETLER listesini düzenleyip çal�
 
     python3 dev/sayfalar.py
 """
-import json, os, re, datetime, html
+import json, os, re, datetime, html, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from cizimler import cizim   # açılış bölümündeki hizmete özel çizimler
 
 KOK = os.path.join(os.path.dirname(__file__), '..', 'site')
 ALAN = 'https://clickbait.com.tr'
@@ -515,14 +518,17 @@ def hizmet_sayfasi(h):
 <!-- ▼▼▼▼▼ BÖLÜM: SAYFA BAŞI — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="on-blue relative pt-5 pb-16 md:pb-24 overflow-hidden rounded-b-[40px] md:rounded-b-[56px]" style="background:linear-gradient(160deg,#0866c9 0%,#1283e8 55%,#48a6fb 100%)" aria-labelledby="h1">
 {menu()}
-  <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20">
+  <div class="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 md:pt-20 grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+    <div class="lg:col-span-7">
     <nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li><a href="{kirinti[1]}" class="hover:text-white">{e(kirinti[0])}</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">{e(h['kisa'])}</li></ol></nav>
-    <h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">{e(h['h1'])}</h1>
+    <h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl lg:text-5xl xl:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">{e(h['h1'])}</h1>
     <p class="mt-6 max-w-2xl text-base md:text-lg text-white leading-relaxed">{e(h['giris'])}</p>
     <div class="mt-8 flex flex-wrap items-center gap-3.5">
       <a class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full text-xs font-bold tracking-wider text-black bg-[#D8F83C] hover:bg-[#c7e92e] transition-all shadow-lg hover:scale-105" href="#teklif"><span>ÜCRETSİZ ÖN GÖRÜŞME</span><span class="w-5 h-5 rounded-full bg-black text-[#D8F83C] flex items-center justify-center text-xs" aria-hidden="true">↗</span></a>
       <a class="inline-flex items-center justify-center px-6 py-3 rounded-full text-xs font-bold tracking-wider text-white bg-black/25 hover:bg-black/35 border border-white/20 transition-all" href="{WHATSAPP}" target="_blank" rel="noopener">WHATSAPP’TAN YAZIN</a>
     </div>
+    </div>
+    <div class="lg:col-span-5">{cizim(h['adres'])}</div>
   </div>
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: SAYFA BAŞI — BİTİŞ ▲▲▲▲▲ -->

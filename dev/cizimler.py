@@ -1,0 +1,222 @@
+"""Hizmet sayfalarının açılış bölümündeki çizimler.
+
+Her hizmete (ve Ankara sayfasına) özel, HTML + Tailwind ile çizilmiş arayüz görselleri.
+Görsel dosya yok; hepsi sayfanın içinde, ekran okuyuculardan gizli (aria-hidden).
+Kural: çizimlerde rakam/sonuç uydurma; yalnızca hizmetin ne yaptığını gösteren örnek ekranlar.
+"""
+
+# ---------------------------------------------------------------- Simgeler (çizgi simgeler, currentColor)
+def _svg(yol, boyut='w-4 h-4'):
+    return f'<svg class="{boyut} shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">{yol}</svg>'
+
+ONAY = '<path d="M5 12.5l4.5 4.5L19 7"/>'
+SIMSEK = '<path d="M13 3L5 13.5h6L10 21l9-11h-6l1-7z"/>'
+KALP = '<path d="M12 20s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 10c0 5.6-7 10-7 10z"/>'
+YORUM = '<path d="M5 18l1.2-3.6A7 7 0 1110 18.3L5 18z"/>'
+ARA = '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/>'
+PARILTI = '<path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/>'
+GONDER = '<path d="M5 12h13M13 6l6 6-6 6"/>'
+SAAT = '<circle cx="12" cy="12" r="8"/><path d="M12 8v4l2.5 2"/>'
+KONUM = '<path d="M12 21s6.5-6 6.5-11.5a6.5 6.5 0 00-13 0C5.5 15 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.3"/>'
+TELEFON = '<path d="M6.5 4h3l1.5 4-2 1.2a10 10 0 005 5l1.2-2 4 1.5v3A2 2 0 0117 19 13 13 0 015 7a2 2 0 011.5-3z"/>'
+SEPET = '<path d="M4 5h2l2 10h9l2-7H7.2"/><circle cx="9.5" cy="19" r="1.3"/><circle cx="16.5" cy="19" r="1.3"/>'
+KILIT = '<rect x="5.5" y="10.5" width="13" height="9" rx="2"/><path d="M8.5 10.5V8a3.5 3.5 0 017 0v2.5"/>'
+GRAFIK = '<path d="M4 18l5-6 4 3 7-8"/><path d="M15 7h5v5"/>'
+TAKVIM = '<rect x="4" y="5.5" width="16" height="14" rx="2.5"/><path d="M4 10h16M9 3.5v4M15 3.5v4"/>'
+HEDEF = '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".8" fill="currentColor"/>'
+MESAJ = '<path d="M4 6.5A2.5 2.5 0 016.5 4h11A2.5 2.5 0 0120 6.5v7a2.5 2.5 0 01-2.5 2.5H10l-4.5 4v-4h0A2.5 2.5 0 014 13.5z"/>'
+
+
+# ---------------------------------------------------------------- Ortak parçalar
+def _rozet(ic, konum, renk='bg-white text-slate-900', gecikme='0s'):
+    """Ana kartın etrafında hafifçe yüzen küçük bilgi kartı."""
+    return (f'<div class="cizim-yuz absolute {konum} z-10 inline-flex items-center gap-2 rounded-2xl {renk} px-3.5 py-2.5 '
+            f'text-[11px] sm:text-xs font-bold shadow-xl shadow-sky-950/25 whitespace-nowrap" style="animation-delay:{gecikme}">{ic}</div>')
+
+def _ikon_kutu(yol, renk='bg-[#D8F83C] text-black'):
+    return f'<span class="w-7 h-7 rounded-xl {renk} flex items-center justify-center">{_svg(yol, "w-3.5 h-3.5")}</span>'
+
+def _cubuk(gen, renk='bg-slate-200', yuk='h-2'):
+    return f'<span class="block {yuk} {gen} rounded-full {renk}"></span>'
+
+def _kart(ic, sinif=''):
+    return f'<div class="relative rounded-[26px] bg-white shadow-2xl shadow-sky-950/30 {sinif}">{ic}</div>'
+
+def _tarayici(adres, ic):
+    return _kart(f'''<div class="flex items-center gap-1.5 px-4 py-3 border-b border-slate-100"><span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#febc2e]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#28c840]"></span><span class="ml-3 flex-1 flex items-center gap-1.5 rounded-full bg-slate-100 px-3 py-1 text-[10px] font-semibold text-slate-500">{_svg(KILIT, "w-3 h-3")}{adres}</span></div>{ic}''', 'overflow-hidden')
+
+def _telefon(ic, sinif='w-[210px] sm:w-[230px]'):
+    return f'<div class="relative {sinif} rounded-[34px] bg-[#111315] p-2 shadow-2xl shadow-sky-950/40"><div class="relative overflow-hidden rounded-[27px] bg-white"><span class="absolute left-1/2 top-2 z-10 -translate-x-1/2 h-4 w-16 rounded-full bg-[#111315]"></span>{ic}</div></div>'
+
+def _sahne(ic):
+    """Çizimin dış çerçevesi: sabit yükseklik, ortalanmış."""
+    return f'<div class="cizim relative mx-auto w-full max-w-[440px] h-[330px] sm:h-[380px] flex items-center justify-center select-none" aria-hidden="true">{ic}</div>'
+
+
+# ---------------------------------------------------------------- Hizmetlere özel çizimler
+def yapay_zeka():
+    sohbet = _kart(f'''
+      <div class="flex items-center gap-2.5 px-5 py-4 border-b border-slate-100">{_ikon_kutu(PARILTI)}<span class="text-xs font-extrabold text-slate-900">Yapay zeka asistanı</span><span class="ml-auto inline-flex items-center gap-1.5 text-[10px] font-semibold text-emerald-600"><span class="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>Hazır</span></div>
+      <div class="px-5 py-4 grid gap-3">
+        <p class="justify-self-end max-w-[80%] rounded-2xl rounded-br-md bg-[#111315] px-3.5 py-2.5 text-[11px] leading-relaxed text-white">Bu haftaki satış toplantısı notlarını özetle, görevleri çıkar.</p>
+        <div class="max-w-[88%] rounded-2xl rounded-bl-md bg-sky-50 border border-sky-100 px-3.5 py-3 text-[11px] text-slate-700">
+          <p class="font-bold text-slate-900">Özet hazır:</p>
+          <ul class="mt-2 grid gap-1.5">{''.join(f'<li class="flex items-center gap-2"><span class="text-sky-600">{_svg(ONAY, "w-3.5 h-3.5")}</span>{m}</li>' for m in ('Alınan kararlar', 'Görevler ve sorumlular', 'Bir sonraki adımlar'))}</ul>
+        </div>
+      </div>
+      <div class="mx-5 mb-5 flex items-center gap-2 rounded-full bg-slate-100 pl-4 pr-1.5 py-1.5 text-[11px] text-slate-400">Bir iş yazın…<span class="ml-auto w-7 h-7 rounded-full bg-[#D8F83C] text-black flex items-center justify-center">{_svg(GONDER, "w-3.5 h-3.5")}</span></div>''',
+      'w-[300px] sm:w-[340px]')
+    return _sahne(sohbet
+      + _rozet(f'{_svg(ONAY)}Rapor hazır', '-top-6 right-0 sm:right-2', 'bg-[#D8F83C] text-black')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(SAAT)}</span>Her pazartesi 09:00 · otomatik', 'bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+def web_tasarim():
+    sayfa = _tarayici('markaniz.com.tr', f'''
+      <div class="p-4">
+        <div class="flex items-center justify-between">{_cubuk("w-14", "bg-slate-900")}<span class="flex gap-2">{_cubuk("w-7")}{_cubuk("w-7")}{_cubuk("w-7")}</span></div>
+        <div class="mt-4 rounded-2xl p-4 bg-gradient-to-br from-sky-500 to-sky-700">
+          <span class="grid gap-2">{_cubuk("w-4/5", "bg-white", "h-3")}{_cubuk("w-3/5", "bg-white/90", "h-3")}{_cubuk("w-2/3", "bg-white/50")}</span>
+          <span class="mt-4 inline-block h-6 w-24 rounded-full bg-[#D8F83C]"></span>
+        </div>
+        <div class="mt-3 grid grid-cols-3 gap-2">{''.join(f'<span class="rounded-xl bg-slate-50 border border-slate-100 p-2.5 grid gap-1.5"><span class="w-5 h-5 rounded-lg {r}"></span>{_cubuk("w-full")}{_cubuk("w-2/3")}</span>' for r in ("bg-[#D8F83C]", "bg-sky-200", "bg-slate-900"))}</div>
+      </div>''')
+    telefon = _telefon(f'''<div class="pt-8 px-2.5 pb-3"><div class="rounded-xl p-2.5 bg-gradient-to-br from-sky-500 to-sky-700 grid gap-1.5">{_cubuk("w-4/5", "bg-white", "h-2")}{_cubuk("w-1/2", "bg-white/70", "h-2")}<span class="mt-1 h-3.5 w-12 rounded-full bg-[#D8F83C]"></span></div><div class="mt-2 grid gap-1.5">{_cubuk("w-full")}{_cubuk("w-5/6")}{_cubuk("w-2/3")}</div><div class="mt-2 grid grid-cols-2 gap-1.5"><span class="h-9 rounded-lg bg-slate-100"></span><span class="h-9 rounded-lg bg-slate-100"></span></div></div>''', 'w-[104px]')
+    return _sahne(f'<div class="w-[300px] sm:w-[350px]">{sayfa}</div>'
+      + f'<div class="absolute -bottom-1 right-0 sm:right-1 z-10">{telefon}</div>'
+      + _rozet(f'<span class="text-sky-600">{_svg(ONAY)}</span>Mobil uyumlu', 'top-0 left-0')
+      + _rozet(f'{_svg(SIMSEK)}Hızlı açılış', 'bottom-0 left-0', 'bg-[#D8F83C] text-black', '-2.5s'))
+
+def dijital_pazarlama():
+    panel = _kart(f'''
+      <div class="p-5">
+        <div class="flex items-center justify-between"><span class="text-xs font-extrabold text-slate-900">Kampanya performansı</span><span class="rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-bold text-slate-500">Bu ay</span></div>
+        <div class="mt-2 flex gap-3 text-[10px] font-semibold text-slate-500"><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-sky-500"></span>Google Ads</span><span class="inline-flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-[#b5d61c]"></span>Meta Ads</span></div>
+        <svg class="mt-3 w-full h-28" viewBox="0 0 300 110" preserveAspectRatio="none" fill="none">
+          <defs><linearGradient id="cizimAlan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0ea5e9" stop-opacity=".28"/><stop offset="1" stop-color="#0ea5e9" stop-opacity="0"/></linearGradient></defs>
+          <path d="M0 30H300M0 65H300M0 100H300" stroke="#f1f5f9" stroke-width="1"/>
+          <path d="M0 92 C40 88 60 70 95 72 S150 50 185 46 S250 22 300 12 V110 H0Z" fill="url(#cizimAlan)"/>
+          <path d="M0 92 C40 88 60 70 95 72 S150 50 185 46 S250 22 300 12" stroke="#0ea5e9" stroke-width="3" stroke-linecap="round"/>
+          <path d="M0 100 C50 98 80 86 120 84 S200 70 240 60 S280 50 300 44" stroke="#b5d61c" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 0"/>
+          <circle cx="300" cy="12" r="5" fill="#0ea5e9" stroke="#fff" stroke-width="2"/>
+        </svg>
+        <div class="mt-3 grid grid-cols-3 gap-2">{''.join(f'<span class="rounded-xl bg-slate-50 border border-slate-100 px-2.5 py-2"><span class="block text-[10px] font-semibold text-slate-500">{a}</span><span class="mt-0.5 flex items-center gap-1 text-xs font-extrabold {r}">{_svg(GRAFIK, "w-3.5 h-3.5")}{y}</span></span>' for a, y, r in (("Tıklama", "Artıyor", "text-sky-600"), ("Talep", "Artıyor", "text-emerald-600"), ("Ölçüm", "Açık", "text-slate-900")))}</div>
+      </div>''', 'w-[300px] sm:w-[350px]')
+    return _sahne(panel
+      + _rozet(f'{_ikon_kutu(MESAJ)}<span class="grid"><span>Yeni form talebi</span><span class="text-[10px] font-semibold text-slate-400">az önce</span></span>', '-top-2 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(HEDEF)}</span>Dönüşüm takibi kurulu', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+def sosyal_medya():
+    renkler = ('from-sky-400 to-sky-600', 'from-[#D8F83C] to-lime-300', 'from-slate-800 to-slate-950', 'from-rose-300 to-orange-300',
+               'from-sky-200 to-sky-400', 'from-violet-400 to-fuchsia-400', 'from-amber-200 to-orange-400', 'from-emerald-300 to-teal-500', 'from-sky-600 to-indigo-600')
+    profil = _telefon(f'''<div class="pt-9 px-3 pb-3">
+        <div class="flex items-center gap-3"><span class="w-12 h-12 rounded-full p-[2px] bg-gradient-to-tr from-amber-400 via-rose-500 to-fuchsia-600"><span class="block w-full h-full rounded-full border-2 border-white bg-gradient-to-br from-sky-400 to-sky-700"></span></span>
+        <span class="flex-1 grid grid-cols-3 text-center text-[9px] text-slate-500">{''.join(f'<span><span class="block mx-auto mb-1 h-2 w-5 rounded-full bg-slate-800"></span>{a}</span>' for a in ("gönderi", "takipçi", "takip"))}</span></div>
+        <div class="mt-2.5 grid gap-1.5">{_cubuk("w-20", "bg-slate-800")}{_cubuk("w-32")}</div>
+        <span class="mt-2.5 block rounded-lg bg-sky-500 py-1.5 text-center text-[10px] font-bold text-white">Takip et</span>
+        <div class="mt-3 grid grid-cols-3 gap-1">{''.join(f'<span class="aspect-square rounded-[6px] bg-gradient-to-br {r}"></span>' for r in renkler)}</div>
+      </div>''')
+    gunler = ''.join(f'<li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full {r}"></span><span class="w-7 text-slate-400">{g}</span>{t}</li>'
+                     for g, t, r in (('Pzt', 'Reels', 'bg-rose-400'), ('Çar', 'Gönderi', 'bg-sky-500'), ('Cum', 'Hikâye', 'bg-[#b5d61c]')))
+    takvim = (f'<div class="cizim-yuz absolute top-6 right-0 z-10 w-[150px] rounded-2xl bg-white p-3.5 shadow-xl shadow-sky-950/25" style="animation-delay:-2s">'
+              f'<p class="flex items-center gap-1.5 text-[11px] font-extrabold text-slate-900"><span class="text-sky-600">{_svg(TAKVIM, "w-3.5 h-3.5")}</span>İçerik takvimi</p>'
+              f'<ul class="mt-2.5 grid gap-1.5 text-[10px] font-semibold text-slate-600">{gunler}</ul></div>')
+    return _sahne(f'<div class="-translate-x-8 sm:-translate-x-10">{profil}</div>' + takvim
+      + _rozet(f'<span class="text-rose-500">{_svg(KALP)}</span>Yeni beğeni', 'top-[54%] left-0')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(YORUM)}</span>Yorumlara cevap verildi', 'bottom-4 right-0', 'bg-[#111315] text-white', '-4s'))
+
+def kreatif():
+    tuval = _kart(f'''
+      <div class="flex items-center gap-2 px-4 py-3 border-b border-slate-100">{''.join(f'<span class="w-6 h-6 rounded-lg {r}"></span>' for r in ("bg-slate-900", "bg-slate-100", "bg-slate-100", "bg-slate-100"))}</div>
+      <div class="m-4 rounded-2xl bg-[radial-gradient(#e2e8f0_1px,transparent_1px)] [background-size:14px_14px] border border-dashed border-sky-300 h-[150px] flex items-center justify-center gap-3">
+        <svg class="w-14 h-14" viewBox="0 0 64 64"><rect width="64" height="64" rx="18" fill="#111315"/><path d="M42 22.5a13 13 0 100 19" stroke="#D8F83C" stroke-width="8" stroke-linecap="round" fill="none"/><circle cx="44" cy="32" r="4.5" fill="#fff"/></svg>
+        <span class="grid gap-1"><span class="text-2xl font-extrabold tracking-tight text-slate-900 leading-none">markanız</span><span class="text-[9px] font-bold tracking-[.3em] text-slate-400">ANKARA</span></span>
+      </div>
+      <div class="px-4 pb-4 grid grid-cols-4 gap-2">{''.join(f'<span class="rounded-xl overflow-hidden border border-slate-100"><span class="block h-8 {r}"></span><span class="block px-1.5 py-1 text-[9px] font-bold text-slate-500">{k}</span></span>' for r, k in (("bg-[#D8F83C]", "#D8F83C"), ("bg-[#111315]", "#111315"), ("bg-sky-500", "#0EA5E9"), ("bg-slate-100", "#F1F5F9")))}</div>''',
+      'w-[300px] sm:w-[340px]')
+    yazi = ('<div class="cizim-yuz absolute -top-1 right-0 z-10 rounded-2xl bg-white px-4 py-3 shadow-xl shadow-sky-950/25" style="animation-delay:-2s">'
+            '<span class="block text-3xl font-extrabold leading-none text-slate-900">Aa</span><span class="mt-1 block text-[10px] font-bold text-slate-500">Kurumsal yazı tipi</span></div>')
+    return _sahne(tuval + yazi
+      + _rozet(f'{_svg(ONAY)}Logo onaylandı', '-bottom-1 left-0', 'bg-[#D8F83C] text-black', '-3.5s'))
+
+def _arama_sonucu(ust, baslik, vurgu=False, etiket=''):
+    cerceve = 'border-l-4 border-[#D8F83C] bg-lime-50/60 -mx-1 pl-3 pr-2 py-2.5 rounded-r-xl' if vurgu else 'py-2.5'
+    return (f'<div class="{cerceve}"><p class="flex items-center gap-1.5 text-[10px] text-slate-500">{etiket}<span class="w-4 h-4 rounded-full {"bg-sky-600" if vurgu else "bg-slate-200"}"></span>{ust}</p>'
+            f'<p class="mt-1 text-[13px] font-bold {"text-sky-700" if vurgu else "text-slate-400"}">{baslik}</p><span class="mt-1.5 grid gap-1">{_cubuk("w-full", "bg-slate-200", "h-1.5")}{_cubuk("w-4/5", "bg-slate-200", "h-1.5")}</span></div>')
+
+def _arama_kutusu(sorgu):
+    return f'<div class="flex items-center gap-2 rounded-full border border-slate-200 px-4 py-2.5 text-[12px] font-semibold text-slate-800 shadow-sm"><span class="text-sky-600">{_svg(ARA)}</span>{sorgu}</div>'
+
+def ankara_seo():
+    sonuc = _kart(f'''<div class="p-5">{_arama_kutusu("ankara diş kliniği")}
+      <div class="mt-3 grid divide-y divide-slate-100">{_arama_sonucu("markaniz.com.tr › ankara", "Firmanız — Ankara Çayyolu", True)}{_arama_sonucu("ornek-site.com", "Başka bir sonuç")}{_arama_sonucu("rehber-sitesi.com", "Başka bir sonuç")}</div></div>''',
+      'w-[300px] sm:w-[340px]')
+    return _sahne(sonuc
+      + _rozet(f'<span class="text-rose-500">{_svg(KONUM)}</span>Google Haritalar’da görünür', '-top-2 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(SIMSEK)}</span>Hız · Mobil uyum · İçerik', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+def ankara_google_ads():
+    reklam = _kart(f'''<div class="p-5">{_arama_kutusu("ankara muhasebe bürosu")}
+      <div class="mt-4 rounded-2xl border border-sky-100 bg-sky-50/60 p-3.5">
+        <p class="text-[10px] text-slate-600"><b class="text-slate-900">Sponsorlu</b> · markaniz.com.tr</p>
+        <p class="mt-1 text-[13px] font-bold text-sky-700">Firmanız | Ankara’da hemen teklif alın</p>
+        <span class="mt-1.5 grid gap-1">{_cubuk("w-full", "bg-slate-200", "h-1.5")}{_cubuk("w-3/4", "bg-slate-200", "h-1.5")}</span>
+        <div class="mt-3 flex flex-wrap gap-1.5">{''.join(f'<span class="rounded-full bg-white border border-slate-200 px-2.5 py-1 text-[10px] font-semibold text-sky-700">{a}</span>' for a in ("Hizmetler", "İletişim", "Teklif al"))}<span class="inline-flex items-center gap-1 rounded-full bg-sky-600 px-2.5 py-1 text-[10px] font-bold text-white">{_svg(TELEFON, "w-3 h-3")}Ara</span></div>
+      </div>
+      <div class="mt-2">{_arama_sonucu("ornek-site.com", "Başka bir sonuç")}</div></div>''', 'w-[300px] sm:w-[340px]')
+    butce = ('<div class="cizim-yuz absolute -bottom-1 left-0 z-10 w-[170px] rounded-2xl bg-[#111315] text-white p-3.5 shadow-xl shadow-sky-950/30" style="animation-delay:-3s">'
+             '<p class="text-[11px] font-bold">Günlük bütçe kontrolde</p><span class="mt-2 block h-1.5 rounded-full bg-white/15"><span class="block h-full w-3/5 rounded-full bg-[#D8F83C]"></span></span></div>')
+    return _sahne(reklam + butce
+      + _rozet(f'{_ikon_kutu(TELEFON)}<span class="grid"><span>Reklamdan arama</span><span class="text-[10px] font-semibold text-slate-400">az önce</span></span>', '-top-3 right-0 sm:-right-2'))
+
+def ankara_reklam():
+    kanallar = (('Google Arama', 'w-[78%]', 'bg-sky-500'), ('Instagram', 'w-[62%]', 'bg-gradient-to-r from-amber-400 via-rose-500 to-fuchsia-600'),
+                ('YouTube', 'w-[44%]', 'bg-red-500'), ('Görüntülü reklam', 'w-[34%]', 'bg-[#b5d61c]'))
+    plan = _kart(f'''<div class="p-5">
+      <div class="flex items-center justify-between"><span class="text-xs font-extrabold text-slate-900">Kampanya planı</span><span class="rounded-full bg-[#D8F83C] px-2.5 py-1 text-[10px] font-bold text-black">Yayında</span></div>
+      <ul class="mt-4 grid gap-3.5">{''.join(f'<li><span class="flex justify-between text-[11px] font-semibold text-slate-600">{a}</span><span class="mt-1.5 block h-2.5 rounded-full bg-slate-100"><span class="block h-full {g} rounded-full {r}"></span></span></li>' for a, g, r in kanallar)}</ul>
+      <div class="mt-5 grid grid-cols-3 gap-2">{''.join(f'<span class="aspect-[4/5] rounded-xl bg-gradient-to-br {r}"></span>' for r in ("from-sky-400 to-sky-700", "from-[#D8F83C] to-lime-400", "from-slate-700 to-slate-950"))}</div></div>''',
+      'w-[300px] sm:w-[340px]')
+    return _sahne(plan
+      + _rozet(f'<span class="text-sky-600">{_svg(PARILTI)}</span>Kreatifler hazır', 'bottom-16 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(GRAFIK)}</span>Aylık rapor gönderildi', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+def ankara_e_ticaret():
+    urun = _tarayici('magazaniz.com.tr', f'''<div class="p-4 grid grid-cols-[1fr_1.1fr] gap-4 items-center">
+      <div class="aspect-square rounded-2xl bg-gradient-to-br from-sky-100 to-sky-300 flex items-center justify-center"><svg class="w-16 h-16" viewBox="0 0 64 64" fill="none"><path d="M14 22h36l-3 30H17z" fill="#111315"/><path d="M24 22v-4a8 8 0 0116 0v4" stroke="#111315" stroke-width="4"/><circle cx="32" cy="36" r="5" fill="#D8F83C"/></svg></div>
+      <div class="grid gap-2">{_cubuk("w-full", "bg-slate-800", "h-2.5")}{_cubuk("w-2/3", "bg-slate-800", "h-2.5")}
+        <span class="flex gap-0.5 text-amber-400">{"★" * 5}</span>{_cubuk("w-1/2", "bg-sky-500", "h-3")}
+        <span class="mt-1 flex items-center justify-center gap-1.5 rounded-full bg-[#D8F83C] py-2 text-[11px] font-extrabold text-black">{_svg(SEPET, "w-3.5 h-3.5")}Sepete ekle</span>
+      </div></div>
+      <div class="px-4 pb-4 grid grid-cols-4 gap-2">{''.join(f'<span class="aspect-square rounded-xl {r}"></span>' for r in ("bg-slate-100", "bg-sky-100", "bg-lime-100", "bg-slate-100"))}</div>''')
+    return _sahne(f'<div class="w-[300px] sm:w-[350px]">{urun}</div>'
+      + _rozet(f'{_ikon_kutu(SEPET)}<span class="grid"><span>Yeni sipariş</span><span class="text-[10px] font-semibold text-slate-400">az önce</span></span>', '-top-3 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(KILIT)}</span>Güvenli ödeme', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+def ankara_instagram():
+    gonderi = _telefon(f'''<div class="pt-8">
+      <div class="flex items-center gap-2 px-3 pb-2"><span class="w-7 h-7 rounded-full bg-gradient-to-br from-sky-400 to-sky-700"></span><span class="grid"><span class="text-[10px] font-bold text-slate-900">markaniz</span><span class="text-[9px] text-slate-500">Sponsorlu</span></span></div>
+      <div class="aspect-square bg-gradient-to-br from-sky-500 via-sky-600 to-indigo-700 p-4 flex flex-col justify-end"><span class="text-xl font-extrabold leading-tight text-white">Yeni sezon<br>Ankara’da</span><span class="mt-2 inline-block h-4 w-16 rounded-full bg-[#D8F83C]"></span></div>
+      <div class="flex items-center justify-between bg-sky-600 px-3 py-2 text-[10px] font-bold text-white">Daha fazla bilgi<span>›</span></div>
+      <div class="flex gap-3 px-3 py-2.5 text-slate-800">{_svg(KALP)}{_svg(YORUM)}{_svg(GONDER)}</div></div>''')
+    return _sahne(f'<div class="-translate-x-6">{gonderi}</div>'
+      + _rozet(f'<span class="text-sky-600">{_svg(HEDEF)}</span>Hedef kitle: Ankara', 'top-[40%] left-0')
+      + _rozet(f'{_ikon_kutu(MESAJ)}<span class="grid"><span>Yeni mesaj</span><span class="text-[10px] font-semibold text-slate-400">reklamdan</span></span>', 'top-8 right-0', 'bg-white text-slate-900', '-2s')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(GRAFIK)}</span>Bütçe en iyi görsele', 'bottom-10 right-0', 'bg-[#111315] text-white', '-4s'))
+
+
+CIZIMLER = {
+  'yapay-zeka-danismanligi': yapay_zeka,
+  'web-tasarim': web_tasarim,
+  'dijital-pazarlama': dijital_pazarlama,
+  'sosyal-medya-yonetimi': sosyal_medya,
+  'kreatif-hizmetler': kreatif,
+  'ankara-seo': ankara_seo,
+  'ankara-google-ads-ajansi': ankara_google_ads,
+  'ankara-reklam-ajansi': ankara_reklam,
+  'ankara-e-ticaret-sitesi': ankara_e_ticaret,
+  'ankara-instagram-reklam-ajansi': ankara_instagram,
+}
+
+def cizim(adres):
+    f = CIZIMLER.get(adres)
+    return f() if f else ''

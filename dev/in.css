@@ -4,3 +4,8 @@
 
 /* Referans şeridi: sürekli kayan logolar (yarım genişlik = bir tur) */
 @keyframes kaydir { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+/* Hizmet sayfası çizimleri: küçük kartlar hafifçe yüzer */
+@keyframes yuz { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+.cizim-yuz { animation: yuz 6s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .cizim-yuz { animation: none; } }

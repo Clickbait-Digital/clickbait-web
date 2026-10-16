@@ -52,6 +52,8 @@ Görseller ve tasarım "her şey oturduktan sonra" tekrar ele alınacak.
 hizmet sayfalarındaki "Konuyla ilgili yazılar", `sitemap.xml`. Üretilen dosyaları elle düzenleme; üreticiyi düzenle.
 Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
 `site/index.html` bölümleri `BÖLÜM: X — BAŞLANGIÇ/BİTİŞ` yorumlarıyla işaretli.
+Hizmet ve Ankara sayfalarının açılışında sağda hizmete özel çizim var: `dev/cizimler.py` (HTML + Tailwind arayüz görselleri, görsel dosya yok,
+`aria-hidden`; rakam/sonuç uydurma). Yeni sayfa eklenirse `CIZIMLER` sözlüğüne çizimini ekle. Yüzen kartlar: `.cizim-yuz` (dev/in.css).
 Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<!-- /KAYAN ŞERİT -->`, logolar iki kez yazılı, `@keyframes kaydir` dev/in.css'te).
 Üretici bu bloğu index.html'den alıp hizmet sayfalarına kopyalar; logo eklerken iki listeye de ekle (ikincisinde alt="").
 
