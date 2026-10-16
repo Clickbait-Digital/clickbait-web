@@ -99,7 +99,7 @@ Yerel bir danışmanla çalışmanın bir avantajı da keşif ve eğitim aşamal
 
 ## Sonuç: küçük başlayın, ölçün, büyütün
 
-Yapay zeka danışmanlığından en iyi sonucu alan işletmeler, her şeyi bir anda değiştirmeye çalışanlar değil, tek bir işle başlayıp kazancı ölçen ve sonra yaygınlaştıranlardır. Başlamak için ekibinizle bir haftayı gözden geçirip en çok zaman alan üç işi yazmanız yeterli.
+Yapay zeka danışmanlığından en iyi sonucu alan işletmeler, her şeyi bir anda değiştirmeye çalışanlar değil, tek bir işle başlayıp kazancı ölçen ve sonra yaygınlaştıranlardır. Başlamak için ekibinizle bir haftayı gözden geçirip en çok zaman alan üç işi yazmanız yeterli. Adım adım bir başlangıç planı için [şirketinizde yapay zekaya nereden başlamalısınız?](/blog/sirketinizde-yapay-zekaya-nereden-baslamalisiniz/) yazımıza bakabilirsiniz.
 
 Sürecin ayrıntılarını ve hizmet kapsamımızı [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamızda bulabilirsiniz.
 
