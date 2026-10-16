@@ -189,8 +189,8 @@ var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
 })();
 
 /* ---- Ücretsiz site analizi penceresi ----
-   Kendiliğinden açılma: bilgisayarda 35 sn sonra ya da fare sayfadan çıkarken; telefonda sayfanın %60'ı okunduktan sonra.
-   Kapatılırsa 7 gün, form gönderildiyse bir daha kendiliğinden açılmaz. Çerez bandı açıkken açılmaz.
+   Kendiliğinden açılma: sayfaya girdikten 6 sn sonra (çerez bandı açıksa, karar verilince).
+   Kapatılırsa 7 gün, form gönderildiyse bir daha kendiliğinden açılmaz.
    Elle açmak için: data-analiz özniteliği olan bağlantı/düğme ya da adresin sonuna #analiz. */
 (function () {
   var ANAHTAR = 'cb_analiz', GUN = 864e5;
@@ -275,17 +275,11 @@ var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
     if (t) { e.preventDefault(); ac(false); }
   });
   if (location.hash === '#analiz') ac(false);
-  // Kendiliğinden açma
-  var baslangic = Date.now();
-  if (window.matchMedia('(min-width: 768px)').matches) {
-    setTimeout(function () { ac(true); }, 35000);
-    document.addEventListener('mouseout', function (e) {
-      if (!e.relatedTarget && e.clientY <= 0 && Date.now() - baslangic > 8000) ac(true);
-    });
-  } else {
-    window.addEventListener('scroll', function () {
-      var h = document.documentElement;
-      if ((h.scrollTop + innerHeight) / h.scrollHeight >= 0.6 && Date.now() - baslangic > 15000) ac(true);
-    }, { passive: true });
-  }
+  // Kendiliğinden açma: sayfaya girdikten 6 sn sonra. O an uygun değilse (ör. çerez bandı henüz cevaplanmadı)
+  // her saniye tekrar dener; ziyaretçi çerez kararını verince ya da yazmayı bırakınca açılır.
+  var GECIKME = 6000;
+  setTimeout(function dene() {
+    if (acildi || durum.gonderildi || (durum.kapatildi && Date.now() - durum.kapatildi < 7 * GUN)) return;
+    if (otomatikUygun()) ac(true); else setTimeout(dene, 1000);
+  }, GECIKME);
 })();
