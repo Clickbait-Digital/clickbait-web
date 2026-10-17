@@ -83,17 +83,11 @@ var GA_ID = 'G-3GSS5F5FTT';   // Google Analytics ölçüm kimliği
     center(); window.addEventListener('load', center);
   }
 
-  /* ---- Kopyala düğmeleri ---- */
+  /* ---- Panoya kopyalama (form gönderilemezse "Metni kopyala") ---- */
   async function copy(text, el) {
     try { await navigator.clipboard.writeText(text); return true; }
     catch (e) { if (el) { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); } return false; }
   }
-  document.querySelectorAll('.copy').forEach(function (b) {
-    b.addEventListener('click', async function () {
-      var ok = await copy(b.dataset.copy, document.getElementById(b.dataset.target));
-      b.textContent = ok ? 'KOPYALANDI' : 'SEÇİLDİ, CTRL+C'; setTimeout(function () { b.textContent = 'KOPYALA'; }, 2400);
-    });
-  });
 
   /* ---- İletişim formu: contact.php'ye gönderir ---- */
   var form = document.getElementById('form');
