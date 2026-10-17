@@ -75,8 +75,8 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
   sonda Clickbait'i anlatan kısa bir `>` notu (Çayyolu ofisi + online çalışma). Haftada en az 1 yazı, kümeler dönüşümlü.
-- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler), şirketinizde yapay zekaya nereden başlamalısınız (16.10.2026).
-- Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 2: "Kurumsal web sitesinde mutlaka olması gereken sayfalar").
+- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler), şirketinizde yapay zekaya nereden başlamalısınız (16.10.2026), kurumsal web sitesinde olması gereken 8 sayfa (17.10.2026).
+- Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 3: "SEO nedir, ne zaman sonuç verir?" → /ankara-seo/).
 
 ## SEO (kullanıcının en önemli önceliği)
 - **Plan ve kelime haritası: `dev/seo-plani.md`** (12 haftalık takvim, hangi sayfa hangi kelimeyi hedefler, kullanıcının site dışı işleri). Yeni sayfa/yazı açmadan önce kelime haritasına bak, çakışma yaratma; işi bitince planı güncelle.

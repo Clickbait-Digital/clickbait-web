@@ -29,7 +29,7 @@ Hedef kelimeler: ankara web tasarım, ankara web tasarım firmaları, web sitesi
 |---|---|---|
 | ✅ | Ankara'da web sitesi yaptırırken dikkat edilmesi gereken 10 şey | ankara web sitesi yaptırmak |
 | ✅ | Web sitesi fiyatlarını neler belirler? | web sitesi fiyatları |
-| ⏳ | Kurumsal web sitesinde mutlaka olması gereken sayfalar | kurumsal web sitesi |
+| ✅ | Kurumsal web sitesinde mutlaka olması gereken sayfalar | kurumsal web sitesi |
 | ⏳ | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | e-ticaret sitesi kurmak |
 | ⏳ | Web sitenizi yenilerken Google sıralamasını kaybetmemek | web sitesi yenileme |
 | ⏳ | Ankara'da web tasarım firması seçerken sorulacak 12 soru | ankara web tasarım firmaları |
