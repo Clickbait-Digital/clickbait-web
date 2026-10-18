@@ -26,6 +26,7 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | `/kreatif-hizmetler/` | ankara logo tasarım | kurumsal kimlik tasarımı, grafik tasarım ankara |
 | `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, işletmeler için yapay zeka |
 | Blog yazıları | bilgi aramaları ("nedir", "nasıl", "fiyatları") | her yazı kendi hizmet sayfasına bağlantı verir |
+| `/blog/seo-firmasi-secerken-sorulacak-sorular/` | seo firması nasıl seçilir | seo firması seçerken, seo teklifi (→ /ankara-seo/; "seo firması ankara" sayfanın, yazının değil) |
 
 ---
 
@@ -59,6 +60,21 @@ Her hafta: **1 blog yazısı** (Claude yazar, siz onaylarsınız) + **1 İşletm
 | 10 (18–24 Ara) | Web sitenizi yenilerken Google sıralamasını kaybetmemek (web) | |
 | 11 (25–31 Ara) | Dönüşüm takibi kurmadan reklam vermeyin (dijital pazarlama) | |
 | 12 (1–7 Oca) | Logo tasarlatırken teslim almanız gereken dosyalar (kreatif) | **Üç aylık değerlendirme**, yeni plan |
+
+### Ek Ankara yazıları (takvimin arasına, haftada en fazla 1 ek yazı)
+Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramaları yazı hedeflemez; seçim/karar ve sektör aramalarını hedefler.
+
+| Durum | Yazı | Destekler |
+|---|---|---|
+| ✅ 18 Eki | SEO firması seçerken sorulacak 10 soru: Ankara rehberi | /ankara-seo/ |
+| ⏳ | Ankara'da sosyal medya ajansı seçerken dikkat edilmesi gerekenler | /sosyal-medya-yonetimi/ |
+| ⏳ | Ankara'daki küçük işletmeler için dijital pazarlama: nereden başlamalı? | /dijital-pazarlama/ |
+| ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
+| ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |
+| ⏳ | İnşaat firmaları için web sitesi: projeleri doğru göstermek | /web-tasarim/ |
+| ⏳ | Otel ve konaklama işletmeleri için web sitesi ve rezervasyon | /web-tasarim/ |
+
+Sağlık ve hukuk sektörü yazısı yok (reklam kuralları / avukatlık reklam yasağı).
 
 Değerlendirme haftalarında Search Console → Performans'ta bakılacaklar:
 - **11–30. sıradaki sayfalar:** ilk sayfaya en yakın olanlar. İçeriği genişlet, iç bağlantı ekle.
