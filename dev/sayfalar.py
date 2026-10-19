@@ -435,7 +435,7 @@ def bas(baslik, aciklama, adres, ekler='', gorsel='/assets/img/og-clickbait.jpg'
 <link rel="canonical" href="{ALAN}{adres}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="tr_TR">
-<meta property="og:site_name" content="Clickbait">
+<meta property="og:site_name" content="Clickbait Dijital">
 <meta property="og:url" content="{ALAN}{adres}">
 <meta property="og:title" content="{e(baslik)}">
 <meta property="og:description" content="{e(aciklama)}">
@@ -813,7 +813,7 @@ def yazi_sayfasi(y):
       {"@type": "BlogPosting", "headline": y['baslik'], "description": y['description'], "url": ALAN + adres, "mainEntityOfPage": ALAN + adres,
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
        "image": ALAN + gorsel,
-       "author": {"@type": "Organization", "name": "Clickbait", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
+       "author": {"@type": "Organization", "name": "Clickbait Dijital", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": ALAN + "/blog/"},

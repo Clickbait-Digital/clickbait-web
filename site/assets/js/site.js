@@ -1,4 +1,4 @@
-/* Clickbait Digital — site davranışları */
+/* Clickbait Dijital — site davranışları */
 /* ---- Google Analytics + çerez onayı (KVKK) ----
    Ölçüm kimliği girilene kadar hiçbir şey yüklenmez ve bant görünmez.
    Analytics yalnızca ziyaretçi "Kabul et" derse yüklenir. */

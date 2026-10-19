@@ -1,4 +1,4 @@
-# Clickbait Digital — web sitesi
+# Clickbait Dijital — web sitesi
 
 clickbait.com.tr'nin kaynak dosyaları.
 

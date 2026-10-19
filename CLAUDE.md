@@ -1,11 +1,12 @@
-# Proje hafızası — Clickbait Digital web sitesi
+# Proje hafızası — Clickbait Dijital web sitesi
 
 Bu dosya, projeye yeni başlayan bir Claude oturumunun önceki çalışmaları bilmesi için yazıldı.
 Kullanıcıyla **Türkçe** konuş. Kullanıcı MacBook kullanıyor; klavye kısayollarını Mac'e göre ver (⌘, ⌥).
 Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz" şeklinde ver.
 
 ## Şirket
-- Clickbait Digital — Clickbait Medya Limited Şirketi, Ankara. Alan adı: https://clickbait.com.tr
+- İşletme adı her yerde **Clickbait Dijital** (kullanıcı kararı, 19.10.2026; Google İşletme Profili de bu ad). "Digital" yazma. Sayfa başlıklarının sonunda kısa marka "| Clickbait" kalıyor.
+  Resmî unvan: Clickbait Medya Limited Şirketi, Ankara. Alan adı: https://clickbait.com.tr
 - Adres: Meksika Caddesi, Çayyolu / Ankara ("Çankaya", "Yenimahalle" deme; "Çayyolu" de).
 - E-posta: info@clickbait.com.tr (Google Workspace).
 - Instagram: https://www.instagram.com/clickbaitdijital/ · LinkedIn: https://www.linkedin.com/company/clickbait-digital-agency/

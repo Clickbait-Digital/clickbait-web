@@ -1,5 +1,5 @@
 <?php
-/* Clickbait Digital — iletişim formu
+/* Clickbait Dijital — iletişim formu
    Talebi e-posta olarak gönderir. Yanıt: {"ok":true} ya da {"ok":false,"hata":"..."}
 
    E-posta ayarları (şifre dahil) bu dosyada DEĞİL, public_html'in bir üst klasöründeki
