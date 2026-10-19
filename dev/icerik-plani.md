@@ -52,7 +52,7 @@ Hedef kelimeler: ankara sosyal medya ajansı, sosyal medya yönetimi fiyatları,
 | Durum | Yazı | Ana kelime |
 |---|---|---|
 | ⏳ | Aylık sosyal medya içerik planı nasıl hazırlanır? | sosyal medya içerik planı |
-| ⏳ | Sosyal medya ajansıyla çalışırken nelere dikkat etmeli? | sosyal medya ajansı |
+| ✅ | Sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey: Ankara rehberi | sosyal medya ajansı nasıl seçilir |
 | ⏳ | B2B firmalar için LinkedIn şirket sayfası rehberi | linkedin şirket sayfası |
 
 ## 5. Kreatif hizmetler → /kreatif-hizmetler/

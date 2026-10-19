@@ -27,6 +27,7 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, işletmeler için yapay zeka |
 | Blog yazıları | bilgi aramaları ("nedir", "nasıl", "fiyatları") | her yazı kendi hizmet sayfasına bağlantı verir |
 | `/blog/seo-nedir-ne-zaman-sonuc-verir/` | seo nedir | seo ne zaman sonuç verir, seo nasıl çalışır (→ /ankara-seo/) |
+| `/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/` | sosyal medya ajansı nasıl seçilir | sosyal medya ajansı seçerken (→ /sosyal-medya-yonetimi/; "ankara sosyal medya ajansı" sayfanın) |
 | `/blog/seo-firmasi-secerken-sorulacak-sorular/` | seo firması nasıl seçilir | seo firması seçerken, seo teklifi (→ /ankara-seo/; "seo firması ankara" sayfanın, yazının değil) |
 
 ---
@@ -68,7 +69,7 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 | Durum | Yazı | Destekler |
 |---|---|---|
 | ✅ 18 Eki | SEO firması seçerken sorulacak 10 soru: Ankara rehberi | /ankara-seo/ |
-| ⏳ | Ankara'da sosyal medya ajansı seçerken dikkat edilmesi gerekenler | /sosyal-medya-yonetimi/ |
+| ✅ 19 Eki | Sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey: Ankara rehberi | /sosyal-medya-yonetimi/ |
 | ⏳ | Ankara'daki küçük işletmeler için dijital pazarlama: nereden başlamalı? | /dijital-pazarlama/ |
 | ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
 | ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |

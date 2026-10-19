@@ -276,7 +276,7 @@ def kart_simgesi(baslik):
 # ---------------------------------------------------------------- Blog kapakları
 # Yazının ön bilgisindeki `kapak` (kısa etiket) ve `simge` (aşağıdaki adlardan biri) kullanılır.
 BLOG_SIMGE = {'site': SITE, 'ara': ARA, 'parilti': PARILTI, 'konum': KONUM, 'kredi': KREDI, 'hedef': HEDEF, 'kep': KEP,
-              'grafik': GRAFIK, 'takvim': TAKVIM, 'kalem': KALEM, 'sepet': SEPET, 'kalkan': KALKAN, 'mesaj': MESAJ, 'sekil': SEKIL}
+              'grafik': GRAFIK, 'takvim': TAKVIM, 'kalem': KALEM, 'sepet': SEPET, 'kalkan': KALKAN, 'mesaj': MESAJ, 'sekil': SEKIL, 'kalp': KALP}
 
 # küme → (zemin, yazı rengi, ikon kutusu, nokta deseni rengi, logo dosyası)
 KAPAK_TEMA = {
