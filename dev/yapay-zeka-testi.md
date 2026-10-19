@@ -30,20 +30,25 @@ Araçlar: chatgpt.com · gemini.google.com · perplexity.ai · copilot.microsoft
 
 ## Sonuçlar
 
-### Başlangıç ölçümü — (tarih)
+### Başlangıç ölçümü — 20 Ekim 2026 (yalnızca ChatGPT)
 
-| # | ChatGPT | Gemini | Perplexity | Copilot | Adı geçen rakipler / kaynaklar |
-|---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
+Kaynak: kullanıcının paylaştığı ChatGPT sohbeti. **Dikkat:** Sohbet kullanıcının hesabıyla yapıldı; ChatGPT hafızasından "Clickbait'in senin ajansın olduğunu biliyorum" dedi. Sonuçlar kişiselleştirilmiş; sonraki ölçümler oturum kapalı / gizli pencerede yapılmalı. 4–7. sorular sorulmadı.
+
+| # | ChatGPT | Adı geçen rakipler / kaynaklar |
+|---|---|---|
+| 1 Ankara dijital ajans | ❌ | Zekod, Mint Yazılım, Kreatif Guru, Soft Ajans |
+| 2 Ankara SEO firmaları | ❌ | Zeo, Netvent, Soft Ajans, Kreatif Guru, ZECE Ajans |
+| 3 Ankara web sitesi | ❌ | Zekod, Soft Ajans, Netvent, Net Web Studio |
+| 8 Çayyolu dijital ajans | ✅ 1. (kişiselleştirilmiş olabilir) | Ümitköy Web Tasarım / Beydilli Medya. **Eski adres** verdi (Ahmet Taner Kışlalı Mah.), adresleri "tutarsız" buldu. Kaynak: LinkedIn + eski iletişim sayfası |
+| 9 Clickbait Dijital ne iş yapar | ⚠️ Biliyor ama eski bilgi | "Clickbait Digital" adı, sağlık turizmi reklamları ve dijital PR sayıyor; yapay zeka danışmanlığını sitede doğrulayamadı ("web sayfası eski sürümü yansıtıyor olabilir"). Kaynak: eski site + LinkedIn |
+| 10 SEO firması seçimi | ➖ Genel cevap, bizim yazı kaynak gösterilmedi | developers.google.com |
+
+**Bulgular:**
+- ChatGPT sitenin **eski (WordPress) sürümünü** görüyor → Bing dizini henüz güncellenmemiş (Bing kaydı ve IndexNow 19–20 Ekim'de yapıldı; birkaç hafta içinde düzelmesi beklenir).
+- Eski adres üç kaynakta: eski /iletisim/ sayfasının arama motoru kopyası, LinkedIn şirket sayfası (2873. Sk. No:3C, Ahmet Taner Kışlalı), tumisyeri.com ("Clickbait Agency").
+- ChatGPT'nin önerdiği rakipler Google'ın ilk sayfasındakilerden farklı (Zekod, Soft Ajans, Kreatif Guru, Netvent, Zeo): ChatGPT Bing'e ve rehber/liste sitelerine dayanıyor.
+
+**Yapılacaklar:** LinkedIn adres ve ad güncellemesi (kullanıcı), tumisyeri.com kaydı düzeltme (kullanıcı), Bing'de eski sayfaların yeniden taranması (otomatik, IndexNow gönderildi), 2–3 hafta sonra oturum kapalı tekrar ölçüm.
 
 ## Görünürlüğü artıran işler (durum)
 
