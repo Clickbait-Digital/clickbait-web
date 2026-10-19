@@ -54,7 +54,7 @@ hizmet sayfalarındaki "Konuyla ilgili yazılar", `sitemap.xml`. Üretilen dosya
 Yeni Tailwind sınıfı kullanıldıysa CSS'i derle (README'deki komut).
 `site/index.html` bölümleri `BÖLÜM: X — BAŞLANGIÇ/BİTİŞ` yorumlarıyla işaretli.
 Hizmet ve Ankara sayfalarının açılışında sağda hizmete özel çizim var: `dev/cizimler.py` (HTML + Tailwind arayüz görselleri, görsel dosya yok,
-`aria-hidden`; rakam/sonuç uydurma). Yeni sayfa eklenirse `CIZIMLER` sözlüğüne çizimini ekle. Kapsam kartlarının simgeleri `KART_SIMGE` (kart başlığı → simge); yeni kart başlığı eklersen buraya da ekle.
+`aria-hidden`; rakam/sonuç uydurma). Yeni sayfa eklenirse `CIZIMLER` sözlüğüne çizimini ve `dev/sayfalar.py` → `TANIMLAR`'a "KISACA" tanımını ekle (kim/ne/nerede; yalnızca sayfada söylenenler). Kapsam kartlarının simgeleri `KART_SIMGE` (kart başlığı → simge); yeni kart başlığı eklersen buraya da ekle.
 Ana sayfa hizmet kartlarındaki mini çizimler index.html'de elle yazılı. Yüzen kartlar: `.cizim-yuz` (dev/in.css).
 Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<!-- /KAYAN ŞERİT -->`, logolar iki kez yazılı, `@keyframes kaydir` dev/in.css'te).
 Üretici bu bloğu index.html'den alıp hizmet sayfalarına kopyalar; logo eklerken iki listeye de ekle (ikincisinde alt="").
@@ -72,6 +72,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Kapak: ön bilgide `kapak` (kapakta görünen kısa etiket, ör. `7 adımda başlangıç`) ve `simge` (`dev/cizimler.py` → `BLOG_SIMGE` adlarından biri).
   Kapak rengi kümeden gelir (`KAPAK_TEMA`). Yeni yazıdan sonra `python3 dev/kapaklar.py` çalıştır (1200x630 paylaşım görseli,
   `site/assets/img/blog/<adres>.jpg`; Chrome + sips), sonra `python3 dev/sayfalar.py` og:image'i bağlar.
+- `kisa_cevap` (zorunlu sayılır): başlıktaki soruya 2–3 cümlelik, kendi başına anlaşılır cevap; yazının başında "KISA CEVAP" kutusu, JSON-LD `abstract` ve llms.txt'de kullanılır. Yazıdaki liste/başlıklarla birebir uyuşmalı.
 - Markdown desteği: ##, ###, -, 1., >, **kalın**, [bağlantı](/adres/).
 - İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
@@ -89,6 +90,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - **Bing ve yapay zeka araçları (20.10.2026):** Bing Webmaster Tools'a eklendi (kullanıcının Microsoft hesabı; Psychology Times da aynı hesapta; doğrulama ana sayfadaki `msvalidate.01` etiketi, silme).
   IndexNow anahtarı `site/<32 karakter>.txt`. **Yeni/değişen sayfayı yayınladıktan sonra** `python3 dev/indexnow.py <adres…>` (ya da `--hepsi`) çalıştır → Bing'e bildirir.
   `site/llms.txt` yapay zeka araçları için site özeti; `dev/sayfalar.py` (`llms_txt()`) her çalıştığında yeniden üretir. robots.txt tüm tarayıcılara açık (GPTBot, ClaudeBot, PerplexityBot dahil), kapatma.
+  Yapay zeka testi soruları ve sonuç tablosu: `dev/yapay-zeka-testi.md` (ayda bir).
   Bing'deki "AI Performance" raporu yapay zeka cevaplarındaki görünürlüğü gösterir; değerlendirme haftalarında bak.
 - Google Analytics `G-3GSS5F5FTT`, yalnızca çerez onayından sonra yüklenir (KVKK metninde 7. bölüm çerezler).
   Form başarılı gönderilince `generate_lead` olayı gider.

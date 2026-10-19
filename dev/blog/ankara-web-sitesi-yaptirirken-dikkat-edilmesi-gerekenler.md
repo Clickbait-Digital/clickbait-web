@@ -8,6 +8,7 @@ kume: web-tasarim
 etiket: WEB TASARIM
 kapak: 10 madde
 simge: site
+kisa_cevap: Ankara'da web sitesi yaptırırken dikkat edilmesi gereken 10 şey: sitenin amacını netleştirmek, alan adı ve hostingin sizin adınıza olması, mobil uyum, hız, baştan kurulan SEO temelleri, içerikleri kimin hazırlayacağı, siteyi kimin güncelleyeceği, güvenlik (SSL, yedekleme, güncellemeler), KVKK uyumu ve teslimden sonraki destek.
 ---
 Bir web sitesi, işletmenizin internetteki ofisidir. Müşterileriniz sizi Google'da aradığında ilk gördükleri şey çoğu zaman sitenizdir ve ilk izlenim birkaç saniye içinde oluşur. Bu yüzden web sitesi yaptırmak; yalnızca güzel bir tasarım seçmekten ibaret değildir.
 

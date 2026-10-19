@@ -8,6 +8,7 @@ kume: dijital-pazarlama
 etiket: DİJİTAL PAZARLAMA
 kapak: Yerel arama
 simge: konum
+kisa_cevap: Google İşletme Profili, işletmenin Google Haritalar'da ve yerel aramalarda görünmesini sağlayan ücretsiz profildir. Öne çıkmak için kategori, adres, telefon ve çalışma saatleri eksiksiz girilmeli, fotoğraf eklenmeli, düzenli müşteri yorumu alınmalı ve yorumlara cevap verilmelidir.
 ---
 Birisi Google'da "Ankara web tasarım", "Çayyolu diş kliniği" ya da yalnızca "yakınımdaki kafe" diye arattığında, sonuçların en üstünde çoğu zaman bir harita ve altında birkaç işletme görür. Bu alanda yer almak için reklam vermeniz gerekmez; anahtar, ücretsiz bir araç olan **Google İşletme Profili**'dir.
 

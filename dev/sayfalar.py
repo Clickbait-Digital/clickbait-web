@@ -343,6 +343,21 @@ ANKARA = [
 ]
 
 # ---------------------------------------------------------------- Parçalar
+# Sayfa başındaki "KISACA" kutusu: yapay zeka araçlarının ve Google'ın alıntılayabileceği, kendi başına anlaşılır tanım.
+# Kural: kim (Clickbait Dijital), ne, nerede, nasıl; yalnızca sayfada zaten söylenen bilgiler, rakam/sonuç yok. llms.txt de bunu kullanır.
+TANIMLAR = {
+  'yapay-zeka-danismanligi': 'Yapay zeka danışmanlığı, bir işletmenin yapay zekayı hangi işlerde, hangi araçlarla ve hangi kurallarla kullanacağını belirleyip bu kullanımı hayata geçiren hizmettir. Clickbait Dijital, Ankara Çayyolu’ndaki ofisinden işletmelerin tekrar eden işlerini inceler, uygun araçları kurar, kullanım kurallarını yazar ve ekipleri eğitir. Ankara’daki işletmelerle yüz yüze, Türkiye’nin her yerinden işletmelerle online çalışır.',
+  'web-tasarim': 'Clickbait Dijital, Ankara’da 2013’ten beri kurumsal web siteleri ve e-ticaret mağazaları tasarlayan bir dijital ajanstır. Tasarım, geliştirme, hosting ve bakım tek ekipte yürütülür; siteler mobil uyumlu, hızlı ve Google’da bulunabilir şekilde hazırlanır. Ankara’daki işletmelerle Çayyolu’ndaki ofiste, Türkiye genelindeki işletmelerle online çalışılır.',
+  'dijital-pazarlama': 'Dijital pazarlama; Google Ads, Instagram ve Facebook (Meta) reklamları, SEO ve dijital medya planlamasıyla bir işletmenin internette müşteriye ulaşmasını sağlayan çalışmaların tamamıdır. Clickbait Dijital, Ankara’daki ve Türkiye genelindeki işletmeler için reklam hesaplarını kurar ve yönetir, SEO çalışmasını aynı ekipte yürütür ve sonuçları her ay raporlar.',
+  'sosyal-medya-yonetimi': 'Sosyal medya yönetimi; bir markanın hesaplarında aylık içerik planının hazırlanması, tasarımların ve metinlerin üretilmesi, paylaşımların takvime göre yayınlanması ve sonuçların raporlanmasıdır. Clickbait Dijital, Ankara’da markaların sosyal medya hesaplarını ağırlıklı olarak Instagram ve LinkedIn’de yönetir; her ayın planı ve tasarımları yayından önce müşteri onayına sunulur.',
+  'kreatif-hizmetler': 'Kreatif hizmetler; logo, kurumsal kimlik, sosyal medya şablonları, kartvizit, katalog ve sunum gibi bir markanın görsel dilini oluşturan tasarım işleridir. Clickbait Dijital, Ankara Çayyolu’ndaki ofisinde markaların logo ve kurumsal kimliğini tasarlar ve bu kimliğin tüm kullanım alanları için uygulamalarını hazırlar.',
+  'ankara-seo': 'Ankara SEO, Ankara’da hizmet veren bir işletmenin web sitesinin Google’da Ankara ve bölge adıyla yapılan aramalarda üst sıralarda görünmesi için yapılan çalışmalardır: teknik düzeltmeler, anahtar kelime araştırması, sayfa içi düzenlemeler, içerik ve Google İşletme Profili. Clickbait Dijital, Çayyolu’ndaki ofisinden Ankara’daki işletmelere SEO hizmeti verir, ilerlemeyi her ay Search Console verileriyle raporlar ve sıra garantisi vermez.',
+  'ankara-google-ads-ajansi': 'Google Ads ajansı, işletmelerin Google arama, YouTube ve görüntülü reklam kampanyalarını kurup yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için doğru kelimeleri seçer, alakasız tıklamaları eler, telefon, form ve WhatsApp taleplerini ölçer ve harcanan bütçenin neye dönüştüğünü her ay raporlar.',
+  'ankara-reklam-ajansi': 'Clickbait Dijital, Ankara Çayyolu’nda dijital reklama odaklanan bir reklam ajansıdır. Google ve Instagram reklamları, reklam kreatifleri, sosyal medya yönetimi ve reklamın yönlendirdiği web sayfası aynı ekipte hazırlanır. Ajans TV, radyo ve açık hava reklamı yapmaz.',
+  'ankara-e-ticaret-sitesi': 'Clickbait Dijital, Ankara’daki işletmeler için e-ticaret siteleri kurar: işe uygun altyapının seçimi, mağaza tasarımı, ödeme ve kargo bağlantıları, ürün ve kategori sayfalarının Google için hazırlanması ve açılıştan sonra reklam ve ölçüm. Ankara’daki işletmelerle yüz yüze, Türkiye genelinde online çalışır.',
+  'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
+}
+
 def e(s): return html.escape(s, quote=True)
 def buyuk(s): return s.replace('i', 'İ').upper()   # Türkçe büyük harf
 
@@ -502,7 +517,7 @@ def hizmet_sayfasi(h):
     diger = ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:border-slate-900 transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in HIZMETLER if x is not h)
 
     ld = {"@context": "https://schema.org", "@graph": [
-      {"@type": "Service", "name": h['kisa'], "serviceType": h['kisa'], "description": h['description'], "url": ALAN + adres,
+      {"@type": "Service", "name": h['kisa'], "serviceType": h['kisa'], "description": h['description'], "disambiguatingDescription": TANIMLAR[h['adres']], "url": ALAN + adres,
        "provider": {"@id": ALAN + "/#isletme"},
        "areaServed": [{"@type": "City", "name": "Ankara"}] + ([] if ust else [{"@type": "Country", "name": "Türkiye"}])},
       {"@type": "BreadcrumbList", "itemListElement": [
@@ -534,6 +549,17 @@ def hizmet_sayfasi(h):
 <!-- ▲▲▲▲▲ BÖLÜM: SAYFA BAŞI — BİTİŞ ▲▲▲▲▲ -->
 
 <main id="icerik">
+<!-- ▼▼▼▼▼ BÖLÜM: KISACA — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pt-14 md:pt-20 bg-white" aria-label="Kısaca">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rounded-[28px] bg-sky-50 border border-sky-100 p-6 md:p-8 md:flex md:gap-8">
+      <p class="shrink-0 self-start inline-flex items-center gap-2 text-xs font-bold tracking-widest text-sky-700 md:w-32 md:pt-1.5"><span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>KISACA</p>
+      <p class="mt-3 md:mt-0 text-base md:text-lg text-slate-700 leading-relaxed">{e(TANIMLAR[h['adres']])}</p>
+    </div>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: KISACA — BİTİŞ ▲▲▲▲▲ -->
+
 <!-- ▼▼▼▼▼ BÖLÜM: NELER YAPIYORUZ — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="py-20 md:py-28 bg-white" aria-labelledby="neler">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -652,9 +678,9 @@ def site_haritasi():
 
 def llms_txt():
     """site/llms.txt: yapay zeka araçları için sitenin kısa özeti (llmstxt.org biçimi)."""
-    hiz = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {h["description"]}' for h in HIZMETLER)
-    ank = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {h["description"]}' for h in ANKARA)
-    yaz = '\n'.join(f'- [{y["baslik"]}]({ALAN}/blog/{y["adres"]}/): {y["description"]}' for y in YAZILAR)
+    hiz = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {TANIMLAR[h["adres"]]}' for h in HIZMETLER)
+    ank = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {TANIMLAR[h["adres"]]}' for h in ANKARA)
+    yaz = '\n'.join(f'- [{y["baslik"]}]({ALAN}/blog/{y["adres"]}/): {y.get("kisa_cevap") or y["description"]}' for y in YAZILAR)
     metin = f"""# Clickbait Dijital
 
 > Clickbait Dijital, Ankara Çayyolu'nda 2013'ten beri hizmet veren bir dijital ajanstır (resmî unvan: Clickbait Medya Limited Şirketi). Yapay zeka danışmanlığı, web tasarım, dijital pazarlama (Google Ads, Meta reklamları, SEO), sosyal medya yönetimi ve kreatif hizmetler sunar. Ankara'daki işletmelerle yüz yüze, Türkiye'nin her yerinden işletmelerle online çalışır.
@@ -841,6 +867,12 @@ def blog_liste():
 </html>
 """
 
+def kisa_cevap_kutusu(y):
+    """Yazının başında, başlıktaki soruya 2–3 cümlelik cevap (ön bilgide kisa_cevap)."""
+    if not y.get('kisa_cevap'): return ''
+    return (f'<div class="rounded-[24px] bg-sky-50 border border-sky-100 p-5 md:p-6"><p class="!mt-0 text-xs font-bold tracking-widest text-sky-700">KISA CEVAP</p>'
+            f'<p class="!mt-2 text-slate-800 font-medium">{e(y["kisa_cevap"])}</p></div>\n')
+
 def yazi_sayfasi(y):
     adres = f"/blog/{y['adres']}/"
     gorsel = f"/assets/img/blog/{y['adres']}.jpg"   # dev/kapaklar.py üretir
@@ -849,6 +881,7 @@ def yazi_sayfasi(y):
     ld = {"@context": "https://schema.org", "@graph": [
       {"@type": "BlogPosting", "headline": y['baslik'], "description": y['description'], "url": ALAN + adres, "mainEntityOfPage": ALAN + adres,
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
+       **({"abstract": y['kisa_cevap']} if y.get('kisa_cevap') else {}),
        "image": ALAN + gorsel,
        "author": {"@type": "Organization", "name": "Clickbait Dijital", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
@@ -876,7 +909,7 @@ def yazi_sayfasi(y):
 <main id="icerik" class="py-14 md:py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
     <article class="yazi lg:col-span-8 min-w-0">
-{y['govde']}
+{kisa_cevap_kutusu(y)}{y['govde']}
     </article>
     <aside class="lg:col-span-4">
       <div class="lg:sticky lg:top-8 grid gap-6">

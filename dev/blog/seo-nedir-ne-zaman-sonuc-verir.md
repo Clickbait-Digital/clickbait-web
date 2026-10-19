@@ -8,6 +8,7 @@ kume: dijital-pazarlama
 etiket: DİJİTAL PAZARLAMA
 kapak: Ne zaman sonuç verir?
 simge: grafik
+kisa_cevap: SEO, bir web sitesinin Google'ın reklamsız, doğal sonuçlarında üst sıralarda görünmesi için yapılan teknik, içerik ve bağlantı çalışmalarıdır. Sonuçlar çoğu zaman aylar içinde gelir; Google'ın kendi rehberine göre faydanın görülmesi çoğu durumda dört ay ile bir yıl arasında sürer.
 ---
 Bir müşteriniz Google'a hizmetinizin adını yazdığında sitenizi ilk sayfada görüyor mu? Görmüyorsa, büyük ihtimalle rakibinizin sitesine giriyor. **SEO**, yani arama motoru optimizasyonu, sitenizin bu aramalarda üst sıralarda görünmesi için yapılan çalışmaların tamamına verilen addır.
 

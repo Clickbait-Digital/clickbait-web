@@ -8,6 +8,7 @@ kume: yapay-zeka-danismanligi
 etiket: YAPAY ZEKA
 kapak: 7 adımda başlangıç
 simge: hedef
+kisa_cevap: Şirkette yapay zekaya araçtan değil işten başlanmalıdır: amacı tek cümleyle yazın, bir sorumlu belirleyin, bir haftalık tekrar eden iş listesi çıkarın, tek bir iş seçip 2–4 haftalık pilot uygulayın, önce ve sonra ölçün, kullanım kurallarını yazın ve ekibi eğitin.
 ---
 Birçok şirkette yapay zeka hikâyesi aynı şekilde başlar: Biri bir aracı dener, çok etkilenir, ekibe önerir. Herkes birkaç gün kullanır, sonra araç unutulur. Sorun yapay zekada değil, **başlangıç noktasında**. Araçtan başlayan şirketler birkaç hafta içinde bırakırken, işten başlayan şirketler kalıcı bir kazanç elde ediyor.
 

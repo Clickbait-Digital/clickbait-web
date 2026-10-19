@@ -8,6 +8,7 @@ kume: web-tasarim
 etiket: WEB TASARIM
 kapak: Fiyat rehberi
 simge: kredi
+kisa_cevap: Web sitesi fiyatını sitenin türü, sayfa sayısı, hazır tema ya da özel tasarım tercihi, metin ve görsel içerik üretimi, SEO kurulumu, çok dilli yapı, entegrasyonlar ve özel işlevler, alan adı ve hosting gibi yıllık giderler ve bakım belirler. Teklifleri karşılaştırırken fiyattan önce teklife neyin dahil olduğuna bakılmalıdır.
 ---
 Web sitesi yaptırmak için birkaç firmadan teklif aldığınızda, fiyatlar arasında kat kat fark görmeniz çok olasıdır. Bu farkın nedeni çoğu zaman firmaların "pahalı" ya da "ucuz" olması değil, **teklifin içinde neyin olduğudur.** Biri hazır bir temayı birkaç günde kurmayı teklif ederken, diğeri işletmenize özel tasarlanmış, içerikleri yazılmış ve Google için hazırlanmış bir siteyi teklif ediyor olabilir.
 

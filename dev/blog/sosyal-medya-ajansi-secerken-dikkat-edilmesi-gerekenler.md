@@ -8,6 +8,7 @@ kume: sosyal-medya-yonetimi
 etiket: SOSYAL MEDYA
 kapak: 9 kontrol noktası
 simge: kalp
+kisa_cevap: Sosyal medya ajansı seçerken yönettiği gerçek hesaplara, markanızı tanımak için soru sorup sormadığına, aylık plan ve onay sürecine, kapsamın yazılı olmasına, mesaj ve yorumlara kimin cevap vereceğine, raporların içeriğine ve hesapların sizin adınıza kalıp kalmadığına bakın.
 ---
 Sosyal medya hesaplarınızı bir ajansa teslim etmek, markanızın her gün binlerce kişiye nasıl görüneceğini ve nasıl konuşacağını emanet etmek demektir. Doğru ajans, düzenli ve tutarlı bir içerik akışıyla markanızı güçlendirir; yanlış ajans ise birbirine benzeyen hazır tasarımlarla hesabınızı sıradanlaştırabilir.
 

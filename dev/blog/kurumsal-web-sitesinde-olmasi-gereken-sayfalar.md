@@ -8,6 +8,7 @@ kume: web-tasarim
 etiket: WEB TASARIM
 kapak: 8 temel sayfa
 simge: site
+kisa_cevap: Kurumsal bir web sitesinde en az şu 8 sayfa bulunmalıdır: ana sayfa, hakkımızda, her hizmet için ayrı bir sayfa, referanslar, iletişim, sık sorulan sorular, blog ve KVKK aydınlatma metni ile çerez politikası.
 ---
 Kurumsal bir web sitesine giren ziyaretçi genellikle üç soruya hızlıca cevap arar: **Bu firma ne yapıyor, güvenilir mi ve onlara nasıl ulaşırım?** Bu soruların cevabını bulamayan ziyaretçi, birkaç saniye içinde rakibinizin sitesine geçer. Google da benzer şekilde, sitenizin ne iş yaptığını ve kime hizmet verdiğini sayfalarınızdan anlamaya çalışır.
 

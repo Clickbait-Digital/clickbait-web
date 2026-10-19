@@ -8,6 +8,7 @@ kume: dijital-pazarlama
 etiket: DİJİTAL PAZARLAMA
 kapak: Sorulacak 10 soru
 simge: ara
+kisa_cevap: Bir SEO firması seçerken sitenizi inceleyip somut tespitlerle gelmesine, hedef aramaları nasıl seçtiğine, ilk ayların iş planını yazılı vermesine, sıra garantisi vermemesine, bağlantı çalışmasında doğal yöntemler kullanmasına, raporlarda talep sayısını göstermesine ve hesapları sizin adınıza açmasına bakın.
 ---
 SEO hizmeti almak, sonucunu hemen göremeyeceğiniz bir yatırımdır. Reklamda parayı ödediğiniz gün tıklama gelmeye başlar; SEO'da ise yapılan işin etkisi genellikle birkaç ay içinde ortaya çıkar. Bu yüzden yanlış firmayı seçtiğinizi fark etmeniz de aylar sürebilir. Bu sürede hem bütçe hem zaman kaybedilir.
 
