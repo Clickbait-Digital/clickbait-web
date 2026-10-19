@@ -43,7 +43,7 @@ Hedef kelimeler: ankara dijital pazarlama ajansı, google ads ajansı ankara, se
 | ✅ | Google İşletme Profili ile yerel aramalarda öne çıkmak | google işletme profili |
 | ✅ | SEO firması seçerken sorulacak 10 soru: Ankara rehberi | seo firması nasıl seçilir |
 | ⏳ | Google Ads bütçesi nasıl belirlenir? | google ads bütçesi |
-| ⏳ | SEO nedir, ne zaman sonuç verir? | seo nedir |
+| ✅ | SEO nedir, ne zaman sonuç verir? | seo nedir |
 | ⏳ | Dönüşüm takibi kurmadan reklam vermeyin | dönüşüm takibi |
 
 ## 4. Sosyal medya yönetimi → /sosyal-medya-yonetimi/
