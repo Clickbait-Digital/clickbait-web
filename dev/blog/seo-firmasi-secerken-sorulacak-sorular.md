@@ -12,7 +12,7 @@ kisa_cevap: Bir SEO firması seçerken sitenizi inceleyip somut tespitlerle gelm
 ---
 SEO hizmeti almak, sonucunu hemen göremeyeceğiniz bir yatırımdır. Reklamda parayı ödediğiniz gün tıklama gelmeye başlar; SEO'da ise yapılan işin etkisi genellikle birkaç ay içinde ortaya çıkar. Bu yüzden yanlış firmayı seçtiğinizi fark etmeniz de aylar sürebilir. Bu sürede hem bütçe hem zaman kaybedilir.
 
-Ankara'da SEO hizmeti veren çok sayıda firma ve serbest çalışan uzman var. Tekliflerin fiyatları da içerikleri de birbirinden çok farklı. Bu yazıda, bir SEO firmasıyla görüşürken sormanız gereken 10 soruyu, iyi bir cevabın nasıl olması gerektiğini ve sizi uzak tutması gereken uyarı işaretlerini topladık.
+Ankara'da SEO hizmeti veren çok sayıda ajans, firma ve serbest çalışan SEO uzmanı var. Tekliflerin fiyatları da içerikleri de birbirinden çok farklı. Ankara SEO ajansları arasından seçim yaparken işinizi kolaylaştırmak için bu yazıda, bir SEO firmasıyla görüşürken sormanız gereken 10 soruyu, iyi bir cevabın nasıl olması gerektiğini ve sizi uzak tutması gereken uyarı işaretlerini topladık.
 
 ## Önce kendinize sorun: SEO'dan ne bekliyorsunuz?
 

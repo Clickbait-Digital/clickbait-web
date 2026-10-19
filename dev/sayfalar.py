@@ -71,7 +71,12 @@ HIZMETLER = [
       ('Geliştirme ve içerik', 'Siteyi kodluyor, içerikleri yerleştiriyor, arama motorlarına hazırlıyoruz.'),
       ('Yayın ve destek', 'Siteyi yayına alıyor, sonrasında bakım ve güncellemeleri sürdürüyoruz.'),
     ],
+    'metin': [
+      ('Bir web tasarım firması olarak nasıl çalışıyoruz?', 'Clickbait Dijital, 2013’ten beri Ankara’da web tasarım firması olarak kurumsal web siteleri ve e-ticaret mağazaları hazırlıyor. Sayfa planından tasarıma, geliştirmeden hosting ve bakıma kadar tüm süreci aynı ekipte yürütüyoruz; böylece işin her aşamasında tek bir muhatapla çalışırsınız.'),
+      ('Ankara’da web tasarım firması seçerken nelere bakmalı?', 'Ankara’da web tasarım hizmeti veren çok sayıda firma var ve teklifler arasında büyük farklar olabilir. Bir firma seçerken yayındaki referans sitelerine telefonunuzdan bakın, teklifte neyin dahil olduğunu kontrol edin ve alan adı ile hosting hesaplarının sizin adınıza açılacağından emin olun. Ayrıntılı kontrol listesini [Ankara’da web sitesi yaptırırken dikkat edilmesi gereken 10 şey](/blog/ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler/) yazımızda, maliyeti belirleyen kalemleri [web sitesi fiyatlarını neler belirler?](/blog/web-sitesi-fiyatlarini-neler-belirler/) yazımızda bulabilirsiniz.'),
+    ],
     'sss': [
+      ('Ankara’daki web tasarım firmaları arasında nasıl seçim yapmalıyım?', 'Yayındaki referans sitelerine telefonunuzdan bakın, teklifte tasarım, içerik, hosting ve bakımın dahil olup olmadığını kalem kalem isteyin ve alan adı ile hosting hesaplarının kimin adına açılacağını sorun. Fiyatı düşük ama kapsamı dar bir teklif sonunda daha pahalıya gelebilir.'),
       ('Ankara dışındaki firmalarla da çalışıyor musunuz?', 'Evet. Görüşmeleri online yapıyor, süreci uzaktan yürütüyoruz. Ankara’daki müşterilerimizle Çayyolu’ndaki ofisimizde de buluşuyoruz.'),
       ('Bir web sitesi ne kadar sürede hazır olur?', 'Sayfa sayısına, özel özelliklere ve içeriklerin hazır olmasına göre değişir. Keşif görüşmesinden sonra size net bir takvim veriyoruz.'),
       ('Web sitesi fiyatı neye göre belirleniyor?', 'Sayfa sayısı, özel tasarım ihtiyacı, e-ticaret gibi ek özellikler ve içerik üretimi fiyatı belirler. İhtiyacınızı dinledikten sonra kalem kalem teklif hazırlıyoruz.'),
@@ -132,6 +137,7 @@ HIZMETLER = [
       ('İçerikleri yayından önce görebilir miyiz?', 'Evet. Aylık plan ve tasarımlar onayınıza sunulur, yalnızca onaylanan içerikler yayınlanır.'),
       ('Ayda kaç paylaşım yapılıyor?', 'Paylaşım sayısı hedeflerinize ve seçtiğiniz pakete göre belirlenir; teklifte net sayıyı yazıyoruz.'),
       ('Sponsorlu reklamlar dahil mi?', 'Sponsorlu paylaşımları dijital pazarlama hizmetimiz kapsamında yönetiyoruz. İki hizmeti birlikte alabilirsiniz.'),
+      ('Ankara’daki sosyal medya ajansları arasında nasıl seçim yapmalıyım?', 'Ajansın yönettiği gerçek hesaplara bakın; aylık plan ve onay süreci olup olmadığını, kapsamın ve paylaşım sayılarının yazılı olduğunu, mesaj ve yorumlara kimin cevap vereceğini ve hesapların sizin adınıza kalacağını kontrol edin. Ayrıntılı listeyi blogumuzdaki “Sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey” yazısında topladık.'),
       ('Ankara dışındaki markalarla çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlama süreçlerini online yürütüyoruz.'),
     ],
   },
@@ -201,6 +207,8 @@ ANKARA = [
       ('SEO fiyatları neye göre belirlenir?', 'Sitenizin teknik durumu, hedeflediğiniz kelimelerin sayısı ve rekabeti, ne kadar içerik üretileceği fiyatı belirler. Denetimden sonra kalem kalem teklif hazırlıyoruz.'),
       ('Sitemizi siz yapmadınız, yine de SEO yapabilir misiniz?', 'Evet. Önce mevcut sitenin altyapısını inceliyoruz. Düzeltilmesi gereken teknik sorunları raporluyor, sitenizi yapan ekiple ya da doğrudan biz düzenliyoruz.'),
       ('Yerel SEO nedir?', 'İşletmenizin “Ankara” ya da “yakınımdaki” gibi konum içeren aramalarda ve Google Haritalar’da görünmesi için yapılan çalışmadır. Google İşletme Profili, müşteri yorumları ve tutarlı iletişim bilgileri bu çalışmanın temelidir.'),
+      ('Ankara’da SEO uzmanı mı, SEO ajansı mı?', 'Clickbait Dijital’de SEO çalışmalarını ajansın kurucusu Şakir Yavuz bizzat yürütüyor. Böylece bir SEO uzmanıyla doğrudan çalışırken tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibinden de destek alırsınız.'),
+      ('Ankara’daki SEO ajansları arasında nasıl seçim yapmalıyım?', 'Sitenizi inceleyip somut tespitlerle gelen, ilk ayların iş planını yazılı veren, sıra garantisi vermeyen ve hesapları sizin adınıza açan bir ajans seçin. Görüşmede sorulacak soruları blogumuzdaki “SEO firması seçerken sorulacak 10 soru” yazısında topladık.'),
       ('Aylık raporda neler oluyor?', 'Hangi aramalarda göründüğünüz, sıralama değişimleri, siteye gelen ziyaretçi ve talep sayısı ile o ay yaptığımız işler. Bir sonraki ayın planını da rapora ekliyoruz.'),
     ],
   },
@@ -343,6 +351,12 @@ ANKARA = [
 ]
 
 # ---------------------------------------------------------------- Parçalar
+# Kurucu / SEO'yu yürüten kişi ve blog yazarı. Yalnızca kullanıcının verdiği bilgiler (20.10.2026): kurucu, 2013, SEO'yu bizzat yürütüyor, yazılar onun deneyimine dayanıyor.
+KURUCU = {
+  'ad': 'Şakir Yavuz', 'bas_harf': 'ŞY', 'unvan': 'Kurucu, Clickbait Dijital',
+  'yazar_notu': 'Şakir Yavuz, Clickbait Dijital’in kurucusudur. Ajansı 2013’te Ankara’da kurdu ve SEO çalışmalarını bizzat yürütüyor. Blogdaki yazılar, Ankara’daki işletmelerle yaptığı çalışmalardan edindiği deneyime dayanıyor.',
+}
+
 # Sayfa başındaki "KISACA" kutusu: yapay zeka araçlarının ve Google'ın alıntılayabileceği, kendi başına anlaşılır tanım.
 # Kural: kim (Clickbait Dijital), ne, nerede, nasıl; yalnızca sayfada zaten söylenen bilgiler, rakam/sonuç yok. llms.txt de bunu kullanır.
 TANIMLAR = {
@@ -482,6 +496,33 @@ def referans_seridi():
     m = re.search(r'<!-- KAYAN ŞERİT.*?<!-- /KAYAN ŞERİT -->', s, re.S)
     return m.group(0).replace('src="assets/', 'src="/assets/') if m else ''
 
+UZMAN_METNI = {
+  'ankara-seo': ('SEO çalışmanızı kim yürütüyor?',
+                 'Ankara SEO çalışmalarımızı Clickbait Dijital’in kurucusu Şakir Yavuz bizzat yürütüyor. Şakir Yavuz ajansı 2013’te Ankara’da kurdu; sitenizin incelenmesinden hedef aramaların belirlenmesine ve aylık raporlara kadar SEO sürecini kendisi yönetiyor. Böylece bir SEO uzmanıyla doğrudan çalışırken tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibinden de destek alırsınız.'),
+}
+
+def uzman_bolumu(h):
+    """Bazı hizmet sayfalarında işi yürüten kişiyi tanıtan kart (UZMAN_METNI)."""
+    if h['adres'] not in UZMAN_METNI: return ''
+    baslik, metin = UZMAN_METNI[h['adres']]
+    return f'''
+<!-- ▼▼▼▼▼ BÖLÜM: UZMAN — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pb-20 md:pb-28 bg-white" aria-labelledby="uzman-baslik" id="uzman">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 id="uzman-baslik" class="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">{e(baslik)}</h2>
+    <div class="mt-6 rounded-[28px] border border-slate-100 bg-[#fafafa] p-6 md:p-8 flex flex-col sm:flex-row gap-5">
+      <span class="w-16 h-16 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center text-xl font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span>
+      <div>
+        <p class="text-lg font-extrabold text-slate-900">{e(KURUCU['ad'])}</p>
+        <p class="text-sm font-semibold text-slate-500">{e(KURUCU['unvan'])}</p>
+        <p class="mt-3 text-base text-slate-600 leading-relaxed">{e(metin)}</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: UZMAN — BİTİŞ ▲▲▲▲▲ -->
+'''
+
 def hizmet_sayfasi(h):
     adres = f'/{h["adres"]}/'
     ust = next((x for x in HIZMETLER if x['adres'] == h.get('ust')), None)   # Ankara sayfalarında bağlı olduğu hizmet
@@ -573,7 +614,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: NELER YAPIYORUZ — BİTİŞ ▲▲▲▲▲ -->
 
-{metin_bolumu}
+{metin_bolumu}{uzman_bolumu(h)}
 <!-- ▼▼▼▼▼ BÖLÜM: SÜREÇ VE NEDEN BİZ — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="surec">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -847,7 +888,7 @@ def blog_liste():
           "publisher": {"@id": ALAN + "/#isletme"},
           "blogPost": [{"@type": "BlogPosting", "headline": y['baslik'], "url": f"{ALAN}/blog/{y['adres']}/", "datePublished": y['tarih']} for y in YAZILAR]}
     bas_html = bas('Blog: Yapay Zeka, Web Tasarım ve Dijital Pazarlama | Clickbait',
-                   'Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler. Clickbait ekibinden yazılar.', '/blog/', ld_script(ld))
+                   'Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler. Clickbait Dijital kurucusu Şakir Yavuz’dan yazılar.', '/blog/', ld_script(ld))
     ust = '<nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">Blog</li></ol></nav>'
     h1 = '<h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">Blog</h1>'
     alt = '<p class="mt-5 max-w-2xl text-base md:text-lg text-white leading-relaxed">Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler.</p>'
@@ -883,7 +924,7 @@ def yazi_sayfasi(y):
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
        **({"abstract": y['kisa_cevap']} if y.get('kisa_cevap') else {}),
        "image": ALAN + gorsel,
-       "author": {"@type": "Organization", "name": "Clickbait Dijital", "url": ALAN + "/"}, "publisher": {"@id": ALAN + "/#isletme"}},
+       "author": {"@type": "Person", "name": KURUCU['ad'], "jobTitle": "Kurucu", "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman"}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": ALAN + "/blog/"},
@@ -891,7 +932,7 @@ def yazi_sayfasi(y):
     ekler = ld_script(ld) + f'<meta property="article:published_time" content="{y["tarih"]}">\n'
     ust = f'<nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li><a href="/blog/" class="hover:text-white">Blog</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">{e(etiket_baslik(y["etiket"]))}</li></ol></nav>'
     h1 = f'<h1 id="h1" class="mt-6 max-w-4xl text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight leading-[1.1]" style="text-wrap:balance">{e(y["baslik"])}</h1>'
-    alt = f'<p class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-white/90"><span class="text-[10px] font-bold tracking-wider rounded-full bg-[#D8F83C] text-black px-2.5 py-1">{e(y["etiket"])}</span><span>Clickbait ekibi</span><time datetime="{y["tarih"]}">{tarih_tr(y["tarih"])}</time><span>{y["dakika"]} dk okuma</span></p>'
+    alt = f'<p class="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-white/90"><span class="text-[10px] font-bold tracking-wider rounded-full bg-[#D8F83C] text-black px-2.5 py-1">{e(y["etiket"])}</span><span>{e(KURUCU["ad"])}</span><time datetime="{y["tarih"]}">{tarih_tr(y["tarih"])}</time><span>{y["dakika"]} dk okuma</span></p>'
     toc = ''.join(f'<li><a href="#{k}" class="hover:text-slate-900">{e(b)}</a></li>' for k, b in y['icindekiler'])
     diger = [x for x in YAZILAR if x is not y][:3]
     diger_html = (f"""
@@ -910,6 +951,7 @@ def yazi_sayfasi(y):
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
     <article class="yazi lg:col-span-8 min-w-0">
 {kisa_cevap_kutusu(y)}{y['govde']}
+<div class="!mt-12 flex gap-4 items-start rounded-[24px] border border-slate-100 bg-[#fafafa] p-5 md:p-6"><span class="w-12 h-12 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span><div><p class="!mt-0 text-xs font-bold tracking-widest text-slate-500">YAZAR</p><p class="!mt-1 font-extrabold text-slate-900">{e(KURUCU['ad'])}</p><p class="!mt-2 text-base text-slate-600">{e(KURUCU['yazar_notu'])}</p></div></div>
     </article>
     <aside class="lg:col-span-4">
       <div class="lg:sticky lg:top-8 grid gap-6">

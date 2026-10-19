@@ -12,7 +12,7 @@ kisa_cevap: Sosyal medya ajansı seçerken yönettiği gerçek hesaplara, markan
 ---
 Sosyal medya hesaplarınızı bir ajansa teslim etmek, markanızın her gün binlerce kişiye nasıl görüneceğini ve nasıl konuşacağını emanet etmek demektir. Doğru ajans, düzenli ve tutarlı bir içerik akışıyla markanızı güçlendirir; yanlış ajans ise birbirine benzeyen hazır tasarımlarla hesabınızı sıradanlaştırabilir.
 
-Ankara'da sosyal medya hizmeti veren çok sayıda ajans ve serbest çalışan var. Bu yazıda, görüşmelerde dikkat etmeniz gereken 9 noktayı, sizi uzak tutması gereken uyarı işaretlerini ve teklifleri karşılaştırırken bakmanız gereken kalemleri topladık.
+Ankara'da sosyal medya hizmeti veren çok sayıda ajans ve serbest çalışan var. Ankara sosyal medya ajansları arasından size uygun olanı seçebilmeniz için bu yazıda, görüşmelerde dikkat etmeniz gereken 9 noktayı, sizi uzak tutması gereken uyarı işaretlerini ve teklifleri karşılaştırırken bakmanız gereken kalemleri topladık.
 
 ## Başlamadan önce: sosyal medyadan ne bekliyorsunuz?
 

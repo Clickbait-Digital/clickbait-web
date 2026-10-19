@@ -110,4 +110,5 @@ ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok
   Bekleniyor: sitelerin adresleri (kartlara bağlantı için), gerçek reklam sonuçları (isteğe bağlı), German Dental logosunun yüksek çözünürlüklü hali.
 - Referans markalara verilen hizmetler.
 - Hizmet sayfalarındaki şu ifadelerin onayı: "hesaplar sizin adınıza", "fotoğraf/video çekimi", "ilk görüşme ücretsiz".
-- Blog yazarı olarak gösterilecek kişi (ad, kısa biyografi, fotoğraf) — şu an "Clickbait ekibi".
+- Blog yazarı: **Şakir Yavuz** (kurucu, 2013; SEO'yu bizzat yürütüyor; yazılar onun deneyimine dayanıyor) — `dev/sayfalar.py` → `KURUCU`. Yazı başında ad, sonda "YAZAR" kutusu, JSON-LD Person.
+  /ankara-seo/ sayfasında "SEO çalışmanızı kim yürütüyor?" bölümü (`UZMAN_METNI`). Bekleniyor: fotoğraf (şimdilik "ŞY" baş harfleri), kişisel LinkedIn adresi, isterse kısa özgeçmiş. Kullanıcı vermeden deneyim/eğitim/ödül yazma.
