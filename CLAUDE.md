@@ -1,7 +1,7 @@
 # Proje hafızası — Clickbait Dijital web sitesi
 
 Bu dosya, projeye yeni başlayan bir Claude oturumunun önceki çalışmaları bilmesi için yazıldı.
-Kullanıcıyla **Türkçe** konuş. Kullanıcı MacBook kullanıyor; klavye kısayollarını Mac'e göre ver (⌘, ⌥).
+Kullanıcıyla **Türkçe** konuş — son özet kutusu, sorular ve düğmeler dahil her şey Türkçe (kullanıcı 20.10.2026'da özellikle istedi). Kullanıcı MacBook kullanıyor; klavye kısayollarını Mac'e göre ver (⌘, ⌥).
 Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz" şeklinde ver.
 
 ## Şirket
@@ -71,7 +71,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 ## Blog
 - Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,
   ör. `web-tasarim`), etiket (ör. `WEB TASARIM`), isteğe bağlı guncelleme.
-- Kapak: ön bilgide `kapak` (kapakta görünen kısa etiket, ör. `7 adımda başlangıç`) ve `simge` (`dev/cizimler.py` → `BLOG_SIMGE` adlarından biri).
+- Kapak: ön bilgide `kapak` (kapakta görünen kısa etiket, ör. `7 adımda başlangıç`) ve `simge` (`dev/cizimler.py` → `BLOG_SIMGE` adlarından biri); isteğe bağlı `rozet` (kapaktaki siyah rozet, varsayılan "Rehber"; araştırma yazısında "Araştırma").
   Kapak rengi kümeden gelir (`KAPAK_TEMA`). Yeni yazıdan sonra `python3 dev/kapaklar.py` çalıştır (1200x630 paylaşım görseli,
   `site/assets/img/blog/<adres>.jpg`; Chrome + sips), sonra `python3 dev/sayfalar.py` og:image'i bağlar.
 - `kisa_cevap` (zorunlu sayılır): başlıktaki soruya 2–3 cümlelik, kendi başına anlaşılır cevap; yazının başında "KISA CEVAP" kutusu, JSON-LD `abstract` ve llms.txt'de kullanılır. Yazıdaki liste/başlıklarla birebir uyuşmalı.
@@ -79,7 +79,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - İçerik planı ve durum: `dev/icerik-plani.md` (✅ yayında). Yayınlanan yazıyı orada ✅ yap.
 - Kurallar: uydurma istatistik/fiyat yok; her yazı kendi hizmet sayfasına ve ilgili yazılara iç bağlantı verir;
   sonda Clickbait'i anlatan kısa bir `>` notu (Çayyolu ofisi + online çalışma). Haftada en az 1 yazı, kümeler dönüşümlü.
-- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler), şirketinizde yapay zekaya nereden başlamalısınız (16.10.2026), kurumsal web sitesinde olması gereken 8 sayfa (17.10.2026), SEO firması seçerken sorulacak 10 soru (18.10.2026), SEO nedir, ne zaman sonuç verir? (19.10.2026), sosyal medya ajansı seçerken dikkat edilecek 9 şey (19.10.2026; ek Ankara yazıları listesi seo-plani.md'de).
+- Yayınlananlar: yapay zeka kullanım alanları, Ankara'da web sitesi yaptırırken 10 şey, Google Ads mi SEO mu, web sitesi fiyatları, Google İşletme Profili, yapay zeka danışmanlığı nedir ("ankara yapay zeka danışmanlığı" için hizmet sayfasını destekler), şirketinizde yapay zekaya nereden başlamalısınız (16.10.2026), kurumsal web sitesinde olması gereken 8 sayfa (17.10.2026), SEO firması seçerken sorulacak 10 soru (18.10.2026), SEO nedir, ne zaman sonuç verir? (19.10.2026), sosyal medya ajansı seçerken dikkat edilecek 9 şey (19.10.2026; ek Ankara yazıları listesi seo-plani.md'de), **Ankara işletme siteleri araştırması 2026** (20.10.2026; 101 site, Lighthouse mobil + kaynak kodu kontrolleri, isimsiz veri `site/assets/veri/ankara-isletme-siteleri-2026.csv`; bağlantı kazanmak için hazırlandı, duyurusu yapılacak: LinkedIn, yerel haber siteleri, SEO yazarları). Grafik/tablo sözdizimi: `::: grafik Başlık` / `- Etiket | 0–100 | metin` / `kaynak: …` / `:::` ve Markdown tablosu.
 - Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 4: "Instagram reklamı nasıl verilir? Adım adım rehber" → /ankara-instagram-reklam-ajansi/).
 
 ## SEO (kullanıcının en önemli önceliği)
@@ -103,6 +103,8 @@ Her değişiklikten sonra `site/` klasörünü `php -S` ile sunup Playwright (Ch
 ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok, sayfa başına tek H1, JSON-LD geçerli.
 
 ## Kullanıcıdan beklenenler
+- **Psychology Times** (psychologytimes.com.tr, kullanıcının yönettiği WordPress sitesi; tagDiv Newspaper teması): alt bilgi şablonu "Footer – Urban Observer" (Cloud Templates, id 186), metinler base64(encodeURIComponent) ile saklanıyor. Yazar hesabı `sakiryavuz` (id 3); aynı adda iki hesap daha var (sakiryvz, sakir-yavuz), dokunulmadı. Yayın/kaydet düğmelerine gerçek tıklama ile basılıyor.
+- Rehber kayıtları: **armut.com yapıldı**, **dijitalajanslar.com başvurusu yapıldı** (20.10.2026; onaylanınca listede görünüp görünmediğini kontrol et). Diğerleri (dijitalajanslar.com, Clutch vb.) kullanıcıya uzun geldi; ısrar etme, istenirse kopyala-yapıştır metin hazırla.
 - Gerçek müşteri yorumu (metin, kişi, marka) — ana sayfada yer tutucu kart var.
 - Proje görselleri: Active English, HUBEK, Psychology Times, Uslu Yapı, Form Çayyolu (otel, tam genişlik kart) ekran görüntüleri eklendi (`site/assets/img/projeler/`, tarayıcı çerçeveli kartlar).
   Rojin Nazik: Instagram profil kartı (SOSYAL MEDYA). German Dental, İstanbul Hair Center, Saye Emlak, EKM: kullanıcı bunların

@@ -100,7 +100,7 @@ Değerlendirme haftalarında Search Console → Performans'ta bakılacaklar:
 - **İşletme Profili:** 5 hizmeti açıklamalarıyla ekleyin, kategorileri kontrol edin (ana kategori: "İnternet pazarlama hizmeti" ya da "Reklam ajansı"; ek: "Web sitesi tasarımcısı", "Sosyal medya ajansı", "Grafik tasarımcı"), ofis ve ekip fotoğrafları yükleyin.
 - **Müşteri sitelerine bağlantı:** Active English, HUBEK, Form Çayyolu, Uslu Yapı, Psychology Times sitelerinin alt kısmına "Web tasarım: Clickbait" bağlantısı (müşterinin onayıyla).
 - **Rehber siteler:** Ankara Ticaret Odası üye rehberi, Clutch, Sortlist, DesignRush, GoodFirms. Adres ve telefon her yerde birebir aynı: *Ümit Mah. Meksika Cad. No:56/21 Çayyolu, Ankara · 0507 923 85 75*.
-- **Psychology Times konuk yazısı:** "Psikologlar için dijital görünürlük" gibi bir yazı, Clickbait'e bağlantıyla.
+- **Psychology Times konuk yazısı:** ✅ 20.10.2026 — Şakir Yavuz adına iki yazı (Dijital Psikoloji): /psikolog-web-sitesi-guven-veren-7-unsur/ ve /ankara-psikolog-siteleri-arastirmasi/ (araştırmaya bağlantı). Alt bilgide "Web tasarım: Clickbait Dijital", Hakkımızda'da "Dijital Altyapı" bölümü, yazar profili (biyografi, web sitesi, LinkedIn). Diğer yazarların yazılarına bağlantı ekleme; anahtar kelimeli bağlantı metni kullanma.
 - **Blog yazarı:** yazılarda görünecek kişinin adı, fotoğrafı ve kısa tanıtımı.
 - **Proje bilgileri:** her referans için 3–4 cümle (ihtiyaç, yapılan iş, sonuç) → proje sayfaları.
 

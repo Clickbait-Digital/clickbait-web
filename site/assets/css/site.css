@@ -72,3 +72,20 @@
 .yazi li::marker { color: #0284c7; font-weight: 700; }
 .yazi-not { border-radius: 24px; background: #f5fde0; border: 1px solid #e3f6a8; padding: 1.25rem 1.5rem; color: #1e293b; font-weight: 500; }
 @media (min-width: 768px) { .yazi { font-size: 1.125rem; } .yazi h2 { font-size: 1.875rem; } }
+
+/* Blog: çubuk grafik (::: grafik) ve tablo */
+.yazi-grafik { border-radius: 24px; border: 1px solid #e2e8f0; background: #fff; padding: 1.25rem 1.25rem 1rem; }
+.yazi-grafik figcaption { font-weight: 800; color: #0f172a; font-size: 1rem; line-height: 1.4; }
+.yazi-grafik ul { list-style: none; padding: 0; margin-top: .9rem; display: grid; gap: .7rem; }
+.yazi-grafik li + li { margin-top: 0; }
+.yazi-grafik-satir { display: grid; grid-template-columns: minmax(7rem, 38%) 1fr auto; align-items: center; gap: .75rem; font-size: .9rem; line-height: 1.35; }
+.yazi-grafik-etiket { color: #334155; }
+.yazi-grafik-cubuk { height: .75rem; border-radius: 999px; background: #f1f5f9; overflow: hidden; }
+.yazi-grafik-cubuk > span { display: block; height: 100%; border-radius: 999px; background: linear-gradient(90deg, #0284c7, #38bdf8); }
+.yazi-grafik-deger { font-weight: 800; color: #0f172a; font-variant-numeric: tabular-nums; min-width: 3.2rem; text-align: right; }
+.yazi-grafik-kaynak { margin-top: .9rem !important; font-size: .8rem; color: #64748b; }
+@media (max-width: 480px) { .yazi-grafik-satir { grid-template-columns: 1fr auto; } .yazi-grafik-cubuk { grid-column: 1 / -1; grid-row: 2; } }
+.yazi-tablo { overflow-x: auto; border-radius: 20px; border: 1px solid #e2e8f0; }
+.yazi-tablo table { width: 100%; border-collapse: collapse; font-size: .95rem; line-height: 1.45; }
+.yazi-tablo th { background: #f8fafc; color: #0f172a; font-weight: 800; text-align: left; padding: .7rem .9rem; white-space: nowrap; }
+.yazi-tablo td { padding: .65rem .9rem; border-top: 1px solid #f1f5f9; vertical-align: top; }

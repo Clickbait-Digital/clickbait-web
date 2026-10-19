@@ -24,6 +24,7 @@ RewriteRule ^ankara-web-tasarim/?$ /web-tasarim/ [R=301,L]
 RewriteRule ^referanslarimiz/?$ /#projeler [R=301,L,NE]
 RewriteRule ^iletisim/?$ /#iletisim [R=301,L,NE]
 RewriteRule ^kvkk-metni/?$ /kvkk/ [R=301,L]
+RewriteRule ^gizlilik-politikasi/?$ /kvkk/ [R=301,L]
 </IfModule>
 
 # --- Sıkıştırma ---

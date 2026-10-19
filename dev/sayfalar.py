@@ -773,9 +773,30 @@ def satir_ici(t):
     t = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', t)
     return t
 
+def grafik_html(baslik, satirlar, kaynak=''):
+    """::: grafik bloğu → yatay çubuk grafik. Satır: '- Etiket | değer | gösterilecek metin' (değer 0–100 arası yüzde)."""
+    ogeler = ''
+    for x in satirlar:
+        etiket, deger, metin = [p.strip() for p in (x.split('|') + ['', ''])[:3]]
+        v = max(0.0, min(100.0, float(deger.replace(',', '.'))))
+        ogeler += (f'<li class="yazi-grafik-satir"><span class="yazi-grafik-etiket">{satir_ici(etiket)}</span>'
+                   f'<span class="yazi-grafik-cubuk" aria-hidden="true"><span style="width:{v:.1f}%"></span></span>'
+                   f'<span class="yazi-grafik-deger">{e(metin or deger)}</span></li>')
+    alt = f'<p class="yazi-grafik-kaynak">{satir_ici(kaynak)}</p>' if kaynak else ''
+    return f'<figure class="yazi-grafik"><figcaption>{satir_ici(baslik)}</figcaption><ul>{ogeler}</ul>{alt}</figure>'
+
+def tablo_html(satirlar):
+    """| a | b | biçimindeki Markdown tablosu (2. satır ayırıcı |---|)."""
+    hucre = lambda r: [c.strip() for c in r.strip().strip('|').split('|')]
+    bas, govde = hucre(satirlar[0]), [hucre(r) for r in satirlar[2:]]
+    th = ''.join(f'<th scope="col">{satir_ici(c)}</th>' for c in bas)
+    tr = ''.join('<tr>' + ''.join(f'<td>{satir_ici(c)}</td>' for c in r) + '</tr>' for r in govde)
+    return f'<div class="yazi-tablo"><table><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'
+
 def md_html(metin):
     out, icindekiler, para = [], [], []
     liste = None
+    blok = None   # ('grafik', başlık, kaynak, satırlar) ya da ('tablo', satırlar)
     def para_bitir():
         if para:
             out.append('<p>' + satir_ici(' '.join(para)) + '</p>'); para.clear()
@@ -786,6 +807,20 @@ def md_html(metin):
             liste = None
     for satir in metin.split('\n'):
         s = satir.rstrip()
+        if blok and blok[0] == 'grafik':
+            if s == ':::':
+                out.append(grafik_html(blok[1], blok[3], blok[2])); blok = None
+            elif s.startswith('kaynak: '): blok = (blok[0], blok[1], s[8:], blok[3])
+            elif s.startswith('- '): blok[3].append(s[2:])
+            continue
+        if s.startswith('::: grafik '):
+            para_bitir(); liste_bitir(); blok = ('grafik', s[11:], '', []); continue
+        if s.startswith('|'):
+            para_bitir(); liste_bitir()
+            if not blok: blok = ('tablo', [])
+            blok[1].append(s); continue
+        elif blok and blok[0] == 'tablo':
+            out.append(tablo_html(blok[1])); blok = None
         m_ul, m_ol = re.match(r'^- (.*)', s), re.match(r'^\d+\. (.*)', s)
         if not s:
             para_bitir(); liste_bitir(); continue
@@ -807,6 +842,7 @@ def md_html(metin):
             liste[1].append((m_ul or m_ol).group(1))
         else:
             liste_bitir(); para.append(s)
+    if blok and blok[0] == 'tablo': out.append(tablo_html(blok[1]))
     para_bitir(); liste_bitir()
     return '\n'.join(out), icindekiler
 

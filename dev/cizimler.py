@@ -302,7 +302,7 @@ def _kapak_motif(y, olcek=''):
             f'<span class="mt-[5%] block h-[0.35em] w-5/6 rounded-full bg-slate-200"></span>'
             f'<span class="mt-[5%] block h-[0.35em] w-2/3 rounded-full bg-slate-200"></span>'
             f'</span>'
-            f'<span class="absolute -bottom-[10%] -right-[6%] inline-flex items-center gap-[0.4em] rounded-[0.7em] bg-[#111315] px-[0.8em] py-[0.5em] text-[0.7em] font-bold {cip} shadow-xl whitespace-nowrap">{_svg(ONAY, "w-[1.1em] h-[1.1em]")}Rehber</span>'
+            f'<span class="absolute -bottom-[10%] -right-[6%] inline-flex items-center gap-[0.4em] rounded-[0.7em] bg-[#111315] px-[0.8em] py-[0.5em] text-[0.7em] font-bold {cip} shadow-xl whitespace-nowrap">{_svg(ONAY, "w-[1.1em] h-[1.1em]")}{y.get("rozet", "Rehber")}</span>'
             f'</span>')
 
 def blog_kapagi(y, sinif='text-[11px] sm:text-xs'):
