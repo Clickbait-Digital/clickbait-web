@@ -354,6 +354,7 @@ ANKARA = [
 # Kurucu / SEO'yu yürüten kişi ve blog yazarı. Yalnızca kullanıcının verdiği bilgiler (20.10.2026): kurucu, 2013, SEO'yu bizzat yürütüyor, yazılar onun deneyimine dayanıyor.
 KURUCU = {
   'ad': 'Şakir Yavuz', 'bas_harf': 'ŞY', 'unvan': 'Kurucu, Clickbait Dijital',
+  'linkedin': 'https://www.linkedin.com/in/%C5%9Fakir-yavuz-2b62bb125/',
   'yazar_notu': 'Şakir Yavuz, Clickbait Dijital’in kurucusudur. Ajansı 2013’te Ankara’da kurdu ve SEO çalışmalarını bizzat yürütüyor. Blogdaki yazılar, Ankara’daki işletmelerle yaptığı çalışmalardan edindiği deneyime dayanıyor.',
 }
 
@@ -516,6 +517,7 @@ def uzman_bolumu(h):
         <p class="text-lg font-extrabold text-slate-900">{e(KURUCU['ad'])}</p>
         <p class="text-sm font-semibold text-slate-500">{e(KURUCU['unvan'])}</p>
         <p class="mt-3 text-base text-slate-600 leading-relaxed">{e(metin)}</p>
+        <a href="{KURUCU['linkedin']}" target="_blank" rel="noopener" class="mt-4 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2 text-sm font-bold text-slate-900 hover:border-slate-900 transition-colors">LinkedIn profili <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </div>
@@ -924,7 +926,7 @@ def yazi_sayfasi(y):
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
        **({"abstract": y['kisa_cevap']} if y.get('kisa_cevap') else {}),
        "image": ALAN + gorsel,
-       "author": {"@type": "Person", "name": KURUCU['ad'], "jobTitle": "Kurucu", "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman"}, "publisher": {"@id": ALAN + "/#isletme"}},
+       "author": {"@type": "Person", "name": KURUCU['ad'], "jobTitle": "Kurucu", "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman", "sameAs": [KURUCU['linkedin']]}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": ALAN + "/blog/"},
@@ -951,7 +953,7 @@ def yazi_sayfasi(y):
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
     <article class="yazi lg:col-span-8 min-w-0">
 {kisa_cevap_kutusu(y)}{y['govde']}
-<div class="!mt-12 flex gap-4 items-start rounded-[24px] border border-slate-100 bg-[#fafafa] p-5 md:p-6"><span class="w-12 h-12 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span><div><p class="!mt-0 text-xs font-bold tracking-widest text-slate-500">YAZAR</p><p class="!mt-1 font-extrabold text-slate-900">{e(KURUCU['ad'])}</p><p class="!mt-2 text-base text-slate-600">{e(KURUCU['yazar_notu'])}</p></div></div>
+<div class="!mt-12 flex gap-4 items-start rounded-[24px] border border-slate-100 bg-[#fafafa] p-5 md:p-6"><span class="w-12 h-12 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span><div><p class="!mt-0 text-xs font-bold tracking-widest text-slate-500">YAZAR</p><p class="!mt-1 font-extrabold text-slate-900">{e(KURUCU['ad'])}</p><p class="!mt-2 text-base text-slate-600">{e(KURUCU['yazar_notu'])}</p><p class="!mt-2 text-sm"><a href="{KURUCU['linkedin']}" target="_blank" rel="noopener">LinkedIn profili ↗</a></p></div></div>
     </article>
     <aside class="lg:col-span-4">
       <div class="lg:sticky lg:top-8 grid gap-6">
