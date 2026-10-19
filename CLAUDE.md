@@ -86,6 +86,10 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Kurulu: JSON-LD (ProfessionalService `#isletme`, Service, FAQPage, BreadcrumbList, Blog/BlogPosting), canonical,
   site haritası, robots.txt, OG görseli, eski WordPress adreslerinden 301 yönlendirmeler (`site/.htaccess`), özel 404.
 - Search Console doğrulandı, site haritası gönderildi. Yeni sayfadan sonra kullanıcıya "URL denetimi → Dizine eklenmeyi iste" hatırlat.
+- **Bing ve yapay zeka araçları (20.10.2026):** Bing Webmaster Tools'a eklendi (kullanıcının Microsoft hesabı; Psychology Times da aynı hesapta; doğrulama ana sayfadaki `msvalidate.01` etiketi, silme).
+  IndexNow anahtarı `site/<32 karakter>.txt`. **Yeni/değişen sayfayı yayınladıktan sonra** `python3 dev/indexnow.py <adres…>` (ya da `--hepsi`) çalıştır → Bing'e bildirir.
+  `site/llms.txt` yapay zeka araçları için site özeti; `dev/sayfalar.py` (`llms_txt()`) her çalıştığında yeniden üretir. robots.txt tüm tarayıcılara açık (GPTBot, ClaudeBot, PerplexityBot dahil), kapatma.
+  Bing'deki "AI Performance" raporu yapay zeka cevaplarındaki görünürlüğü gösterir; değerlendirme haftalarında bak.
 - Google Analytics `G-3GSS5F5FTT`, yalnızca çerez onayından sonra yüklenir (KVKK metninde 7. bölüm çerezler).
   Form başarılı gönderilince `generate_lead` olayı gider.
 - 4–6 hafta sonra Search Console verisine bakılıp içerik planı güncellenecek.

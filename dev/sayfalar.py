@@ -650,6 +650,43 @@ def site_haritasi():
     satir = ''.join(f'  <url><loc>{ALAN}{u}</loc><lastmod>{t}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n' for u, c, p, t in urller)
     open(os.path.join(KOK, 'sitemap.xml'), 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + satir + '</urlset>\n')
 
+def llms_txt():
+    """site/llms.txt: yapay zeka araçları için sitenin kısa özeti (llmstxt.org biçimi)."""
+    hiz = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {h["description"]}' for h in HIZMETLER)
+    ank = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {h["description"]}' for h in ANKARA)
+    yaz = '\n'.join(f'- [{y["baslik"]}]({ALAN}/blog/{y["adres"]}/): {y["description"]}' for y in YAZILAR)
+    metin = f"""# Clickbait Dijital
+
+> Clickbait Dijital, Ankara Çayyolu'nda 2013'ten beri hizmet veren bir dijital ajanstır (resmî unvan: Clickbait Medya Limited Şirketi). Yapay zeka danışmanlığı, web tasarım, dijital pazarlama (Google Ads, Meta reklamları, SEO), sosyal medya yönetimi ve kreatif hizmetler sunar. Ankara'daki işletmelerle yüz yüze, Türkiye'nin her yerinden işletmelerle online çalışır.
+
+- Adres: Ümit Mah. Meksika Cad. No:56/21, Çayyolu, Ankara
+- Telefon ve WhatsApp: {TEL_GORUNEN}
+- E-posta: info@clickbait.com.tr
+- Çalışma saatleri: Pazartesi–Cumartesi, 09:00–18:00
+- Web sitesi: {ALAN}/
+- Instagram: {INSTAGRAM}
+- LinkedIn: {LINKEDIN}
+- 2013'ten beri 300'den fazla çalışma, 50'den fazla marka.
+
+## Hizmetler
+
+{hiz}
+
+## Ankara'ya özel hizmetler
+
+{ank}
+
+## Blog
+
+{yaz}
+
+## Diğer
+
+- [İletişim ve teklif formu]({ALAN}/#iletisim)
+- [KVKK aydınlatma metni]({ALAN}/kvkk/)
+"""
+    open(os.path.join(KOK, 'llms.txt'), 'w', encoding='utf-8').write(metin)
+
 # ---------------------------------------------------------------- Blog
 # Yazılar dev/blog/*.md dosyalarındadır. Üstte "---" arasında başlık bilgileri, altında Markdown metin.
 # Desteklenen biçimler: ## ara başlık, ### alt başlık, - madde, 1. numaralı madde, > not kutusu, **kalın**, [bağlantı](adres)
@@ -914,4 +951,5 @@ if __name__ == '__main__':
     s = re.sub(r'<!-- ANKARA BAĞLANTILARI -->.*?<!-- /ANKARA BAĞLANTILARI -->', lambda _: blok, s, flags=re.S)
     open(p, 'w', encoding='utf-8').write(s)
     site_haritasi()
-    print('alt bilgi ve site haritası güncellendi')
+    llms_txt()
+    print('alt bilgi, site haritası ve llms.txt güncellendi')
