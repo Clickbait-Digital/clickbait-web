@@ -11,6 +11,8 @@ Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz
 - E-posta: info@clickbait.com.tr (Google Workspace).
 - Instagram: https://www.instagram.com/clickbaitdijital/ · LinkedIn: https://www.linkedin.com/company/clickbait-digital-agency/
 - Facebook paylaşılmak istenmiyor; YouTube kanalı yok.
+- LinkedIn şirket sayfası (20.10.2026, Claude güncelledi): ad "Clickbait Dijital", adres Ümit Mah. Meksika Cad. No:56 D:21 Çayyolu, açıklama sitedeki hizmetlerle uyumlu, web https://clickbait.com.tr/. Adres (clickbait-digital-agency) değiştirilmedi.
+  **Açık soru:** LinkedIn'de kuruluş yılı 2016, sitede "2013'ten beri" — kullanıcıya soruldu; cevaba göre biri düzeltilecek. Eski adres (Ahmet Taner Kışlalı Mah. 2873. Sk.) tumisyeri.com'da hâlâ duruyor (kullanıcı düzeltecek).
 - Google İşletme Profili: https://share.google/u1DfuQgwwOlqnDbwp · Yorum bağlantısı: https://g.page/r/CVZVcZ6LobnvEBM/review
 - Rakamlar: 10+ yıl, 300+ proje, 50+ marka, 7/24 destek.
 
