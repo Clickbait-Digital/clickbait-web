@@ -79,6 +79,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 4: "Instagram reklamı nasıl verilir? Adım adım rehber" → /ankara-instagram-reklam-ajansi/).
 
 ## SEO (kullanıcının en önemli önceliği)
+- **Rakip analizi: `dev/rakip-analizi.md`** (19.10.2026; 11 Ankara aramasında sıramız, rakiplerin yaptıkları, öneriler). Değerlendirme haftalarında aynı aramalarla karşılaştır.
 - **Plan ve kelime haritası: `dev/seo-plani.md`** (12 haftalık takvim, hangi sayfa hangi kelimeyi hedefler, kullanıcının site dışı işleri). Yeni sayfa/yazı açmadan önce kelime haritasına bak, çakışma yaratma; işi bitince planı güncelle.
 - Hedef: önce Ankara aramaları, ikinci olarak uzaktan verilebilen hizmetlerde Türkiye geneli.
 - Kurulu: JSON-LD (ProfessionalService `#isletme`, Service, FAQPage, BreadcrumbList, Blog/BlogPosting), canonical,
