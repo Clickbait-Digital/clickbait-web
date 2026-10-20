@@ -53,7 +53,7 @@ Her hafta: **1 blog yazısı** (Claude yazar, siz onaylarsınız) + **1 İşletm
 | 1 (16–22 Eki) | ✅ Şirketinizde yapay zekaya nereden başlamalısınız? (yapay zeka) | Search Console'da yeni sayfaların ilk sıralamalarına bakış |
 | 2 (23–29 Eki) | ✅ Kurumsal web sitesinde mutlaka olması gereken 8 sayfa (web, 17 Eki’de erken yayında) | Müşteri sitelerine "Tasarım: Clickbait" bağlantısı |
 | 3 (30 Eki–5 Kas) | ✅ SEO nedir, ne zaman sonuç verir? (dijital pazarlama → /ankara-seo/; 19 Eki’de erken yayında) | Rehber sitelere kayıt (aşağıdaki liste) |
-| 4 (6–12 Kas) | Instagram reklamı nasıl verilir? Adım adım rehber (→ /ankara-instagram-reklam-ajansi/) | **İlk değerlendirme:** hangi sayfa 11–30. sırada, güçlendir |
+| 4 (6–12 Kas) | ✅ Instagram reklamı nasıl verilir? Adım adım rehber (→ /ankara-instagram-reklam-ajansi/; 20 Eki’de erken yayında) | **İlk değerlendirme:** hangi sayfa 11–30. sırada, güçlendir |
 | 5 (13–19 Kas) | Aylık sosyal medya içerik planı nasıl hazırlanır? (sosyal medya) | Psychology Times'ta konuk yazı |
 | 6 (20–26 Kas) | Google Ads bütçesi nasıl belirlenir? (→ /ankara-google-ads-ajansi/) | Proje (vaka) sayfaları: ilk 2 proje |
 | 7 (27 Kas–3 Ara) | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? (→ /ankara-e-ticaret-sitesi/) | |
