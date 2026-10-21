@@ -431,6 +431,15 @@ def alt_bilgi():
 </nav>
 <!-- ▲▲▲▲▲ BÖLÜM: ALT BİLGİ — BİTİŞ ▲▲▲▲▲ -->'''
 
+# Üst menüdeki Hizmetler açılır listesinde her hizmetin altındaki kısa açıklama
+MENU_ACIKLAMA = {
+  'yapay-zeka-danismanligi': 'Doğru araçlar, kullanım kuralları ve ekip eğitimi',
+  'web-tasarim': 'Kurumsal web sitesi ve e-ticaret',
+  'dijital-pazarlama': 'Google Ads, Meta reklamları ve SEO',
+  'sosyal-medya-yonetimi': 'İçerik planı, tasarım ve raporlama',
+  'kreatif-hizmetler': 'Logo ve kurumsal kimlik',
+}
+
 def menu(ana=False):
     # ana=True: ana sayfadaki kopya (bölüm bağlantıları sayfa içi, logo sayfa başına gider)
     k = '' if ana else '/'
@@ -438,10 +447,8 @@ def menu(ana=False):
     ust = ''.join(f'\n        <a class="hover:text-white transition-colors" href="{u}">{buyuk(a)}</a>' for u, a in linkler)
     mob = ''.join(f'\n        <a class="px-4 py-3.5 rounded-2xl text-lg font-bold text-slate-900 hover:bg-slate-100" href="{u}">{a}</a>' for u, a in linkler)
     # Hizmetler açılır listesi: masaüstünde üzerine gelince/odaklanınca açılır, mobilde menünün içinde alt liste
-    acilir_hiz = ''.join(f'<a class="block rounded-xl px-3 py-2 text-sm font-semibold hover:bg-slate-100" href="/{h["adres"]}/">{e(h["kisa"])}</a>' for h in HIZMETLER)
-    acilir_ank = ''.join(f'<a class="block rounded-xl px-3 py-2 text-sm font-semibold hover:bg-slate-100" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)
+    acilir_hiz = ''.join(f'<a class="block rounded-2xl px-4 py-3 hover:bg-slate-50" href="/{h["adres"]}/"><span class="block text-sm font-bold text-slate-900">{e(h["kisa"])}</span><span class="mt-0.5 block text-xs font-medium text-slate-500">{e(MENU_ACIKLAMA[h["adres"]])}</span></a>' for h in HIZMETLER)
     mob_hiz = ''.join(f'<a class="px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:bg-slate-100" href="/{h["adres"]}/">{e(h["kisa"])}</a>' for h in HIZMETLER)
-    mob_ank = ''.join(f'<a class="rounded-full bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-[#D8F83C]" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)
     return f'''  <!-- ▼▼▼▼▼ BÖLÜM: MENÜ — BAŞLANGIÇ ▼▼▼▼▼ -->
   <header class="relative z-40 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-14 gap-4">
@@ -452,10 +459,7 @@ def menu(ana=False):
         <div class="relative group">
           <a class="inline-flex items-center gap-1 hover:text-white transition-colors" href="{k}#hizmetler">HİZMETLER<svg class="w-3 h-3 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></a>
           <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block">
-            <div class="w-[33rem] grid grid-cols-2 gap-2 rounded-3xl bg-white p-3 text-slate-900 tracking-normal shadow-2xl">
-              <div><p class="px-3 pt-2 pb-1 text-[11px] font-bold tracking-widest text-slate-500">HİZMETLER</p>{acilir_hiz}</div>
-              <div class="rounded-2xl bg-slate-50"><p class="px-3 pt-2 pb-1 text-[11px] font-bold tracking-widest text-slate-500">ANKARA’YA ÖZEL</p>{acilir_ank}</div>
-            </div>
+            <div class="w-80 grid rounded-3xl bg-white p-2 tracking-normal shadow-2xl">{acilir_hiz}</div>
           </div>
         </div>{ust}
       </nav>
@@ -467,8 +471,7 @@ def menu(ana=False):
     <div id="mobileMenu" hidden class="md:hidden fixed left-4 right-4 top-[calc(4.25rem+env(safe-area-inset-top,0px))] max-h-[calc(100dvh-10rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px))] overflow-y-auto overscroll-contain bg-white rounded-3xl shadow-2xl p-3">
       <nav aria-label="Mobil menü" class="grid">
         <a class="px-4 py-3.5 rounded-2xl text-lg font-bold text-slate-900 hover:bg-slate-100" href="{k}#hizmetler">Hizmetler</a>
-        <div class="grid pl-3 pb-2">{mob_hiz}</div>
-        <div class="flex flex-wrap gap-2 px-4 pb-3">{mob_ank}</div>{mob}
+        <div class="grid pl-3 pb-2">{mob_hiz}</div>{mob}
         <a class="mt-2 text-center px-5 py-3.5 rounded-full text-sm font-bold tracking-wider text-black bg-[#D8F83C]" href="{k}#iletisim">TEKLİF ALIN</a>
       </nav>
     </div>
