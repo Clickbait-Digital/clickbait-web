@@ -59,3 +59,26 @@ Bizim önde olduklarımız: yapılandırılmış veri (ProfessionalService, Serv
 9. **Fiyat bilgisi:** Kullanıcı isterse "başlangıç fiyatı" gibi bir bilgi hizmet sayfalarına eklenebilir (iş kararı).
 
 Bir sonraki karşılaştırma: 4. hafta değerlendirmesi (6–12 Kasım), aynı 11 arama.
+
+## 5. SEOmodi ile karşılaştırma ("ankara seo", 20.10.2026)
+
+SEOmodi "ankara seo"da organik 1. sırada; Google onu reklamların bile üstünde gösteriyor. Sıralanan sayfa **ana sayfası** (title "Ankara SEO Ajansı | …"), Ankara alt sayfası değil.
+
+| | SEOmodi ana sayfa | Bizim /ankara-seo/ |
+|---|---|---|
+| Metin | ~670 kelime, "ankara seo" 3 kez | ~1.140 kelime, "ankara seo" 7 kez |
+| Mobil hız (Lighthouse) | 65 puan, LCP 9,2 sn, 1,3 MB | 99 puan, LCP 2,0 sn, 0,3 MB |
+| Yapılandırılmış veri | Organization, ProfessionalService | Service, FAQPage, Breadcrumb |
+| Site geneli | 209 sayfa, 190 blog yazısı (2022'den beri), 10 vaka çalışması (sayılarla), kurucu sayfası, 81 il sayfası, "en iyi ajans" sayfaları | 26 sayfa, 13 yazı, vaka yok, kurucu sayfası yok |
+
+Sonuç: Sayfa düzeyinde biz öndeyiz. Fark **site gücünden** (yaş, içerik hacmi, büyük olasılıkla dış bağlantılar) ve **kanıttan** (Search Console rakamlı vaka çalışmaları) geliyor.
+81 il sayfası ve kendini "en iyi" ilan eden sayfalar kopyalanmayacak (madde 7–8).
+
+Yapılacaklar (öncelik sırasıyla):
+1. Bağlantı çeken araştırma yazısından ve ilgili yazılardan /ankara-seo/'ya metin içi bağlantı (şu an 13 yazıdan yalnızca 2'si bağlıyor; araştırma yazısı bağlamıyor).
+2. /ankara-seo/'ya "Ankara'daki işletme sitelerinin durumu" bölümü: araştırmanın gerçek bulguları + bağlantı.
+3. /ankara-seo/'ya "SEO hizmeti fiyatını neler belirler?" bölümü (rakam uydurmadan). ✅ 21.10.2026 (araştırma bulguları bölümüyle birlikte). **SEO danışmanlığı hizmeti verilmiyor** (kullanıcı, 21.10.2026); bu ifadeyle sayfa/bölüm açma.
+4. Gerçek vaka çalışmaları (müşteri izniyle Search Console verisi) — kullanıcıdan veri.
+5. "Şakir Yavuz kimdir?" sayfası — kullanıcıdan özgeçmiş.
+6. Destek yazıları: yerel SEO / Google Haritalar'da üst sıraya çıkmak, SEO raporunda nelere bakılır, teknik SEO kontrol listesi — hepsi /ankara-seo/'ya bağlanır.
+7. Dış bağlantı ve Google yorumları (devam eden iş).

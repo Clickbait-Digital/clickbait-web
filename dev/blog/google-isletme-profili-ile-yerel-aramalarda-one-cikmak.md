@@ -1,7 +1,7 @@
 ---
 baslik: Google İşletme Profili ile yerel aramalarda öne çıkmak
-title: Google İşletme Profili ile Yerel Aramalarda Öne Çıkmak | Clickbait
-description: "Yakınımdaki" aramalarda ve Google Haritalar'da görünmek için Google İşletme Profili nasıl doldurulur? Kategori seçiminden yorum yönetimine, adım adım yerel SEO rehberi.
+title: Google İşletme Profili ile Haritada Öne Çıkın | Clickbait
+description: "Yakınımdaki" aramalarda ve Google Haritalar'da görünmek için İşletme Profili nasıl doldurulur? Kategoriden yorum yönetimine adım adım yerel SEO rehberi.
 ozet: Müşterileriniz "yakınımdaki" diye aradığında haritada siz mi çıkıyorsunuz, rakibiniz mi? Google İşletme Profili'ni eksiksiz doldurmanın ve yerel aramalarda öne çıkmanın yollarını anlattık.
 tarih: 2026-10-15
 kume: dijital-pazarlama
@@ -54,7 +54,7 @@ Google İşletme Profili bir kez doldurulup bırakılacak bir form değildir. **
 
 ## Web sitenizle birlikte çalışmasını sağlayın
 
-Profiliniz ve web siteniz birbirini destekler. Web sitenizde adresiniz, telefonunuz ve çalışma saatleriniz profilinizle aynı şekilde yazmalı; her hizmet için ayrı ve açıklayıcı bir sayfa bulunmalıdır. Google, profilinizdeki bilgileri web sitenizle karşılaştırarak işletmenizi daha iyi anlar. Bu yüzden yerel görünürlük, [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazısında anlattığımız SEO çalışmasının da ilk adımıdır.
+Profiliniz ve web siteniz birbirini destekler. Web sitenizde adresiniz, telefonunuz ve çalışma saatleriniz profilinizle aynı şekilde yazmalı; her hizmet için ayrı ve açıklayıcı bir sayfa bulunmalıdır. Google, profilinizdeki bilgileri web sitenizle karşılaştırarak işletmenizi daha iyi anlar. Bu yüzden yerel görünürlük, [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazısında anlattığımız SEO çalışmasının da ilk adımıdır. Yerel SEO'yu web sitesiyle birlikte nasıl yürüttüğümüzü [Ankara SEO](/ankara-seo/) sayfamızda anlattık.
 
 Web siteniz henüz yoksa ya da yenilemeyi düşünüyorsanız, [Ankara'da web sitesi yaptırırken dikkat edilmesi gereken 10 şey](/blog/ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler/) yazımıza da göz atabilirsiniz.
 

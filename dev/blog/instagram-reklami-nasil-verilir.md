@@ -1,7 +1,7 @@
 ---
 baslik: Instagram reklamı nasıl verilir? Adım adım rehber
-title: Instagram Reklamı Nasıl Verilir? Adım Adım Rehber | Clickbait
-description: Instagram reklamı nasıl verilir? Öne çıkar ile Reklam Yöneticisi farkını, hesap hazırlığını, hedef, kitle, bütçe ve görsel seçimini, sonuçları ölçmeyi adım adım anlattık.
+title: Instagram Reklamı Nasıl Verilir? Adım Adım Rehber
+description: Instagram reklamı nasıl verilir? Öne çıkar ile Reklam Yöneticisi farkı, hesap hazırlığı, hedef, kitle, bütçe, görsel seçimi ve ölçüm adım adım.
 ozet: Instagram'da reklam vermek birkaç dokunuşla mümkün, ama bütçeyi boşa harcamamak için doğru hedefi, doğru kitleyi ve doğru görseli seçmek gerekiyor. Hesap hazırlığından sonuçları ölçmeye kadar süreci adım adım anlattık.
 tarih: 2026-10-20
 kume: dijital-pazarlama
@@ -124,6 +124,6 @@ Reklam Yöneticisi'nin gösterdiği rakamlar her zaman gerçek müşteri sayıs�
 - Gelen mesajlara kim, ne kadar sürede cevap verecek?
 - Sonuçlar haftalık olarak kontrol ediliyor mu?
 
-Instagram reklamı, sizi henüz aramaya başlamamış kişilere ulaşmanın güçlü bir yoludur. Sizi zaten arayan müşterilere görünmek içinse Google'ı da düşünmek gerekir. Hangi kanalla başlayacağınıza karar verirken [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımız, reklamların yanında düzenli içerik için de [sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey](/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/) yazımız yardımcı olabilir.
+Instagram reklamı, sizi henüz aramaya başlamamış kişilere ulaşmanın güçlü bir yoludur. Sizi zaten arayan müşterilere görünmek içinse [Google Ads](/ankara-google-ads-ajansi/) reklamlarını da düşünmek gerekir. Hangi kanalla başlayacağınıza karar verirken [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımız, reklamların yanında düzenli içerik için de [sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey](/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/) yazımız yardımcı olabilir.
 
 > Clickbait Dijital olarak Instagram ve Facebook reklamlarını hedef kitle kurgusundan görsel üretimine, ölçüm kurulumundan aylık raporlamaya kadar tek ekipte yönetiyoruz. Ayrıntılar için [Ankara Instagram reklam ajansı](/ankara-instagram-reklam-ajansi/) sayfamıza bakabilirsiniz. Ankara'da Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.

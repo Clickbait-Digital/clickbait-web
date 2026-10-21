@@ -23,6 +23,7 @@ Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz
 4. Sosyal medya yönetimi — /sosyal-medya-yonetimi/
 5. Kreatif hizmetler — /kreatif-hizmetler/
 Sağlık turizmi hizmeti **kaldırıldı**, geri ekleme.
+**SEO danışmanlığı** (rapor/yol haritası verip uygulamayı müşterinin ekibine bırakma) hizmeti **verilmiyor** (kullanıcı, 21.10.2026); SEO yalnızca aylık hizmet olarak anlatılır.
 
 ## Tasarım
 Kullanıcının Google Stitch'te yaptırdığı tasarım esas alındı: gök mavisi degrade açılış, 3B yay kartlar, bento ızgara,

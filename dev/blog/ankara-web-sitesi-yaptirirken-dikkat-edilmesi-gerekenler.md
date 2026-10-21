@@ -1,7 +1,7 @@
 ---
 baslik: Ankara'da web sitesi yaptırırken dikkat edilmesi gereken 10 şey
-title: Ankara'da Web Sitesi Yaptırırken Dikkat Edilmesi Gereken 10 Şey | Clickbait
-description: Ankara'da web sitesi yaptırmayı mı düşünüyorsunuz? Alan adı ve hosting sahipliğinden mobil uyuma, SEO'dan KVKK'ya kadar teklif almadan önce bilmeniz gereken 10 madde.
+title: Ankara'da Web Sitesi Yaptırırken Dikkat Edilecek 10 Şey
+description: Ankara'da web sitesi yaptıracaksanız teklif almadan önce bilin: alan adı ve hosting sahipliği, mobil uyum, SEO ve KVKK dahil 10 madde.
 ozet: Alan adı kimin adına olmalı, site neden mobilde hızlı açılmalı, teslimden sonra kim destek verecek? Teklif almadan önce bilmeniz gereken 10 maddeyi topladık.
 tarih: 2026-10-15
 kume: web-tasarim
@@ -40,7 +40,7 @@ Arama motoru optimizasyonu (SEO) sonradan eklenen bir süs değildir; sitenin ya
 - Görsellerde açıklayıcı alternatif metinler
 - İşletme bilgilerinizi Google'a anlatan yapılandırılmış veri
 
-Eski bir siteyi yeniliyorsanız, eski sayfa adreslerinin yenilerine **yönlendirilmesi** de çok önemlidir; aksi hâlde yıllar içinde kazandığınız Google sıralamasını kaybedebilirsiniz.
+Eski bir siteyi yeniliyorsanız, eski sayfa adreslerinin yenilerine **yönlendirilmesi** de çok önemlidir; aksi hâlde yıllar içinde kazandığınız Google sıralamasını kaybedebilirsiniz. Site yayına girdikten sonra Google'da yükselmek için yapılan çalışmayı [Ankara SEO](/ankara-seo/) sayfamızda anlattık.
 
 ## 6. İçerikleri kim hazırlayacak?
 

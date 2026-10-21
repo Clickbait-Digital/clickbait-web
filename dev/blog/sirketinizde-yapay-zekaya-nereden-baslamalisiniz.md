@@ -1,6 +1,6 @@
 ---
 baslik: Şirketinizde yapay zekaya nereden başlamalısınız?
-title: Şirketinizde Yapay Zekaya Nereden Başlamalısınız? | Clickbait
+title: Şirketinizde Yapay Zekaya Nereden Başlamalısınız?
 description: Şirketlerde yapay zeka kullanımına nereden başlanır? İş listesinden pilot uygulamaya, kullanım kurallarından ekip eğitimine 7 adımlık başlangıç planı.
 ozet: Yapay zekaya "bir araç alalım" diye başlayan şirketler çoğu zaman birkaç hafta sonra bırakıyor. İşten başlayan, küçük deneyen ve sonucu ölçen 7 adımlık bir başlangıç planı hazırladık.
 tarih: 2026-10-16

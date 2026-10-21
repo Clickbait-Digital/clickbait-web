@@ -1,6 +1,6 @@
 ---
 baslik: Ankara'daki 101 işletme sitesini inceledik: 2026 web sitesi araştırması
-title: Ankara İşletme Siteleri Araştırması 2026: 101 Site İncelendi | Clickbait
+title: Ankara İşletme Siteleri Araştırması 2026 | Clickbait
 description: Ankara'da 18 sektörden 101 işletme sitesini hız, arama motoru temelleri ve iletişim kolaylığı açısından ölçtük. Bulgular, yöntem ve indirilebilir veri.
 ozet: Ekim 2026'da Ankara'daki 18 sektörden 101 yerel işletme sitesini aynı yöntemle ölçtük. Sitelerin telefonda ne kadar hızlı açıldığını, Google'ın sayfayı anlaması için gereken temel bilgileri ve ziyaretçinin işletmeye ne kadar kolay ulaşabildiğini inceledik.
 tarih: 2026-10-20
@@ -80,7 +80,7 @@ kaynak: Clickbait Dijital, Ekim 2026. Ana sayfa kaynak kodu incelemesi.
 - **Yapılandırılmış veri:** İşletmenin adını, adresini, telefonunu ve çalışma saatlerini Google'a düzenli bir biçimde bildiren koddur. Sitelerin %58'inde işletme bilgisi içeren yapılandırılmış veri var, %42'sinde yok.
 - **Sayfa başlığı:** Sitelerin %86'sının başlığında "Ankara" geçiyor. Bu iyi bir işaret. Ancak başlıkların %31'i 60 karakteri aşıyor ve Google'da sonu kesilerek görünebilir.
 
-Bu eksiklerin hiçbiri tek başına bir siteyi Google'da görünmez yapmaz. Ama hepsi birlikte, Google'ın sayfayı doğru anlamasını ve arama sonucunda çekici görünmesini zorlaştırır. Bu temellerin neden önemli olduğunu [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda anlattık.
+Bu eksiklerin hiçbiri tek başına bir siteyi Google'da görünmez yapmaz. Ama hepsi birlikte, Google'ın sayfayı doğru anlamasını ve arama sonucunda çekici görünmesini zorlaştırır. Bu temellerin neden önemli olduğunu [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda, bu eksikleri nasıl giderdiğimizi [Ankara SEO hizmeti](/ankara-seo/) sayfamızda anlattık.
 
 ## 3. İletişim: Telefon her zaman bir dokunuş uzakta değil
 
@@ -146,4 +146,4 @@ Bir web sitesinde olması gereken temel sayfaları [kurumsal web sitesinde olmas
 
 Araştırmanın isimsiz veri dosyasını [buradan indirebilirsiniz (CSV)](/assets/veri/ankara-isletme-siteleri-2026.csv). Dosyada site adları yer almıyor. Her satırda sektör grubu ve ölçüm sonuçları var. Bulguları yazılarınızda, sunumlarınızda ya da haberlerinizde **"Clickbait Dijital, Ankara İşletme Siteleri Araştırması 2026"** kaynağını belirterek ve bu sayfaya bağlantı vererek kullanabilirsiniz.
 
-> Clickbait Dijital olarak 2013'ten beri Ankara'daki işletmelerin web sitelerini tasarlıyor, hızlandırıyor ve Google için hazırlıyoruz. Sitenizin bu araştırmadaki ölçütlere göre nerede durduğunu merak ediyorsanız [web tasarım](/web-tasarim/) sayfamızdan ücretsiz site analizi isteyebilirsiniz. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.
+> Clickbait Dijital olarak 2013'ten beri Ankara'daki işletmelerin web sitelerini tasarlıyor, hızlandırıyor ve Google için hazırlıyoruz. Sitenizin bu araştırmadaki ölçütlere göre nerede durduğunu merak ediyorsanız [web tasarım](/web-tasarim/) sayfamızdan ücretsiz site analizi isteyebilirsiniz. Google'daki görünürlüğünüzü artırmak için yürüttüğümüz çalışmayı [Ankara SEO](/ankara-seo/) sayfamızda anlattık. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.

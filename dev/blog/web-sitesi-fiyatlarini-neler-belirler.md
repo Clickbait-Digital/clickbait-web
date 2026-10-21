@@ -1,7 +1,7 @@
 ---
 baslik: Web sitesi fiyatlarını neler belirler?
 title: Web Sitesi Fiyatları: Fiyatı Belirleyen 9 Etken | Clickbait
-description: Web sitesi fiyatları neden bu kadar farklı? Sayfa sayısından özel tasarıma, içerik üretiminden SEO ve bakıma kadar web sitesi maliyetini belirleyen 9 etkeni anlattık.
+description: Web sitesi fiyatları neden bu kadar farklı? Sayfa sayısından özel tasarıma, içerikten SEO ve bakıma kadar maliyeti belirleyen 9 etkeni anlattık.
 ozet: Aynı iş için birbirinden çok farklı teklifler almanız tesadüf değil. Web sitesi fiyatını belirleyen etkenleri ve teklifleri doğru karşılaştırmanın yolunu anlattık.
 tarih: 2026-10-15
 kume: web-tasarim
@@ -47,7 +47,7 @@ Bir web sitesinin değeri büyük ölçüde içeriğindedir. Fiyat, içeriklerin
 
 ## 5. SEO kurulumu
 
-Bir sitenin yayında olması, Google'da bulunacağı anlamına gelmez. Sayfa başlıkları ve açıklamaları, anlamlı sayfa adresleri, site haritası, Search Console kurulumu, yapılandırılmış veri ve hız iyileştirmeleri gibi temel SEO çalışmaları emek ister. Bu maddelerin teklife dahil olup olmadığı fiyatı etkiler ve en çok atlanan kalemlerden biridir.
+Bir sitenin yayında olması, Google'da bulunacağı anlamına gelmez. Sayfa başlıkları ve açıklamaları, anlamlı sayfa adresleri, site haritası, Search Console kurulumu, yapılandırılmış veri ve hız iyileştirmeleri gibi temel SEO çalışmaları emek ister. Bu maddelerin teklife dahil olup olmadığı fiyatı etkiler ve en çok atlanan kalemlerden biridir. Site açıldıktan sonra sürdürülen SEO çalışmasını [Ankara SEO hizmeti](/ankara-seo/) sayfamızda anlattık.
 
 Mevcut bir siteyi yeniliyorsanız, eski sayfa adreslerinin yeni adreslere yönlendirilmesi de bu kapsamdadır. Bu adım atlanırsa yıllar içinde kazanılmış Google sıralamaları kaybedilebilir.
 

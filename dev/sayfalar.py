@@ -25,8 +25,8 @@ TEL_GORUNEN, TEL_LINK, WHATSAPP = '0507 923 85 75', 'tel:+905079238575', 'https:
 HIZMETLER = [
   {
     'adres': 'yapay-zeka-danismanligi', 'kisa': 'Yapay zeka danışmanlığı', 'renk': 'lime',
-    'title': 'Yapay Zeka Danışmanlığı | Ankara ve Türkiye Geneli | Clickbait',
-    'description': 'İşletmeniz için yapay zeka danışmanlığı: zaman kaybettiren işleri belirliyor, doğru araçları kurup ekibinizi eğitiyoruz. Ankara’da yüz yüze, Türkiye genelinde online.',
+    'title': 'Yapay Zeka Danışmanlığı | Ankara ve Türkiye | Clickbait',
+    'description': 'Yapay zeka danışmanlığı: zaman kaybettiren işleri belirliyor, doğru araçları kurup ekibinizi eğitiyoruz. Ankara’da yüz yüze, Türkiye genelinde online.',
     'h1': 'Yapay zeka danışmanlığı: işinize gerçekten zaman kazandıran kurulumlar',
     'giris': 'Yapay zekayı denemek kolay, işin içine yerleştirmek zor. Ekibinizin her hafta tekrar eden işlerini birlikte buluyor, doğru aracı seçip iş akışınıza bağlıyor ve ekibinizi kullanımına alıştırıyoruz. Ankara’daki işletmelerle ofisimizde, Türkiye’nin her yerinden işletmelerle online çalışıyoruz.',
     'kartlar': [
@@ -53,8 +53,8 @@ HIZMETLER = [
   },
   {
     'adres': 'web-tasarim', 'kisa': 'Web tasarım', 'renk': 'sky',
-    'title': 'Ankara Web Tasarım | Kurumsal Web Sitesi Yaptırma | Clickbait',
-    'description': 'Ankara web tasarım: kurumsal web sitesi yaptırmak isteyen işletmeler için mobil uyumlu, hızlı ve Google’a hazır siteler; hosting ve bakım dahil. Türkiye geneline online hizmet.',
+    'title': 'Ankara Web Tasarım | Web Sitesi Yaptırma | Clickbait',
+    'description': 'Ankara web tasarım: mobil uyumlu, hızlı ve Google’a hazır kurumsal web siteleri; hosting ve bakım dahil. Türkiye geneline online hizmet.',
     'h1': 'Ankara web tasarım: hızlı, mobil uyumlu ve Google’da bulunabilir siteler',
     'giris': '2013’ten beri Ankara’dan kurumsal web siteleri ve e-ticaret mağazaları tasarlıyoruz. Tasarım, geliştirme, hosting ve bakımı tek ekipte yürütüyoruz; Türkiye’nin her yerinden müşterilerimizle online da çalışıyoruz.',
     'kartlar': [
@@ -86,8 +86,8 @@ HIZMETLER = [
   },
   {
     'adres': 'dijital-pazarlama', 'kisa': 'Dijital pazarlama', 'renk': 'blue',
-    'title': 'Ankara Dijital Pazarlama Ajansı | Google Ads, Meta, SEO | Clickbait',
-    'description': 'Ankara’da dijital pazarlama: Google Ads ve Meta reklam yönetimi, SEO ve dijital medya planlama. Bütçenizi doğru kanala koyuyor, sonuçları ölçülebilir şekilde raporluyoruz.',
+    'title': 'Ankara Dijital Pazarlama Ajansı | Reklam ve SEO | Clickbait',
+    'description': 'Ankara’da dijital pazarlama: Google Ads ve Meta reklam yönetimi, SEO ve medya planlama. Bütçenizi doğru kanala koyuyor, sonuçları her ay raporluyoruz.',
     'h1': 'Ankara dijital pazarlama: reklam bütçeniz doğru kanalda, sonuçlar ölçülebilir',
     'giris': 'Google ve Meta reklamlarınızı kuruyor, yönetiyor ve her ay raporluyoruz. Google’da organik olarak bulunmanız için SEO çalışmasını da aynı ekipte yürütüyoruz. Ankara’yı ya da Türkiye genelini hedefleyen kampanyalar hazırlıyoruz.',
     'kartlar': [
@@ -114,7 +114,7 @@ HIZMETLER = [
   },
   {
     'adres': 'sosyal-medya-yonetimi', 'kisa': 'Sosyal medya yönetimi', 'renk': 'dark',
-    'title': 'Ankara Sosyal Medya Ajansı | Sosyal Medya Yönetimi | Clickbait',
+    'title': 'Ankara Sosyal Medya Ajansı ve Yönetimi | Clickbait',
     'description': 'Ankara sosyal medya ajansı: aylık içerik planı, post, story ve reels tasarımı, paylaşım takvimi ve raporlama. Instagram ve LinkedIn’de markanızın sesi oluyoruz.',
     'h1': 'Ankara sosyal medya ajansı: planlı, tutarlı ve markanıza ait içerikler',
     'giris': 'Her ay hedeflerinize göre bir içerik planı hazırlıyor, tasarımları üretiyor, paylaşımları takvime göre yayınlıyor ve ay sonunda sonuçları raporluyoruz. Ankara’daki markalarla yüz yüze, Türkiye genelindeki markalarla online çalışıyoruz.',
@@ -144,7 +144,7 @@ HIZMETLER = [
   {
     'adres': 'kreatif-hizmetler', 'kisa': 'Kreatif hizmetler', 'renk': 'lime',
     'title': 'Ankara Logo Tasarım ve Kurumsal Kimlik | Clickbait',
-    'description': 'Ankara logo tasarım ve kurumsal kimlik: markanızın her yerde aynı dili konuşması için logo, renk, yazı tipi, şablon ve basılı işler. Türkiye geneline online hizmet.',
+    'description': 'Ankara logo tasarım ve kurumsal kimlik: logo, renk, yazı tipi, şablon ve basılı işlerle markanız her yerde aynı dili konuşsun. Türkiye geneline online.',
     'h1': 'Ankara logo tasarım ve kurumsal kimlik: markanız her yerde aynı dili konuşsun',
     'giris': 'Logodan kartvizite, sosyal medya şablonundan sunum dosyasına kadar markanızın tüm görsel dilini tek elden tasarlıyoruz. Ankara’daki ofisimizde ya da online çalışabiliriz.',
     'kartlar': [
@@ -178,11 +178,11 @@ HIZMETLER = [
 ANKARA = [
   {
     'adres': 'ankara-seo', 'kisa': 'Ankara SEO', 'ust': 'dijital-pazarlama', 'renk': 'blue',
-    'title': 'Ankara SEO Ajansı | Google’da Üst Sıralar İçin SEO | Clickbait',
-    'description': 'Ankara SEO hizmeti: teknik SEO, yerel SEO, Google İşletme Profili ve içerik çalışmasıyla sitenizi Google’da üst sıralara taşımak için çalışıyoruz. Her ay şeffaf rapor.',
+    'title': 'Ankara SEO Ajansı | Aylık SEO Hizmeti | Clickbait',
+    'description': 'Ankara SEO hizmeti: teknik SEO, yerel SEO, Google İşletme Profili ve içerikle sitenizi Google’da öne çıkarmak için çalışıyoruz. Her ay şeffaf rapor.',
     'h1': 'Ankara SEO: Google’da sizi arayan müşteriler sizi bulsun',
     'giris': 'Sitenizin teknik altyapısını düzeltiyor, müşterilerinizin Ankara’da ve Türkiye genelinde gerçekten aradığı kelimelere göre içerik planlıyor, Google İşletme Profilinizi güçlendiriyoruz. Her ay neyin değiştiğini sade bir raporla paylaşıyoruz.',
-    'kapsam': 'Ankara SEO çalışmamızda neler var?',
+    'kapsam': 'Ankara SEO ajansı olarak neler yapıyoruz?',
     'kartlar': [
       ('Teknik SEO', 'Site hızı, mobil uyum, dizine eklenme hataları, site haritası ve yönlendirmeleri düzeltiyoruz.'),
       ('Anahtar kelime araştırması', 'Müşterilerinizin Google’da gerçekte ne aradığını verilerle çıkarıyor, öncelik sırasına koyuyoruz.'),
@@ -199,7 +199,9 @@ ANKARA = [
     ],
     'metin': [
       ('Ankara’da SEO neden ayrı bir çalışma ister?', 'Birisi “Ankara diş kliniği” ya da “Çayyolu emlak ofisi” diye aradığında Google sonuçları arayanın konumuna göre sıralar. Bu yüzden Ankara’da hizmet veren bir işletme için SEO yalnızca web sitesinden ibaret değildir: Google İşletme Profili, müşteri yorumları, adres ve telefon bilgilerinin her yerde aynı olması da sıralamayı etkiler. Çalışmaya bu yerel sinyallerle başlıyor, ardından Türkiye genelinde aranan kelimelere geçiyoruz. Profilinizi nasıl güçlendireceğinizi [Google İşletme Profili rehberimizde](/blog/google-isletme-profili-ile-yerel-aramalarda-one-cikmak/) anlattık.'),
+      ('Ankara’daki işletme sitelerinde en sık gördüğümüz eksikler', 'Ekim 2026’da Ankara’da 18 sektörden 101 işletme sitesini aynı yöntemle inceledik. Sitelerin yalnızca %9’u Google’ın mobil hız testinde 90 ve üzeri puan aldı; %87’sinde sayfanın ana içeriği telefonda 4 saniyeden geç yükleniyor. Ana sayfaların %26’sında konuyu söyleyen ana başlık (H1) yok, %10’unda Google’da görünen açıklama yazılmamış, %42’sinde işletme bilgisini Google’a bildiren yapılandırılmış veri bulunmuyor. Bu eksiklerin çoğu büyük bir yenileme gerektirmeden düzeltilebilir; SEO çalışmamıza da genellikle bunlarla başlıyoruz. Tüm bulgular ve yöntem [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında.'),
       ('SEO mu, Google Ads mi?', 'Google Ads ile reklam verdiğiniz sürece üst sıralarda görünürsünüz; bütçe bittiğinde görünürlük de durur. SEO ise organik sonuçlarda kalıcı bir yer edinmek için yapılan çalışmadır: sonuç vermesi zaman alır ama tıklama başına ödeme yapmazsınız. Çoğu işletmeye ikisini birlikte yürütmeyi, reklamdan gelen verilerle SEO önceliklerini belirlemeyi öneriyoruz. Farkları [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımızda karşılaştırdık; reklam tarafı için [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/) sayfamıza bakabilirsiniz.'),
+      ('SEO hizmeti fiyatını neler belirler?', 'SEO hizmetinin fiyatını birkaç şey belirler: sitenizin teknik durumu ve ne kadar düzeltme gerektiği, hedeflediğiniz kelimelerin sayısı ve rekabeti, her ay ne kadar yeni içerik üretileceği, Google İşletme Profili ve yorum yönetiminin işe dahil olup olmadığı, sitenizin altyapısı ve düzenlemeleri kimin yapacağı. Bu yüzden herkese aynı paketi sunmak yerine önce sitenizi inceliyor, ardından her ay neler yapılacağını kalem kalem yazan bir teklif hazırlıyoruz. Teklifleri karşılaştırırken nelere bakmanız gerektiğini [SEO firması seçerken sorulacak 10 soru](/blog/seo-firmasi-secerken-sorulacak-sorular/) yazımızda topladık.'),
       ('Neyi söz veriyoruz, neyi vermiyoruz?', 'Sıralamayı Google kendi algoritmasıyla belirler; “bir ayda ilk sıra” gibi sözler veren bir ajansa temkinli yaklaşmanızı öneririz. Bizim sözümüz yaptığımız her işi açıkça raporlamak, Google’ın kurallarına uygun çalışmak ve sonuçları Search Console verileriyle ölçmektir. Sitenizi yeniliyorsanız sıralamanızı kaybetmemek için eski adresleri yeni sayfalara yönlendirmeyi de bu sürece dahil ediyoruz.'),
     ],
     'sss': [
@@ -214,8 +216,8 @@ ANKARA = [
   },
   {
     'adres': 'ankara-google-ads-ajansi', 'kisa': 'Ankara Google Ads ajansı', 'ust': 'dijital-pazarlama', 'renk': 'blue',
-    'title': 'Ankara Google Ads Ajansı | Google Reklam Yönetimi | Clickbait',
-    'description': 'Ankara Google Ads ajansı: arama, YouTube ve Performance Max kampanyalarınızı kuruyor, dönüşüm takibiyle ölçüyor, her ay raporluyoruz. Reklam bütçeniz müşteri getiren aramalara gitsin.',
+    'title': 'Ankara Google Ads Ajansı | Reklam Yönetimi | Clickbait',
+    'description': 'Ankara Google Ads ajansı: arama, YouTube ve Performance Max kampanyalarınızı kuruyor, dönüşüm takibiyle ölçüyor ve her ay raporluyoruz.',
     'h1': 'Ankara Google Ads ajansı: reklam bütçeniz müşteri getiren aramalara gitsin',
     'giris': 'Google reklamlarınızı sıfırdan kuruyor ya da mevcut hesabınızı devralıyoruz. Doğru kelimeleri seçiyor, alakasız tıklamaları eliyor, form, telefon ve WhatsApp taleplerini ölçüyoruz. Her ay harcanan bütçenin neye dönüştüğünü açıkça raporluyoruz.',
     'kapsam': 'Google Ads yönetimimizde neler var?',
@@ -249,7 +251,7 @@ ANKARA = [
   {
     'adres': 'ankara-reklam-ajansi', 'kisa': 'Ankara reklam ajansı', 'ust': 'dijital-pazarlama', 'renk': 'dark',
     'title': 'Ankara Reklam Ajansı | Dijital Reklam ve Kreatif | Clickbait',
-    'description': 'Ankara’da dijital reklam ajansı: Google ve Meta reklamları, sosyal medya, reklam kreatifleri ve web sitesi tek ekipte. 2013’ten beri Ankara’daki markalarla çalışıyoruz.',
+    'description': 'Ankara’da dijital reklam ajansı: Google ve Meta reklamları, sosyal medya, kreatif ve web sitesi tek ekipte. 2013’ten beri Ankara’daki markalarla.',
     'h1': 'Ankara reklam ajansı: dijitalde reklam, kreatif ve web tek ekipte',
     'giris': 'Reklam fikrini, tasarımını, yayınlanacağı kanalı ve ölçümünü aynı ekipte yürütüyoruz. Google ve Instagram reklamlarından sosyal medya içeriklerine, reklamın yönlendirdiği web sayfasına kadar her parçayı birlikte planlıyoruz. 2013’ten beri Çayyolu’ndaki ofisimizden Ankara’daki markalarla çalışıyoruz.',
     'kapsam': 'Reklam ajansı olarak neler yapıyoruz?',
@@ -283,7 +285,7 @@ ANKARA = [
   {
     'adres': 'ankara-e-ticaret-sitesi', 'kisa': 'Ankara e-ticaret sitesi', 'ust': 'web-tasarim', 'renk': 'sky',
     'title': 'Ankara E-Ticaret Sitesi Kurulumu | Online Mağaza | Clickbait',
-    'description': 'Ankara’da e-ticaret sitesi kurulumu: mobil uyumlu mağaza tasarımı, ürün yönetimi, ödeme ve kargo entegrasyonları, SEO altyapısı ve reklam ölçümüyle satış yapan online mağazalar.',
+    'description': 'Ankara’da e-ticaret sitesi kurulumu: mobil uyumlu mağaza tasarımı, ödeme ve kargo bağlantıları, SEO altyapısı ve reklam ölçümüyle satış yapan mağazalar.',
     'h1': 'Ankara e-ticaret sitesi: satışa hazır, yönetmesi kolay bir online mağaza',
     'giris': 'İşinize uygun altyapıyı seçiyor, mağazanızı tasarlıyor, ödeme ve kargo bağlantılarını kuruyor, ürünlerinizi Google’da bulunur hâle getiriyoruz. Açılıştan sonra reklam ve ölçümle satışların artmasına da yardımcı oluyoruz.',
     'kapsam': 'E-ticaret sitesi kurulumunda neler var?',
@@ -316,8 +318,8 @@ ANKARA = [
   },
   {
     'adres': 'ankara-instagram-reklam-ajansi', 'kisa': 'Ankara Instagram reklam ajansı', 'ust': 'dijital-pazarlama', 'renk': 'dark',
-    'title': 'Ankara Instagram Reklam Ajansı | Meta Reklam Yönetimi | Clickbait',
-    'description': 'Ankara Instagram reklam ajansı: Instagram ve Facebook reklamlarınızı hedef kitle, kreatif ve bütçe yönetimiyle kuruyor, talepleri ölçüyor ve her ay raporluyoruz.',
+    'title': 'Ankara Instagram Reklam Ajansı | Meta Reklamları | Clickbait',
+    'description': 'Ankara Instagram reklam ajansı: Instagram ve Facebook reklamlarınızı kitle, kreatif ve bütçe yönetimiyle kuruyor, talepleri ölçüp her ay raporluyoruz.',
     'h1': 'Ankara Instagram reklam ajansı: doğru kişiye, doğru görselle, ölçülebilir sonuçla',
     'giris': 'Instagram ve Facebook reklamlarınızı tek ekipte planlıyor, tasarlıyor ve yönetiyoruz. Reklamı kime göstereceğinizi, ne söyleyeceğinizi ve bütçenin nasıl harcanacağını birlikte belirliyor; gelen mesaj, form ve aramaları ölçüyoruz.',
     'kapsam': 'Instagram reklam yönetimimizde neler var?',
@@ -429,26 +431,45 @@ def alt_bilgi():
 </nav>
 <!-- ▲▲▲▲▲ BÖLÜM: ALT BİLGİ — BİTİŞ ▲▲▲▲▲ -->'''
 
-def menu():
-    linkler = [('/#hizmetler', 'Hizmetler'), ('/#projeler', 'Projeler'), ('/#hakkimizda', 'Hakkımızda'), ('/blog/', 'Blog'), ('/#iletisim', 'İletişim')]
+def menu(ana=False):
+    # ana=True: ana sayfadaki kopya (bölüm bağlantıları sayfa içi, logo sayfa başına gider)
+    k = '' if ana else '/'
+    linkler = [(f'{k}#projeler', 'Projeler'), (f'{k}#hakkimizda', 'Hakkımızda'), ('/blog/', 'Blog'), (f'{k}#iletisim', 'İletişim')]
     ust = ''.join(f'\n        <a class="hover:text-white transition-colors" href="{u}">{buyuk(a)}</a>' for u, a in linkler)
     mob = ''.join(f'\n        <a class="px-4 py-3.5 rounded-2xl text-lg font-bold text-slate-900 hover:bg-slate-100" href="{u}">{a}</a>' for u, a in linkler)
+    # Hizmetler açılır listesi: masaüstünde üzerine gelince/odaklanınca açılır, mobilde menünün içinde alt liste
+    acilir_hiz = ''.join(f'<a class="block rounded-xl px-3 py-2 text-sm font-semibold hover:bg-slate-100" href="/{h["adres"]}/">{e(h["kisa"])}</a>' for h in HIZMETLER)
+    acilir_ank = ''.join(f'<a class="block rounded-xl px-3 py-2 text-sm font-semibold hover:bg-slate-100" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)
+    mob_hiz = ''.join(f'<a class="px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:bg-slate-100" href="/{h["adres"]}/">{e(h["kisa"])}</a>' for h in HIZMETLER)
+    mob_ank = ''.join(f'<a class="rounded-full bg-slate-100 px-3 py-1.5 text-xs font-semibold text-slate-700 hover:bg-[#D8F83C]" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)
     return f'''  <!-- ▼▼▼▼▼ BÖLÜM: MENÜ — BAŞLANGIÇ ▼▼▼▼▼ -->
   <header class="relative z-40 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-14 gap-4">
-      <a aria-label="Clickbait, ana sayfa" class="flex items-center group" href="/">
+      <a aria-label="Clickbait, {'sayfa başı' if ana else 'ana sayfa'}" class="flex items-center group" href="{'#top' if ana else '/'}">
         <img src="/assets/img/logo-beyaz.svg" alt="Clickbait" width="137" height="32" class="h-7 sm:h-8 w-auto drop-shadow-sm transition-transform group-hover:scale-105">
       </a>
-      <nav aria-label="Ana menü" class="hidden md:flex items-center gap-8 lg:gap-9 text-xs font-semibold tracking-wider text-white/90">{ust}
+      <nav aria-label="Ana menü" class="hidden md:flex items-center gap-8 lg:gap-9 text-xs font-semibold tracking-wider text-white/90">
+        <div class="relative group">
+          <a class="inline-flex items-center gap-1 hover:text-white transition-colors" href="{k}#hizmetler">HİZMETLER<svg class="w-3 h-3 transition-transform group-hover:rotate-180 group-focus-within:rotate-180" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5"/></svg></a>
+          <div class="absolute left-0 top-full pt-3 hidden group-hover:block group-focus-within:block">
+            <div class="w-[33rem] grid grid-cols-2 gap-2 rounded-3xl bg-white p-3 text-slate-900 tracking-normal shadow-2xl">
+              <div><p class="px-3 pt-2 pb-1 text-[11px] font-bold tracking-widest text-slate-500">HİZMETLER</p>{acilir_hiz}</div>
+              <div class="rounded-2xl bg-slate-50"><p class="px-3 pt-2 pb-1 text-[11px] font-bold tracking-widest text-slate-500">ANKARA’YA ÖZEL</p>{acilir_ank}</div>
+            </div>
+          </div>
+        </div>{ust}
       </nav>
       <div class="flex items-center gap-2">
-        <a class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold tracking-wider text-black bg-[#D8F83C] hover:bg-[#c9eb2f] transition-all shadow-md shadow-black/5 hover:scale-[1.03]" href="/#iletisim">TEKLİF ALIN</a>
+        <a class="hidden sm:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-xs font-bold tracking-wider text-black bg-[#D8F83C] hover:bg-[#c9eb2f] transition-all shadow-md shadow-black/5 hover:scale-[1.03]" href="{k}#iletisim">TEKLİF ALIN</a>
         <button id="menuBtn" class="md:hidden inline-flex items-center px-4 py-2.5 rounded-full text-xs font-bold tracking-wider text-white bg-black/25 backdrop-blur-md border border-white/25" aria-expanded="false" aria-controls="mobileMenu">MENÜ</button>
       </div>
     </div>
-    <div id="mobileMenu" hidden class="md:hidden absolute left-4 right-4 top-16 bg-white rounded-3xl shadow-2xl p-3">
-      <nav aria-label="Mobil menü" class="grid">{mob}
-        <a class="mt-2 text-center px-5 py-3.5 rounded-full text-sm font-bold tracking-wider text-black bg-[#D8F83C]" href="/#iletisim">TEKLİF ALIN</a>
+    <div id="mobileMenu" hidden class="md:hidden fixed left-4 right-4 top-[calc(4.25rem+env(safe-area-inset-top,0px))] max-h-[calc(100dvh-10rem-env(safe-area-inset-top,0px)-env(safe-area-inset-bottom,0px))] overflow-y-auto overscroll-contain bg-white rounded-3xl shadow-2xl p-3">
+      <nav aria-label="Mobil menü" class="grid">
+        <a class="px-4 py-3.5 rounded-2xl text-lg font-bold text-slate-900 hover:bg-slate-100" href="{k}#hizmetler">Hizmetler</a>
+        <div class="grid pl-3 pb-2">{mob_hiz}</div>
+        <div class="flex flex-wrap gap-2 px-4 pb-3">{mob_ank}</div>{mob}
+        <a class="mt-2 text-center px-5 py-3.5 rounded-full text-sm font-bold tracking-wider text-black bg-[#D8F83C]" href="{k}#iletisim">TEKLİF ALIN</a>
       </nav>
     </div>
   </header>
@@ -925,7 +946,7 @@ def blog_liste():
     ld = {"@context": "https://schema.org", "@type": "Blog", "name": "Clickbait Blog", "url": ALAN + "/blog/", "inLanguage": "tr-TR",
           "publisher": {"@id": ALAN + "/#isletme"},
           "blogPost": [{"@type": "BlogPosting", "headline": y['baslik'], "url": f"{ALAN}/blog/{y['adres']}/", "datePublished": y['tarih']} for y in YAZILAR]}
-    bas_html = bas('Blog: Yapay Zeka, Web Tasarım ve Dijital Pazarlama | Clickbait',
+    bas_html = bas('Blog: Yapay Zeka, Web Tasarım, Dijital Pazarlama | Clickbait',
                    'Yapay zeka, web tasarım, dijital pazarlama ve sosyal medya üzerine işletmeler için uygulanabilir rehberler. Clickbait Dijital kurucusu Şakir Yavuz’dan yazılar.', '/blog/', ld_script(ld))
     ust = '<nav aria-label="Konum" class="text-xs font-semibold text-white/85"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="hover:text-white">Ana sayfa</a></li><li aria-hidden="true">/</li><li aria-current="page" class="text-white">Blog</li></ol></nav>'
     h1 = '<h1 id="h1" class="mt-6 max-w-4xl text-4xl sm:text-5xl md:text-6xl font-bold text-white tracking-tight leading-[1.08]" style="text-wrap:balance">Blog</h1>'
@@ -1057,6 +1078,7 @@ if __name__ == '__main__':
     bloglari_yaz()
     for d in ['index.html', 'kvkk/index.html']:
         blok_degistir(d, 'ALT BİLGİ', alt_bilgi())
+    blok_degistir('index.html', 'MENÜ', menu(ana=True).lstrip())
     # Ana sayfa, hizmetler bölümünün altı: Ankara'ya özel sayfalara bağlantılar
     p = os.path.join(KOK, 'index.html'); s = open(p, encoding='utf-8').read()
     baglantilar = ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-2.5 text-sm font-semibold text-slate-800 hover:border-slate-900 transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in ANKARA)
