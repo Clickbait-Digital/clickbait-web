@@ -14,6 +14,7 @@ Kullanıcı teknik değil: talimatları adım adım, "şuraya tıkla / şunu yaz
 - LinkedIn şirket sayfası (20.10.2026, Claude güncelledi): ad "Clickbait Dijital", adres Ümit Mah. Meksika Cad. No:56 D:21 Çayyolu, açıklama sitedeki hizmetlerle uyumlu, web https://clickbait.com.tr/. Adres (clickbait-digital-agency) değiştirilmedi.
   Kuruluş yılı **2013** (kullanıcı onayladı, 20.10.2026); LinkedIn'de de 2013 ve açıklamada "2013'ten beri". Eski adres (Ahmet Taner Kışlalı Mah. 2873. Sk.) tumisyeri.com'da hâlâ duruyor (kullanıcı düzeltecek).
 - Google İşletme Profili: https://share.google/u1DfuQgwwOlqnDbwp · Yorum bağlantısı: https://g.page/r/CVZVcZ6LobnvEBM/review
+  21.10.2026: ilk 2 yorum geldi (Aslan Sineklik, Alican Nazik; 5,0), Claude cevapladı. Logo (C simgesi, mavi) ve kapak yüklendi; dosyalar `dev/duyuru/isletme-profili/` (repoda değil). Yönetim: business.google.com (info@ hesabı, authuser 5); logo/kapak yükleme penceresi doğrudan `https://www.google.com/local/business/12721594481278180870/promote/photos/logo` (ve `/cover`) adresinde açılınca dosya yüklenebiliyor.
 - Rakamlar: 2013'ten beri (kuruluş yılı 2013), 10+ yıl, 300+ proje, 50+ marka, 7/24 destek.
 
 ## Hizmetler (bu sırayla; yapay zeka öne çıkarılıyor)
