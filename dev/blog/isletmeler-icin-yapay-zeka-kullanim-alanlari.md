@@ -77,4 +77,4 @@ En verimli yöntem küçük başlamaktır:
 
 Bu süreçte dışarıdan destek almayı düşünüyorsanız [yapay zeka danışmanlığı nedir?](/blog/yapay-zeka-danismanligi-nedir/) rehberimizde danışmanlığın nasıl ilerlediğini ve doğru danışmanı nasıl seçeceğinizi anlattık.
 
-> Clickbait olarak işletmelerin yapay zekayı günlük işlerine yerleştirmesine yardımcı oluyoruz. Ekibinizin iş akışını birlikte inceliyor, ilk kurulumu yapıyor ve ekibinizi eğitiyoruz. Ankara'daki ofisimizde ya da online görüşebiliriz.
+> Clickbait olarak işletmelerin yapay zekayı günlük işlerine yerleştirmesine yardımcı oluyoruz. Ekibinizin iş akışını birlikte inceliyor, ilk kurulumu yapıyor ve ekibinizi eğitiyoruz. Ayrıntılar için [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz. Ankara'daki ofisimizde ya da online görüşebiliriz.

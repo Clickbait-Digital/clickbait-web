@@ -82,3 +82,19 @@ Yapılacaklar (öncelik sırasıyla):
 5. "Şakir Yavuz kimdir?" sayfası — kullanıcıdan özgeçmiş.
 6. Destek yazıları: yerel SEO / Google Haritalar'da üst sıraya çıkmak, SEO raporunda nelere bakılır, teknik SEO kontrol listesi — hepsi /ankara-seo/'ya bağlanır.
 7. Dış bağlantı ve Google yorumları (devam eden iş).
+
+## 6. Dört öncelikli kelime (kullanıcı, 21.10.2026)
+
+Kullanıcının en önemli 4 kelimesi: **ankara reklam ajansı, ankara seo, ankara web tasarım, ankara yapay zeka danışmanlığı**. Ayrıntılı rapor: https://claude.ai/artifact/WHGMEdTpM4xMbouiLFgzV4 (ham veriler scratchpad'deydi, kalıcı değil).
+
+| Kelime | 21.10 sıramız | Sayfa | 1. sıra | Harita ilk 3 (yorum) |
+|---|---|---|---|---|
+| ankara seo | 7 | /ankara-seo/ | seomodi.com | Adwoox 23, Bilgeweb 444, DinamikSoft 130 |
+| ankara yapay zeka danışmanlığı | 8 | /yapay-zeka-danismanligi/ | armut.com | CoStoryMind 1, ARCA 312, Aklera 2 |
+| ankara reklam ajansı | 39 | /ankara-reklam-ajansi/ | gramedya.com.tr | ZMark 53, Gramedya 50, Optimal 68 |
+| ankara web tasarım | 50+ | /web-tasarim/ | ankarawebtasarim.com.tr | DinamikSoft 130, Blue Ajans 125, Remukan 73 |
+
+Ortak bulgular: Google yorumu (bizde 0) en büyük açık; rakipler gerçek iş kanıtı gösteriyor (adlı proje, Search Console rakamı, yorum); site büyüklüğü 50–900 sayfa (bizde 26). Hızda ve yapılandırılmış veride öndeyiz.
+Kelimeye özel: YZ sayfasında H1/başlıkta "Ankara" yok ve araç adı yok (en kolay kazanım). SEO'da "SEO uzmanı" niyeti ve GEO (yapay zeka aramaları) eksik; /ankara-seo/ "Konuyla ilgili yazılar" bölümünde Instagram yazısı çıkıyor (dijital-pazarlama kümesinden). Reklam ajansında Google tam hizmet ajans arıyor (TV/radyo/açık hava); sayfamız 3 kez "yapmıyoruz" diyor. Web tasarımda sayfa 14.10'da yayına girdi, hiçbir iç bağlantıda "Ankara web tasarım" metni yok, ilk 8'in 7'si ana sayfa.
+Kullanıcıdan beklenen kararlar: yorumlar, adı yazılabilecek müşteriler ve site adresleri, gerçek SEO sonuç verisi, müşteri yorum metinleri, fiyat yaklaşımı, kullanılan YZ araçları ve gerçek YZ işleri, fotoğraf/özgeçmiş, reklam ajansında geniş kelime mi "dijital reklam ajansı" mı, ana sayfa YZ mi web tasarım mı öne çıkarsın, dijitalajanslar.com ücretli paket (18–35 bin ₺/yıl).
+Yapılmayacak: 81 il / onlarca ilçe kopya sayfası.

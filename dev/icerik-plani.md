@@ -46,6 +46,8 @@ Hedef kelimeler: ankara dijital pazarlama ajansı, google ads ajansı ankara, se
 | ⏳ | Google Ads bütçesi nasıl belirlenir? | google ads bütçesi |
 | ✅ | SEO nedir, ne zaman sonuç verir? | seo nedir |
 | ✅ | Instagram reklamı nasıl verilir? Adım adım rehber (→ /ankara-instagram-reklam-ajansi/) | instagram reklamı nasıl verilir |
+| ✅ | Teknik SEO kontrol listesi: 12 madde (→ /ankara-seo/, 21.10.2026) | teknik seo kontrol listesi |
+| ✅ | GEO nedir? Yapay zeka aramalarında görünmek (→ /ankara-seo/, 21.10.2026) | geo nedir |
 | ⏳ | Dönüşüm takibi kurmadan reklam vermeyin | dönüşüm takibi |
 
 ## 4. Sosyal medya yönetimi → /sosyal-medya-yonetimi/

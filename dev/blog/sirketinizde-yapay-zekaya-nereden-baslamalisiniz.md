@@ -101,4 +101,4 @@ Eğitim almadan araç verilen ekipler genellikle birkaç denemeden sonra eski y�
 
 Bu adımları kendi başınıza uygulayabilirsiniz. Dışarıdan destek almayı düşünüyorsanız, danışmanlık sürecinin nasıl ilerlediğini ve doğru danışmanı nasıl seçeceğinizi [yapay zeka danışmanlığı nedir?](/blog/yapay-zeka-danismanligi-nedir/) rehberimizde anlattık.
 
-> Clickbait olarak şirketlerin yapay zekaya bu adımlarla başlamasına yardımcı oluyoruz: iş listesini birlikte çıkarıyor, ilk pilotu kuruyor, kullanım kurallarını yazıyor ve ekibinizi eğitiyoruz. Ayrıntılar için [yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz. Ankara'da Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.
+> Clickbait olarak şirketlerin yapay zekaya bu adımlarla başlamasına yardımcı oluyoruz: iş listesini birlikte çıkarıyor, ilk pilotu kuruyor, kullanım kurallarını yazıyor ve ekibinizi eğitiyoruz. Ayrıntılar ve kurumsal yapay zeka eğitimlerimiz için [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz. Ankara'da Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.

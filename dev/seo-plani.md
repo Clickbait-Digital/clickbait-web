@@ -24,7 +24,7 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | `/ankara-instagram-reklam-ajansi/` | instagram reklam ajansı ankara | instagram reklam verme, meta reklam ajansı |
 | `/sosyal-medya-yonetimi/` | ankara sosyal medya ajansı | sosyal medya yönetimi ankara, instagram yönetimi |
 | `/kreatif-hizmetler/` | ankara logo tasarım | kurumsal kimlik tasarımı, grafik tasarım ankara |
-| `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, işletmeler için yapay zeka |
+| `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, işletmeler için yapay zeka, kurumsal yapay zeka eğitimi |
 | Blog yazıları | bilgi aramaları ("nedir", "nasıl", "fiyatları") | her yazı kendi hizmet sayfasına bağlantı verir |
 | `/blog/seo-nedir-ne-zaman-sonuc-verir/` | seo nedir | seo ne zaman sonuç verir, seo nasıl çalışır (→ /ankara-seo/) |
 | `/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/` | sosyal medya ajansı nasıl seçilir | sosyal medya ajansı seçerken (→ /sosyal-medya-yonetimi/; "ankara sosyal medya ajansı" sayfanın) |
@@ -70,6 +70,8 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 |---|---|---|
 | ✅ 18 Eki | SEO firması seçerken sorulacak 10 soru: Ankara rehberi | /ankara-seo/ |
 | ✅ 19 Eki | Sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey: Ankara rehberi | /sosyal-medya-yonetimi/ |
+| ✅ 21 Eki | Teknik SEO kontrol listesi: 12 madde | /ankara-seo/ |
+| ✅ 21 Eki | GEO nedir? Yapay zeka aramalarında görünmek | /ankara-seo/ |
 | ⏳ | Ankara'daki küçük işletmeler için dijital pazarlama: nereden başlamalı? | /dijital-pazarlama/ |
 | ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
 | ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |

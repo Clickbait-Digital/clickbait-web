@@ -250,7 +250,7 @@ DUZEN = '<rect x="3.5" y="4" width="17" height="16" rx="2.5"/><path d="M3.5 9.5h
 
 KART_SIMGE = {
   'İhtiyaç analizi': ARA, 'Raporlama ve otomasyon': DISLI, 'İçerik ve görsel üretimi': PARILTI, 'Müşteri iletişimi': MESAJ,
-  'Ekip eğitimi': KEP, 'Veri güvenliği ve KVKK': KALKAN,
+  'Ekip eğitimi': KEP, 'Kurumsal yapay zeka eğitimi': KEP, 'Veri güvenliği ve KVKK': KALKAN,
   'Kurumsal web sitesi': SITE, 'E-ticaret ve WooCommerce': SEPET, 'UI/UX tasarım': DUZEN, 'Özel ikon ve illüstrasyon': FIRCA,
   'Hosting ve bakım': SUNUCU, 'Performans ve güvenlik denetimi': SIMSEK,
   'Google Ads yönetimi': ARA, 'Meta reklamları': HEDEF, 'SEO': GRAFIK, 'Dijital medya planlama': TAKVIM, 'Dönüşüm takibi': HEDEF, 'Raporlama': BELGE,

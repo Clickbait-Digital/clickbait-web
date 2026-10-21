@@ -25,16 +25,16 @@ TEL_GORUNEN, TEL_LINK, WHATSAPP = '0507 923 85 75', 'tel:+905079238575', 'https:
 HIZMETLER = [
   {
     'adres': 'yapay-zeka-danismanligi', 'kisa': 'Yapay zeka danışmanlığı', 'renk': 'lime',
-    'title': 'Yapay Zeka Danışmanlığı | Ankara ve Türkiye | Clickbait',
-    'description': 'Yapay zeka danışmanlığı: zaman kaybettiren işleri belirliyor, doğru araçları kurup ekibinizi eğitiyoruz. Ankara’da yüz yüze, Türkiye genelinde online.',
-    'h1': 'Yapay zeka danışmanlığı: işinize gerçekten zaman kazandıran kurulumlar',
-    'giris': 'Yapay zekayı denemek kolay, işin içine yerleştirmek zor. Ekibinizin her hafta tekrar eden işlerini birlikte buluyor, doğru aracı seçip iş akışınıza bağlıyor ve ekibinizi kullanımına alıştırıyoruz. Ankara’daki işletmelerle ofisimizde, Türkiye’nin her yerinden işletmelerle online çalışıyoruz.',
+    'title': 'Ankara Yapay Zeka Danışmanlığı ve Eğitimi | Clickbait',
+    'description': 'Ankara’da yapay zeka danışmanlığı ve kurumsal yapay zeka eğitimi: doğru araçları iş akışınıza kuruyor, ekibinizi eğitiyoruz. Türkiye geneline online.',
+    'h1': 'Ankara’da yapay zeka danışmanlığı: işinize gerçekten zaman kazandıran kurulumlar',
+    'giris': 'Yapay zekayı denemek kolay, işin içine yerleştirmek zor. 4 kişilik yapay zeka ekibimizle ekibinizin her hafta tekrar eden işlerini birlikte buluyor, doğru aracı seçip iş akışınıza bağlıyor ve kurumsal eğitimlerle ekibinizi kullanımına alıştırıyoruz. Ankara’daki işletmelerle yüz yüze, Türkiye’nin her yerinden işletmelerle online çalışıyoruz.',
     'kartlar': [
       ('İhtiyaç analizi', 'Hangi işlerin otomatikleşebileceğini, hangilerinin insanda kalması gerektiğini birlikte çıkarıyoruz.'),
       ('Raporlama ve otomasyon', 'Haftalık raporlar, veri derleme, e-posta ve doküman hazırlığı gibi tekrar eden işleri otomatikleştiriyoruz.'),
       ('İçerik ve görsel üretimi', 'Sosyal medya, blog ve reklam metinleri için markanızın diline uygun yapay zeka iş akışları kuruyoruz.'),
       ('Müşteri iletişimi', 'Sık sorulan sorulara ilk yanıtı veren, gerektiğinde ekibinize aktaran asistanlar tasarlıyoruz.'),
-      ('Ekip eğitimi', 'Ekibinize doğru komut yazmayı, sonuçları kontrol etmeyi ve araçları güvenle kullanmayı öğretiyoruz.'),
+      ('Kurumsal yapay zeka eğitimi', 'Ekiplerinize kendi işleri üzerinden uygulamalı eğitim veriyoruz: doğru komut yazma, sonuçları kontrol etme ve araçları güvenle kullanma.'),
       ('Veri güvenliği ve KVKK', 'Hangi verinin hangi araçla paylaşılabileceğini belirleyen kullanım kuralları hazırlıyoruz.'),
     ],
     'adimlar': [
@@ -49,7 +49,18 @@ HIZMETLER = [
       ('Verilerimiz güvende olur mu?', 'Kurulumdan önce hangi verinin hangi araçla paylaşılabileceğini birlikte belirliyoruz. Kişisel ve gizli verileri KVKK’ya uygun şekilde ayıran kullanım kuralları hazırlıyoruz.'),
       ('Ankara dışındaki işletmelere de hizmet veriyor musunuz?', 'Evet. Görüşmeleri, kurulumu ve eğitimleri online yürütebiliyoruz. Ankara’daki işletmelerle Çayyolu’ndaki ofisimizde de buluşuyoruz.'),
       ('İlk görüşme nasıl ilerliyor?', 'Ekibinizin iş akışını dinliyoruz ve görüşmenin sonunda yapay zekayla başlanabilecek ilk işi öneriyoruz.'),
+      ('Kurumsal yapay zeka eğitimi veriyor musunuz?', 'Evet. Şirketlere ve ekiplere yüz yüze ya da online, uygulamalı yapay zeka eğitimleri veriyoruz. Eğitimi ekibinizin kendi işleri üzerinden kurguluyor, veri güvenliği ve KVKK kurallarını da eğitimin parçası yapıyoruz.'),
+      ('Hangi yapay zeka araçlarıyla çalışıyorsunuz?', 'ChatGPT, Claude, Gemini, Microsoft Copilot ve Perplexity gibi dil modelleriyle, Midjourney gibi görsel araçlarla ve n8n, Make, Zapier gibi otomasyon araçlarıyla çalışıyoruz. Tek bir araca bağlı değiliz; işinize ve veri güvenliği ihtiyacınıza uygun olanı seçiyoruz.'),
+      ('Bir yapay zeka projesi ne kadar sürer?', 'İşin kapsamına göre değişir. Tek bir işle başlayan pilot uygulamanın takvimini keşif görüşmesinden sonra netleştiriyor, sonuç alındıkça diğer işlere geçiyoruz.'),
+      ('Fiyat neye göre belirleniyor?', 'Kaç iş akışının kurulacağı, kaç kişinin eğitileceği, eğitimin yüz yüze mi online mı olacağı ve kullanılacak araçların lisansları fiyatı belirler. Keşif görüşmesinden sonra kalem kalem teklif hazırlıyoruz.'),
     ],
+    'metin': [
+      ('Ankara’da yapay zeka danışmanlığında neler teslim ediyoruz?', 'Çalışmanın sonunda elinizde somut çıktılar olur: hangi işlerin yapay zekayla hızlanabileceğini öncelik sırasıyla gösteren bir ihtiyaç analizi, hangi verinin hangi araçla paylaşılabileceğini belirleyen ve KVKK’yı gözeten kullanım kuralları, ilk iş için kurulmuş ve denenmiş bir pilot uygulama, ekibinizin günlük kullanımı için kısa kılavuzlar ve ilk haftalarda birlikte takip. Pilotun kazandırdığı zamanı ölçüyor, işe yarayan kurulumu diğer süreçlere taşıyoruz.'),
+      ('Kurumsal yapay zeka eğitimi', 'Şirketlere ve ekiplere yüz yüze ya da online yapay zeka eğitimleri veriyoruz. Eğitimler genel bir sunum değil, ekibinizin kendi işleri üzerinden ilerleyen uygulamalı çalışmalardır: doğru komut yazma, sonuçları kontrol etme, belgeyle ve veriyle çalışma, hangi işte hangi aracın uygun olduğu ve veri güvenliği. Eğitimden sonra ekibinizin elinde kendi işlerine göre hazırlanmış örnekler ve kullanım kuralları kalır. Nereden başlayacağınızı [şirketinizde yapay zekaya nereden başlamalısınız?](/blog/sirketinizde-yapay-zekaya-nereden-baslamalisiniz/) yazımızda adım adım anlattık.'),
+      ('Kimler için uygun, kimler için değil?', 'Raporlama, teklif hazırlama, müşteri yazışmaları ya da içerik üretimi gibi her hafta tekrar eden işleri olan ve ekibinin zamanını daha değerli işlere ayırmak isteyen işletmeler için uygundur. Tek tıkla her şeyi çözecek hazır bir ürün arıyorsanız ya da süreçlerinizi değiştirmeye hiç zaman ayıramayacaksanız henüz doğru zaman olmayabilir; yapay zeka, ekibin onu kullanmayı öğrendiği ölçüde fayda sağlar. Hangi işlerde zaman kazandırdığını [işletmeler için yapay zekanın 8 kullanım alanı](/blog/isletmeler-icin-yapay-zeka-kullanim-alanlari/) yazımızda topladık.'),
+      ('Örnek kullanım senaryoları', 'Aşağıdakiler temsili örneklerdir; her işletmede kurulum farklıdır. **Haftalık rapor:** satış ya da reklam verileri her pazartesi otomatik derlenir, yapay zeka özetini yazar, yönetici yalnızca kontrol eder. **Teklif hazırlama:** müşteri talebi ve fiyat listesinden ilk teklif taslağı hazırlanır, ekip düzeltip gönderir. **Müşteri soruları:** sık sorulan sorulara ilk yanıtı veren, cevabı bilmediğinde ekibe aktaran bir asistan kurulur. **İçerik akışı:** aylık konu planından sosyal medya ve blog taslakları markanızın diliyle hazırlanır, onaydan sonra yayınlanır. Bu kurulumlarda ChatGPT, Claude ya da Gemini gibi dil modellerini n8n, Make ya da Zapier gibi otomasyon araçlarıyla birlikte kullanıyoruz.'),
+    ],
+    'araclar': [('ChatGPT', 'chatgpt'), ('Claude', 'claude'), ('Gemini', 'gemini'), ('Microsoft Copilot', 'copilot'), ('Perplexity', 'perplexity'), ('Grok', 'grok'), ('DeepSeek', 'deepseek'), ('Mistral', 'mistral'), ('Midjourney', 'midjourney'), ('n8n', 'n8n'), ('Make', 'make'), ('Zapier', 'zapier')],
   },
   {
     'adres': 'web-tasarim', 'kisa': 'Web tasarım', 'renk': 'sky',
@@ -178,7 +189,7 @@ HIZMETLER = [
 ANKARA = [
   {
     'adres': 'ankara-seo', 'kisa': 'Ankara SEO', 'ust': 'dijital-pazarlama', 'renk': 'blue',
-    'title': 'Ankara SEO Ajansı | Aylık SEO Hizmeti | Clickbait',
+    'title': 'Ankara SEO Ajansı | Aylık SEO Hizmeti | Clickbait', 'guncelleme': '2026-10-21',
     'description': 'Ankara SEO hizmeti: teknik SEO, yerel SEO, Google İşletme Profili ve içerikle sitenizi Google’da öne çıkarmak için çalışıyoruz. Her ay şeffaf rapor.',
     'h1': 'Ankara SEO: Google’da sizi arayan müşteriler sizi bulsun',
     'giris': 'Sitenizin teknik altyapısını düzeltiyor, müşterilerinizin Ankara’da ve Türkiye genelinde gerçekten aradığı kelimelere göre içerik planlıyor, Google İşletme Profilinizi güçlendiriyoruz. Her ay neyin değiştiğini sade bir raporla paylaşıyoruz.',
@@ -202,6 +213,10 @@ ANKARA = [
       ('Ankara’daki işletme sitelerinde en sık gördüğümüz eksikler', 'Ekim 2026’da Ankara’da 18 sektörden 101 işletme sitesini aynı yöntemle inceledik. Sitelerin yalnızca %9’u Google’ın mobil hız testinde 90 ve üzeri puan aldı; %87’sinde sayfanın ana içeriği telefonda 4 saniyeden geç yükleniyor. Ana sayfaların %26’sında konuyu söyleyen ana başlık (H1) yok, %10’unda Google’da görünen açıklama yazılmamış, %42’sinde işletme bilgisini Google’a bildiren yapılandırılmış veri bulunmuyor. Bu eksiklerin çoğu büyük bir yenileme gerektirmeden düzeltilebilir; SEO çalışmamıza da genellikle bunlarla başlıyoruz. Tüm bulgular ve yöntem [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında.'),
       ('SEO mu, Google Ads mi?', 'Google Ads ile reklam verdiğiniz sürece üst sıralarda görünürsünüz; bütçe bittiğinde görünürlük de durur. SEO ise organik sonuçlarda kalıcı bir yer edinmek için yapılan çalışmadır: sonuç vermesi zaman alır ama tıklama başına ödeme yapmazsınız. Çoğu işletmeye ikisini birlikte yürütmeyi, reklamdan gelen verilerle SEO önceliklerini belirlemeyi öneriyoruz. Farkları [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımızda karşılaştırdık; reklam tarafı için [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/) sayfamıza bakabilirsiniz.'),
       ('SEO hizmeti fiyatını neler belirler?', 'SEO hizmetinin fiyatını birkaç şey belirler: sitenizin teknik durumu ve ne kadar düzeltme gerektiği, hedeflediğiniz kelimelerin sayısı ve rekabeti, her ay ne kadar yeni içerik üretileceği, Google İşletme Profili ve yorum yönetiminin işe dahil olup olmadığı, sitenizin altyapısı ve düzenlemeleri kimin yapacağı. Bu yüzden herkese aynı paketi sunmak yerine önce sitenizi inceliyor, ardından her ay neler yapılacağını kalem kalem yazan bir teklif hazırlıyoruz. Teklifleri karşılaştırırken nelere bakmanız gerektiğini [SEO firması seçerken sorulacak 10 soru](/blog/seo-firmasi-secerken-sorulacak-sorular/) yazımızda topladık.'),
+      ('Çalışma modelimiz: aylık SEO hizmeti', 'SEO’yu tek seferlik bir iş olarak değil, aylık bir hizmet olarak yürütüyoruz. İlk ay sitenizin teknik denetimini yapıyor, düzeltilmesi gerekenleri öncelik sırasına koyuyor ve hangi sayfanın hangi aramayla sıralanacağını gösteren bir kelime haritası çıkarıyoruz. Sonraki aylarda teknik düzeltmeleri uyguluyor, sayfa içi düzenlemeleri yapıyor, yeni içerikleri planlayıp yazıyor ve Google İşletme Profilinizi güncel tutuyoruz. Her ayın sonunda Search Console verileriyle hazırlanmış sade bir rapor paylaşıyor, bir sonraki ayın planını birlikte konuşuyoruz.'),
+      ('Yapay zeka aramalarında görünürlük (GEO)', 'Müşterileriniz artık yalnızca Google’da arama yapmıyor; ChatGPT, Gemini, Perplexity ve Google’ın yapay zeka özetlerine de soru soruyor. Bu araçların işletmenizi doğru tanıması ve önermesi için SEO çalışmasına yapay zeka görünürlüğünü de ekliyoruz: işletme bilgilerinizi yapılandırılmış veriyle tanımlıyor, sayfalarınıza alıntılanabilir kısa tanımlar ve sık sorulan sorular ekliyor, yapay zeka araçları için site özeti (llms.txt) hazırlıyor ve Bing Webmaster Tools’un yapay zeka raporuyla görünürlüğü izliyoruz. Ayrıntıları [GEO nedir?](/blog/geo-nedir-yapay-zeka-aramalarinda-gorunmek/) yazımızda anlattık; yapay zekayı işinizde kullanmak için [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz.'),
+      ('Hangi sektörlerde çalıştık?', 'Sağlık (diş ve saç ekimi klinikleri, psikologlar), eğitim (dil kursları, havacılık akademisi), inşaat ve emlak, yayıncılık, konaklama ve kamu kurumlarından markalarla çalıştık. Her sektörün arama davranışı farklıdır: bir psikolog için semt adıyla yapılan aramalar, bir dil kursu için “ankara ingilizce kursu fiyatları” gibi fiyat aramaları öne çıkar. Bu yüzden çalışmaya sektörünüzde müşterilerin gerçekte ne aradığını çıkararak başlıyoruz. Teknik tarafta nelere baktığımızı [teknik SEO kontrol listesi](/blog/teknik-seo-kontrol-listesi/) yazımızda topladık.'),
+      ('Ankara’da nerede çalışıyoruz?', 'Ofisimiz Çayyolu’nda: Ümit Mah. Meksika Cad. No:56/21, Çayyolu, Ankara ([haritada aç](https://share.google/u1DfuQgwwOlqnDbwp)). Çayyolu, Ümitköy ve çevresindeki işletmelerle ofisimizde yüz yüze görüşüyor, Ankara’nın diğer ilçelerinden ve Türkiye genelinden müşterilerimizle online çalışıyoruz.'),
       ('Neyi söz veriyoruz, neyi vermiyoruz?', 'Sıralamayı Google kendi algoritmasıyla belirler; “bir ayda ilk sıra” gibi sözler veren bir ajansa temkinli yaklaşmanızı öneririz. Bizim sözümüz yaptığımız her işi açıkça raporlamak, Google’ın kurallarına uygun çalışmak ve sonuçları Search Console verileriyle ölçmektir. Sitenizi yeniliyorsanız sıralamanızı kaybetmemek için eski adresleri yeni sayfalara yönlendirmeyi de bu sürece dahil ediyoruz.'),
     ],
     'sss': [
@@ -211,8 +226,21 @@ ANKARA = [
       ('Yerel SEO nedir?', 'İşletmenizin “Ankara” ya da “yakınımdaki” gibi konum içeren aramalarda ve Google Haritalar’da görünmesi için yapılan çalışmadır. Google İşletme Profili, müşteri yorumları ve tutarlı iletişim bilgileri bu çalışmanın temelidir.'),
       ('Ankara’da SEO uzmanı mı, SEO ajansı mı?', 'Clickbait Dijital’de SEO çalışmalarını ajansın kurucusu Şakir Yavuz bizzat yürütüyor. Böylece bir SEO uzmanıyla doğrudan çalışırken tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibinden de destek alırsınız.'),
       ('Ankara’daki SEO ajansları arasında nasıl seçim yapmalıyım?', 'Sitenizi inceleyip somut tespitlerle gelen, ilk ayların iş planını yazılı veren, sıra garantisi vermeyen ve hesapları sizin adınıza açan bir ajans seçin. Görüşmede sorulacak soruları blogumuzdaki “SEO firması seçerken sorulacak 10 soru” yazısında topladık.'),
+      ('ChatGPT ve Gemini gibi yapay zeka araçlarında görünmek için ne yapıyorsunuz?', 'İşletme bilgilerinizi yapılandırılmış veriyle tanımlıyor, sayfalarınıza kısa ve alıntılanabilir tanımlar ekliyor, yapay zeka araçları için site özeti (llms.txt) hazırlıyor ve görünürlüğü Bing Webmaster Tools’un yapay zeka raporuyla izliyoruz.'),
       ('Aylık raporda neler oluyor?', 'Hangi aramalarda göründüğünüz, sıralama değişimleri, siteye gelen ziyaretçi ve talep sayısı ile o ay yaptığımız işler. Bir sonraki ayın planını da rapora ekliyoruz.'),
     ],
+    'ilgili': ['seo-nedir-ne-zaman-sonuc-verir', 'teknik-seo-kontrol-listesi', 'geo-nedir-yapay-zeka-aramalarinda-gorunmek', 'seo-firmasi-secerken-sorulacak-sorular', 'ankara-isletme-siteleri-arastirmasi-2026'],
+    'sonuclar': {
+      'donem': '19 Temmuz – 18 Ekim 2026 (son 3 ay)',
+      'siteler': [
+        {'ad': 'Active English', 'tur': 'Dil kursu · Ankara', 'adres': 'https://active-languages.com/', 'tiklama': '6.500', 'gosterim': '620.000', 'konum': '8,1',
+         'not': 'Adında “Ankara” geçen 524 farklı aramada görünüyor.', 'ornek': [('ankara ingilizce kursu fiyatları', '2,7'), ('ankara dil kursları fiyatları', '2,8'), ('ankara ispanyolca kursu', '5,4')]},
+        {'ad': 'Psychology Times', 'tur': 'Psikoloji yayını · Türkiye geneli', 'adres': 'https://psychologytimes.com.tr/', 'tiklama': '21.500', 'gosterim': '805.000', 'konum': '9,1',
+         'not': '1.000’den fazla farklı aramada görünüyor.', 'ornek': [('psychology times', '1,3'), ('pembe fil deneyi', '1,9'), ('psikolog feyzanur gündüz', '5,1')]},
+        {'ad': 'Rojin Nazik', 'tur': 'Psikolog · Ankara', 'adres': 'https://www.psikologrojinnazik.com/', 'tiklama': '440', 'gosterim': '33.100', 'konum': '15,3',
+         'not': 'Yerel bir psikolog sitesi; marka ve bilgi aramalarında üst sıralarda.', 'ornek': [('psikolog teşhis koyar mı', '2,1'), ('rojin nazik', '4,2'), ('yaşamkent psikolog', '12,9')]},
+      ],
+    },
   },
   {
     'adres': 'ankara-google-ads-ajansi', 'kisa': 'Ankara Google Ads ajansı', 'ust': 'dijital-pazarlama', 'renk': 'blue',
@@ -356,6 +384,7 @@ ANKARA = [
 # Kurucu / SEO'yu yürüten kişi ve blog yazarı. Yalnızca kullanıcının verdiği bilgiler (20.10.2026): kurucu, 2013, SEO'yu bizzat yürütüyor, yazılar onun deneyimine dayanıyor.
 KURUCU = {
   'ad': 'Şakir Yavuz', 'bas_harf': 'ŞY', 'unvan': 'Kurucu, Clickbait Dijital',
+  'foto': '/assets/img/sakir-yavuz.jpg', 'foto_kare': '/assets/img/sakir-yavuz-kare.jpg',
   'linkedin': 'https://www.linkedin.com/in/%C5%9Fakir-yavuz-2b62bb125/',
   'yazar_notu': 'Şakir Yavuz, Clickbait Dijital’in kurucusudur. Ajansı 2013’te Ankara’da kurdu ve SEO çalışmalarını bizzat yürütüyor. Blogdaki yazılar, Ankara’daki işletmelerle yaptığı çalışmalardan edindiği deneyime dayanıyor.',
 }
@@ -363,7 +392,7 @@ KURUCU = {
 # Sayfa başındaki "KISACA" kutusu: yapay zeka araçlarının ve Google'ın alıntılayabileceği, kendi başına anlaşılır tanım.
 # Kural: kim (Clickbait Dijital), ne, nerede, nasıl; yalnızca sayfada zaten söylenen bilgiler, rakam/sonuç yok. llms.txt de bunu kullanır.
 TANIMLAR = {
-  'yapay-zeka-danismanligi': 'Yapay zeka danışmanlığı, bir işletmenin yapay zekayı hangi işlerde, hangi araçlarla ve hangi kurallarla kullanacağını belirleyip bu kullanımı hayata geçiren hizmettir. Clickbait Dijital, Ankara Çayyolu’ndaki ofisinden işletmelerin tekrar eden işlerini inceler, uygun araçları kurar, kullanım kurallarını yazar ve ekipleri eğitir. Ankara’daki işletmelerle yüz yüze, Türkiye’nin her yerinden işletmelerle online çalışır.',
+  'yapay-zeka-danismanligi': 'Yapay zeka danışmanlığı, bir işletmenin yapay zekayı hangi işlerde, hangi araçlarla ve hangi kurallarla kullanacağını belirleyip bu kullanımı hayata geçiren hizmettir. Clickbait Dijital, Ankara Çayyolu’ndaki ofisinden 4 kişilik yapay zeka ekibiyle işletmelerin tekrar eden işlerini inceler, uygun araçları kurar, kullanım kurallarını yazar ve kurumsal yapay zeka eğitimleri verir. Ankara’daki işletmelerle yüz yüze, Türkiye’nin her yerinden işletmelerle online çalışır.',
   'web-tasarim': 'Clickbait Dijital, Ankara’da 2013’ten beri kurumsal web siteleri ve e-ticaret mağazaları tasarlayan bir dijital ajanstır. Tasarım, geliştirme, hosting ve bakım tek ekipte yürütülür; siteler mobil uyumlu, hızlı ve Google’da bulunabilir şekilde hazırlanır. Ankara’daki işletmelerle Çayyolu’ndaki ofiste, Türkiye genelindeki işletmelerle online çalışılır.',
   'dijital-pazarlama': 'Dijital pazarlama; Google Ads, Instagram ve Facebook (Meta) reklamları, SEO ve dijital medya planlamasıyla bir işletmenin internette müşteriye ulaşmasını sağlayan çalışmaların tamamıdır. Clickbait Dijital, Ankara’daki ve Türkiye genelindeki işletmeler için reklam hesaplarını kurar ve yönetir, SEO çalışmasını aynı ekipte yürütür ve sonuçları her ay raporlar.',
   'sosyal-medya-yonetimi': 'Sosyal medya yönetimi; bir markanın hesaplarında aylık içerik planının hazırlanması, tasarımların ve metinlerin üretilmesi, paylaşımların takvime göre yayınlanması ve sonuçların raporlanmasıdır. Clickbait Dijital, Ankara’da markaların sosyal medya hesaplarını ağırlıklı olarak Instagram ve LinkedIn’de yönetir; her ayın planı ve tasarımları yayından önce müşteri onayına sunulur.',
@@ -522,8 +551,10 @@ def referans_seridi():
     return m.group(0).replace('src="assets/', 'src="/assets/') if m else ''
 
 UZMAN_METNI = {
-  'ankara-seo': ('SEO çalışmanızı kim yürütüyor?',
-                 'Ankara SEO çalışmalarımızı Clickbait Dijital’in kurucusu Şakir Yavuz bizzat yürütüyor. Şakir Yavuz ajansı 2013’te Ankara’da kurdu; sitenizin incelenmesinden hedef aramaların belirlenmesine ve aylık raporlara kadar SEO sürecini kendisi yönetiyor. Böylece bir SEO uzmanıyla doğrudan çalışırken tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibinden de destek alırsınız.'),
+  'ankara-seo': ('Ankara SEO uzmanı ile doğrudan çalışın',
+                 'Ankara SEO çalışmalarımızı Clickbait Dijital’in kurucusu Şakir Yavuz bizzat yürütüyor. Şakir Yavuz ajansı 2013’te Ankara’da kurdu; o günden bu yana sağlık, eğitim, havacılık, inşaat, emlak, yayıncılık ve konaklama sektörlerinden markaların web sitelerini, reklamlarını ve SEO çalışmalarını yönetiyor. Active English, Psychology Times ve Rojin Nazik gibi sitelerin SEO süreçlerini yürütüyor. Sitenizin incelenmesinden hedef aramaların belirlenmesine ve aylık raporlara kadar süreci kendisi yönettiği için bir SEO uzmanıyla doğrudan çalışırsınız; tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibi de yanınızdadır.'),
+  'yapay-zeka-danismanligi': ('Yapay zeka çalışmalarınızı kim yürütüyor?',
+                 'Yapay zeka projelerimizi kurucumuz Şakir Yavuz’la birlikte 4 kişilik bir ekip yürütüyor. İhtiyaç analizinden araç seçimine, kurulumdan kurumsal eğitimlere kadar sürecin her adımında aynı ekip yanınızda olur. Analiz, kurulum ve eğitim birbirini bilerek ilerlediği için ekibinize anlatılanla kurulan sistem aynı dili konuşur.'),
 }
 
 def uzman_bolumu(h):
@@ -536,7 +567,7 @@ def uzman_bolumu(h):
   <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
     <h2 id="uzman-baslik" class="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">{e(baslik)}</h2>
     <div class="mt-6 rounded-[28px] border border-slate-100 bg-[#fafafa] p-6 md:p-8 flex flex-col sm:flex-row gap-5">
-      <span class="w-16 h-16 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center text-xl font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span>
+      <img src="{KURUCU['foto_kare']}" alt="{e(KURUCU['ad'])}" width="192" height="192" loading="lazy" class="w-24 h-24 sm:w-28 sm:h-28 shrink-0 rounded-2xl object-cover bg-slate-200">
       <div>
         <p class="text-lg font-extrabold text-slate-900">{e(KURUCU['ad'])}</p>
         <p class="text-sm font-semibold text-slate-500">{e(KURUCU['unvan'])}</p>
@@ -547,6 +578,55 @@ def uzman_bolumu(h):
   </div>
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: UZMAN — BİTİŞ ▲▲▲▲▲ -->
+'''
+
+def sonuclar_bolumu(h):
+    """Search Console'dan alınmış gerçek sonuç kartları (yalnızca kullanıcının verdiği erişimlerden, rakam uydurma)."""
+    s = h.get('sonuclar')
+    if not s: return ''
+    kartlar = ''.join(f'''
+      <li class="rounded-[28px] border border-slate-100 bg-white p-6 shadow-sm flex flex-col gap-4">
+        <div><a href="{x['adres']}" target="_blank" rel="noopener" class="text-lg font-extrabold text-slate-900 hover:underline">{e(x['ad'])} <span aria-hidden="true">↗</span></a><p class="text-xs font-bold tracking-wider text-slate-500">{e(buyuk(x['tur']))}</p></div>
+        <dl class="grid grid-cols-3 gap-2 text-center">
+          <div class="rounded-2xl bg-sky-50 px-2 py-3"><dt class="text-[11px] font-semibold text-slate-500">Tıklama</dt><dd class="text-lg font-extrabold text-slate-900 tabular-nums">{x['tiklama']}</dd></div>
+          <div class="rounded-2xl bg-sky-50 px-2 py-3"><dt class="text-[11px] font-semibold text-slate-500">Gösterim</dt><dd class="text-lg font-extrabold text-slate-900 tabular-nums">{x['gosterim']}</dd></div>
+          <div class="rounded-2xl bg-[#D8F83C] px-2 py-3"><dt class="text-[11px] font-semibold text-slate-700">Ort. sıra</dt><dd class="text-lg font-extrabold text-slate-900 tabular-nums">{x['konum']}</dd></div>
+        </dl>
+        <p class="text-sm text-slate-600">{e(x['not'])}</p>
+        <ul class="grid gap-1.5 text-sm">{''.join(f'<li class="flex items-baseline justify-between gap-3 border-t border-slate-100 pt-1.5"><span class="text-slate-700">“{e(q)}”</span><span class="shrink-0 font-bold text-slate-900 tabular-nums">ort. {p}</span></li>' for q, p in x['ornek'])}</ul>
+      </li>''' for x in s['siteler'])
+    return f'''
+<!-- ▼▼▼▼▼ BÖLÜM: SONUÇLAR — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pb-20 md:pb-28 bg-white" aria-labelledby="sonuclar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl">
+      <p class="inline-flex items-center gap-1.5 text-xs font-bold tracking-widest text-slate-500"><span class="w-1.5 h-1.5 rounded-full bg-slate-900"></span>GERÇEK VERİ</p>
+      <h2 id="sonuclar" class="mt-4 text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">SEO çalışmasını yürüttüğümüz sitelerden sonuçlar</h2>
+      <p class="mt-4 text-base md:text-lg text-slate-600 leading-relaxed">Rakamlar sitelerin Google Search Console verileridir: {e(s['donem'])}. Ortalama sıra, sitenin göründüğü tüm aramaların ortalamasıdır; altında örnek aramalar ve bu aramalardaki ortalama sıraları var.</p>
+    </div>
+    <ul class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-6">{kartlar}
+    </ul>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: SONUÇLAR — BİTİŞ ▲▲▲▲▲ -->
+'''
+
+def araclar_bolumu(h):
+    """Çalışılan yapay zeka araçları (logolar site/assets/img/araclar/, Lobe Icons, MIT)."""
+    if not h.get('araclar'): return ''
+    logolar = ''.join(f'<li class="flex items-center gap-3 rounded-2xl border border-slate-100 bg-white px-4 py-3 shadow-sm"><img src="/assets/img/araclar/{d}.svg" alt="" width="28" height="28" loading="lazy" class="w-7 h-7 shrink-0"><span class="text-sm font-bold text-slate-900">{e(a)}</span></li>' for a, d in h['araclar'])
+    return f'''
+<!-- ▼▼▼▼▼ BÖLÜM: ARAÇLAR — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="pb-20 md:pb-28 bg-white" aria-labelledby="araclar">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="rounded-[32px] bg-[#fafafa] border border-slate-100 p-6 md:p-10">
+      <h2 id="araclar" class="text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">Çalıştığımız yapay zeka araçları</h2>
+      <p class="mt-3 max-w-2xl text-base text-slate-600 leading-relaxed">Tek bir araca bağlı değiliz. Dil modellerinden görsel üretime ve otomasyona kadar önde gelen araçlarla çalışıyor, işinize ve veri güvenliği ihtiyacınıza uygun olanı seçiyoruz.</p>
+      <ul class="mt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3" aria-label="Yapay zeka araçları">{logolar}</ul>
+    </div>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: ARAÇLAR — BİTİŞ ▲▲▲▲▲ -->
 '''
 
 def hizmet_sayfasi(h):
@@ -592,6 +672,11 @@ def hizmet_sayfasi(h):
         {"@type": "ListItem", "position": 2, "name": kirinti[0], "item": ALAN + kirinti[1]},
         {"@type": "ListItem", "position": 3, "name": h['kisa'], "item": ALAN + adres}]},
       {"@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": s, "acceptedAnswer": {"@type": "Answer", "text": c}} for s, c in h['sss']]}]}
+    if h['adres'] in UZMAN_METNI:
+        ld['@graph'].append({"@type": "Person", "@id": ALAN + "/#sakir-yavuz", "name": KURUCU['ad'], "jobTitle": "Kurucu", "image": ALAN + KURUCU['foto'],
+                             "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman", "sameAs": [KURUCU['linkedin']]})
+    if h.get('guncelleme'):
+        ld['@graph'].append({"@type": "WebPage", "url": ALAN + adres, "name": h['title'], "dateModified": h['guncelleme']})
     ld_html = '<script type="application/ld+json">\n' + json.dumps(ld, ensure_ascii=False, indent=1) + '\n</script>\n'
 
     return bas(h['title'], h['description'], adres, ld_html) + f'''<div class="font-sans antialiased text-slate-800 bg-white selection:bg-brand-lime selection:text-black" id="top">
@@ -621,7 +706,7 @@ def hizmet_sayfasi(h):
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="rounded-[28px] bg-sky-50 border border-sky-100 p-6 md:p-8 md:flex md:gap-8">
       <p class="shrink-0 self-start inline-flex items-center gap-2 text-xs font-bold tracking-widest text-sky-700 md:w-32 md:pt-1.5"><span class="w-1.5 h-1.5 rounded-full bg-sky-600"></span>KISACA</p>
-      <p class="mt-3 md:mt-0 text-base md:text-lg text-slate-700 leading-relaxed">{e(TANIMLAR[h['adres']])}</p>
+      <div class="mt-3 md:mt-0"><p class="text-base md:text-lg text-slate-700 leading-relaxed">{e(TANIMLAR[h['adres']])}</p>{f'<p class="mt-3 text-xs font-semibold text-slate-500">Son güncelleme: <time datetime="{h["guncelleme"]}">{tarih_tr(h["guncelleme"])}</time></p>' if h.get('guncelleme') else ''}</div>
     </div>
   </div>
 </section>
@@ -640,7 +725,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: NELER YAPIYORUZ — BİTİŞ ▲▲▲▲▲ -->
 
-{metin_bolumu}{uzman_bolumu(h)}
+{metin_bolumu}{sonuclar_bolumu(h)}{araclar_bolumu(h)}{uzman_bolumu(h)}
 <!-- ▼▼▼▼▼ BÖLÜM: SÜREÇ VE NEDEN BİZ — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="surec">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-6">
@@ -683,7 +768,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: SIK SORULANLAR — BİTİŞ ▲▲▲▲▲ -->
 
-{ilgili_yazilar(h.get('ust', h['adres']))}
+{ilgili_yazilar(h.get('ust', h['adres']), h.get('ilgili'))}
 <!-- ▼▼▼▼▼ BÖLÜM: GÖRÜŞME ÇAĞRISI — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section id="teklif" class="pb-20 md:pb-28 bg-white" aria-labelledby="cagri">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -904,8 +989,11 @@ def yazi_karti(y):
         </a>
       </li>"""
 
-def ilgili_yazilar(kume):
-    ilgili = [y for y in YAZILAR if y['kume'] == kume][:3]
+def ilgili_yazilar(kume, adresler=None):
+    if adresler:   # sayfaya özel liste (sırasıyla, var olanlardan ilk 3)
+        ilgili = [y for a in adresler for y in YAZILAR if y['adres'] == a][:3]
+    else:
+        ilgili = [y for y in YAZILAR if y['kume'] == kume][:3]
     if not ilgili: return ''
     return f"""<!-- ▼▼▼▼▼ BÖLÜM: İLGİLİ YAZILAR — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="ilgili">
@@ -986,7 +1074,7 @@ def yazi_sayfasi(y):
        "datePublished": y['tarih'], "dateModified": y.get('guncelleme', y['tarih']), "inLanguage": "tr-TR",
        **({"abstract": y['kisa_cevap']} if y.get('kisa_cevap') else {}),
        "image": ALAN + gorsel,
-       "author": {"@type": "Person", "name": KURUCU['ad'], "jobTitle": "Kurucu", "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman", "sameAs": [KURUCU['linkedin']]}, "publisher": {"@id": ALAN + "/#isletme"}},
+       "author": {"@type": "Person", "@id": ALAN + "/#sakir-yavuz", "name": KURUCU['ad'], "jobTitle": "Kurucu", "image": ALAN + KURUCU['foto'], "worksFor": {"@id": ALAN + "/#isletme"}, "url": ALAN + "/ankara-seo/#uzman", "sameAs": [KURUCU['linkedin']]}, "publisher": {"@id": ALAN + "/#isletme"}},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
         {"@type": "ListItem", "position": 2, "name": "Blog", "item": ALAN + "/blog/"},
@@ -1013,7 +1101,7 @@ def yazi_sayfasi(y):
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-10">
     <article class="yazi lg:col-span-8 min-w-0">
 {kisa_cevap_kutusu(y)}{y['govde']}
-<div class="!mt-12 flex gap-4 items-start rounded-[24px] border border-slate-100 bg-[#fafafa] p-5 md:p-6"><span class="w-12 h-12 shrink-0 rounded-full bg-[#111315] text-[#D8F83C] flex items-center justify-center font-extrabold" aria-hidden="true">{KURUCU['bas_harf']}</span><div><p class="!mt-0 text-xs font-bold tracking-widest text-slate-500">YAZAR</p><p class="!mt-1 font-extrabold text-slate-900">{e(KURUCU['ad'])}</p><p class="!mt-2 text-base text-slate-600">{e(KURUCU['yazar_notu'])}</p><p class="!mt-2 text-sm"><a href="{KURUCU['linkedin']}" target="_blank" rel="noopener">LinkedIn profili ↗</a></p></div></div>
+<div class="!mt-12 flex gap-4 items-start rounded-[24px] border border-slate-100 bg-[#fafafa] p-5 md:p-6"><img src="{KURUCU['foto_kare']}" alt="" width="96" height="96" loading="lazy" class="w-14 h-14 shrink-0 rounded-full object-cover bg-slate-200"><div><p class="!mt-0 text-xs font-bold tracking-widest text-slate-500">YAZAR</p><p class="!mt-1 font-extrabold text-slate-900">{e(KURUCU['ad'])}</p><p class="!mt-2 text-base text-slate-600">{e(KURUCU['yazar_notu'])}</p><p class="!mt-2 text-sm"><a href="{KURUCU['linkedin']}" target="_blank" rel="noopener">LinkedIn profili ↗</a></p></div></div>
     </article>
     <aside class="lg:col-span-4">
       <div class="lg:sticky lg:top-8 grid gap-6">
