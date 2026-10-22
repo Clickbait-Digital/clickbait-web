@@ -116,6 +116,7 @@ ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok
   Rojin Nazik: Instagram profil kartı (SOSYAL MEDYA). German Dental, İstanbul Hair Center, Saye Emlak, EKM: kullanıcı bunların
   Meta & Google Ads hesaplarını yönetiyor, görsel yok → logo + "Google Ads · Meta Ads" kartı (REKLAM YÖNETİMİ); grafikte rakam yok, uydurma sonuç koyma.
   **Rast Grup** (22.10.2026, kullanıcı dijital pazarlamasını yürütüyor): Ankara villa/konut projeleri Avend Fera, Avend Doku, Avend Voven, Palais Bozbük, Magna Epic (rastgrup.com.tr ve alt alan adları, magnaepic.com.tr). Ana sayfada koyu zeminli geniş kart (logolar beyaz, markaların kendi sitelerinden kullanıcı izniyle indirildi), kayan şeritte Rast Grup logosu `brightness-0` ile koyu.
+  **Aden İncek** (Uslu Yapı'nın projesi, adenincek.usluyapi.com.tr): 22.10.2026 kayan şeride eklendi; kullanıcı isteğiyle yalnızca şeritte, proje kartı yok.
   Bekleniyor: sitelerin adresleri (kartlara bağlantı için), gerçek reklam sonuçları (isteğe bağlı), German Dental logosunun yüksek çözünürlüklü hali.
 - Referans markalara verilen hizmetler.
 - Hizmet sayfalarındaki şu ifadelerin onayı: "hesaplar sizin adınıza", "fotoğraf/video çekimi", "ilk görüşme ücretsiz".
