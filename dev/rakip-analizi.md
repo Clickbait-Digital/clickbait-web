@@ -100,3 +100,5 @@ Kullanıcıdan beklenen kararlar: yorumlar, adı yazılabilecek müşteriler ve 
 Yapılmayacak: 81 il / onlarca ilçe kopya sayfası.
 
 **22.10.2026 yapılanlar (web tasarım):** /web-tasarim/ sayfasına proje ekran görüntüleri, teslim edilenler, hız, sektörler, ofis bölümleri, uzman kutusu ve SSS eklendi; 5 yazıdan "Ankara web tasarım" bağlantı metniyle iç bağlantı; destek yazısı "Web sitenizi yenilerken Google sıralamanızı korumak". YZ sayfasındaki "Ankara" ve araç eksikleri 21.10'da giderildi. Search Console (28 gün, 20.10'a kadar): 588 gösterim, 9 tıklama, ort. 24,1; "ankara seo" ort. 11,8.
+
+**22.10.2026 (reklam ajansı):** Kullanıcı tam kapsamlı hizmet verdiklerini söyledi (TV, radyo, açık hava, medya planlama dahil). /ankara-reklam-ajansi/ "yapmıyoruz" ifadeleri kaldırılarak tam kapsamlı ajans olarak yeniden yazıldı; Google'ın bu aramadaki niyetiyle artık uyumlu. 6–12 Kasım'da "ankara reklam ajansı" sırasını (21.10: 39.) karşılaştır.

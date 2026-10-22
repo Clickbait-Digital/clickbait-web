@@ -169,8 +169,8 @@ def ankara_google_ads():
       + _rozet(f'{_ikon_kutu(TELEFON)}<span class="grid"><span>Reklamdan arama</span><span class="text-[10px] font-semibold text-slate-400">az önce</span></span>', '-top-3 right-0 sm:-right-2'))
 
 def ankara_reklam():
-    kanallar = (('Google Arama', 'w-[78%]', 'bg-sky-500'), ('Instagram', 'w-[62%]', 'bg-gradient-to-r from-amber-400 via-rose-500 to-fuchsia-600'),
-                ('YouTube', 'w-[44%]', 'bg-red-500'), ('Görüntülü reklam', 'w-[34%]', 'bg-[#b5d61c]'))
+    kanallar = (('TV', 'w-[78%]', 'bg-sky-500'), ('Açık hava', 'w-[62%]', 'bg-[#b5d61c]'),
+                ('Google ve Instagram', 'w-[54%]', 'bg-gradient-to-r from-amber-400 via-rose-500 to-fuchsia-600'), ('Radyo', 'w-[38%]', 'bg-slate-800'))
     plan = _kart(f'''<div class="p-5">
       <div class="flex items-center justify-between"><span class="text-xs font-extrabold text-slate-900">Kampanya planı</span><span class="rounded-full bg-[#D8F83C] px-2.5 py-1 text-[10px] font-bold text-black">Yayında</span></div>
       <ul class="mt-4 grid gap-3.5">{''.join(f'<li><span class="flex justify-between text-[11px] font-semibold text-slate-600">{a}</span><span class="mt-1.5 block h-2.5 rounded-full bg-slate-100"><span class="block h-full {g} rounded-full {r}"></span></span></li>' for a, g, r in kanallar)}</ul>
@@ -263,6 +263,8 @@ KART_SIMGE = {
   'Kelime ve negatif kelime yönetimi': FILTRE, 'Konum ve saat hedefleme': KONUM,
   'Google reklamları': ARA, 'Instagram ve Facebook reklamları': HEDEF, 'Reklam kreatifleri': FIRCA, 'Sosyal medya yönetimi': KALP,
   'Açılış sayfası ve web sitesi': SITE, 'Ölçüm ve raporlama': GRAFIK,
+  'Kampanya fikri ve strateji': PARILTI, 'TV reklam filmi': OYNAT, 'Medya planlama ve satın alma': TAKVIM,
+  'Radyo reklamı': DUYURU, 'Açık hava reklamı': SUNUM,
   'Mağaza tasarımı': SITE, 'Ürün ve stok yönetimi': KUTU, 'Ödeme altyapısı': KREDI, 'Kargo bağlantısı': KAMYON,
   'E-ticaret SEO’su': GRAFIK, 'Reklam ve ölçüm': DUYURU,
   'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,

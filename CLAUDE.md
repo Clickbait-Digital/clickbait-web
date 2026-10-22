@@ -68,7 +68,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Yayında: /ankara-seo/, /ankara-google-ads-ajansi/, /ankara-reklam-ajansi/, /ankara-instagram-reklam-ajansi/ (dijital pazarlama altında), /ankara-e-ticaret-sitesi/ (web tasarım altında).
 - Ana sayfada hizmetlerin altında "ANKARA'YA ÖZEL HİZMETLER" bağlantıları (`<!-- ANKARA BAĞLANTILARI -->`, üretici yazar).
 - Ana hizmet sayfalarının hedeflediği kelimelerle (Ankara web tasarım, Ankara sosyal medya yönetimi, Ankara dijital pazarlama ajansı) çakışan sayfa açma.
-- Arama hacmi doğrulanmadı; kullanıcı Google Ads Anahtar Kelime Planlayıcısı'na erişebiliyor. Reklam ajansı sayfası TV/radyo/açık hava yapmadığımızı söyler (kullanıcı onayladı).
+- Arama hacmi doğrulanmadı; kullanıcı Google Ads Anahtar Kelime Planlayıcısı'na erişebiliyor. **Clickbait tam kapsamlı reklam ajansı** (kullanıcı, 22.10.2026): TV reklam filmi (prodüksiyon) ve yayın planlama/satın alma, radyo reklamı, açık hava (billboard, raket, megalight: tasarım, yer kiralama, uygulama), medya planlama ve dijital; "tam kapsamlı bir ajans ne yapıyorsa yapabiliyoruz". /ankara-reklam-ajansi/ buna göre yeniden yazıldı. Eskiden "TV/radyo/açık hava yapmıyoruz" deniyordu, artık deme.
 
 ## Blog
 - Yazılar `dev/blog/<adres>.md`. Ön bilgi alanları: baslik, title, description, ozet, tarih (YYYY-MM-DD), kume (hizmet adresi,
