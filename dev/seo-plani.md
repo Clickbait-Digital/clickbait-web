@@ -15,7 +15,7 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | Sayfa | Ana kelime | Destek kelimeler |
 |---|---|---|
 | Ana sayfa `/` | ankara dijital ajans | dijital ajans ankara, clickbait |
-| `/web-tasarim/` | ankara web tasarım | web tasarım ankara, kurumsal web sitesi, web sitesi yaptırmak |
+| `/web-tasarim/` | ankara web tasarım | web tasarım ankara, kurumsal web sitesi, web sitesi yaptırmak, site yenileme (yazı destekler) |
 | `/ankara-e-ticaret-sitesi/` | ankara e-ticaret sitesi | e-ticaret sitesi yaptırmak, e-ticaret sitesi kurmak |
 | `/dijital-pazarlama/` | ankara dijital pazarlama ajansı | dijital pazarlama ajansı, dijital medya ajansı |
 | `/ankara-seo/` | ankara seo | seo ajansı ankara, seo firması ankara |
@@ -59,7 +59,7 @@ Her hafta: **1 blog yazısı** (Claude yazar, siz onaylarsınız) + **1 İşletm
 | 7 (27 Kas–3 Ara) | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? (→ /ankara-e-ticaret-sitesi/) | |
 | 8 (4–10 Ara) | Kurumsal kimlik nedir, neleri kapsar? (kreatif) | **İkinci değerlendirme** |
 | 9 (11–17 Ara) | Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak (yapay zeka) | Proje sayfaları: 2 proje daha |
-| 10 (18–24 Ara) | Web sitenizi yenilerken Google sıralamasını kaybetmemek (web) | |
+| 10 (18–24 Ara) | ✅ Web sitenizi yenilerken Google sıralamasını kaybetmemek (web; 22 Eki’de erken yayında → /web-tasarim/) | |
 | 11 (25–31 Ara) | Dönüşüm takibi kurmadan reklam vermeyin (dijital pazarlama) | |
 | 12 (1–7 Oca) | Logo tasarlatırken teslim almanız gereken dosyalar (kreatif) | **Üç aylık değerlendirme**, yeni plan |
 
