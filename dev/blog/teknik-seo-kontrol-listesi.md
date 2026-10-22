@@ -69,7 +69,7 @@ Yapılandırılmış veri, işletmenizin adını, adresini, telefonunu, çalış
 
 ## 12. Önemli sayfalarınıza site içinden bağlantı veriliyor mu?
 
-Google bir sayfanın ne kadar önemli olduğunu, sitenizin geri kalanının ona ne kadar ve hangi kelimelerle bağlandığına bakarak anlar. Hizmet sayfalarınıza yalnızca menüden değil, ilgili yazılarınızın metninden de bağlantı verin ve bağlantı metninde "buraya tıklayın" yerine sayfanın konusunu yazın (örneğin "Ankara web tasarım").
+Google bir sayfanın ne kadar önemli olduğunu, sitenizin geri kalanının ona ne kadar ve hangi kelimelerle bağlandığına bakarak anlar. Hizmet sayfalarınıza yalnızca menüden değil, ilgili yazılarınızın metninden de bağlantı verin ve bağlantı metninde "buraya tıklayın" yerine sayfanın konusunu yazın (örneğin "[Ankara web tasarım](/web-tasarim/)").
 
 ## Kontrol listesi
 

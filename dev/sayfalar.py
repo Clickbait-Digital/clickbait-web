@@ -63,7 +63,7 @@ HIZMETLER = [
     'araclar': [('ChatGPT', 'chatgpt'), ('Claude', 'claude'), ('Gemini', 'gemini'), ('Microsoft Copilot', 'copilot'), ('Perplexity', 'perplexity'), ('Grok', 'grok'), ('DeepSeek', 'deepseek'), ('Mistral', 'mistral'), ('Midjourney', 'midjourney'), ('n8n', 'n8n'), ('Make', 'make'), ('Zapier', 'zapier')],
   },
   {
-    'adres': 'web-tasarim', 'kisa': 'Web tasarım', 'renk': 'sky',
+    'adres': 'web-tasarim', 'kisa': 'Web tasarım', 'renk': 'sky', 'guncelleme': '2026-10-22',
     'title': 'Ankara Web Tasarım | Web Sitesi Yaptırma | Clickbait',
     'description': 'Ankara web tasarım: mobil uyumlu, hızlı ve Google’a hazır kurumsal web siteleri; hosting ve bakım dahil. Türkiye geneline online hizmet.',
     'h1': 'Ankara web tasarım: hızlı, mobil uyumlu ve Google’da bulunabilir siteler',
@@ -85,6 +85,20 @@ HIZMETLER = [
     'metin': [
       ('Bir web tasarım firması olarak nasıl çalışıyoruz?', 'Clickbait Dijital, 2013’ten beri Ankara’da web tasarım firması olarak kurumsal web siteleri ve e-ticaret mağazaları hazırlıyor. Sayfa planından tasarıma, geliştirmeden hosting ve bakıma kadar tüm süreci aynı ekipte yürütüyoruz; böylece işin her aşamasında tek bir muhatapla çalışırsınız.'),
       ('Ankara’da web tasarım firması seçerken nelere bakmalı?', 'Ankara’da web tasarım hizmeti veren çok sayıda firma var ve teklifler arasında büyük farklar olabilir. Bir firma seçerken yayındaki referans sitelerine telefonunuzdan bakın, teklifte neyin dahil olduğunu kontrol edin ve alan adı ile hosting hesaplarının sizin adınıza açılacağından emin olun. Ayrıntılı kontrol listesini [Ankara’da web sitesi yaptırırken dikkat edilmesi gereken 10 şey](/blog/ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler/) yazımızda, maliyeti belirleyen kalemleri [web sitesi fiyatlarını neler belirler?](/blog/web-sitesi-fiyatlarini-neler-belirler/) yazımızda bulabilirsiniz.'),
+      ('Teslim ettiğimiz her sitede neler var?', 'Hangi sektörde olursa olsun yayına aldığımız her sitede şu temel işler yapılmış olur: telefonda, tablette ve bilgisayarda düzgün görünen bir tasarım; sıkıştırılmış görseller ve hızlı açılan sayfalar; her sayfa için ayrı başlık, açıklama ve tek bir ana başlık (H1); site haritası, Search Console kaydı ve işletme bilgilerinizi Google’a anlatan yapılandırılmış veri; tek dokunuşla arama ve WhatsApp bağlantıları; form, arama ve WhatsApp tıklamalarını ölçen Google Analytics kurulumu; KVKK aydınlatma metni ve çerez onayı. Yani siteniz yayına girdiği gün Google’da bulunmaya hazır olur; SEO çalışmasına sıfırdan değil, sağlam bir temelden başlanır.'),
+      ('Hız neden bu kadar önemli?', 'Ziyaretçilerin çoğu sitenize telefondan girer ve sayfa geç açılırsa beklemeden geri döner; Google da sayfa deneyimini sıralamada dikkate alır. Ekim 2026’da Ankara’da 101 işletme sitesini incelediğimizde sitelerin yalnızca %9’u Google’ın mobil hız testinde 90 ve üzeri puan aldı, %87’sinde sayfanın ana içeriği telefonda 4 saniyeden geç yükleniyordu. Kendi sitemizi de aynı ölçütlerle hazırladık: bu sayfa mobil testte 90’ın üzerinde puan alıyor. Bulguların tamamı [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında.'),
+      ('Kurumsal web sitesi mi, e-ticaret sitesi mi?', 'Ürünlerinizi internetten satmayacaksanız ihtiyacınız olan çoğu zaman bir kurumsal web sitesidir: ne yaptığınızı anlatan, güven veren ve ziyaretçiyi aramaya ya da teklif istemeye yönlendiren sayfalar. Hangi sayfaların olması gerektiğini [kurumsal web sitesinde olması gereken 8 sayfa](/blog/kurumsal-web-sitesinde-olmasi-gereken-sayfalar/) yazımızda anlattık. Online satış yapacaksanız ödeme, kargo ve stok altyapısıyla birlikte planlanan bir mağaza gerekir; bunun için [Ankara e-ticaret sitesi](/ankara-e-ticaret-sitesi/) sayfamıza bakabilirsiniz.'),
+      ('Sitenizi yenilerken Google sıralamanızı korumak', 'Eski bir siteyi yenilerken en sık yapılan hata, eski sayfa adreslerini unutmaktır: Google’ın tanıdığı adresler bir anda hata vermeye başlar ve yıllar içinde kazanılan sıralamalar kaybolur. Yenileme projelerine eski sitenin hangi sayfalarının Google’dan ziyaretçi getirdiğini çıkararak başlıyor, her eski adresi yeni karşılığına kalıcı (301) yönlendirmeyle bağlıyor ve yayından sonraki haftalarda Search Console’u izliyoruz. Kendi sitemizi Ekim 2026’da WordPress’ten yeni altyapısına taşırken de aynı yöntemi uyguladık. Adım adım kontrol listesini [web sitenizi yenilerken Google sıralamanızı korumak](/blog/web-sitesi-yenilerken-google-siralamasini-korumak/) yazımızda topladık.'),
+      ('Hangi sektörler için web sitesi tasarladık?', 'Eğitim (dil kursu, havacılık akademisi), yayıncılık, inşaat, otel ve konaklama sektörlerinden markalar için web siteleri hazırladık; bazılarını aşağıda görebilirsiniz. Her sektörde ziyaretçinin aradığı farklıdır: bir otelde odalar ve rezervasyon, bir inşaat firmasında tamamlanan projeler, bir eğitim kurumunda programlar ve kayıt bilgisi öne çıkar. Sayfa planını bu yüzden sektörünüzde müşterilerin gerçekte ne aradığına göre kuruyoruz.'),
+      ('Ankara’da nerede çalışıyoruz?', 'Ofisimiz Çayyolu’nda: Ümit Mah. Meksika Cad. No:56/21, Çayyolu, Ankara ([haritada aç](https://share.google/u1DfuQgwwOlqnDbwp)). Çayyolu, Ümitköy ve çevresindeki işletmelerle ofisimizde yüz yüze görüşüyor, Ankara’nın diğer ilçelerinden ve Türkiye genelinden müşterilerimizle süreci online yürütüyoruz. Siteniz yayına girdikten sonra Google’da üst sıralara çıkmak için [Ankara SEO](/ankara-seo/) çalışmasını da aynı ekipte sürdürebiliriz.'),
+    ],
+    'ilgili': ['ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler', 'web-sitesi-yenilerken-google-siralamasini-korumak', 'kurumsal-web-sitesinde-olmasi-gereken-sayfalar', 'web-sitesi-fiyatlarini-neler-belirler', 'ankara-isletme-siteleri-arastirmasi-2026'],
+    'projeler': [
+      ('Active English', 'Dil eğitimi · Ankara', 'active-english', 'https://active-languages.com/', 1400, 684),
+      ('HUBEK Flight Academy', 'Havacılık eğitimi', 'hubek-flight-academy', '', 1400, 684),
+      ('Psychology Times Türkiye', 'Yayıncılık', 'psychology-times-turkiye', 'https://psychologytimes.com.tr/', 1400, 684),
+      ('Uslu Yapı', 'İnşaat', 'uslu-yapi', '', 1400, 684),
+      ('Form Çayyolu', 'Otel ve konaklama · Ankara', 'form-cayyolu', 'https://formcayyolu.com.tr/', 1600, 611),
     ],
     'sss': [
       ('Ankara’daki web tasarım firmaları arasında nasıl seçim yapmalıyım?', 'Yayındaki referans sitelerine telefonunuzdan bakın, teklifte tasarım, içerik, hosting ve bakımın dahil olup olmadığını kalem kalem isteyin ve alan adı ile hosting hesaplarının kimin adına açılacağını sorun. Fiyatı düşük ama kapsamı dar bir teklif sonunda daha pahalıya gelebilir.'),
@@ -93,6 +107,9 @@ HIZMETLER = [
       ('Web sitesi fiyatı neye göre belirleniyor?', 'Sayfa sayısı, özel tasarım ihtiyacı, e-ticaret gibi ek özellikler ve içerik üretimi fiyatı belirler. İhtiyacınızı dinledikten sonra kalem kalem teklif hazırlıyoruz.'),
       ('Siteyi kendimiz güncelleyebilir miyiz?', 'İsterseniz yönetim paneli kuruyor ve ekibinize kullanımını gösteriyoruz. Güncellemeleri bizim yapmamızı da tercih edebilirsiniz.'),
       ('Mevcut sitemizi yenileyebilir misiniz?', 'Evet. Önce mevcut sitenin hızını, arama motoru durumunu ve içeriklerini inceliyoruz. Google’daki sıralamanızı korumak için eski adresleri yeni sayfalara yönlendiriyoruz.'),
+      ('Siteler SEO’ya uygun teslim ediliyor mu?', 'Evet. Her sayfanın başlığı, açıklaması ve ana başlığı ayrı yazılır; site haritası, Search Console kaydı ve yapılandırılmış veri kurulur, görseller sıkıştırılır. Bu temel her sitede yapılır; düzenli içerik ve sıralama takibi isteyenlere aylık SEO hizmeti de veriyoruz.'),
+      ('Web sitesi hangi altyapıyla yapılıyor?', 'İhtiyaca göre seçiyoruz. İçeriği sık güncellenecek sitelerde ekibinizin kullanabileceği bir yönetim paneli kuruyoruz; online satış yapacak mağazalarda WooCommerce gibi e-ticaret altyapıları kullanıyoruz. Seçimi teklif aşamasında gerekçesiyle birlikte paylaşıyoruz.'),
+      ('Siteden gelen talepleri ölçebilecek miyiz?', 'Evet. Form gönderimlerini, telefon ve WhatsApp tıklamalarını Google Analytics’te ayrı ayrı ölçecek şekilde kuruyoruz. Böylece sitenin kaç talep getirdiğini ve reklamlarınızın etkisini görebilirsiniz.'),
     ],
   },
   {
@@ -553,6 +570,8 @@ def referans_seridi():
 UZMAN_METNI = {
   'ankara-seo': ('Ankara SEO uzmanı ile doğrudan çalışın',
                  'Ankara SEO çalışmalarımızı Clickbait Dijital’in kurucusu Şakir Yavuz bizzat yürütüyor. Şakir Yavuz ajansı 2013’te Ankara’da kurdu; o günden bu yana sağlık, eğitim, havacılık, inşaat, emlak, yayıncılık ve konaklama sektörlerinden markaların web sitelerini, reklamlarını ve SEO çalışmalarını yönetiyor. Active English, Psychology Times ve Rojin Nazik gibi sitelerin SEO süreçlerini yürütüyor. Sitenizin incelenmesinden hedef aramaların belirlenmesine ve aylık raporlara kadar süreci kendisi yönettiği için bir SEO uzmanıyla doğrudan çalışırsınız; tasarım, içerik ve reklam ihtiyaçlarınız için ajans ekibi de yanınızdadır.'),
+  'web-tasarim': ('Web projenizi kim yönetiyor?',
+                 'Web projelerimizi Clickbait Dijital’in kurucusu Şakir Yavuz yönetiyor. Şakir Yavuz ajansı 2013’te Ankara’da kurdu; o günden bu yana sağlık, eğitim, havacılık, inşaat, emlak, yayıncılık ve konaklama sektörlerinden markaların web sitelerini, reklamlarını ve SEO çalışmalarını yönetiyor. Sayfa planından yayına ve Google’a hazırlanmaya kadar süreci aynı kişi takip ettiği için sitenizin tasarımı ile Google’daki görünürlüğü baştan birlikte düşünülür.'),
   'yapay-zeka-danismanligi': ('Yapay zeka çalışmalarınızı kim yürütüyor?',
                  'Yapay zeka projelerimizi kurucumuz Şakir Yavuz’la birlikte 4 kişilik bir ekip yürütüyor. İhtiyaç analizinden araç seçimine, kurulumdan kurumsal eğitimlere kadar sürecin her adımında aynı ekip yanınızda olur. Analiz, kurulum ve eğitim birbirini bilerek ilerlediği için ekibinize anlatılanla kurulan sistem aynı dili konuşur.'),
 }
@@ -609,6 +628,36 @@ def sonuclar_bolumu(h):
   </div>
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: SONUÇLAR — BİTİŞ ▲▲▲▲▲ -->
+'''
+
+def projeler_bolumu(h):
+    """Web tasarım sayfasında yayındaki müşteri sitelerinin ekran görüntüleri (site/assets/img/projeler/)."""
+    if not h.get('projeler'): return ''
+    def kart(ad, tur, dosya, url, g, y):
+        tam = len(h['projeler']) % 2 and (ad, tur, dosya, url, g, y) == h['projeler'][-1]
+        baslik = f'<a href="{url}" target="_blank" rel="noopener" class="hover:underline">{e(ad)} <span aria-hidden="true">↗</span></a>' if url else e(ad)
+        return f'''
+      <li class="bg-white rounded-[28px] p-3 border border-slate-100 shadow-sm{' md:col-span-2' if tam else ''}">
+        <div class="rounded-[20px] overflow-hidden border border-slate-200 bg-white">
+          <div class="flex items-center gap-1.5 h-8 px-4 bg-slate-100 border-b border-slate-200" aria-hidden="true"><span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#febc2e]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#28c840]"></span><span class="ml-3 h-4 flex-1 max-w-[220px] rounded-full bg-white"></span></div>
+          <img src="/assets/img/projeler/{dosya}.jpg" srcset="/assets/img/projeler/{dosya}-800.jpg 800w, /assets/img/projeler/{dosya}.jpg {g}w" sizes="{'(min-width: 1280px) 1200px, 100vw' if tam else '(min-width: 768px) 50vw, 100vw'}" alt="{e(ad)} web sitesinin açılış sayfası" width="{g}" height="{y}" loading="lazy" class="block w-full h-auto">
+        </div>
+        <div class="px-3 pt-4 pb-2"><h3 class="text-base font-bold text-slate-900">{baslik}</h3><p class="text-xs text-slate-500 mt-0.5">{e(tur)}</p></div>
+      </li>'''
+    return f'''
+<!-- ▼▼▼▼▼ BÖLÜM: PROJELER — BAŞLANGIÇ ▼▼▼▼▼ -->
+<section class="py-20 md:py-28 mb-20 md:mb-28 bg-[#fafafa]" aria-labelledby="projeler">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="max-w-3xl">
+      <p class="inline-flex items-center gap-1.5 text-xs font-bold tracking-widest text-slate-500"><span class="w-1.5 h-1.5 rounded-full bg-slate-900"></span>PROJELER</p>
+      <h2 id="projeler" class="mt-4 text-2xl md:text-3xl font-extrabold text-slate-900 tracking-tight">Tasarladığımız web sitelerinden bazıları</h2>
+      <p class="mt-4 text-base md:text-lg text-slate-600 leading-relaxed">Görseller sitelerin yayındaki açılış sayfalarıdır.</p>
+    </div>
+    <ul class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">{''.join(kart(*p) for p in h['projeler'])}
+    </ul>
+  </div>
+</section>
+<!-- ▲▲▲▲▲ BÖLÜM: PROJELER — BİTİŞ ▲▲▲▲▲ -->
 '''
 
 def araclar_bolumu(h):
@@ -725,7 +774,7 @@ def hizmet_sayfasi(h):
 </section>
 <!-- ▲▲▲▲▲ BÖLÜM: NELER YAPIYORUZ — BİTİŞ ▲▲▲▲▲ -->
 
-{metin_bolumu}{sonuclar_bolumu(h)}{araclar_bolumu(h)}{uzman_bolumu(h)}
+{metin_bolumu}{projeler_bolumu(h)}{sonuclar_bolumu(h)}{araclar_bolumu(h)}{uzman_bolumu(h)}
 <!-- ▼▼▼▼▼ BÖLÜM: SÜREÇ VE NEDEN BİZ — BAŞLANGIÇ ▼▼▼▼▼ -->
 <section class="pb-20 md:pb-28 bg-white" aria-labelledby="surec">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-12 gap-6">

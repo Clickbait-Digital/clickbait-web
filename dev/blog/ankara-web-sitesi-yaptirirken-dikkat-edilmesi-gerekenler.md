@@ -72,4 +72,4 @@ Web sitesi teklifleri arasında büyük fiyat farkları görebilirsiniz. Karşı
 - İçerik ve görseller kimde?
 - Teslimden sonra destek ve bakım nasıl işliyor?
 
-> Ankara'da Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz. Web sitesi projeniz için ihtiyaçlarınızı dinleyip yukarıdaki tüm maddeleri içeren net bir teklif hazırlıyoruz.
+> Ankara'da Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz. Web sitesi projeniz için ihtiyaçlarınızı dinleyip yukarıdaki tüm maddeleri içeren net bir teklif hazırlıyoruz. Nasıl çalıştığımızı ve tasarladığımız sitelerden örnekleri [Ankara web tasarım](/web-tasarim/) sayfamızda bulabilirsiniz.

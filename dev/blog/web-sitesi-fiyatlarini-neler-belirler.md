@@ -99,4 +99,4 @@ Ne kadar net bilgi verirseniz, o kadar doğru ve karşılaştırılabilir teklif
 6. Mevcut bir siteniz varsa adresi
 7. Hedeflediğiniz yayın tarihi
 
-> Clickbait olarak teklif hazırlamadan önce ihtiyacınızı dinliyor, hangi kalemlerin gerçekten gerekli olduğunu birlikte belirliyoruz. Teklifimizde neyin dahil olduğunu ve yıllık giderlerin ne olacağını açıkça yazıyoruz. Ankara'da Çayyolu'ndaki ofisimizde ya da online görüşebiliriz.
+> Clickbait olarak teklif hazırlamadan önce ihtiyacınızı dinliyor, hangi kalemlerin gerçekten gerekli olduğunu birlikte belirliyoruz. Teklifimizde neyin dahil olduğunu ve yıllık giderlerin ne olacağını açıkça yazıyoruz. Tasarladığımız sitelerden örnekleri ve her sitede neleri teslim ettiğimizi [Ankara web tasarım](/web-tasarim/) sayfamızda bulabilirsiniz. Ankara'da Çayyolu'ndaki ofisimizde ya da online görüşebiliriz.
