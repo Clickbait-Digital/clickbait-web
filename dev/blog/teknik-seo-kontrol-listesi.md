@@ -88,4 +88,4 @@ Google bir sayfanın ne kadar önemli olduğunu, sitenizin geri kalanının ona 
 
 Teknik SEO bir kez yapılıp bırakılan bir iş değildir; site güncellendikçe yeni sorunlar ortaya çıkabilir. SEO'nun genel olarak nasıl işlediğini ve ne zaman sonuç verdiğini [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda anlattık.
 
-> Clickbait Dijital olarak SEO çalışmalarımıza her zaman bu teknik denetimle başlıyoruz: sorunları öncelik sırasına koyuyor, düzeltiyor ve sonuçları Search Console verileriyle izliyoruz. Ayrıntılar için [Ankara SEO](/ankara-seo/) sayfamıza bakabilirsiniz. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.
+> Clickbait Dijital olarak SEO çalışmalarımıza her zaman bu teknik denetimle başlıyoruz: sorunları öncelik sırasına koyuyor, düzeltiyor ve sonuçları Search Console verileriyle izliyoruz. Ayrıntılar için [SEO hizmeti](/ankara-seo/) sayfamıza bakabilirsiniz. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.

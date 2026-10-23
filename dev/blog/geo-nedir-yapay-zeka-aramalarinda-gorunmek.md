@@ -63,4 +63,4 @@ Yazılarınızın kim tarafından yazıldığını, işi kimin yürüttüğünü
 - Güvenilir sitelerde anılmaya ve gerçek müşteri yorumları toplamaya çalışın.
 - Görünürlüğü düzenli olarak ölçün.
 
-> Clickbait Dijital olarak SEO çalışmalarımıza yapay zeka görünürlüğünü de dahil ediyoruz: yapılandırılmış veri, kısa tanımlar, llms.txt ve düzenli ölçüm. Ayrıntılar için [Ankara SEO](/ankara-seo/) sayfamıza, yapay zekayı işinizde kullanmak için [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz.
+> Clickbait Dijital olarak SEO çalışmalarımıza yapay zeka görünürlüğünü de dahil ediyoruz: yapılandırılmış veri, kısa tanımlar, llms.txt ve düzenli ölçüm. Ayrıntılar için [SEO hizmetimizi anlattığımız sayfaya](/ankara-seo/), yapay zekayı işinizde kullanmak için [Ankara yapay zeka danışmanlığı](/yapay-zeka-danismanligi/) sayfamıza bakabilirsiniz.

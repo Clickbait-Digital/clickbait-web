@@ -119,4 +119,4 @@ SEO hizmeti almayı düşünüyorsanız, görüşmelerde sormanız gereken sorul
 - Sonuçlar çoğu zaman aylar içinde gelir ve önce gösterim, sonra sıra, en son tıklama artar.
 - İlerlemeyi Google Search Console ile ücretsiz takip edebilirsiniz.
 
-> Clickbait olarak SEO çalışmasına sitenizin teknik durumunu ve rakiplerinizi inceleyerek başlıyoruz; hedef aramaları birlikte belirliyor, sayfaları ve içerikleri düzenliyor, her ay Search Console verileriyle ilerlemeyi raporluyoruz. Ayrıntılar için [Ankara SEO](/ankara-seo/) sayfamıza bakabilirsiniz. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.
+> Clickbait olarak SEO çalışmasına sitenizin teknik durumunu ve rakiplerinizi inceleyerek başlıyoruz; hedef aramaları birlikte belirliyor, sayfaları ve içerikleri düzenliyor, her ay Search Console verileriyle ilerlemeyi raporluyoruz. Nasıl çalıştığımızı [aylık SEO hizmetimiz](/ankara-seo/) sayfasında anlattık. Çayyolu'ndaki ofisimizde yüz yüze görüşebilir, Türkiye'nin her yerinden online çalışabiliriz.

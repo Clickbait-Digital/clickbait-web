@@ -20,11 +20,12 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | `/dijital-pazarlama/` | ankara dijital pazarlama ajansı | dijital pazarlama ajansı, dijital medya ajansı |
 | `/ankara-seo/` | ankara seo | seo ajansı ankara, seo firması ankara |
 | `/ankara-google-ads-ajansi/` | google ads ajansı ankara | google reklam ajansı, google reklam vermek |
-| `/ankara-reklam-ajansi/` | ankara reklam ajansı | reklam ajansları ankara, dijital reklam ajansı |
+| `/ankara-reklam-ajansi/` | ankara reklam ajansı | reklam ajansları ankara, dijital reklam ajansı, tam hizmet reklam ajansı |
+| `/blog/acik-hava-reklami-rehberi/` | açık hava reklamı | billboard reklam, raket reklam, megalight (→ /ankara-reklam-ajansi/) |
 | `/ankara-instagram-reklam-ajansi/` | instagram reklam ajansı ankara | instagram reklam verme, meta reklam ajansı |
 | `/sosyal-medya-yonetimi/` | ankara sosyal medya ajansı | sosyal medya yönetimi ankara, instagram yönetimi |
 | `/kreatif-hizmetler/` | ankara logo tasarım | kurumsal kimlik tasarımı, grafik tasarım ankara |
-| `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, işletmeler için yapay zeka, kurumsal yapay zeka eğitimi |
+| `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, ai danışmanlığı, işletmeler için yapay zeka, kurumsal yapay zeka eğitimi |
 | Blog yazıları | bilgi aramaları ("nedir", "nasıl", "fiyatları") | her yazı kendi hizmet sayfasına bağlantı verir |
 | `/blog/seo-nedir-ne-zaman-sonuc-verir/` | seo nedir | seo ne zaman sonuç verir, seo nasıl çalışır (→ /ankara-seo/) |
 | `/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/` | sosyal medya ajansı nasıl seçilir | sosyal medya ajansı seçerken (→ /sosyal-medya-yonetimi/; "ankara sosyal medya ajansı" sayfanın) |
@@ -72,6 +73,7 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 | ✅ 19 Eki | Sosyal medya ajansı seçerken dikkat edilmesi gereken 9 şey: Ankara rehberi | /sosyal-medya-yonetimi/ |
 | ✅ 21 Eki | Teknik SEO kontrol listesi: 12 madde | /ankara-seo/ |
 | ✅ 21 Eki | GEO nedir? Yapay zeka aramalarında görünmek | /ankara-seo/ |
+| ✅ 23 Eki | Açık hava reklamı nedir? Billboard, raket ve megalight rehberi | /ankara-reklam-ajansi/ |
 | ⏳ | Ankara'daki küçük işletmeler için dijital pazarlama: nereden başlamalı? | /dijital-pazarlama/ |
 | ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
 | ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |

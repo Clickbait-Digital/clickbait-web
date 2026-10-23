@@ -32,6 +32,7 @@ Hedef kelimeler: ankara web tasarım, ankara web tasarım firmaları, web sitesi
 | ✅ | Kurumsal web sitesinde mutlaka olması gereken sayfalar | kurumsal web sitesi |
 | ✅ | Ankara işletme siteleri araştırması 2026 (101 site, veri + grafik; bağlantı kazanmak için) | ankara web siteleri araştırması |
 | ⏳ | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | e-ticaret sitesi kurmak |
+| ✅ | Açık hava reklamı nedir? Billboard, raket ve megalight rehberi (23 Eki, → /ankara-reklam-ajansi/) | açık hava reklamı |
 | ✅ | Web sitenizi yenilerken Google sıralamasını kaybetmemek (22 Eki, /blog/web-sitesi-yenilerken-google-siralamasini-korumak/) | web sitesi yenileme |
 | ⏳ | Ankara'da web tasarım firması seçerken sorulacak 12 soru | ankara web tasarım firmaları |
 
