@@ -161,6 +161,10 @@ HIZMETLER = [
       ('Yayın', 'Onaylanan içerikleri takvime göre yayınlıyoruz.'),
       ('Rapor ve iyileştirme', 'Ay sonunda sonuçları paylaşıp bir sonraki ayın planını güncelliyoruz.'),
     ],
+    'metin': [
+      ('Ankara’da sosyal medya yönetimini nasıl yürütüyoruz?', 'Her ay markanızın o ayki hedefini belirleyerek başlıyoruz: bilinirlik mi, etkileşim mi, yoksa mesaj ve randevu gibi talepler mi? Ardından önemli tarihleri ve kampanyalarınızı takvime işliyor, 3–5 içerik başlığı belirliyor ve ayın paylaşımlarını tarih, format ve konuya göre bir takvimde topluyoruz. Metinler ve tasarımlar ay başlamadan hazırlanıp tek seferde onayınıza sunuluyor; onaylanan içerikler takvime göre yayınlanıyor. Bu süreci örnek bir takvimle [aylık sosyal medya içerik planı nasıl hazırlanır?](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık.'),
+      ('Ay sonunda neyi raporluyoruz?', 'Takipçi sayısından çok işe yarayan ölçülere bakıyoruz: içeriklerin kaç kişiye ulaştığı, kaç kez kaydedilip paylaşıldığı, profil ziyaretleri ve sosyal medyadan gelen mesaj ve talepler. En iyi sonuç veren konu ve formatları bir sonraki ayın planında artırıyor, işe yaramayanları azaltıyoruz. İçeriklerinizi daha fazla kişiye ulaştırmak isterseniz sponsorlu paylaşımları [Ankara Instagram reklam ajansı](/ankara-instagram-reklam-ajansi/) hizmetimizle aynı plana ekliyoruz.'),
+    ],
     'sss': [
       ('Hangi platformlarda hizmet veriyorsunuz?', 'Ağırlıklı olarak Instagram ve LinkedIn’de çalışıyoruz. Markanıza uygunsa diğer platformlar için de plan hazırlıyoruz.'),
       ('İçerikleri yayından önce görebilir miyiz?', 'Evet. Aylık plan ve tasarımlar onayınıza sunulur, yalnızca onaylanan içerikler yayınlanır.'),
