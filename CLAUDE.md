@@ -109,7 +109,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 ## Test
 Her değişiklikten sonra `site/` klasörünü `php -S` ile sunup Playwright (Chromium: `/opt/pw-browsers/chromium`)
 ile 1440px ve 390px genişlikte kontrol et: konsol hatası yok, yatay taşma yok, sayfa başına tek H1, JSON-LD geçerli.
-JSON-LD'yi Python'da yinelenen anahtar kontrolüyle (`object_pairs_hook`) de doğrula: tarayıcı JSON.parse yinelenen anahtarı yakalamaz, Google "Yinelenen benzersiz mülk" hatası verir (24.10.2026'da ana sayfada iki `foundingDate` vardı, düzeltildi).
+JSON-LD'yi Python'da yinelenen anahtar kontrolüyle (`object_pairs_hook`) de doğrula: tarayıcı JSON.parse yinelenen anahtarı yakalamaz, Google "Yinelenen benzersiz mülk" hatası verir (24.10.2026'da ana sayfada iki `foundingDate` vardı, düzeltildi; Google 25.10'da "başarıyla düzeltildi" e-postası gönderdi).
 
 ## Kullanıcıdan beklenenler
 - **Psychology Times** (psychologytimes.com.tr, kullanıcının yönettiği WordPress sitesi; tagDiv Newspaper teması): alt bilgi şablonu "Footer – Urban Observer" (Cloud Templates, id 186), metinler base64(encodeURIComponent) ile saklanıyor. Yazar hesabı `sakiryavuz` (id 3); aynı adda iki hesap daha var (sakiryvz, sakir-yavuz), dokunulmadı. Yayın/kaydet düğmelerine gerçek tıklama ile basılıyor.
