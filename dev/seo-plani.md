@@ -26,6 +26,7 @@ Kural: **Her kelimeyi tek bir sayfa hedefler.** Aynı kelime için iki sayfa aç
 | `/sosyal-medya-yonetimi/` | ankara sosyal medya ajansı | sosyal medya yönetimi ankara, instagram yönetimi |
 | `/kreatif-hizmetler/` | ankara logo tasarım | kurumsal kimlik tasarımı, grafik tasarım ankara |
 | `/yapay-zeka-danismanligi/` | yapay zeka danışmanlığı | ankara yapay zeka danışmanlığı, ai danışmanlığı, işletmeler için yapay zeka, kurumsal yapay zeka eğitimi |
+| Sektör sayfaları (Ekim–Kasım 2026, kullanıcı kararı) | "<sektör> için reklam ajansı / dijital pazarlama / seo" | Türkiye geneli (uzaktan verilebilir); her sektöre tek sayfa, yalnızca gerçek referansı olan sektörler. Doktor ve avukat sayfaları reklam yasağı nedeniyle "SEO ve bilgilendirici web sitesi" olarak anlatılır, reklam/iş getirme vaadi yok |
 | Blog yazıları | bilgi aramaları ("nedir", "nasıl", "fiyatları") | her yazı kendi hizmet sayfasına bağlantı verir |
 | `/blog/seo-nedir-ne-zaman-sonuc-verir/` | seo nedir | seo ne zaman sonuç verir, seo nasıl çalışır (→ /ankara-seo/) |
 | `/blog/sosyal-medya-ajansi-secerken-dikkat-edilmesi-gerekenler/` | sosyal medya ajansı nasıl seçilir | sosyal medya ajansı seçerken (→ /sosyal-medya-yonetimi/; "ankara sosyal medya ajansı" sayfanın) |
@@ -80,7 +81,7 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 | ⏳ | İnşaat firmaları için web sitesi: projeleri doğru göstermek | /web-tasarim/ |
 | ⏳ | Otel ve konaklama işletmeleri için web sitesi ve rezervasyon | /web-tasarim/ |
 
-Sağlık ve hukuk sektörü yazısı yok (reklam kuralları / avukatlık reklam yasağı).
+Sağlık ve hukuk sektörü için **reklam** yazısı yok (reklam kuralları / avukatlık reklam yasağı). Kullanıcı 27.10.2026'da doktorlar ve avukatlar için **SEO / web sitesi** sektör sayfalarını istedi; bu sayfalar yönetmeliklere uygun, bilgilendirici içerik anlatır.
 
 ### Günlük çalışma takvimi (27 Ekim'den itibaren)
 Kullanıcı isteği (27.10.2026): **her gün site tarafında bir SEO işi** yapılacak. Odak web sitesi; Google yorumu / İşletme Profili önerilmez.
@@ -95,17 +96,17 @@ Kurallar:
 | 27 Eki Sal | /dijital-pazarlama/ güçlendirme (5 metin bölümü, uzman kutusu, SSS) + yazı: Küçük işletmeler için dijital pazarlama | ankara dijital pazarlama (34,5), ankara dijital pazarlama ajansı (20) | ✅ |
 | 28 Eki Çar | Teknik SEO kontrol listesine e-ticaret bölümü (6 alt başlık, 27 Eki'de erken yapıldı); Instagram reklamı, işletmelerde yapay zeka, Google Ads mi SEO mu yazılarının başlık/açıklamaları | "e-ticaret platformları için teknik seo kontrol listesi" (6,9), "seo kontrol listesi" (12,4); yazılar 7–9. sırada ama tıklama yok | ✅ |
 | 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ⏳ |
-| 30 Eki Cum | /kreatif-hizmetler/ güçlendirme (en ince hizmet sayfası) | ankara logo tasarım | ⏳ |
-| 31 Eki Cmt | Yazı: Emlak ve konut projeleri için Google ve Instagram reklamları | → /ankara-instagram-reklam-ajansi/ (12,8) | ⏳ |
-| 1 Kas Paz | İç bağlantı taraması: az bağlantı alan sayfalar, blog kartlarının bağlantı metni | tüm site | ⏳ |
-| 2 Kas Pzt | /ankara-google-ads-ajansi/ güçlendirme | google ads ajansı ankara | ⏳ |
-| 3 Kas Sal | Yazı: E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | → /ankara-e-ticaret-sitesi/ ("e-ticaret sitesi ankara" 10,2) | ⏳ |
-| 4 Kas Çar | Bağlantı kazandıracak içerik: araştırma verisinden sektör bazında ek analiz | /blog/ankara-isletme-siteleri-arastirmasi-2026/ | ⏳ |
-| 5 Kas Per | /ankara-e-ticaret-sitesi/ güçlendirme | ankara e-ticaret sitesi (17,3) | ⏳ |
-| 6 Kas Cum | Yazı: İnşaat firmaları için web sitesi | → /web-tasarim/ ("ankara web tasarım" 28,5) | ⏳ |
-| 7 Kas Cmt | Teknik: referans logoları WebP, renk kontrastı | hız ve erişilebilirlik | ⏳ |
-| 8 Kas Paz | Yazı: Yapay zeka araçlarını KVKK'ya uygun kullanmak | → /yapay-zeka-danismanligi/ (19,5) | ⏳ |
-| 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim | | ⏳ |
+| 30 Eki Cum | **Sektör sayfası:** inşaat firmaları ve konut projeleri için reklam ajansı (kanıt: Rast Grup projeleri, Uslu Yapı, Aden İncek, Saye Emlak) | inşaat firmaları için reklam ajansı, konut projesi reklamı | ⏳ |
+| 31 Eki Cmt | **Sektör sayfası:** doktorlar ve klinikler için SEO (tanıtım yönetmeliğine uygun, bilgilendirici içerik; kanıt: German Dental, İstanbul Hair Center, psikolog siteleri) | doktorlar için seo, klinik seo, diş hekimi seo | ⏳ |
+| 1 Kas Paz | **Sektör sayfası:** avukatlar için web sitesi ve SEO (TBB Reklam Yasağı Yönetmeliği'ne uygun, iş elde etmeye yönelik ifade yok; avukat müşteri iddiası yok) | avukatlar için seo, avukat web sitesi | ⏳ |
+| 2 Kas Pzt | **Sektör sayfası:** psikologlar için web sitesi ve SEO (kanıt: Rojin Nazik, psikolog siteleri araştırması) | psikologlar için seo, psikolog web sitesi | ⏳ |
+| 3 Kas Sal | **Sektör sayfası:** eğitim kurumları ve dil kursları için dijital pazarlama (kanıt: Active English, HUBEK) | dil kursu reklam, eğitim kurumları için dijital pazarlama | ⏳ |
+| 4 Kas Çar | **Sektör sayfası:** oteller için dijital pazarlama ve web sitesi (kanıt: Form Çayyolu) | otel dijital pazarlama, otel web sitesi | ⏳ |
+| 5 Kas Per | /kreatif-hizmetler/ güçlendirme | ankara logo tasarım | ⏳ |
+| 6 Kas Cum | İç bağlantı taraması: sektör sayfalarını hizmet sayfalarına ve yazılara bağla | tüm site | ⏳ |
+| 7 Kas Cmt | /ankara-google-ads-ajansi/ güçlendirme | google ads ajansı ankara | ⏳ |
+| 8 Kas Paz | Yazı: E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | → /ankara-e-ticaret-sitesi/ ("e-ticaret sitesi ankara" 10,2) | ⏳ |
+| 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim (ertelenenler: araştırmadan sektör analizi, /ankara-e-ticaret-sitesi/ güçlendirme, logolar WebP, KVKK yazısı) | | ⏳ |
 
 Değerlendirme haftalarında Search Console → Performans'ta bakılacaklar:
 - **11–30. sıradaki sayfalar:** ilk sayfaya en yakın olanlar. İçeriği genişlet, iç bağlantı ekle.
