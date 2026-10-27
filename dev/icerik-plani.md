@@ -50,6 +50,7 @@ Hedef kelimeler: ankara dijital pazarlama ajansı, google ads ajansı ankara, se
 | ✅ | Instagram reklamı nasıl verilir? Adım adım rehber (→ /ankara-instagram-reklam-ajansi/) | instagram reklamı nasıl verilir |
 | ✅ | Teknik SEO kontrol listesi: 12 madde (→ /ankara-seo/, 21.10.2026) | teknik seo kontrol listesi |
 | ✅ | GEO nedir? Yapay zeka aramalarında görünmek (→ /ankara-seo/, 21.10.2026) | geo nedir |
+| ✅ | Küçük işletmeler için dijital pazarlama: nereden başlamalı? (→ /dijital-pazarlama/, 27.10.2026) | küçük işletmeler için dijital pazarlama |
 | ⏳ | Dönüşüm takibi kurmadan reklam vermeyin | dönüşüm takibi |
 
 ## 4. Sosyal medya yönetimi → /sosyal-medya-yonetimi/

@@ -74,13 +74,38 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 | ✅ 21 Eki | Teknik SEO kontrol listesi: 12 madde | /ankara-seo/ |
 | ✅ 21 Eki | GEO nedir? Yapay zeka aramalarında görünmek | /ankara-seo/ |
 | ✅ 23 Eki | Açık hava reklamı nedir? Billboard, raket ve megalight rehberi | /ankara-reklam-ajansi/ |
-| ⏳ | Ankara'daki küçük işletmeler için dijital pazarlama: nereden başlamalı? | /dijital-pazarlama/ |
+| ✅ 27 Eki | Küçük işletmeler için dijital pazarlama: nereden başlamalı? 7 adımlık Ankara rehberi | /dijital-pazarlama/ |
 | ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
 | ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |
 | ⏳ | İnşaat firmaları için web sitesi: projeleri doğru göstermek | /web-tasarim/ |
 | ⏳ | Otel ve konaklama işletmeleri için web sitesi ve rezervasyon | /web-tasarim/ |
 
 Sağlık ve hukuk sektörü yazısı yok (reklam kuralları / avukatlık reklam yasağı).
+
+### Günlük çalışma takvimi (27 Ekim'den itibaren)
+Kullanıcı isteği (27.10.2026): **her gün site tarafında bir SEO işi** yapılacak. Odak web sitesi; Google yorumu / İşletme Profili önerilmez.
+Kurallar:
+- Her gün tek, tamamlanmış bir iş (yarım bırakılmaz, aynı gün yayına alınır, Google ve Bing'e bildirilir).
+- Aynı sayfa ~10 günde bir defadan sık büyük değişiklik görmez (sık değişiklik sıralamayı oynatır). **/ankara-seo/ 6–12 Kasım değerlendirmesine kadar dondurulmuş.**
+- Gün türleri dönüşümlü: yeni yazı → zayıf sayfayı güçlendirme → teknik / tıklama oranı / iç bağlantı → dış bağlantı kazandıracak içerik.
+- Öncelik Search Console verisine göre: 11–30. sıradaki aramalar ve gösterim alıp tıklama almayan sayfalar.
+
+| Gün | İş | Hedef arama / sayfa | Durum |
+|---|---|---|---|
+| 27 Eki Sal | /dijital-pazarlama/ güçlendirme (5 metin bölümü, uzman kutusu, SSS) + yazı: Küçük işletmeler için dijital pazarlama | ankara dijital pazarlama (34,5), ankara dijital pazarlama ajansı (20) | ✅ |
+| 28 Eki Çar | Teknik SEO kontrol listesine e-ticaret bölümü; gösterim alıp tıklama almayan sayfaların başlık/açıklamaları | "e-ticaret platformları için teknik seo kontrol listesi" (6,9), "seo kontrol listesi" (12,4) | ⏳ |
+| 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ⏳ |
+| 30 Eki Cum | /kreatif-hizmetler/ güçlendirme (en ince hizmet sayfası) | ankara logo tasarım | ⏳ |
+| 31 Eki Cmt | Yazı: Emlak ve konut projeleri için Google ve Instagram reklamları | → /ankara-instagram-reklam-ajansi/ (12,8) | ⏳ |
+| 1 Kas Paz | İç bağlantı taraması: az bağlantı alan sayfalar, blog kartlarının bağlantı metni | tüm site | ⏳ |
+| 2 Kas Pzt | /ankara-google-ads-ajansi/ güçlendirme | google ads ajansı ankara | ⏳ |
+| 3 Kas Sal | Yazı: E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | → /ankara-e-ticaret-sitesi/ ("e-ticaret sitesi ankara" 10,2) | ⏳ |
+| 4 Kas Çar | Bağlantı kazandıracak içerik: araştırma verisinden sektör bazında ek analiz | /blog/ankara-isletme-siteleri-arastirmasi-2026/ | ⏳ |
+| 5 Kas Per | /ankara-e-ticaret-sitesi/ güçlendirme | ankara e-ticaret sitesi (17,3) | ⏳ |
+| 6 Kas Cum | Yazı: İnşaat firmaları için web sitesi | → /web-tasarim/ ("ankara web tasarım" 28,5) | ⏳ |
+| 7 Kas Cmt | Teknik: referans logoları WebP, renk kontrastı | hız ve erişilebilirlik | ⏳ |
+| 8 Kas Paz | Yazı: Yapay zeka araçlarını KVKK'ya uygun kullanmak | → /yapay-zeka-danismanligi/ (19,5) | ⏳ |
+| 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim | | ⏳ |
 
 Değerlendirme haftalarında Search Console → Performans'ta bakılacaklar:
 - **11–30. sıradaki sayfalar:** ilk sayfaya en yakın olanlar. İçeriği genişlet, iç bağlantı ekle.
