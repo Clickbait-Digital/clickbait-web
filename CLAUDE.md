@@ -88,7 +88,7 @@ Referans logo şeridi tek sıra, sürekli kayan (`<!-- KAYAN ŞERİT -->` … `<
 - Search Console'da "ai danışmanlığı" araması çıktı (23.10): /yapay-zeka-danismanligi/ tanımına ve SSS'ye "AI danışmanlığı" eklendi.
 - **/web-tasarim/ (22.10.2026):** "ankara web tasarım" 21.10'da ilk 50'nin dışındaydı. Sayfaya `projeler` alanı (müşteri sitesi ekran görüntüleri, `projeler_bolumu()`), 6 yeni metin bölümü, uzman kutusu, 3 SSS eklendi; 5 yazıdan "Ankara web tasarım" bağlantı metniyle bağlantı verildi. Canlı Lighthouse mobil 99. Etkisini 6–12 Kasım değerlendirmesinde ölç.
 - SEO çalışma raporu (dışarıya gönderilebilir, Claude Docs): https://claude.ai/artifact/UY8Sm9Gw1C7p3cUm5H1QZ2 — güncellerken tarih çipini ve "Bir bakışta" tablosunu yenile.
-- "Başlangıçtan bugüne" SEO panosu (25.10.2026, Search Console 13–23 Ekim verisiyle; Dashboard türü, veriler sabit JSON dosyaları): https://claude.ai/artifact/4Dj7CVSBAaitPFBxc6fxQk — 6–12 Kasım ölçümünde yeni verilerle güncelle. Search Console verisi 13.10.2026'dan başlıyor.
+- "Başlangıçtan bugüne" SEO panosu (25.10.2026; 27.10.2026 Search Console 13–25 Ekim verisiyle güncellendi; Dashboard türü, veriler sabit JSON dosyaları): https://claude.ai/artifact/4Dj7CVSBAaitPFBxc6fxQk — 6–12 Kasım ölçümünde yeni verilerle güncelle. Search Console verisi 13.10.2026'dan başlıyor.
 - Sıradaki yazılar `dev/seo-plani.md` takviminde (hafta 5: "Aylık sosyal medya içerik planı nasıl hazırlanır?"). Search Console (20.10, veri 17.10'a kadar): /ankara-seo/ "ankara seo"da ~20–24. sırada, "yapay zeka danışmanlığı" ~11; bir sonraki iş /ankara-seo/'yu iç bağlantı ve içerikle güçlendirmek.
 
 ## SEO (kullanıcının en önemli önceliği)
