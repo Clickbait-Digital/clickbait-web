@@ -1,7 +1,7 @@
 ---
 baslik: Instagram reklamı nasıl verilir? Adım adım rehber
-title: Instagram Reklamı Nasıl Verilir? Adım Adım Rehber
-description: Instagram reklamı nasıl verilir? Öne çıkar ile Reklam Yöneticisi farkı, hesap hazırlığı, hedef, kitle, bütçe, görsel seçimi ve ölçüm adım adım.
+title: Instagram Reklamı Nasıl Verilir? 2026 Adım Adım Rehber
+description: Instagram reklamı nasıl verilir? Öne çıkar mı, Reklam Yöneticisi mi; kitle, bütçe ve görsel seçimiyle ilk reklamınızı adım adım kurun.
 ozet: Instagram'da reklam vermek birkaç dokunuşla mümkün, ama bütçeyi boşa harcamamak için doğru hedefi, doğru kitleyi ve doğru görseli seçmek gerekiyor. Hesap hazırlığından sonuçları ölçmeye kadar süreci adım adım anlattık.
 tarih: 2026-10-20
 kume: dijital-pazarlama

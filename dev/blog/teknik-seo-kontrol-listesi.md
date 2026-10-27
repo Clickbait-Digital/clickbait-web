@@ -1,20 +1,21 @@
 ---
-baslik: Teknik SEO kontrol listesi: sitenizde kontrol etmeniz gereken 12 madde
-title: Teknik SEO Kontrol Listesi: 12 Madde | Clickbait
-description: Teknik SEO nedir, nelere bakılır? Dizine eklenmeden hıza, yönlendirmelerden yapılandırılmış veriye kadar sitenizde kontrol etmeniz gereken 12 madde.
+baslik: Teknik SEO kontrol listesi: 12 madde ve e-ticaret siteleri için ek kontroller
+title: Teknik SEO Kontrol Listesi: 12 Madde ve E-ticaret | Clickbait
+description: Teknik SEO kontrol listesi: dizine eklenmeden hıza, yönlendirmelerden yapılandırılmış veriye 12 madde ve e-ticaret siteleri için ek kontroller.
 ozet: İçerik ne kadar iyi olursa olsun, Google sitenizi düzgün tarayıp anlayamıyorsa sıralama gelmez. Sitenizde kendi başınıza kontrol edebileceğiniz 12 teknik SEO maddesini, nereye bakacağınızla birlikte topladık.
 tarih: 2026-10-21
+guncelleme: 2026-10-27
 kume: dijital-pazarlama
 etiket: DİJİTAL PAZARLAMA
 kapak: 12 maddelik kontrol
 simge: kalkan
-kisa_cevap: Teknik SEO, Google'ın sitenizi sorunsuz tarayıp dizine eklemesi ve doğru anlaması için yapılan altyapı çalışmalarıdır. Temel kontroller şunlardır: sayfaların dizinde olması, site haritası ve robots.txt, HTTPS, mobil uyum, sayfa hızı, kanonik adresler, yönlendirmeler, kırık bağlantılar, başlık ve açıklamalar, tek H1, yapılandırılmış veri ve iç bağlantılar.
+kisa_cevap: Teknik SEO, Google'ın sitenizi sorunsuz tarayıp dizine eklemesi ve doğru anlaması için yapılan altyapı çalışmalarıdır. Temel kontroller şunlardır: sayfaların dizinde olması, site haritası ve robots.txt, HTTPS, mobil uyum, sayfa hızı, kanonik adresler, yönlendirmeler, kırık bağlantılar, başlık ve açıklamalar, tek H1, yapılandırılmış veri ve iç bağlantılar. E-ticaret sitelerinde bunlara ek olarak filtre ve sıralama adresleri, stokta olmayan ürünler, ürün yapılandırılmış verisi, kategori sayfalaması ve kopya ürün açıklamaları kontrol edilmelidir.
 ---
 Bir sitenin Google'da üst sıralara çıkması için iyi içerik gerekir, ama tek başına yetmez. Google önce sitenizi **taramalı**, sonra **dizine eklemeli** ve en sonunda ne anlattığını **anlamalı**. Bu üç adımdan birinde sorun varsa en iyi yazılmış sayfa bile görünmez. **Teknik SEO**, bu adımların sorunsuz işlemesi için yapılan altyapı çalışmalarının adıdır.
 
 Ekim 2026'da Ankara'daki 101 işletme sitesini incelediğimiz [araştırmamızda](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sitelerin %26'sında ana başlık (H1) yoktu, %42'sinde işletme bilgisini Google'a anlatan yapılandırılmış veri bulunmuyordu ve %87'sinde sayfanın ana içeriği telefonda 4 saniyeden geç yükleniyordu. Bunların hepsi teknik SEO konusu ve çoğu kolayca düzeltilebilir.
 
-Aşağıdaki 12 maddeyi kendi sitenizde kontrol edebilirsiniz. Çoğu için ücretsiz olan **Google Search Console** ve **PageSpeed Insights** yeterli.
+Aşağıdaki 12 maddeyi kendi sitenizde kontrol edebilirsiniz; e-ticaret siteniz varsa yazının sonundaki ek kontrollere de bakın. Çoğu için ücretsiz olan **Google Search Console** ve **PageSpeed Insights** yeterli.
 
 ## 1. Sayfalarınız Google'ın dizininde mi?
 
@@ -71,6 +72,36 @@ Yapılandırılmış veri, işletmenizin adını, adresini, telefonunu, çalış
 
 Google bir sayfanın ne kadar önemli olduğunu, sitenizin geri kalanının ona ne kadar ve hangi kelimelerle bağlandığına bakarak anlar. Hizmet sayfalarınıza yalnızca menüden değil, ilgili yazılarınızın metninden de bağlantı verin ve bağlantı metninde "buraya tıklayın" yerine sayfanın konusunu yazın (örneğin "[Ankara web tasarım](/web-tasarim/)").
 
+## E-ticaret siteleri için ek teknik SEO kontrolleri
+
+E-ticaret siteleri yukarıdaki 12 maddenin hepsine ihtiyaç duyar, ama yüzlerce ürün, filtre ve kategori sayfası yüzünden birkaç sorun bu sitelerde çok daha sık görülür. Hazır e-ticaret platformlarında da WooCommerce gibi altyapılarda da bu ayarların bir kısmı varsayılan olarak gelir; yine de kontrol etmeden doğru olduğunu varsaymayın.
+
+### Filtre ve sıralama adresleri
+
+Renk, beden, fiyat aralığı ya da "en ucuz önce" gibi her filtre seçimi çoğu zaman yeni bir adres üretir. Bu adreslerin hepsi taranır ve dizine eklenirse Google aynı ürün listesinin binlerce kopyasını görür; asıl kategori sayfanız güç kaybeder. Filtreli adreslerin kanonik etiketi ana kategori sayfasını göstermeli, aramada değeri olmayan kombinasyonlar dizine eklenmemelidir. Bir adresi hem robots.txt ile engelleyip hem de "noindex" etiketiyle işaretlemeyin: Google engellenen sayfayı tarayamadığı için "noindex" etiketini hiç göremez.
+
+### Stokta olmayan ve kaldırılan ürünler
+
+Ürün geçici olarak tükendiyse sayfayı silmeyin; "stokta yok" bilgisiyle yayında kalsın ve benzer ürünlere bağlantı versin. Ürün kalıcı olarak satıştan kalktıysa adresi en yakın ürüne ya da kategorisine 301 ile yönlendirin. Karşılığı olmayan ürünlerde sayfanın gerçek bir 404 yanıtı vermesi, ana sayfaya yönlendirilmesinden daha doğrudur.
+
+### Ürün yapılandırılmış verisi
+
+Ürün sayfalarında ürün adı, görseli, fiyatı, para birimi ve stok durumu yapılandırılmış veriyle (Product ve Offer) Google'a anlatılmalıdır. Böylece Google arama sonuçlarında fiyatı ve stok durumunu gösterebilir. Sayfadaki fiyat ile yapılandırılmış verideki fiyat her zaman aynı olmalı; yorum ve puan bilgisi yalnızca gerçek müşteri yorumlarından gelmelidir. Zengin Sonuç Testi ve Search Console'daki ürün raporları hataları gösterir.
+
+### Kategori sayfalarında sayfalama
+
+Çok ürünlü kategoriler genellikle birkaç sayfaya bölünür. Her sayfanın kendi adresi olmalı ve kanonik etiketi kendisini göstermelidir; 2. ve sonraki sayfaların kanonik adresini 1. sayfaya vermek, oradaki ürünlerin Google tarafından bulunmasını zorlaştırır. Sonsuz kaydırma kullanılıyorsa ürünlere tıklanabilir sayfa bağlantılarıyla da ulaşılabilmelidir.
+
+### Kopya ürün açıklamaları
+
+Üreticinin ürün açıklamasını olduğu gibi kullanan yüzlerce site, Google'ın gözünde aynı metni yayınlar. En çok satan ve en çok aranan ürünlerden başlayarak kendi açıklamalarınızı yazın: ürünün kime uygun olduğu, ölçüleri, kullanım ve teslimat bilgisi gibi müşterinin gerçekten sorduğu bilgilerle. Renk ve beden gibi seçenekler ayrı adreslerde ise kanonik etiketleri tutarlı olmalıdır.
+
+### Ürün görselleri ve site içi arama
+
+Ürün sayfaları görsel ağırlıklı olduğu için hızın en çok bozulduğu yer burasıdır. Görselleri gösterildikleri boyuta göre küçültün, WebP gibi modern biçimlere çevirin ve ilk görünen ürün görseli dışındakileri gecikmeli yükleyin. Görsellerin alt metninde ürünün adı yazsın. Sitenizin kendi arama kutusunun sonuç sayfaları ise dizine eklenmemelidir; bu sayfalar sonsuz sayıda düşük değerli adres üretir.
+
+E-ticaret sitesi kurmayı ya da mevcut mağazanızı yenilemeyi düşünüyorsanız bu kontrolleri baştan planladığımız [e-ticaret sitesi](/ankara-e-ticaret-sitesi/) hizmetimize bakabilirsiniz.
+
 ## Kontrol listesi
 
 - Önemli sayfalar Search Console'da dizinde
@@ -85,6 +116,15 @@ Google bir sayfanın ne kadar önemli olduğunu, sitenizin geri kalanının ona 
 - Her sayfada tek H1
 - Yapılandırılmış veri hatasız
 - Hizmet sayfalarına metin içinden bağlantı veriliyor
+
+E-ticaret siteleri için ek olarak:
+
+- Filtre ve sıralama adresleri ana kategoriye kanonik veriyor
+- Tükenen ürünler yayında, kaldırılan ürünler 301 ile yönleniyor
+- Ürün sayfalarında fiyat ve stok bilgisi yapılandırılmış veride
+- Kategori sayfalarının her biri kendi kanonik adresinde
+- Çok satan ürünlerin açıklamaları özgün
+- Ürün görselleri küçültülmüş, site içi arama sayfaları dizinde değil
 
 Teknik SEO bir kez yapılıp bırakılan bir iş değildir; site güncellendikçe yeni sorunlar ortaya çıkabilir. SEO'nun genel olarak nasıl işlediğini ve ne zaman sonuç verdiğini [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda anlattık.
 

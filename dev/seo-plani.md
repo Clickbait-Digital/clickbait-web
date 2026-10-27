@@ -93,7 +93,7 @@ Kurallar:
 | Gün | İş | Hedef arama / sayfa | Durum |
 |---|---|---|---|
 | 27 Eki Sal | /dijital-pazarlama/ güçlendirme (5 metin bölümü, uzman kutusu, SSS) + yazı: Küçük işletmeler için dijital pazarlama | ankara dijital pazarlama (34,5), ankara dijital pazarlama ajansı (20) | ✅ |
-| 28 Eki Çar | Teknik SEO kontrol listesine e-ticaret bölümü; gösterim alıp tıklama almayan sayfaların başlık/açıklamaları | "e-ticaret platformları için teknik seo kontrol listesi" (6,9), "seo kontrol listesi" (12,4) | ⏳ |
+| 28 Eki Çar | Teknik SEO kontrol listesine e-ticaret bölümü (6 alt başlık, 27 Eki'de erken yapıldı); Instagram reklamı, işletmelerde yapay zeka, Google Ads mi SEO mu yazılarının başlık/açıklamaları | "e-ticaret platformları için teknik seo kontrol listesi" (6,9), "seo kontrol listesi" (12,4); yazılar 7–9. sırada ama tıklama yok | ✅ |
 | 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ⏳ |
 | 30 Eki Cum | /kreatif-hizmetler/ güçlendirme (en ince hizmet sayfası) | ankara logo tasarım | ⏳ |
 | 31 Eki Cmt | Yazı: Emlak ve konut projeleri için Google ve Instagram reklamları | → /ankara-instagram-reklam-ajansi/ (12,8) | ⏳ |
