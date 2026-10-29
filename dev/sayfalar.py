@@ -422,6 +422,49 @@ ANKARA = [
 
 # ---------------------------------------------------------------- Parçalar
 # Kurucu / SEO'yu yürüten kişi ve blog yazarı. Yalnızca kullanıcının verdiği bilgiler (20.10.2026): kurucu, 2013, SEO'yu bizzat yürütüyor, yazılar onun deneyimine dayanıyor.
+# Sektöre özel sayfalar: Ankara sayfalarıyla aynı şablon, ama Türkiye geneli hedeflenir ('sektor': True).
+# Yalnızca gerçek referansı olan sektörler; doktor/avukat sayfalarında reklam yasağına uygun dil (bkz. seo-plani.md).
+SEKTORLER = [
+  {
+    'adres': 'insaat-firmalari-icin-reklam-ajansi', 'kisa': 'İnşaat ve konut projeleri', 'ust': 'dijital-pazarlama', 'renk': 'dark', 'sektor': True,
+    'guncelleme': '2026-10-29',
+    'title': 'İnşaat Firmaları İçin Reklam Ajansı | Clickbait',
+    'description': 'İnşaat firmaları ve konut projeleri için reklam: lansman, Google ve Instagram reklamları, açık hava, proje web sitesi ve satış ofisine gelen talebin ölçümü.',
+    'h1': 'İnşaat firmaları için reklam ajansı: konut projenizi doğru alıcıya duyurun',
+    'giris': 'Rast Grup’un Ankara’daki villa ve konut projelerinin dijital pazarlamasını yürütüyoruz. Proje lansmanından satış ofisine gelen ziyarete kadar reklamı, proje web sitesini ve ölçümü tek ekipte planlıyor; Türkiye’nin her yerindeki inşaat firmalarıyla çalışıyoruz.',
+    'kapsam': 'İnşaat firmaları için neler yapıyoruz?',
+    'kartlar': [
+      ('Proje lansman kampanyası', 'Ön satış ve lansman döneminde projeyi Google, Instagram, açık hava ve gerektiğinde TV ve radyoda tek bir plan içinde duyuruyoruz.'),
+      ('Google reklamları', 'Bölgede konut, villa ya da daire arayanları ve projenizin adını arayanları arama sonuçlarında yakalıyoruz.'),
+      ('Instagram ve Facebook reklamları', 'Projenin bulunduğu bölgeye ve hedef kitleye göre görsel ve videolu reklamlar hazırlıyor, siteyi ziyaret edenlere yeniden ulaşıyoruz.'),
+      ('Proje web sitesi', 'Daire tipleri, kat planları, konum, sosyal alanlar ve satış ofisi bilgisiyle telefonda hızlı açılan, talep toplayan proje siteleri.'),
+      ('Açık hava ve saha', 'Satış ofisine giden yollarda billboard, raket ve megalight; şantiye panoları ve yönlendirmeler.'),
+      ('Talep ve satış ölçümü', 'Form, telefon, WhatsApp ve satış ofisi randevularını kaynağına göre ölçüyor, hangi reklamın satışa yaklaştırdığını raporluyoruz.'),
+    ],
+    'adimlar': [
+      ('Proje ve alıcı', 'Projenin konumunu, daire tiplerini, fiyat aralığını ve kimin alacağını birlikte netleştiriyoruz.'),
+      ('Lansman planı', 'Web sitesini, görselleri, ölçümü ve kanal planını lansmandan önce hazırlıyoruz.'),
+      ('Kampanya', 'Reklamları yayına alıyor, talepleri her hafta izleyip bütçeyi işe yarayan kanala kaydırıyoruz.'),
+      ('Satış dönemine göre güncelleme', 'Ön satıştan teslime kadar mesajı ve kanalları projenin aşamasına göre değiştiriyoruz.'),
+    ],
+    'metin': [
+      ('İnşaat firmalarının reklamı neden farklıdır?', 'Konut, çoğu insanın hayatında verdiği en büyük satın alma kararıdır. Alıcı bir projeyi haftalarca, bazen aylarca araştırır; siteye birkaç kez döner, kat planlarını inceler, ailesiyle konuşur ve satış ofisini ziyaret etmeden karar vermez. Bu yüzden inşaat sektöründe reklamın amacı tek tıklamayla satış değil, doğru kişiyi satış ofisine ya da bir görüşmeye getirmektir. Kampanyayı da tıklama sayısına göre değil, gelen randevu ve görüşme taleplerine göre yönetiyoruz.'),
+      ('Konut projesi lansmanını nasıl planlıyoruz?', 'Lansmandan önce proje web sitesini, görselleri ve talep ölçümünü hazır hâle getiriyoruz; reklam başladığında gelen ilginin kaybolmaması için bu sıra önemlidir. Lansman döneminde projeyi Google’da arayanları yakalıyor, Instagram ve Facebook’ta hedef bölgedeki kitleye tanıtıyor, satış ofisine giden yollarda açık hava reklamlarıyla görünür kılıyoruz. Siteyi ziyaret edip talep bırakmayan kişilere yeniden ulaşan reklamlar, uzun karar sürecinde projenin akılda kalmasını sağlar. Açık hava tarafını [açık hava reklamı rehberimizde](/blog/acik-hava-reklami-rehberi/), TV ve radyoyu da içeren kampanyaları [Ankara reklam ajansı](/ankara-reklam-ajansi/) sayfamızda anlattık.'),
+      ('Proje web sitesinde neler olmalı?', 'Alıcının aklındaki ilk sorular nettir: Nerede, hangi daire tipleri var, kat planı nasıl, ne zaman teslim, satış ofisine nasıl gidilir? İyi bir proje sitesi bu soruları ilk ekranlarda cevaplar: daire tipleri ve kat planları, konum ve ulaşım, sosyal alanlar, teslim tarihi, satış ofisi adresi ve tek dokunuşla arama, WhatsApp ve randevu. Sitenin telefonda hızlı açılması da şarttır, çünkü reklamdan gelen ziyaretçilerin çoğu telefondadır. Proje sitelerini bu ihtiyaçlara göre [web tasarım](/web-tasarim/) ekibimizle hazırlıyoruz.'),
+      ('Hangi talep satışa dönüşüyor?', 'Her talebi kaynağıyla birlikte ölçüyoruz: Google reklamından gelen arama, Instagram’dan gelen mesaj, siteden gelen randevu formu. Satış ekibinizin “bizi nereden duydunuz?” sorusuna verilen cevapları da bu tabloya ekliyoruz. Aylık raporda harcamayı, gelen talepleri, talep başına maliyeti ve satış ofisine gelen ziyaretleri birlikte gösteriyoruz; böylece bütçe tahmine göre değil, satışa en çok yaklaştıran kanala göre büyür. Bütçeyi hedeften geriye doğru nasıl hesapladığımızı [Google Ads bütçesi nasıl belirlenir?](/blog/google-ads-butcesi-nasil-belirlenir/) yazımızda anlattık.'),
+      ('Hangi inşaat ve emlak markalarıyla çalışıyoruz?', 'Rast Grup’un Ankara’daki konut ve villa projelerinin (Avend Fera, Avend Doku, Avend Voven, Palais Bozbük ve Magna Epic) dijital pazarlamasını yürütüyoruz. Uslu Yapı’nın web sitesini hazırladık ve Aden İncek projesinde birlikte çalıştık. Saye Emlak’ın Google ve Meta reklam hesaplarını yönetiyoruz. Ankara’daki projelerde satış ofisini ve bölgeyi yerinde tanıyarak, Türkiye’nin diğer şehirlerindeki projelerde süreci online yürüterek çalışıyoruz.'),
+    ],
+    'ilgili': ['acik-hava-reklami-rehberi', 'google-ads-butcesi-nasil-belirlenir', 'instagram-reklami-nasil-verilir', 'kucuk-isletmeler-icin-dijital-pazarlama'],
+    'sss': [
+      ('Konut projesi reklamına ne zaman başlanmalı?', 'Ön satış başlamadan önce. Proje web sitesi, görseller ve talep ölçümü lansmandan önce hazır olmalı; reklam başladığında gelen ilgi böylece kaybolmaz ve ilk haftalardan itibaren hangi kanalın işe yaradığı görülür.'),
+      ('Hangi kanal daha çok satış getirir?', 'Projeye, bölgeye ve alıcı kitlesine göre değişir. Google reklamları projeyi zaten arayanları yakalar, Instagram ve Facebook projeyi henüz tanımayanlara duyurur, açık hava ise satış ofisinin çevresinde görünürlük sağlar. Hangisinin satışa daha çok yaklaştırdığını her talebi kaynağıyla ölçerek görüyor, bütçeyi buna göre kaydırıyoruz.'),
+      ('Reklam bütçesi nasıl belirlenir?', 'Hedeflediğiniz satış ve satış ofisi ziyareti sayısından geriye doğru: kaç ziyaretten bir satış çıktığı, kaç talepten bir ziyaret geldiği ve bölgedeki tıklama maliyeti hesaba katılır. Küçük bir test döneminden sonra bütçeyi gerçek rakamlara göre güncelliyoruz.'),
+      ('Proje web sitesini de siz mi hazırlıyorsunuz?', 'Evet. Daire tipleri, kat planları, konum ve satış ofisi bilgisiyle, telefonda hızlı açılan ve talep toplayan proje sitelerini reklamlarla birlikte planlıyoruz. Mevcut bir siteniz varsa önce onu inceliyoruz.'),
+      ('Ankara dışındaki projelerle çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlama süreçlerini online yürütüyoruz. Ankara’daki projelerde satış ofisinizde yüz yüze de çalışıyoruz.'),
+    ],
+  },
+]
+
 KURUCU = {
   'ad': 'Şakir Yavuz', 'bas_harf': 'ŞY', 'unvan': 'Kurucu, Clickbait Dijital',
   'foto': '/assets/img/sakir-yavuz.jpg', 'foto_kare': '/assets/img/sakir-yavuz-kare.jpg',
@@ -441,6 +484,7 @@ TANIMLAR = {
   'ankara-google-ads-ajansi': 'Google Ads ajansı, işletmelerin Google arama, YouTube ve görüntülü reklam kampanyalarını kurup yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için doğru kelimeleri seçer, alakasız tıklamaları eler, telefon, form ve WhatsApp taleplerini ölçer ve harcanan bütçenin neye dönüştüğünü her ay raporlar.',
   'ankara-reklam-ajansi': 'Clickbait Dijital, Ankara Çayyolu’nda 2013’ten beri hizmet veren tam kapsamlı bir reklam ajansıdır. Kampanya fikri ve strateji, TV reklam filmi ve yayın planlaması, radyo reklamı, açık hava reklamı (billboard, raket, megalight), medya planlama ile Google ve Instagram reklamları aynı ekipte planlanır ve yürütülür.',
   'ankara-e-ticaret-sitesi': 'Clickbait Dijital, Ankara’daki işletmeler için e-ticaret siteleri kurar: işe uygun altyapının seçimi, mağaza tasarımı, ödeme ve kargo bağlantıları, ürün ve kategori sayfalarının Google için hazırlanması ve açılıştan sonra reklam ve ölçüm. Ankara’daki işletmelerle yüz yüze, Türkiye genelinde online çalışır.',
+  'insaat-firmalari-icin-reklam-ajansi': 'İnşaat firmaları için reklam ajansı hizmeti; konut ve villa projelerinin lansman kampanyasını, Google ve Instagram reklamlarını, açık hava reklamlarını, proje web sitesini ve satış ofisine gelen talebin ölçümünü kapsar. Clickbait Dijital, Ankara’daki konut projelerinin dijital pazarlamasını yürütür; Türkiye genelindeki inşaat firmalarıyla online çalışır.',
   'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
 }
 
@@ -482,6 +526,7 @@ def alt_bilgi():
       </div>
     </div>
     <nav aria-label="Ankara hizmetleri" class="mt-10 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-600"><span class="font-bold tracking-widest text-slate-900">ANKARA</span>{''.join(f'<a class="hover:text-slate-900" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in ANKARA)}</nav>
+    <nav aria-label="Sektörlere özel hizmetler" class="mt-3 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-slate-600"><span class="font-bold tracking-widest text-slate-900">SEKTÖRLER</span>{''.join(f'<a class="hover:text-slate-900" href="/{x["adres"]}/">{e(x["kisa"])}</a>' for x in SEKTORLER)}</nav>
     <div class="mt-6 pt-6 border-t border-slate-100 text-xs text-slate-500">© 2013–{datetime.date.today().year} Clickbait Medya Limited Şirketi, Ankara. Tüm hakları saklıdır.</div>
   </div>
 </footer>
@@ -721,6 +766,10 @@ def hizmet_sayfasi(h):
     ozel = (f'<p class="text-center text-xs font-bold tracking-widest text-slate-500">ANKARA’YA ÖZEL</p><ul class="mt-5 mb-10 flex flex-wrap justify-center gap-3">'
             + ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full bg-[#D8F83C] px-4 py-2.5 text-sm font-semibold text-black hover:bg-[#c7e92e] transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in alt_sayfalar)
             + '</ul>') if alt_sayfalar else ''
+    sektorler = [x for x in SEKTORLER if x['ust'] == h['adres']]
+    ozel += (f'<p class="text-center text-xs font-bold tracking-widest text-slate-500">SEKTÖRE ÖZEL</p><ul class="mt-5 mb-10 flex flex-wrap justify-center gap-3">'
+             + ''.join(f'<li><a href="/{x["adres"]}/" class="inline-flex items-center gap-2 rounded-full bg-[#D8F83C] px-4 py-2.5 text-sm font-semibold text-black hover:bg-[#c7e92e] transition-colors">{e(x["kisa"])} <span aria-hidden="true">↗</span></a></li>' for x in sektorler)
+             + '</ul>') if sektorler else ''
     on, yazi, alt, rozet = KART_RENK[h['renk']]
     kartlar = ''.join(f'''
       <li class="bento-card-interactive bg-white rounded-[28px] p-6 md:p-7 border border-slate-100 shadow-sm">
@@ -740,7 +789,7 @@ def hizmet_sayfasi(h):
     ld = {"@context": "https://schema.org", "@graph": [
       {"@type": "Service", "name": h['kisa'], "serviceType": h['kisa'], "description": h['description'], "disambiguatingDescription": TANIMLAR[h['adres']], "url": ALAN + adres,
        "provider": {"@id": ALAN + "/#isletme"},
-       "areaServed": [{"@type": "City", "name": "Ankara"}] + ([] if ust else [{"@type": "Country", "name": "Türkiye"}])},
+       "areaServed": [{"@type": "City", "name": "Ankara"}] + ([] if ust and not h.get('sektor') else [{"@type": "Country", "name": "Türkiye"}])},
       {"@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": ALAN + "/"},
         {"@type": "ListItem", "position": 2, "name": kirinti[0], "item": ALAN + kirinti[1]},
@@ -897,7 +946,7 @@ def blok_degistir(dosya, ad, yeni):
 def site_haritasi():
     son = max([y['tarih'] for y in YAZILAR], default=BUGUN)
     urller = [('/', 'weekly', '1.0', BUGUN)] + [(f'/{h["adres"]}/', 'monthly', '0.9', BUGUN) for h in HIZMETLER] \
-           + [(f'/{h["adres"]}/', 'monthly', '0.8', BUGUN) for h in ANKARA] \
+           + [(f'/{h["adres"]}/', 'monthly', '0.8', BUGUN) for h in ANKARA + SEKTORLER] \
            + [('/blog/', 'weekly', '0.7', son)] + [(f'/blog/{y["adres"]}/', 'monthly', '0.6', y['tarih']) for y in YAZILAR] + [('/kvkk/', 'yearly', '0.2', BUGUN)]
     satir = ''.join(f'  <url><loc>{ALAN}{u}</loc><lastmod>{t}</lastmod><changefreq>{c}</changefreq><priority>{p}</priority></url>\n' for u, c, p, t in urller)
     open(os.path.join(KOK, 'sitemap.xml'), 'w', encoding='utf-8').write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + satir + '</urlset>\n')
@@ -906,6 +955,7 @@ def llms_txt():
     """site/llms.txt: yapay zeka araçları için sitenin kısa özeti (llmstxt.org biçimi)."""
     hiz = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {TANIMLAR[h["adres"]]}' for h in HIZMETLER)
     ank = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {TANIMLAR[h["adres"]]}' for h in ANKARA)
+    sek = '\n'.join(f'- [{h["kisa"]}]({ALAN}/{h["adres"]}/): {TANIMLAR[h["adres"]]}' for h in SEKTORLER)
     yaz = '\n'.join(f'- [{y["baslik"]}]({ALAN}/blog/{y["adres"]}/): {y.get("kisa_cevap") or y["description"]}' for y in YAZILAR)
     metin = f"""# Clickbait Dijital
 
@@ -927,6 +977,10 @@ def llms_txt():
 ## Ankara'ya özel hizmetler
 
 {ank}
+
+## Sektörlere özel hizmetler
+
+{sek}
 
 ## Blog
 
@@ -1236,7 +1290,7 @@ def bloglari_yaz():
 
 
 if __name__ == '__main__':
-    for h in HIZMETLER + ANKARA:
+    for h in HIZMETLER + ANKARA + SEKTORLER:
         os.makedirs(os.path.join(KOK, h['adres']), exist_ok=True)
         open(os.path.join(KOK, h['adres'], 'index.html'), 'w', encoding='utf-8').write(hizmet_sayfasi(h))
         print('yazıldı:', h['adres'])
