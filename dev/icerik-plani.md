@@ -51,6 +51,7 @@ Hedef kelimeler: ankara dijital pazarlama ajansı, google ads ajansı ankara, se
 | ✅ | Teknik SEO kontrol listesi: 12 madde (→ /ankara-seo/, 21.10.2026) | teknik seo kontrol listesi |
 | ✅ | GEO nedir? Yapay zeka aramalarında görünmek (→ /ankara-seo/, 21.10.2026) | geo nedir |
 | ✅ | Küçük işletmeler için dijital pazarlama: nereden başlamalı? (→ /dijital-pazarlama/, 27.10.2026) | küçük işletmeler için dijital pazarlama |
+| ✅ | Google Ads bütçesi nasıl belirlenir? Hedeften geriye 6 adım (→ /ankara-google-ads-ajansi/, 29.10.2026) | google ads bütçesi |
 | ⏳ | Dönüşüm takibi kurmadan reklam vermeyin | dönüşüm takibi |
 
 ## 4. Sosyal medya yönetimi → /sosyal-medya-yonetimi/

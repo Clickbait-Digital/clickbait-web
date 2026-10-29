@@ -57,7 +57,7 @@ Her hafta: **1 blog yazısı** (Claude yazar, siz onaylarsınız) + **1 İşletm
 | 3 (30 Eki–5 Kas) | ✅ SEO nedir, ne zaman sonuç verir? (dijital pazarlama → /ankara-seo/; 19 Eki’de erken yayında) | Rehber sitelere kayıt (aşağıdaki liste) |
 | 4 (6–12 Kas) | ✅ Instagram reklamı nasıl verilir? Adım adım rehber (→ /ankara-instagram-reklam-ajansi/; 20 Eki’de erken yayında) | **İlk değerlendirme:** hangi sayfa 11–30. sırada, güçlendir |
 | 5 (13–19 Kas) | ✅ Aylık sosyal medya içerik planı nasıl hazırlanır? (sosyal medya; 24 Eki’de erken yayında) | Psychology Times'ta konuk yazı |
-| 6 (20–26 Kas) | Google Ads bütçesi nasıl belirlenir? (→ /ankara-google-ads-ajansi/) | Proje (vaka) sayfaları: ilk 2 proje |
+| 6 (20–26 Kas) | ✅ Google Ads bütçesi nasıl belirlenir? (→ /ankara-google-ads-ajansi/; 29 Eki’de erken yayında) | Proje (vaka) sayfaları: ilk 2 proje |
 | 7 (27 Kas–3 Ara) | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? (→ /ankara-e-ticaret-sitesi/) | |
 | 8 (4–10 Ara) | Kurumsal kimlik nedir, neleri kapsar? (kreatif) | **İkinci değerlendirme** |
 | 9 (11–17 Ara) | Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak (yapay zeka) | Proje sayfaları: 2 proje daha |
@@ -95,7 +95,7 @@ Kurallar:
 |---|---|---|---|
 | 27 Eki Sal | /dijital-pazarlama/ güçlendirme (5 metin bölümü, uzman kutusu, SSS) + yazı: Küçük işletmeler için dijital pazarlama | ankara dijital pazarlama (34,5), ankara dijital pazarlama ajansı (20) | ✅ |
 | 28 Eki Çar | Teknik SEO kontrol listesine e-ticaret bölümü (6 alt başlık, 27 Eki'de erken yapıldı); Instagram reklamı, işletmelerde yapay zeka, Google Ads mi SEO mu yazılarının başlık/açıklamaları | "e-ticaret platformları için teknik seo kontrol listesi" (6,9), "seo kontrol listesi" (12,4); yazılar 7–9. sırada ama tıklama yok | ✅ |
-| 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ⏳ |
+| 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ✅ |
 | 30 Eki Cum | **Sektör sayfası:** inşaat firmaları ve konut projeleri için reklam ajansı (kanıt: Rast Grup projeleri, Uslu Yapı, Aden İncek, Saye Emlak) | inşaat firmaları için reklam ajansı, konut projesi reklamı | ⏳ |
 | 31 Eki Cmt | **Sektör sayfası:** doktorlar ve klinikler için SEO (tanıtım yönetmeliğine uygun, bilgilendirici içerik; kanıt: German Dental, İstanbul Hair Center, psikolog siteleri) | doktorlar için seo, klinik seo, diş hekimi seo | ⏳ |
 | 1 Kas Paz | **Sektör sayfası:** avukatlar için web sitesi ve SEO (TBB Reklam Yasağı Yönetmeliği'ne uygun, iş elde etmeye yönelik ifade yok; avukat müşteri iddiası yok) | avukatlar için seo, avukat web sitesi | ⏳ |
