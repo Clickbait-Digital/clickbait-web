@@ -217,6 +217,19 @@ def insaat():
       + _rozet(f'<span class="text-[#D8F83C]">{_svg(KONUM)}</span>Hedef: proje bölgesi', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
 
 
+def doktor():
+    sorular = ('Tedavi kaç seans sürer?', 'İşlemden sonra nelere dikkat etmeli?', 'Muayenehaneye nasıl ulaşırım?')
+    site = _tarayici('hekiminiz.com.tr', f'''<div class="p-4">
+      <div class="flex items-center gap-3"><span class="w-12 h-12 shrink-0 rounded-2xl bg-gradient-to-br from-sky-400 to-sky-700 flex items-center justify-center text-white">{_svg(KALP, "w-5 h-5")}</span><span class="grid gap-1.5 flex-1">{_cubuk("w-3/4", "bg-slate-800", "h-2.5")}{_cubuk("w-1/2")}</span></div>
+      <p class="mt-4 text-[10px] font-bold tracking-widest text-slate-400">SIK SORULANLAR</p>
+      <ul class="mt-2 grid gap-1.5">{''.join(f'<li class="flex items-center justify-between rounded-xl bg-slate-50 border border-slate-100 px-3 py-2 text-[11px] font-semibold text-slate-700">{q}<span class="text-slate-400">+</span></li>' for q in sorular)}</ul>
+      <span class="mt-3 flex items-center justify-center gap-1.5 rounded-full bg-[#D8F83C] py-2 text-[11px] font-extrabold text-black">{_svg(TELEFON, "w-3.5 h-3.5")}Randevu için arayın</span>
+    </div>''')
+    return _sahne(f'<div class="w-[300px] sm:w-[340px]">{site}</div>'
+      + _rozet(f'<span class="text-sky-600">{_svg(KALKAN)}</span>Reklam dili yok', '-top-3 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(ARA)}</span>“çayyolu diş hekimi”', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+
 CIZIMLER = {
   'yapay-zeka-danismanligi': yapay_zeka,
   'web-tasarim': web_tasarim,
@@ -229,6 +242,7 @@ CIZIMLER = {
   'ankara-e-ticaret-sitesi': ankara_e_ticaret,
   'ankara-instagram-reklam-ajansi': ankara_instagram,
   'insaat-firmalari-icin-reklam-ajansi': insaat,
+  'doktorlar-icin-seo': doktor,
 }
 
 def cizim(adres):
@@ -282,6 +296,7 @@ KART_SIMGE = {
   'Mağaza tasarımı': SITE, 'Ürün ve stok yönetimi': KUTU, 'Ödeme altyapısı': KREDI, 'Kargo bağlantısı': KAMYON,
   'E-ticaret SEO’su': GRAFIK, 'Reklam ve ölçüm': DUYURU,
   'Proje lansman kampanyası': PARILTI, 'Proje web sitesi': SITE, 'Açık hava ve saha': SUNUM, 'Talep ve satış ölçümü': GRAFIK,
+  'Hekim ve klinik web sitesi': SITE, 'Bilgilendirici sağlık içerikleri': KALEM, 'Kurallara uygunluk kontrolü': KALKAN, 'KVKK ve hasta mahremiyeti': KILIT,
   'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,
 }
 

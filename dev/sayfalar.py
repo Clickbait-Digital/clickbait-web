@@ -463,6 +463,45 @@ SEKTORLER = [
       ('Ankara dışındaki projelerle çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlama süreçlerini online yürütüyoruz. Ankara’daki projelerde satış ofisinizde yüz yüze de çalışıyoruz.'),
     ],
   },
+  {
+    'adres': 'doktorlar-icin-seo', 'kisa': 'Doktorlar ve klinikler', 'ust': 'dijital-pazarlama', 'renk': 'blue', 'sektor': True,
+    'guncelleme': '2026-10-30',
+    'title': 'Doktorlar İçin SEO | Klinik ve Hekim Sitesi | Clickbait',
+    'description': 'Doktorlar ve klinikler için SEO: sağlık tanıtım kurallarına uygun, reklam dili kullanmayan bilgilendirici içerik, hızlı web sitesi ve aylık rapor.',
+    'h1': 'Doktorlar ve klinikler için SEO: kurallara uygun, hastanın sorusunu cevaplayan bir site',
+    'giris': 'Hekimler ve sağlık kuruluşları için reklam yolları sınırlı; hastalar ise hekimini, tedavisini ve muayenehanesini Google’da araştırıyor. Web sitenizi ve içeriklerinizi reklam dili kullanmadan, doğru ve bilgilendirici bir dille hazırlıyor, Google’da bulunmanız için teknik SEO’yu aynı ekipte yürütüyoruz.',
+    'kapsam': 'Doktorlar ve klinikler için neler yapıyoruz?',
+    'kartlar': [
+      ('Hekim ve klinik web sitesi', 'Uzmanlık alanlarınızı, eğitim ve deneyiminizi, muayenehane adresini ve randevu bilgisini anlatan, telefonda hızlı açılan siteler.'),
+      ('Bilgilendirici sağlık içerikleri', 'Hastalarınızın sık sorduğu sorulara, tıbbi bilgileri sizin onayınızdan geçen, sade ve doğru bilgilendirme yazıları.'),
+      ('Teknik SEO', 'Hız, mobil uyum, dizine eklenme ve yapılandırılmış veriyle sitenizin Google tarafından doğru anlaşılması.'),
+      ('Kurallara uygunluk kontrolü', 'Her metni yayından önce tanıtım kuralları açısından gözden geçiriyor; fiyat, kampanya, hasta teşekkürü ve abartılı ifadeler kullanmıyoruz.'),
+      ('KVKK ve hasta mahremiyeti', 'Randevu ve iletişim formları için KVKK aydınlatma metni, çerez onayı ve güvenli bağlantı.'),
+      ('Aylık rapor', 'Search Console verileriyle sitenizin hangi aramalarda göründüğünü ve nasıl ilerlediğini her ay sade bir dille paylaşıyoruz.'),
+    ],
+    'adimlar': [
+      ('Site ve içerik denetimi', 'Mevcut sitenizi teknik açıdan ve içerik dili açısından inceliyoruz.'),
+      ('Plan', 'Hastalarınızın aradığı konuları ve hangi sayfanın hangi soruyu cevaplayacağını birlikte belirliyoruz.'),
+      ('Uygulama ve yazılar', 'Teknik düzeltmeleri yapıyor, içerik taslaklarını hazırlayıp onayınıza sunuyoruz.'),
+      ('Ölçüm ve rapor', 'Sıralamaları izliyor, her ay neyin değiştiğini raporluyoruz.'),
+    ],
+    'metin': [
+      ('Doktorlar için SEO neden önemli?', 'Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kuralları, hekimlerin ve sağlık kuruluşlarının açık ya da gizli reklam yapmasını yasaklıyor; sosyal medyada reklam, fiyat ve kampanya duyurusu, hasta teşekkürlerinin tanıtım amacıyla kullanılması da bu kapsamda. Öte yandan hastalar bir hekime gitmeden önce şikâyetini, tedavi seçeneklerini ve hekimin uzmanlığını Google’da araştırıyor. Bu yüzden doğru ve bilgilendirici bir web sitesiyle Google’da bulunmak, sağlık alanında en sağlam görünürlük yoludur. Önemli olan, sitedeki içeriğin tanıtım değil bilgilendirme diliyle yazılmasıdır.'),
+      ('Sağlık sitelerinde nelere dikkat ediyoruz?', 'Sitede fiyat, indirim ve kampanya bilgisi kullanmıyoruz. Hasta teşekkürlerini ve memnuniyet yorumlarını tanıtım amacıyla yayınlamıyoruz. “En iyi”, “garantili”, “kesin sonuç” gibi abartılı ya da yanıltıcı ifadeler yazmıyoruz. Önce-sonra görsellerini kuralların koşullarını karşılamadan kullanmıyoruz. Sitede yalnızca hekimin gerçek uzmanlık alanlarını anlatıyor, tıbbi bilgileri hekimin onayı olmadan yayınlamıyoruz. Hukuki danışmanlık vermiyoruz; tereddüt olan konularda tabip odanızın ve hukuk danışmanınızın görüşünü esas alıyoruz.'),
+      ('Hastalar Google’da ne arıyor?', 'Hastaların aramaları genellikle üç türdür: bir şikâyet ya da hastalık hakkında bilgi (“diş eti çekilmesi neden olur?”), tedavi süreci hakkında sorular (“implant tedavisi kaç seans sürer?”) ve semt ile uzmanlık adıyla yapılan aramalar (“çayyolu diş hekimi”). İyi bir hekim sitesi bu üçünü de karşılar: uzmanlık alanlarını ve hekimi tanıtan sayfalar, hastaların sık sorduğu sorulara verilen doğru cevaplar, adres, ulaşım, çalışma saatleri ve tek dokunuşla arama. Bir sitede hangi sayfaların bulunması gerektiğini [kurumsal web sitesinde olması gereken 8 sayfa](/blog/kurumsal-web-sitesinde-olmasi-gereken-sayfalar/) yazımızda anlattık.'),
+      ('Google sağlık sitelerine neden daha sıkı bakar?', 'Google, sağlık gibi insanların hayatını doğrudan etkileyen konulardaki sayfalarda içeriğin kim tarafından yazıldığına ve ne kadar güvenilir olduğuna özellikle dikkat eder. Bu yüzden sağlık sitelerinde yazıların hekimin adıyla ve uzmanlığıyla yayınlanması, güncelleme tarihinin görünmesi, bilgilerin doğru ve sade olması sıralamayı da etkiler. Sitenizdeki her yazıyı bu ölçütlere göre hazırlıyor, teknik tarafta da [teknik SEO kontrol listemizdeki](/blog/teknik-seo-kontrol-listesi/) maddeleri uyguluyoruz. SEO’nun nasıl çalıştığını ve ne zaman sonuç verdiğini [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda anlattık.'),
+      ('Sağlık alanında kimlerle çalıştık?', 'Diş ve saç ekimi klinikleri ile psikologlarla çalıştık: German Dental ve İstanbul Hair Center ile çalışıyor, Psikolog Rojin Nazik’in SEO çalışmasını yürütüyoruz; Çayyolu Psikolog ve Psikolog Duygu Sarıkaya’nın web sitelerini hazırladık. Ankara’da 29 psikolog ve terapi merkezi sitesini incelediğimiz araştırmanın bulgularını [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında paylaştık. SEO çalışmasını [aylık SEO hizmetimiz](/ankara-seo/) olarak, siteyi [web tasarım](/web-tasarim/) ekibimizle hazırlıyoruz.'),
+    ],
+    'ilgili': ['seo-nedir-ne-zaman-sonuc-verir', 'teknik-seo-kontrol-listesi', 'kurumsal-web-sitesinde-olmasi-gereken-sayfalar', 'ankara-isletme-siteleri-arastirmasi-2026'],
+    'sss': [
+      ('Doktorlar SEO çalışması yaptırabilir mi?', 'Kurallar reklamı sınırlar; doğru ve objektif bilgilendirmeyi değil. Bu yüzden SEO çalışmasını reklam değil bilgilendirme diliyle yürütüyor, içeriklerin kurallara uygunluğunu yayından önce sizinle birlikte kontrol ediyoruz.'),
+      ('Sitede fiyat ve kampanya bilgisi verebilir miyim?', 'Sağlık hizmetlerinde fiyat ve kampanya duyurusu tanıtım kurallarıyla sınırlandığı için hekim ve klinik sitelerinde fiyat ve kampanya bilgisi kullanmıyoruz.'),
+      ('Hasta yorumlarını sitede kullanabilir miyim?', 'Hasta teşekkürlerinin ve memnuniyet paylaşımlarının tanıtım amacıyla kullanılması yasaklandığı için sitede hasta yorumlarına yer vermiyoruz.'),
+      ('Sağlık yazılarını kim yazıyor?', 'Taslakları biz hazırlıyoruz; tıbbi bilgiler sizin onayınızdan geçmeden yayınlanmıyor. Yazılar sizin adınız ve uzmanlığınızla yayınlanıyor.'),
+      ('SEO sonuçları ne zaman görülür?', 'SEO uzun vadeli bir çalışmadır; ilk iyileşmeler genellikle birkaç ay içinde görülür. Süreyi bölgenizdeki rekabet, uzmanlık alanınız ve sitenizin mevcut durumu belirler. Sıra garantisi vermiyoruz.'),
+      ('Ankara dışındaki hekimlerle çalışıyor musunuz?', 'Evet. Planlama, içerik onayı ve raporlamayı online yürütüyoruz. Ankara’daki hekimlerle muayenehanelerinde ya da Çayyolu’ndaki ofisimizde yüz yüze de görüşüyoruz.'),
+    ],
+  },
 ]
 
 KURUCU = {
@@ -485,6 +524,7 @@ TANIMLAR = {
   'ankara-reklam-ajansi': 'Clickbait Dijital, Ankara Çayyolu’nda 2013’ten beri hizmet veren tam kapsamlı bir reklam ajansıdır. Kampanya fikri ve strateji, TV reklam filmi ve yayın planlaması, radyo reklamı, açık hava reklamı (billboard, raket, megalight), medya planlama ile Google ve Instagram reklamları aynı ekipte planlanır ve yürütülür.',
   'ankara-e-ticaret-sitesi': 'Clickbait Dijital, Ankara’daki işletmeler için e-ticaret siteleri kurar: işe uygun altyapının seçimi, mağaza tasarımı, ödeme ve kargo bağlantıları, ürün ve kategori sayfalarının Google için hazırlanması ve açılıştan sonra reklam ve ölçüm. Ankara’daki işletmelerle yüz yüze, Türkiye genelinde online çalışır.',
   'insaat-firmalari-icin-reklam-ajansi': 'İnşaat firmaları için reklam ajansı hizmeti; konut ve villa projelerinin lansman kampanyasını, Google ve Instagram reklamlarını, açık hava reklamlarını, proje web sitesini ve satış ofisine gelen talebin ölçümünü kapsar. Clickbait Dijital, Ankara’daki konut projelerinin dijital pazarlamasını yürütür; Türkiye genelindeki inşaat firmalarıyla online çalışır.',
+  'doktorlar-icin-seo': 'Doktorlar için SEO; hekimlerin ve kliniklerin web sitelerinin, hastaların Google’da yaptığı aramalarda doğru ve bilgilendirici içerikle bulunması için yapılan teknik ve içerik çalışmasıdır. Clickbait Dijital, sağlık sitelerini Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki hekimlerle yüz yüze, Türkiye genelinde online çalışır.',
   'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
 }
 
