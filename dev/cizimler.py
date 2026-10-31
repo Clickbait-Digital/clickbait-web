@@ -244,6 +244,18 @@ def psikolog():
       + _rozet(f'<span class="text-[#D8F83C]">{_svg(ARA)}</span>“çayyolu psikolog”', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
 
 
+def egitim():
+    programlar = ('İngilizce', 'Almanca', 'IELTS', 'Çocuk')
+    sonuc = _kart(f'''<div class="p-5">{_arama_kutusu("ankara ingilizce kursu")}
+      <div class="mt-3 grid divide-y divide-slate-100">{_arama_sonucu("kursunuz.com.tr › ingilizce", "İngilizce Kursu — Seviyeler ve Ders Saatleri", True)}{_arama_sonucu("ornek-site.com", "Başka bir sonuç")}</div>
+      <div class="mt-3 flex flex-wrap gap-1.5">{''.join(f'<span class="rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-bold text-slate-700">{p}</span>' for p in programlar)}</div>
+      <span class="mt-3 flex items-center justify-center gap-1.5 rounded-full bg-[#D8F83C] py-2 text-[11px] font-extrabold text-black">{_svg(KEP, "w-3.5 h-3.5")}Seviye testine başvur</span></div>''',
+      'w-[300px] sm:w-[340px]')
+    return _sahne(sonuc
+      + _rozet(f'{_ikon_kutu(TAKVIM)}<span class="grid"><span>Kayıt dönemi planı</span><span class="text-[10px] font-semibold text-slate-400">eylül · ocak · yaz</span></span>', '-top-3 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(HEDEF)}</span>Öğrenci · veli · şirket', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+
 CIZIMLER = {
   'yapay-zeka-danismanligi': yapay_zeka,
   'web-tasarim': web_tasarim,
@@ -258,6 +270,7 @@ CIZIMLER = {
   'insaat-firmalari-icin-reklam-ajansi': insaat,
   'doktorlar-icin-seo': doktor,
   'psikologlar-icin-web-sitesi': psikolog,
+  'egitim-kurumlari-icin-dijital-pazarlama': egitim,
 }
 
 def cizim(adres):
@@ -313,6 +326,7 @@ KART_SIMGE = {
   'Proje lansman kampanyası': PARILTI, 'Proje web sitesi': SITE, 'Açık hava ve saha': SUNUM, 'Talep ve satış ölçümü': GRAFIK,
   'Hekim ve klinik web sitesi': SITE, 'Bilgilendirici sağlık içerikleri': KALEM, 'Kurallara uygunluk kontrolü': KALKAN, 'KVKK ve hasta mahremiyeti': KILIT,
   'Psikolog web sitesi': SITE, 'Bilgilendirici yazılar': KALEM, 'Danışan mahremiyeti ve KVKK': KILIT,
+  'Kayıt dönemi kampanyaları': TAKVIM, 'Program ve kurs sayfaları': SITE, 'Talep ve kayıt ölçümü': GRAFIK,
   'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,
 }
 

@@ -542,6 +542,45 @@ SEKTORLER = [
       ('Ankara dışındaki psikologlarla çalışıyor musunuz?', 'Evet. Planlama, metin onayı ve raporlamayı online yürütüyoruz. Ankara’daki psikologlarla Çayyolu’ndaki ofisimizde ya da kendi ofislerinde yüz yüze de görüşüyoruz.'),
     ],
   },
+  {
+    'adres': 'egitim-kurumlari-icin-dijital-pazarlama', 'kisa': 'Eğitim kurumları ve dil kursları', 'ust': 'dijital-pazarlama', 'renk': 'sky', 'sektor': True,
+    'guncelleme': '2026-10-31',
+    'title': 'Eğitim Kurumları ve Dil Kursları İçin Dijital Pazarlama | Clickbait',
+    'description': 'Dil kursları ve eğitim kurumları için dijital pazarlama: kayıt dönemine göre Google ve Instagram reklamları, program sayfaları, SEO ve kayıt talebinin ölçümü.',
+    'h1': 'Eğitim kurumları ve dil kursları için dijital pazarlama: kayıt döneminde doğru öğrenciye ulaşın',
+    'giris': 'Active English’in web sitesini hazırladık ve SEO çalışmasını yürütüyoruz; site Google’da adında “Ankara” geçen yüzlerce aramada görünüyor. Dil kursları, eğitim kurumları ve akademiler için kayıt dönemine göre reklam, program sayfaları, SEO ve kayıt talebinin ölçümünü tek ekipte planlıyor; Türkiye genelinde online çalışıyoruz.',
+    'kapsam': 'Eğitim kurumları için neler yapıyoruz?',
+    'kartlar': [
+      ('Kayıt dönemi kampanyaları', 'Eylül, ocak ve yaz dönemi gibi kayıt zamanlarına göre reklam takvimini önceden planlıyor, bütçeyi talebin arttığı haftalarda yoğunlaştırıyoruz.'),
+      ('Google reklamları', 'Kurs, program ve sınav hazırlığı arayanları arama sonuçlarında yakalıyor, alakasız aramaları eliyoruz.'),
+      ('Instagram ve Facebook reklamları', 'Öğrenciye, veliye ya da çalışanlara göre ayrı mesajlar ve görsellerle kurumunuzu henüz aramaya başlamamış kişilere tanıtıyoruz.'),
+      ('Program ve kurs sayfaları', 'Her program için seviye, süre, ders saatleri, şube ve kayıt bilgisini anlatan, telefonda hızlı açılan sayfalar.'),
+      ('SEO', 'Kurs ve program aramalarında, semt ve şehir adıyla yapılan aramalarda reklam ödemeden bulunmanız için içerik ve teknik çalışma.'),
+      ('Talep ve kayıt ölçümü', 'Form, telefon, WhatsApp ve seviye testi taleplerini programa ve kaynağa göre ölçüyor, hangi reklamın kayda dönüştüğünü raporluyoruz.'),
+    ],
+    'adimlar': [
+      ('Programlar ve öğrenci', 'Hangi programın kime (öğrenci, veli, çalışan, şirket) satıldığını ve kayıt dönemlerini birlikte çıkarıyoruz.'),
+      ('Sayfa ve ölçüm hazırlığı', 'Program sayfalarını, talep formlarını ve ölçümü reklam başlamadan hazırlıyoruz.'),
+      ('Kayıt dönemi kampanyası', 'Reklamları yayına alıyor, talepleri her hafta izleyip bütçeyi kayıt getiren programa kaydırıyoruz.'),
+      ('Dönem sonu değerlendirme', 'Dönem bitince hangi kanalın ve hangi programın kayıt getirdiğini raporluyor, bir sonraki dönemi buna göre planlıyoruz.'),
+    ],
+    'metin': [
+      ('Eğitim kurumlarının dijital pazarlaması neden farklıdır?', 'Eğitimde talep yıl boyunca eşit dağılmaz: okulların açıldığı eylül, ikinci dönemin başladığı ocak ve şubat, yaz kursları ve sınav takvimleri kayıtların yoğunlaştığı zamanlardır. Kayıt kararı da çoğu zaman tek kişinin değildir; öğrenci, veli ya da çalışanın şirketi birlikte karar verir. Bu yüzden reklam takvimini kayıt dönemlerinden geriye doğru planlıyor, sayfaları ve ölçümü talebin başlamasından önce hazır hâle getiriyoruz. Bütçeyi de tıklamaya göre değil, gelen seviye testi, deneme dersi ve kayıt görüşmesi taleplerine göre yönetiyoruz.'),
+      ('Dil kursu arayanlar Google’da ne arıyor?', 'Dil kursu aramaları genellikle üç türdür: şehir ya da semt adıyla kurs araması (“ankara ingilizce kursu”), fiyat araması (“ankara dil kursları fiyatları”) ve belirli bir dil ya da program araması (“ispanyolca kursu”, “ielts hazırlık”). Active English’in sitesi 19 Temmuz–18 Ekim 2026 arasında Google’da adında “Ankara” geçen 524 farklı aramada göründü; “ankara ingilizce kursu fiyatları” aramasında ortalama 2,7., “ankara dil kursları fiyatları” aramasında 2,8. sırada. Bunu her dil ve program için ayrı, ayrıntılı sayfalar hazırlayarak ve sık sorulan sorulara açık cevaplar vererek sağlıyoruz.'),
+      ('Kurs reklamında hangi kanal ne işe yarar?', 'Google reklamları kursu zaten arayan kişileri yakalar; kayıt döneminde en hızlı talep getiren kanal genellikle budur. Instagram ve Facebook reklamları ise henüz aramaya başlamamış öğrencilere ve velilere kurumunuzu tanıtır; ders ortamını, öğretmenleri ve öğrenci etkinliklerini gösteren videolar burada işe yarar. SEO ise aynı aramalarda reklam ödemeden bulunmanızı sağlayan uzun vadeli çalışmadır. İkisinin farkını [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazımızda, Instagram reklamının kurulumunu [Instagram reklamı nasıl verilir?](/blog/instagram-reklami-nasil-verilir/) rehberimizde anlattık.'),
+      ('Eğitim reklamlarında nelere dikkat ediyoruz?', 'Eğitim reklamları Ticaret Bakanlığı’nın yanıltıcı reklam kurallarına tabidir. Bu yüzden “garantili başarı”, “3 ayda akıcı İngilizce” gibi kanıtlanamayan vaatler, gerçek olmayan indirimler ve kontenjan baskısı kullanmıyoruz. Sınav başarısı ya da öğrenci sayısı gibi rakamları yalnızca kurumun belgeleyebildiği hâliyle yazıyoruz. Öğrenci fotoğraflarını ve görüşlerini izin alınmadan, 18 yaşından küçük öğrencilerinkini velinin onayı olmadan kullanmıyoruz; formlar için KVKK aydınlatma metni ve çerez onayını kuruyoruz.'),
+      ('Kayıt talebini nasıl ölçüyoruz?', 'Her talebi programla ve kaynağıyla birlikte ölçüyoruz: Google reklamından gelen seviye testi başvurusu, Instagram’dan gelen mesaj, siteden gelen arama. Kayıt ekibinizin “bizi nereden duydunuz?” sorusuna verilen cevapları da bu tabloya ekliyoruz. Dönem sonunda harcamayı, gelen talepleri ve kayda dönen talepleri program program gösteriyoruz; böylece bir sonraki dönemin bütçesi tahmine değil, gerçek kayıtlara göre planlanır. Bütçenin hedeften geriye doğru nasıl hesaplandığını [Google Ads bütçesi nasıl belirlenir?](/blog/google-ads-butcesi-nasil-belirlenir/) yazımızda anlattık.'),
+      ('Hangi eğitim kurumlarıyla çalışıyoruz?', 'Active English’in web sitesini hazırladık ve SEO çalışmasını yürütüyoruz; HUBEK Flight Academy’nin web sitesini hazırladık. Dil kurslarından havacılık eğitimine kadar eğitim kurumlarının program sayfalarını, reklamlarını ve SEO’sunu aynı ekipte planlıyoruz. Ankara’daki kurumlarla yüz yüze, Türkiye’nin diğer şehirlerindeki kurumlarla online çalışıyoruz. SEO tarafını [aylık SEO hizmetimiz](/ankara-seo/), reklam tarafını [Google Ads yönetimimiz](/ankara-google-ads-ajansi/) olarak yürütüyoruz.'),
+    ],
+    'ilgili': ['google-ads-mi-seo-mu', 'instagram-reklami-nasil-verilir', 'google-ads-butcesi-nasil-belirlenir', 'kucuk-isletmeler-icin-dijital-pazarlama'],
+    'sss': [
+      ('Kayıt dönemi reklamlarına ne zaman başlanmalı?', 'Kayıtların yoğunlaştığı haftalardan birkaç hafta önce. Program sayfaları, formlar ve ölçüm önceden hazır olmalı; reklam başladığında gelen ilgi böylece kaybolmaz ve ilk haftalardan itibaren hangi kanalın işe yaradığı görülür.'),
+      ('Dil kursu için Google mı Instagram mı daha etkili?', 'İkisi farklı işler yapar. Google reklamları kursu zaten arayanları yakalar, Instagram ise kurumunuzu henüz aramaya başlamamış öğrencilere ve velilere tanıtır. Hangisinin daha çok kayıt getirdiğini her talebi kaynağıyla ölçerek görüyor, bütçeyi buna göre kaydırıyoruz.'),
+      ('Kurs fiyatlarını sitede yazmalı mıyım?', 'Kurs fiyatı en çok aranan konulardan biridir ve fiyat bilgisi veren sayfalar bu aramalarda öne çıkabilir. Fiyatın sitede nasıl gösterileceğine siz karar veriyorsunuz; yazılan fiyatın güncel ve kampanya koşullarının açık olmasına dikkat ediyoruz.'),
+      ('Reklamlarda öğrenci fotoğrafı kullanabilir miyiz?', 'Yalnızca öğrencinin, 18 yaşından küçükse velisinin izni alınmış fotoğraf ve videoları kullanıyoruz. İzin yoksa ders ortamını ve öğretmenleri gösteren görseller hazırlıyoruz.'),
+      ('Ankara dışındaki eğitim kurumlarıyla çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlamayı online yürütüyoruz. Ankara’daki kurumlarla Çayyolu’ndaki ofisimizde ya da kurumunuzda yüz yüze de çalışıyoruz.'),
+    ],
+  },
 ]
 
 KURUCU = {
@@ -566,6 +605,7 @@ TANIMLAR = {
   'insaat-firmalari-icin-reklam-ajansi': 'İnşaat firmaları için reklam ajansı hizmeti; konut ve villa projelerinin lansman kampanyasını, Google ve Instagram reklamlarını, açık hava reklamlarını, proje web sitesini ve satış ofisine gelen talebin ölçümünü kapsar. Clickbait Dijital, Ankara’daki konut projelerinin dijital pazarlamasını yürütür; Türkiye genelindeki inşaat firmalarıyla online çalışır.',
   'doktorlar-icin-seo': 'Doktorlar için SEO; hekimlerin ve kliniklerin web sitelerinin, hastaların Google’da yaptığı aramalarda doğru ve bilgilendirici içerikle bulunması için yapılan teknik ve içerik çalışmasıdır. Clickbait Dijital, sağlık sitelerini Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki hekimlerle yüz yüze, Türkiye genelinde online çalışır.',
   'psikologlar-icin-web-sitesi': 'Psikologlar için web sitesi ve SEO; psikologların ve terapi merkezlerinin, danışanların Google’da yaptığı aramalarda güven veren ve bilgilendirici bir siteyle bulunması için yapılan tasarım, teknik ve içerik çalışmasıdır. Clickbait Dijital, psikolog sitelerini danışan mahremiyetine ve sağlık tanıtım kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki psikologlarla yüz yüze, Türkiye genelinde online çalışır.',
+  'egitim-kurumlari-icin-dijital-pazarlama': 'Eğitim kurumları için dijital pazarlama; dil kurslarının, eğitim kurumlarının ve akademilerin kayıt dönemlerine göre planlanan Google ve Instagram reklamlarını, program sayfalarını, SEO çalışmasını ve kayıt talebinin ölçümünü kapsar. Clickbait Dijital, Ankara’daki eğitim kurumlarıyla yüz yüze, Türkiye genelinde online çalışır.',
   'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
 }
 

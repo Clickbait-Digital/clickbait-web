@@ -76,7 +76,7 @@ Kural: "ankara seo", "ankara web tasarım" gibi sayfaların hedeflediği aramala
 | ✅ 21 Eki | GEO nedir? Yapay zeka aramalarında görünmek | /ankara-seo/ |
 | ✅ 23 Eki | Açık hava reklamı nedir? Billboard, raket ve megalight rehberi | /ankara-reklam-ajansi/ |
 | ✅ 27 Eki | Küçük işletmeler için dijital pazarlama: nereden başlamalı? 7 adımlık Ankara rehberi | /dijital-pazarlama/ |
-| ⏳ | Dil kursları ve eğitim kurumları için dijital pazarlama | /dijital-pazarlama/ |
+| ✖ | Dil kursları ve eğitim kurumları için dijital pazarlama (sektör sayfası olarak yayında: /egitim-kurumlari-icin-dijital-pazarlama/; ayrı yazı açma, çakışır) | /dijital-pazarlama/ |
 | ⏳ | Emlak ofisleri için Google ve Instagram reklamları | /ankara-instagram-reklam-ajansi/ |
 | ⏳ | İnşaat firmaları için web sitesi: projeleri doğru göstermek | /web-tasarim/ |
 | ⏳ | Otel ve konaklama işletmeleri için web sitesi ve rezervasyon | /web-tasarim/ |
@@ -98,11 +98,11 @@ Kurallar:
 | 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ✅ |
 | 30 Eki Cum | **Sektör sayfası:** /insaat-firmalari-icin-reklam-ajansi/ (29 Eki gecesi erken yayında; kanıt: Rast Grup projeleri, Uslu Yapı, Aden İncek, Saye Emlak) | inşaat firmaları için reklam ajansı, konut projesi reklamı | ✅ |
 | 31 Eki Cmt | **Sektör sayfası:** /doktorlar-icin-seo/ (30 Eki’de erken yayında) (tanıtım yönetmeliğine uygun, bilgilendirici içerik; kanıt: German Dental, İstanbul Hair Center, psikolog siteleri) | doktorlar için seo, klinik seo, diş hekimi seo | ✅ |
-| 1 Kas Paz | ~~Sektör sayfası: avukatlar için web sitesi ve SEO~~ **iptal (31 Eki):** TBB Reklam Yasağı Yönetmeliği 9.8.2024 değişikliği (md. 7/e) avukatlara arama motorunda üst sıraya çıkmak için anahtar kelime/kod kullanmayı ve çevrimiçi reklamı yasaklıyor; md. 7/d sitedeki bilgileri sınırlıyor. Avukatlara SEO satılmaz. Yerine bu gün: eğitim sayfası (3 Kas'tan öne alınabilir) | — | ✖
+| 1 Kas Paz | ~~Sektör sayfası: avukatlar için web sitesi ve SEO~~ **iptal (31 Eki):** TBB Reklam Yasağı Yönetmeliği 9.8.2024 değişikliği (md. 7/e) avukatlara arama motorunda üst sıraya çıkmak için anahtar kelime/kod kullanmayı ve çevrimiçi reklamı yasaklıyor; md. 7/d sitedeki bilgileri sınırlıyor. Avukatlara SEO satılmaz. Yerine: **sektör sayfası /egitim-kurumlari-icin-dijital-pazarlama/** (31 Eki'de erken yayında; dijital pazarlama altında; kanıt: Active English Search Console verisi, HUBEK) | dil kursu reklam, eğitim kurumları için dijital pazarlama | ✅
 | 2 Kas Pzt | **Sektör sayfası:** /psikologlar-icin-web-sitesi/ (31 Eki'de erken yayında; web tasarım altında; kanıt: Rojin Nazik Search Console verisi, 29 psikolog sitesi araştırması, Çayyolu Psikolog, Duygu Sarıkaya, Psychology Times) | psikologlar için seo, psikolog web sitesi | ✅ |
-| 3 Kas Sal | **Sektör sayfası:** eğitim kurumları ve dil kursları için dijital pazarlama (kanıt: Active English, HUBEK) | dil kursu reklam, eğitim kurumları için dijital pazarlama | ⏳ |
-| 4 Kas Çar | **Sektör sayfası:** oteller için dijital pazarlama ve web sitesi (kanıt: Form Çayyolu) | otel dijital pazarlama, otel web sitesi | ⏳ |
-| 5 Kas Per | /kreatif-hizmetler/ güçlendirme | ankara logo tasarım | ⏳ |
+| 3 Kas Sal | **Sektör sayfası:** oteller için dijital pazarlama ve web sitesi (4 Kas'tan öne alındı; kanıt: Form Çayyolu) | otel dijital pazarlama, otel web sitesi | ⏳ |
+| 4 Kas Çar | /kreatif-hizmetler/ güçlendirme (5 Kas'tan öne alındı) | ankara logo tasarım | ⏳ |
+| 5 Kas Per | Sektör sayfalarının ilk dizine eklenme kontrolü (Search Console URL denetimi) + /doktorlar-icin-seo/ ↔ /psikologlar-icin-web-sitesi/ karşılıklı bağlantı | sektör sayfaları | ⏳ |
 | 6 Kas Cum | İç bağlantı taraması: sektör sayfalarını hizmet sayfalarına ve yazılara bağla | tüm site | ⏳ |
 | 7 Kas Cmt | /ankara-google-ads-ajansi/ güçlendirme | google ads ajansı ankara | ⏳ |
 | 8 Kas Paz | Yazı: E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | → /ankara-e-ticaret-sitesi/ ("e-ticaret sitesi ankara" 10,2) | ⏳ |
