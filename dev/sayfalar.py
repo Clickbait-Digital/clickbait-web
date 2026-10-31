@@ -502,6 +502,46 @@ SEKTORLER = [
       ('Ankara dışındaki hekimlerle çalışıyor musunuz?', 'Evet. Planlama, içerik onayı ve raporlamayı online yürütüyoruz. Ankara’daki hekimlerle muayenehanelerinde ya da Çayyolu’ndaki ofisimizde yüz yüze de görüşüyoruz.'),
     ],
   },
+  {
+    'adres': 'psikologlar-icin-web-sitesi', 'kisa': 'Psikologlar', 'ust': 'web-tasarim', 'renk': 'lime', 'sektor': True,
+    'guncelleme': '2026-10-31',
+    'title': 'Psikologlar İçin Web Sitesi ve SEO | Clickbait',
+    'description': 'Psikologlar ve terapi merkezleri için web sitesi ve SEO: danışan mahremiyetine ve sağlık tanıtım kurallarına uygun, telefonda hızlı açılan, bilgilendirici siteler.',
+    'h1': 'Psikologlar için web sitesi ve SEO: güven veren, danışanın sorusunu cevaplayan bir site',
+    'giris': 'Danışanlar bir psikoloğa ulaşmadan önce çoğu zaman Google’da hem yaşadıkları sorunu hem de semtlerindeki psikoloğu araştırıyor. Psikologlar ve terapi merkezleri için reklam dili kullanmayan, danışan mahremiyetini koruyan, telefonda hızlı açılan siteler hazırlıyor ve bu sitelerin Google’da bulunması için SEO çalışmasını aynı ekipte yürütüyoruz.',
+    'kapsam': 'Psikologlar için neler yapıyoruz?',
+    'kartlar': [
+      ('Psikolog web sitesi', 'Çalışma alanlarınızı, eğitiminizi, görüşme biçimlerinizi (yüz yüze ya da online), adresinizi ve ulaşım bilgisini sade bir dille anlatan siteler.'),
+      ('Bilgilendirici yazılar', 'Danışanların sık sorduğu sorulara, bilgileri sizin onayınızdan geçen, doğru ve anlaşılır yazılar.'),
+      ('Teknik SEO', 'Hız, mobil uyum, dizine eklenme ve yapılandırılmış veriyle sitenizin Google tarafından doğru anlaşılması.'),
+      ('Danışan mahremiyeti ve KVKK', 'Formlarda gereğinden fazla bilgi istemiyor; KVKK aydınlatma metni, çerez onayı ve güvenli bağlantıyı kuruyoruz.'),
+      ('Kurallara uygunluk kontrolü', 'Her metni yayından önce sağlık tanıtım kuralları açısından gözden geçiriyor; danışan yorumu, kampanya ve abartılı ifade kullanmıyoruz.'),
+      ('Aylık rapor', 'Search Console verileriyle sitenizin hangi aramalarda göründüğünü ve nasıl ilerlediğini her ay sade bir dille paylaşıyoruz.'),
+    ],
+    'adimlar': [
+      ('Tanışma ve denetim', 'Çalışma alanlarınızı konuşuyor, varsa mevcut sitenizi teknik ve içerik açısından inceliyoruz.'),
+      ('Site ve içerik planı', 'Danışanlarınızın aradığı konuları ve hangi sayfanın hangi soruyu cevaplayacağını birlikte belirliyoruz.'),
+      ('Tasarım ve yazılar', 'Siteyi hazırlıyor, metin taslaklarını onayınıza sunuyor, onaydan sonra yayına alıyoruz.'),
+      ('Ölçüm ve rapor', 'Google’daki görünürlüğü izliyor, her ay neyin değiştiğini raporluyoruz.'),
+    ],
+    'metin': [
+      ('Danışanlar psikoloğunu nasıl arıyor?', 'Danışanların aramaları genellikle üç türdür: yaşadıkları durum hakkında bilgi (“kaygı bozukluğu nasıl geçer?”), terapi süreci hakkında sorular (“psikolog teşhis koyar mı?”, “online terapi işe yarar mı?”) ve semt adıyla yapılan aramalar (“çayyolu psikolog”). İyi bir psikolog sitesi bu üçünü de karşılar: sizi ve çalışma alanlarınızı tanıtan sayfalar, sık sorulan sorulara doğru ve sade cevaplar, adres, ulaşım, görüşme biçimleri ve tek dokunuşla arama. Bir sitede hangi sayfaların bulunması gerektiğini [kurumsal web sitesinde olması gereken 8 sayfa](/blog/kurumsal-web-sitesinde-olmasi-gereken-sayfalar/) yazımızda anlattık.'),
+      ('Psikolog sitesinde güveni ne sağlar?', 'Terapiye başlamak kolay bir karar değildir; danışan siteye girdiğinde karşısındaki kişiyi tanımak ister. Bu yüzden gerçek bir fotoğraf, eğitim ve uzmanlık bilgisi, hangi konularda ve hangi yaklaşımla çalıştığınız, görüşmenin nasıl ilerlediği ve gizlilik ilkesi sitenin en önemli parçalarıdır. Sakin bir tasarım, okunaklı yazılar ve telefonda hızlı açılan sayfalar da güvenin parçasıdır. Görüşme biçimlerini (yüz yüze, online, çift ya da aile görüşmesi) ayrı ayrı anlatmak, danışanın aklındaki soruları ilk ziyarette cevaplar.'),
+      ('Psikolog sitelerinde nelere dikkat ediyoruz?', 'Psikologlar ve klinik psikologlar sağlık meslek mensubu olduğu için Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kurallarına tabidir. Bu yüzden sitede danışan yorumlarına ve teşekkürlerine yer vermiyor, kampanya ve indirim duyurusu yapmıyor, “en iyi”, “kesin çözüm” gibi abartılı ifadeler kullanmıyoruz. Yalnızca gerçek eğitim ve çalışma alanlarınızı anlatıyor, bilgilendirici yazıları sizin onayınız olmadan yayınlamıyoruz. Hukuki danışmanlık vermiyoruz; tereddüt olan konularda meslek derneğinizin ve hukuk danışmanınızın görüşünü esas alıyoruz.'),
+      ('Danışan mahremiyeti sitede nasıl korunur?', 'Sağlık verileri KVKK’da özel nitelikli kişisel veri sayılır. Bu yüzden iletişim ve randevu formlarında yalnızca size ulaşmak için gereken bilgileri (ad, telefon, uygun saat) istiyor, yaşanan sorunun ayrıntısını formda sormuyoruz. Formların yanında KVKK aydınlatma metni, sitede çerez onayı ve güvenli bağlantı (SSL) bulunuyor; ziyaret istatistikleri yalnızca onay verilirse toplanıyor. Ankara’daki 29 psikolog ve terapi merkezi sitesini incelediğimiz araştırmada ana sayfasında KVKK metnine atıf bulunan sitelerin oranı yalnızca %28’di.'),
+      ('Psikolog siteleri ne kadar hızlı?', 'Aynı araştırmada Ankara’daki psikolog ve terapi merkezi sitelerinin ortanca hız puanı 60, ana içeriğin telefonda ortanca açılma süresi 12,3 saniyeydi; Google’ın iyi kabul ettiği süre 2,5 saniye. Sitelerin %93’ünde tıklanabilir telefon, %76’sında WhatsApp bağlantısı vardı; yani iletişim tarafı güçlü, hız ve mahremiyet tarafı zayıf. Ölçümün ayrıntılarını [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında paylaştık; teknik tarafta [teknik SEO kontrol listemizdeki](/blog/teknik-seo-kontrol-listesi/) maddeleri uyguluyoruz.'),
+      ('Hangi psikologlarla çalışıyoruz?', 'Psikolog Rojin Nazik’in SEO çalışmasını yürütüyoruz: sitesi 19 Temmuz–18 Ekim 2026 arasında Google’da 33.100 kez göründü, 440 tıklama aldı ve “psikolog teşhis koyar mı” aramasında ortalama 2,1. sırada. Çayyolu Psikolog ve Psikolog Duygu Sarıkaya’nın web sitelerini hazırladık; psikoloji yayını Psychology Times’ın sitesini ve SEO çalışmasını da biz yürütüyoruz. Siteyi [web tasarım](/web-tasarim/) ekibimizle hazırlıyor, SEO’yu [aylık SEO hizmetimiz](/ankara-seo/) olarak sürdürüyoruz. SEO’nun ne zaman sonuç verdiğini [SEO nedir, ne zaman sonuç verir?](/blog/seo-nedir-ne-zaman-sonuc-verir/) yazımızda anlattık.'),
+    ],
+    'ilgili': ['ankara-isletme-siteleri-arastirmasi-2026', 'seo-nedir-ne-zaman-sonuc-verir', 'kurumsal-web-sitesinde-olmasi-gereken-sayfalar', 'teknik-seo-kontrol-listesi'],
+    'sss': [
+      ('Psikologlar web sitesi ve SEO çalışması yaptırabilir mi?', 'Sağlık tanıtım kuralları reklamı sınırlar; doğru ve objektif bilgilendirmeyi değil. Bu yüzden siteyi ve yazıları reklam değil bilgilendirme diliyle hazırlıyor, metinlerin kurallara uygunluğunu yayından önce sizinle birlikte kontrol ediyoruz.'),
+      ('Sitede danışan yorumlarına yer verebilir miyim?', 'Sağlık hizmetlerinde teşekkür ve memnuniyet paylaşımlarının tanıtım amacıyla kullanılması kurallarla sınırlandığı için psikolog sitelerinde danışan yorumlarına yer vermiyoruz.'),
+      ('Seans ücretini sitede yazabilir miyim?', 'Kampanya ve indirim duyurusu yapmıyoruz. Ücret bilgisinin nasıl paylaşılacağı konusunda meslek derneğinizin ve hukuk danışmanınızın görüşünü esas alıyoruz; sitede ücret yerine görüşmenin nasıl ilerlediğini anlatmayı öneriyoruz.'),
+      ('Online görüşme yapıyorum, site Türkiye genelinde görünür mü?', 'Online görüşmeleri ayrı bir sayfada anlatıyor, bu sayfayı Türkiye genelindeki aramalar için, semt sayfalarını ise yerel aramalar için hazırlıyoruz.'),
+      ('SEO sonuçları ne zaman görülür?', 'SEO uzun vadeli bir çalışmadır; ilk iyileşmeler genellikle birkaç ay içinde görülür. Süreyi bölgenizdeki rekabet, çalışma alanlarınız ve sitenizin mevcut durumu belirler. Sıra garantisi vermiyoruz.'),
+      ('Ankara dışındaki psikologlarla çalışıyor musunuz?', 'Evet. Planlama, metin onayı ve raporlamayı online yürütüyoruz. Ankara’daki psikologlarla Çayyolu’ndaki ofisimizde ya da kendi ofislerinde yüz yüze de görüşüyoruz.'),
+    ],
+  },
 ]
 
 KURUCU = {
@@ -525,6 +565,7 @@ TANIMLAR = {
   'ankara-e-ticaret-sitesi': 'Clickbait Dijital, Ankara’daki işletmeler için e-ticaret siteleri kurar: işe uygun altyapının seçimi, mağaza tasarımı, ödeme ve kargo bağlantıları, ürün ve kategori sayfalarının Google için hazırlanması ve açılıştan sonra reklam ve ölçüm. Ankara’daki işletmelerle yüz yüze, Türkiye genelinde online çalışır.',
   'insaat-firmalari-icin-reklam-ajansi': 'İnşaat firmaları için reklam ajansı hizmeti; konut ve villa projelerinin lansman kampanyasını, Google ve Instagram reklamlarını, açık hava reklamlarını, proje web sitesini ve satış ofisine gelen talebin ölçümünü kapsar. Clickbait Dijital, Ankara’daki konut projelerinin dijital pazarlamasını yürütür; Türkiye genelindeki inşaat firmalarıyla online çalışır.',
   'doktorlar-icin-seo': 'Doktorlar için SEO; hekimlerin ve kliniklerin web sitelerinin, hastaların Google’da yaptığı aramalarda doğru ve bilgilendirici içerikle bulunması için yapılan teknik ve içerik çalışmasıdır. Clickbait Dijital, sağlık sitelerini Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki hekimlerle yüz yüze, Türkiye genelinde online çalışır.',
+  'psikologlar-icin-web-sitesi': 'Psikologlar için web sitesi ve SEO; psikologların ve terapi merkezlerinin, danışanların Google’da yaptığı aramalarda güven veren ve bilgilendirici bir siteyle bulunması için yapılan tasarım, teknik ve içerik çalışmasıdır. Clickbait Dijital, psikolog sitelerini danışan mahremiyetine ve sağlık tanıtım kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki psikologlarla yüz yüze, Türkiye genelinde online çalışır.',
   'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
 }
 

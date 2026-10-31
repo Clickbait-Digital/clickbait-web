@@ -230,6 +230,20 @@ def doktor():
       + _rozet(f'<span class="text-[#D8F83C]">{_svg(ARA)}</span>“çayyolu diş hekimi”', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
 
 
+def psikolog():
+    alanlar = ('Kaygı', 'İlişkiler', 'Ergen', 'Online görüşme')
+    site = _tarayici('psikologunuz.com.tr', f'''<div class="p-4">
+      <div class="flex items-center gap-3"><span class="w-12 h-12 shrink-0 rounded-full bg-gradient-to-br from-lime-200 to-sky-300"></span><span class="grid gap-1.5 flex-1">{_cubuk("w-3/4", "bg-slate-800", "h-2.5")}{_cubuk("w-1/2")}</span></div>
+      <p class="mt-4 text-[10px] font-bold tracking-widest text-slate-400">ÇALIŞMA ALANLARI</p>
+      <div class="mt-2 flex flex-wrap gap-1.5">{''.join(f'<span class="rounded-full bg-slate-100 px-2.5 py-1 text-[10px] font-bold text-slate-700">{a}</span>' for a in alanlar)}</div>
+      <span class="mt-3 grid gap-1.5">{_cubuk("w-full", "bg-slate-200", "h-1.5")}{_cubuk("w-5/6", "bg-slate-200", "h-1.5")}{_cubuk("w-2/3", "bg-slate-200", "h-1.5")}</span>
+      <span class="mt-4 flex items-center justify-center gap-1.5 rounded-full bg-[#D8F83C] py-2 text-[11px] font-extrabold text-black">{_svg(TELEFON, "w-3.5 h-3.5")}Görüşme için arayın</span>
+    </div>''')
+    return _sahne(f'<div class="w-[300px] sm:w-[340px]">{site}</div>'
+      + _rozet(f'<span class="text-sky-600">{_svg(KILIT)}</span>Danışan mahremiyeti', '-top-3 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(ARA)}</span>“çayyolu psikolog”', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+
 CIZIMLER = {
   'yapay-zeka-danismanligi': yapay_zeka,
   'web-tasarim': web_tasarim,
@@ -243,6 +257,7 @@ CIZIMLER = {
   'ankara-instagram-reklam-ajansi': ankara_instagram,
   'insaat-firmalari-icin-reklam-ajansi': insaat,
   'doktorlar-icin-seo': doktor,
+  'psikologlar-icin-web-sitesi': psikolog,
 }
 
 def cizim(adres):
@@ -297,6 +312,7 @@ KART_SIMGE = {
   'E-ticaret SEO’su': GRAFIK, 'Reklam ve ölçüm': DUYURU,
   'Proje lansman kampanyası': PARILTI, 'Proje web sitesi': SITE, 'Açık hava ve saha': SUNUM, 'Talep ve satış ölçümü': GRAFIK,
   'Hekim ve klinik web sitesi': SITE, 'Bilgilendirici sağlık içerikleri': KALEM, 'Kurallara uygunluk kontrolü': KALKAN, 'KVKK ve hasta mahremiyeti': KILIT,
+  'Psikolog web sitesi': SITE, 'Bilgilendirici yazılar': KALEM, 'Danışan mahremiyeti ve KVKK': KILIT,
   'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,
 }
 

@@ -98,8 +98,8 @@ Kurallar:
 | 29 Eki Per | Yazı: Google Ads bütçesi nasıl belirlenir? | → /ankara-google-ads-ajansi/ ("google reklam yönetimi ajansı ankara" 17,1) | ✅ |
 | 30 Eki Cum | **Sektör sayfası:** /insaat-firmalari-icin-reklam-ajansi/ (29 Eki gecesi erken yayında; kanıt: Rast Grup projeleri, Uslu Yapı, Aden İncek, Saye Emlak) | inşaat firmaları için reklam ajansı, konut projesi reklamı | ✅ |
 | 31 Eki Cmt | **Sektör sayfası:** /doktorlar-icin-seo/ (30 Eki’de erken yayında) (tanıtım yönetmeliğine uygun, bilgilendirici içerik; kanıt: German Dental, İstanbul Hair Center, psikolog siteleri) | doktorlar için seo, klinik seo, diş hekimi seo | ✅ |
-| 1 Kas Paz | **Sektör sayfası:** avukatlar için web sitesi ve SEO (TBB Reklam Yasağı Yönetmeliği'ne uygun, iş elde etmeye yönelik ifade yok; avukat müşteri iddiası yok) | avukatlar için seo, avukat web sitesi | ⏳ |
-| 2 Kas Pzt | **Sektör sayfası:** psikologlar için web sitesi ve SEO (kanıt: Rojin Nazik, psikolog siteleri araştırması) | psikologlar için seo, psikolog web sitesi | ⏳ |
+| 1 Kas Paz | ~~Sektör sayfası: avukatlar için web sitesi ve SEO~~ **iptal (31 Eki):** TBB Reklam Yasağı Yönetmeliği 9.8.2024 değişikliği (md. 7/e) avukatlara arama motorunda üst sıraya çıkmak için anahtar kelime/kod kullanmayı ve çevrimiçi reklamı yasaklıyor; md. 7/d sitedeki bilgileri sınırlıyor. Avukatlara SEO satılmaz. Yerine bu gün: eğitim sayfası (3 Kas'tan öne alınabilir) | — | ✖
+| 2 Kas Pzt | **Sektör sayfası:** /psikologlar-icin-web-sitesi/ (31 Eki'de erken yayında; web tasarım altında; kanıt: Rojin Nazik Search Console verisi, 29 psikolog sitesi araştırması, Çayyolu Psikolog, Duygu Sarıkaya, Psychology Times) | psikologlar için seo, psikolog web sitesi | ✅ |
 | 3 Kas Sal | **Sektör sayfası:** eğitim kurumları ve dil kursları için dijital pazarlama (kanıt: Active English, HUBEK) | dil kursu reklam, eğitim kurumları için dijital pazarlama | ⏳ |
 | 4 Kas Çar | **Sektör sayfası:** oteller için dijital pazarlama ve web sitesi (kanıt: Form Çayyolu) | otel dijital pazarlama, otel web sitesi | ⏳ |
 | 5 Kas Per | /kreatif-hizmetler/ güçlendirme | ankara logo tasarım | ⏳ |
