@@ -581,6 +581,48 @@ SEKTORLER = [
       ('Ankara dışındaki eğitim kurumlarıyla çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlamayı online yürütüyoruz. Ankara’daki kurumlarla Çayyolu’ndaki ofisimizde ya da kurumunuzda yüz yüze de çalışıyoruz.'),
     ],
   },
+  {
+    'adres': 'oteller-icin-dijital-pazarlama', 'kisa': 'Oteller ve konaklama', 'ust': 'dijital-pazarlama', 'renk': 'blue', 'sektor': True,
+    'guncelleme': '2026-11-01',
+    'title': 'Oteller İçin Dijital Pazarlama ve Web Sitesi | Clickbait',
+    'description': 'Oteller ve apart oteller için dijital pazarlama: doğrudan rezervasyon alan web sitesi, Google ve Instagram reklamları, çok dilli SEO ve rezervasyon ölçümü.',
+    'h1': 'Oteller için dijital pazarlama ve web sitesi: rezervasyonu kendi sitenize alın',
+    'giris': 'Çayyolu’nda kısa ve uzun dönem konaklama sunan Form Çayyolu’nun web sitesini hazırladık. Şehir otelleri, butik oteller ve apart oteller için doğrudan rezervasyon alan web sitesini, Google ve Instagram reklamlarını, yabancı dilde SEO’yu ve rezervasyon ölçümünü tek ekipte planlıyor; Ankara’daki otellerle yüz yüze, Türkiye genelinde online çalışıyoruz.',
+    'kapsam': 'Oteller için neler yapıyoruz?',
+    'kartlar': [
+      ('Otel web sitesi', 'Oda ve süit sayfaları, fotoğraf galerisi, olanaklar, konum ve ulaşım bilgisiyle telefonda hızlı açılan, her sayfadan rezervasyona yönlendiren site.'),
+      ('Doğrudan rezervasyon', 'Rezervasyon motorunuzu ya da rezervasyon formunu siteye bağlıyor, misafirin aracı sitelere gitmeden sizden rezervasyon yapmasını kolaylaştırıyoruz.'),
+      ('Google reklamları', 'Otelinizin adıyla, semt ve şehir adıyla otel arayanları arama sonuçlarında yakalıyor, alakasız aramaları eliyoruz.'),
+      ('Instagram ve Facebook reklamları', 'Odalarınızı ve çevreyi gösteren görsellerle otelinizi tanıtıyor, sitenizi ziyaret edip rezervasyon yapmayanlara yeniden ulaşıyoruz.'),
+      ('Çok dilli site ve SEO', 'Yabancı misafirler için her dili ayrı sayfalarda hazırlıyor, Google’a hangi sayfanın hangi dilde olduğunu doğru bildiriyoruz.'),
+      ('Rezervasyon ve talep ölçümü', 'Rezervasyon, telefon, WhatsApp ve form taleplerini kaynağına göre ölçüyor, hangi reklamın rezervasyona dönüştüğünü raporluyoruz.'),
+    ],
+    'adimlar': [
+      ('Otel ve misafir', 'Misafirlerinizin kim olduğunu (iş seyahati, tatil, uzun dönem konaklama), hangi kanallardan geldiğini ve yoğun dönemlerinizi birlikte çıkarıyoruz.'),
+      ('Site ve rezervasyon hazırlığı', 'Oda sayfalarını, rezervasyon bağlantısını ve ölçümü reklam başlamadan hazırlıyoruz.'),
+      ('Kampanya', 'Reklamları yayına alıyor, talepleri her hafta izleyip bütçeyi rezervasyon getiren kanala kaydırıyoruz.'),
+      ('Aylık değerlendirme', 'Her ay hangi kanalın ne kadar talep ve rezervasyon getirdiğini raporluyor, bir sonraki ayı doluluk takviminize göre planlıyoruz.'),
+    ],
+    'metin': [
+      ('Otel siteleri neden doğrudan rezervasyonu hedeflemeli?', 'Misafirlerin çoğu oteli önce rezervasyon sitelerinde ya da Google’da bulur ve aracı sitelerden gelen her rezervasyon için komisyon ödenir. Aracı siteler yeni misafire ulaşmak için yararlıdır; amaç onları bırakmak değil, otelinizi zaten tanıyan, adıyla arayan ya da tekrar gelen misafirin rezervasyonunu kendi sitenize almaktır. Bunun için sitenin telefonda hızlı açılması, odaların gerçek fotoğraflarla anlatılması, fiyat ve müsaitliğe kolay ulaşılması ve rezervasyonun birkaç adımda bitmesi gerekir. Hızın neden önemli olduğunu [Ankara İşletme Siteleri Araştırması 2026](/blog/ankara-isletme-siteleri-arastirmasi-2026/) sayfasında anlattık.'),
+      ('Otelinizin adıyla yapılan aramalarda neden reklam verilir?', 'Otelinizin adını Google’da arayan kişi rezervasyona en yakın misafirdir. Aracı rezervasyon siteleri de bu aramalarda reklam verebildiği için sitenizden önce onların bağlantısı görünebilir. Kendi adınızla verdiğiniz arama reklamı genellikle düşük maliyetlidir ve misafiri doğrudan sitenize getirir. Bunun yanında semt ve şehir adıyla yapılan otel aramalarında da reklam veriyor, bütçeyi rezervasyon getiren aramalara kaydırıyoruz. Bütçenin nasıl belirlendiğini [Google Ads bütçesi nasıl belirlenir?](/blog/google-ads-butcesi-nasil-belirlenir/) yazımızda anlattık.'),
+      ('Google’daki otel sonuçlarında nasıl görünürsünüz?', 'Google’da otel arandığında harita, fotoğraf, fiyat ve müsaitlik bilgisini gösteren otel sonuçları çıkar. Bu sonuçlardaki adres, telefon ve fotoğraflar İşletme Profili’nden gelir. Fiyat bağlantıları arasında kendi sitenizin de görünmesi için rezervasyon motorunuzun ya da kanal yöneticinizin Google’a bağlı olması gerekir. Kurulumda kullandığınız altyapının bunu destekleyip desteklemediğini birlikte kontrol ediyor, desteklemiyorsa seçenekleri anlatıyoruz.'),
+      ('Ankara’daki oteller için talep nasıl değişir?', 'Ankara’daki şehir otellerine gelen misafirler çoğu zaman iş seyahati, kongre ve fuar, resmi ziyaret, hastane ya da üniversite ziyareti için gelir. Bu yüzden talep tatil sezonundan çok hafta içi günlere ve şehirdeki etkinlik takvimine bağlıdır. Reklamları bu takvime göre planlıyor, iş seyahati için gelenlere ve aileler için ayrı mesajlar hazırlıyoruz. Uzun dönem konaklama sunan apart oteller için aylık kiralama arayanlara ayrı sayfa ve reklam hazırlıyoruz.'),
+      ('Otel reklamlarında nelere dikkat ediyoruz?', 'Reklamda ve sitede gösterilen fiyatların vergiler dahil ve güncel olmasına, indirimlerin gerçek ve koşullarının açık olmasına dikkat ediyoruz. “Son 1 oda kaldı” gibi gerçek olmayan baskı ifadeleri ve kanıtlanamayan “en iyi otel” iddiaları kullanmıyoruz. Odaları yalnızca gerçek fotoğraflarıyla gösteriyor, misafir yorumlarını kaynağını belirterek ve değiştirmeden kullanıyoruz. Instagram reklamlarının nasıl kurulduğunu [Instagram reklamı nasıl verilir?](/blog/instagram-reklami-nasil-verilir/) rehberimizde anlattık.'),
+      ('Hangi konaklama işletmeleriyle çalışıyoruz?', 'Çayyolu’nda kısa ve uzun dönem konaklama için daireler sunan Form Çayyolu’nun web sitesini hazırladık: oda ve süit sayfaları, olanaklar, konum bilgisi ve her sayfadan ulaşılan rezervasyon düğmesi. Şehir otellerinin, butik otellerin, apart otellerin ve pansiyonların web sitesini, reklamlarını ve SEO’sunu aynı ekipte planlıyoruz. Ankara’daki işletmelerle yüz yüze, Türkiye’nin diğer şehirlerindeki işletmelerle online çalışıyoruz.'),
+    ],
+    'projeler': [
+      ('Form Çayyolu', 'Otel ve konaklama · Ankara', 'form-cayyolu', 'https://formcayyolu.com.tr/', 1600, 611),
+    ],
+    'ilgili': ['google-ads-butcesi-nasil-belirlenir', 'instagram-reklami-nasil-verilir', 'kurumsal-web-sitesinde-olmasi-gereken-sayfalar', 'kucuk-isletmeler-icin-dijital-pazarlama'],
+    'sss': [
+      ('Rezervasyon sitelerinden çıkmalı mıyım?', 'Hayır. Rezervasyon siteleri yeni misafirlere ulaşmak için yararlıdır. Amacımız onları bırakmanız değil, otelinizi zaten tanıyan ve adıyla arayan misafirin rezervasyonunu kendi sitenize almaktır.'),
+      ('Otel sitesi için rezervasyon motoru şart mı?', 'Anlık müsaitlik ve online ödeme için rezervasyon motoru gerekir. Küçük işletmeler rezervasyon formu, telefon ve WhatsApp ile de başlayabilir. Kullandığınız bir altyapı varsa onu siteye bağlıyoruz.'),
+      ('Sitenin İngilizce olması gerekli mi?', 'Yabancı misafir ağırlıyorsanız evet. Her dili ayrı sayfalarda hazırlıyor ve Google’a hangi sayfanın hangi dilde olduğunu bildiriyoruz; böylece yabancı misafir sitenizi kendi dilinde bulur.'),
+      ('Otel reklamları ne zaman sonuç verir?', 'Reklam yayına girdiği gün ziyaret gelmeye başlar; hangi kanalın rezervasyon getirdiğini görmek için birkaç haftalık veri gerekir. SEO ise uzun vadeli bir çalışmadır ve sonuçları genellikle birkaç ay içinde görülür. Sıra ya da doluluk garantisi vermiyoruz.'),
+      ('Ankara dışındaki otellerle çalışıyor musunuz?', 'Evet. Planlama, onay ve raporlamayı online yürütüyoruz. Ankara’daki otellerle Çayyolu’ndaki ofisimizde ya da otelinizde yüz yüze de çalışıyoruz.'),
+    ],
+  },
 ]
 
 KURUCU = {
@@ -606,6 +648,7 @@ TANIMLAR = {
   'doktorlar-icin-seo': 'Doktorlar için SEO; hekimlerin ve kliniklerin web sitelerinin, hastaların Google’da yaptığı aramalarda doğru ve bilgilendirici içerikle bulunması için yapılan teknik ve içerik çalışmasıdır. Clickbait Dijital, sağlık sitelerini Sağlık Bakanlığı’nın tanıtım ve bilgilendirme kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki hekimlerle yüz yüze, Türkiye genelinde online çalışır.',
   'psikologlar-icin-web-sitesi': 'Psikologlar için web sitesi ve SEO; psikologların ve terapi merkezlerinin, danışanların Google’da yaptığı aramalarda güven veren ve bilgilendirici bir siteyle bulunması için yapılan tasarım, teknik ve içerik çalışmasıdır. Clickbait Dijital, psikolog sitelerini danışan mahremiyetine ve sağlık tanıtım kurallarına uygun, reklam dili kullanmadan hazırlar; Ankara’daki psikologlarla yüz yüze, Türkiye genelinde online çalışır.',
   'egitim-kurumlari-icin-dijital-pazarlama': 'Eğitim kurumları için dijital pazarlama; dil kurslarının, eğitim kurumlarının ve akademilerin kayıt dönemlerine göre planlanan Google ve Instagram reklamlarını, program sayfalarını, SEO çalışmasını ve kayıt talebinin ölçümünü kapsar. Clickbait Dijital, Ankara’daki eğitim kurumlarıyla yüz yüze, Türkiye genelinde online çalışır.',
+  'oteller-icin-dijital-pazarlama': 'Oteller için dijital pazarlama; otellerin, butik otellerin ve apart otellerin doğrudan rezervasyon alan web sitesini, Google ve Instagram reklamlarını, çok dilli SEO çalışmasını ve rezervasyon talebinin ölçümünü kapsar. Clickbait Dijital, Ankara’daki otellerle yüz yüze, Türkiye genelindeki konaklama işletmeleriyle online çalışır.',
   'ankara-instagram-reklam-ajansi': 'Instagram reklam ajansı, markaların Instagram ve Facebook’taki sponsorlu reklamlarını hedef kitle, kreatif ve bütçe yönetimiyle planlayıp yöneten ajanstır. Clickbait Dijital, Ankara’daki işletmeler için Meta reklamlarını kurar, reklamdan gelen mesaj, form ve aramaları ölçer ve sonuçları her ay raporlar.',
 }
 

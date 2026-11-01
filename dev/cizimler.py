@@ -24,6 +24,8 @@ KILIT = '<rect x="5.5" y="10.5" width="13" height="9" rx="2"/><path d="M8.5 10.5
 GRAFIK = '<path d="M4 18l5-6 4 3 7-8"/><path d="M15 7h5v5"/>'
 TAKVIM = '<rect x="4" y="5.5" width="16" height="14" rx="2.5"/><path d="M4 10h16M9 3.5v4M15 3.5v4"/>'
 HEDEF = '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".8" fill="currentColor"/>'
+YATAK = '<path d="M3 18.5V7M3 14.5h18v4M21 14.5V12a2.5 2.5 0 00-2.5-2.5H11v5"/><circle cx="7" cy="11.5" r="1.8"/>'
+DUNYA = '<circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4c2.4 2.4 2.4 13.6 0 16M12 4c-2.4 2.4-2.4 13.6 0 16"/>'
 MESAJ = '<path d="M4 6.5A2.5 2.5 0 016.5 4h11A2.5 2.5 0 0120 6.5v7a2.5 2.5 0 01-2.5 2.5H10l-4.5 4v-4h0A2.5 2.5 0 014 13.5z"/>'
 
 
@@ -256,6 +258,18 @@ def egitim():
       + _rozet(f'<span class="text-[#D8F83C]">{_svg(HEDEF)}</span>Öğrenci · veli · şirket', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
 
 
+def otel():
+    odalar = (('Standart oda', 'bg-gradient-to-br from-sky-200 to-sky-400'), ('Süit', 'bg-gradient-to-br from-lime-100 to-sky-300'))
+    site = _tarayici('oteliniz.com.tr', f'''<div class="p-4">
+      <div class="grid grid-cols-2 gap-2">{''.join(f'<span class="block rounded-xl overflow-hidden border border-slate-100"><span class="block h-16 {z}"></span><span class="block px-2 py-1.5 text-[10px] font-bold text-slate-700">{a}</span></span>' for a, z in odalar)}</div>
+      <div class="mt-3 grid grid-cols-2 gap-2 text-[10px]"><span class="rounded-xl border border-slate-200 px-2.5 py-1.5"><span class="block font-semibold text-slate-400">Giriş</span><span class="block font-bold text-slate-800">Tarih seçin</span></span><span class="rounded-xl border border-slate-200 px-2.5 py-1.5"><span class="block font-semibold text-slate-400">Çıkış</span><span class="block font-bold text-slate-800">Tarih seçin</span></span></div>
+      <span class="mt-3 flex items-center justify-center gap-1.5 rounded-full bg-[#D8F83C] py-2 text-[11px] font-extrabold text-black">{_svg(YATAK, "w-3.5 h-3.5")}Doğrudan rezervasyon</span>
+    </div>''')
+    return _sahne(f'<div class="w-[300px] sm:w-[340px]">{site}</div>'
+      + _rozet(f'{_ikon_kutu(DUNYA)}<span class="grid"><span>Çok dilli site</span><span class="text-[10px] font-semibold text-slate-400">Türkçe · English</span></span>', '-top-3 right-0 sm:-right-2')
+      + _rozet(f'<span class="text-[#D8F83C]">{_svg(ARA)}</span>“çayyolu otel”', '-bottom-1 left-0', 'bg-[#111315] text-white', '-3s'))
+
+
 CIZIMLER = {
   'yapay-zeka-danismanligi': yapay_zeka,
   'web-tasarim': web_tasarim,
@@ -271,6 +285,7 @@ CIZIMLER = {
   'doktorlar-icin-seo': doktor,
   'psikologlar-icin-web-sitesi': psikolog,
   'egitim-kurumlari-icin-dijital-pazarlama': egitim,
+  'oteller-icin-dijital-pazarlama': otel,
 }
 
 def cizim(adres):
@@ -327,6 +342,7 @@ KART_SIMGE = {
   'Hekim ve klinik web sitesi': SITE, 'Bilgilendirici sağlık içerikleri': KALEM, 'Kurallara uygunluk kontrolü': KALKAN, 'KVKK ve hasta mahremiyeti': KILIT,
   'Psikolog web sitesi': SITE, 'Bilgilendirici yazılar': KALEM, 'Danışan mahremiyeti ve KVKK': KILIT,
   'Kayıt dönemi kampanyaları': TAKVIM, 'Program ve kurs sayfaları': SITE, 'Talep ve kayıt ölçümü': GRAFIK,
+  'Otel web sitesi': SITE, 'Doğrudan rezervasyon': YATAK, 'Çok dilli site ve SEO': DUNYA, 'Rezervasyon ve talep ölçümü': GRAFIK,
   'Hedef kitle kurgusu': KITLE, 'Mesaj ve form kampanyaları': MESAJ, 'Yeniden pazarlama': YENILE, 'Ölçüm kurulumu': HEDEF,
 }
 
