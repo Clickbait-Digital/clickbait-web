@@ -106,6 +106,9 @@ Kurallar:
 | 6 Kas Cum | İç bağlantı taraması: sektör sayfalarını hizmet sayfalarına ve yazılara bağla | tüm site | ⏳ |
 | 7 Kas Cmt | /ankara-google-ads-ajansi/ güçlendirme | google ads ajansı ankara | ⏳ |
 | 8 Kas Paz | Yazı: E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | → /ankara-e-ticaret-sitesi/ ("e-ticaret sitesi ankara" 10,2) | ⏳ |
+| 2 Kas Pzt (ek) | **RN Psikoloji referans bağlantıları, 1. hafta** (kullanıcının verdiği 3 haftalık görev): /psikologlar-icin-web-sitesi/ "Hangi psikologlarla çalışıyoruz?" bölümünde "Psikolog Rojin Nazik" ve "Çayyolu Psikolog" bağlantıya çevrildi (normal bağlantı, aynı sekme). **Elif Erdoğan cümlesi eklenmedi:** kullanıcı 2.11'de sitesini bizim yapmadığımızı söyledi (ayrıca site tek sayfalı değil). | referans bağlantıları | ✅ |
+| ~9 Kas (2. hafta) | RN Psikoloji görevi, 2. hafta: vaka yazısı /blog/psikoloji-merkezi-coklu-site-seo/ (Rojin Kızılay sayfası + Çayyolu ana sayfa bağlantısı; **Elif sitesini biz yapmadık → "biz hazırladık" deme**, Elif bağlantısını kullanıcıya sor; sıralama cümleleri yazmadan önce Kasım başı ölçümüyle doğrula; bağlantı metni marka adı, "çayyolu psikolog" gibi tam eşleşme yok) | psikoloji merkezi çoklu site seo | ⏳ |
+| ~16 Kas (3. hafta) | RN Psikoloji görevi, 3. hafta: İşletme Profili yazısına RN Psikoloji Çayyolu iletişim sayfası örneği (1 bağlantı). Toplam bağlantı sınırı: bundan sonra yeni RN bağlantısı ekleme; /ankara-seo/'daki Rojin bağlantısına dokunma | | ⏳ |
 | 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim (ertelenenler: araştırmadan sektör analizi, /ankara-e-ticaret-sitesi/ güçlendirme, logolar WebP, KVKK yazısı) | | ⏳ |
 
 Değerlendirme haftalarında Search Console → Performans'ta bakılacaklar:
