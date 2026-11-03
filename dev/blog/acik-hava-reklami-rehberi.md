@@ -49,7 +49,7 @@ Billboardın önünden geçen bir sürücü panoya çoğu zaman yalnızca birka�
 - **Tek mesaj:** Bir panoda tek bir fikir anlatın. Ürün listesi, uzun cümleler ve çok sayıda bilgi okunmaz.
 - **Az kelime, büyük yazı:** Başlık uzaktan okunacak büyüklükte olmalı; ince ve süslü yazı tipleri uzaktan seçilemez.
 - **Güçlü kontrast:** Açık zemine koyu yazı ya da tersi. Gökyüzüne ve binalara karşı da seçilebilmeli.
-- **Belirgin logo:** Reklamın kime ait olduğu ilk bakışta anlaşılmalı.
+- **Belirgin logo:** Reklamın kime ait olduğu ilk bakışta anlaşılmalı. Uzaktan da okunan bir logo ve tutarlı kurumsal renkler bu işi kolaylaştırır; [logo ve kurumsal kimlik tasarımı](/kreatif-hizmetler/) sayfamızda nasıl çalıştığımızı anlattık.
 - **Kısa bir sonraki adım:** Kısa bir web adresi, akılda kalan bir telefon numarası ya da yaya trafiği olan yerlerde QR kod.
 
 Tasarımı baskıya göndermeden önce bilgisayar ekranında birkaç metre geriden ve küçültülmüş hâliyle kontrol etmek, uzaktan nasıl görüneceği hakkında iyi bir fikir verir.
