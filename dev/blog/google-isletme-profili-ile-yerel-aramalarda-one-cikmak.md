@@ -54,7 +54,7 @@ Google İşletme Profili bir kez doldurulup bırakılacak bir form değildir. **
 
 ## Web sitenizle birlikte çalışmasını sağlayın
 
-Profiliniz ve web siteniz birbirini destekler. Web sitenizde adresiniz, telefonunuz ve çalışma saatleriniz profilinizle aynı şekilde yazmalı; her hizmet için ayrı ve açıklayıcı bir sayfa bulunmalıdır. Google, profilinizdeki bilgileri web sitenizle karşılaştırarak işletmenizi daha iyi anlar. Bu yüzden yerel görünürlük, [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazısında anlattığımız SEO çalışmasının da ilk adımıdır. Yerel SEO'yu web sitesiyle birlikte nasıl yürüttüğümüzü [Ankara SEO](/ankara-seo/) sayfamızda anlattık.
+Profiliniz ve web siteniz birbirini destekler. Web sitenizde adresiniz, telefonunuz ve çalışma saatleriniz profilinizle aynı şekilde yazmalı; her hizmet için ayrı ve açıklayıcı bir sayfa bulunmalıdır. Google, profilinizdeki bilgileri web sitenizle karşılaştırarak işletmenizi daha iyi anlar. Bu yüzden yerel görünürlük, [Google Ads mi SEO mu?](/blog/google-ads-mi-seo-mu/) yazısında anlattığımız SEO çalışmasının da ilk adımıdır. Yerel SEO'yu web sitesiyle birlikte nasıl yürüttüğümüzü [Ankara SEO](/ankara-seo/) sayfamızda anlattık. Yerel aramanın özellikle önemli olduğu sektörler için [doktorlar için SEO](/doktorlar-icin-seo/) ve [oteller için dijital pazarlama](/oteller-icin-dijital-pazarlama/) sayfalarımıza da bakabilirsiniz.
 
 Web siteniz henüz yoksa ya da yenilemeyi düşünüyorsanız, [Ankara'da web sitesi yaptırırken dikkat edilmesi gereken 10 şey](/blog/ankara-web-sitesi-yaptirirken-dikkat-edilmesi-gerekenler/) yazımıza da göz atabilirsiniz.
 

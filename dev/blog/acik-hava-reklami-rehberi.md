@@ -26,7 +26,7 @@ Bu rehberde açık hava reklamının türlerini, hangisinin kime uygun olduğunu
 
 ## Hangi tür kimin için uygun?
 
-Doğru seçim, ulaşmak istediğiniz kişinin günlük yoluna bağlıdır. Arabayla gidip gelen geniş bir kitleye marka bilinirliği kazandırmak istiyorsanız ana yollardaki billboard ve megalight öne çıkar. Belirli bir semtte yürüyen insanlara, örneğin yeni açılan bir mağazanın, kliniğin ya da restoranın çevresindeki yayalara ulaşmak istiyorsanız raket ve durak panoları daha uygundur. Bir konut projesinin satış ofisine ya da bir AVM'deki mağazaya yönlendirmek istiyorsanız o noktaya giden yolların üzerindeki alanlar ve iç mekân reklamları iyi sonuç verir.
+Doğru seçim, ulaşmak istediğiniz kişinin günlük yoluna bağlıdır. Arabayla gidip gelen geniş bir kitleye marka bilinirliği kazandırmak istiyorsanız ana yollardaki billboard ve megalight öne çıkar. Belirli bir semtte yürüyen insanlara, örneğin yeni açılan bir mağazanın, kliniğin ya da restoranın çevresindeki yayalara ulaşmak istiyorsanız raket ve durak panoları daha uygundur. Bir konut projesinin satış ofisine ya da bir AVM'deki mağazaya yönlendirmek istiyorsanız o noktaya giden yolların üzerindeki alanlar ve iç mekân reklamları iyi sonuç verir. Konut projelerinde açık havayı dijital reklamla nasıl birlikte planladığımızı [inşaat firmaları için reklam ajansı](/insaat-firmalari-icin-reklam-ajansi/) sayfamızda anlattık.
 
 ## Ankara'da yer seçerken nelere bakılır?
 

@@ -121,7 +121,7 @@ Altyapı açısından incelediğimiz sitelerin **%44'ü** WordPress ile yapılm�
 
 ## Psikolog siteleri: Daha geniş bir bakış
 
-Sağlık alanında danışanın güveni özellikle önemli olduğu için psikolog ve terapi merkezi sitelerine ayrıca baktık. Ana araştırmadaki 7 siteye 22 site daha ekleyerek Ankara'daki **29 psikolog ve terapi merkezi sitesini** aynı yöntemle ölçtük. Ortanca hız puanı genel ortalamayla aynı (**60**), ama ana içeriğin telefonda ortanca yüklenme süresi daha uzun: **12,3 saniye**. İletişim tarafı daha güçlü: Sitelerin %93'ünde tıklanabilir telefon, %76'sında WhatsApp bağlantısı var. Ancak ana sayfasında KVKK metnine atıf bulunan site oranı yalnızca **%28**. Danışan mahremiyetinin bu kadar önemli olduğu bir alanda bu oran düşük.
+Sağlık alanında danışanın güveni özellikle önemli olduğu için psikolog ve terapi merkezi sitelerine ayrıca baktık. Ana araştırmadaki 7 siteye 22 site daha ekleyerek Ankara'daki **29 psikolog ve terapi merkezi sitesini** aynı yöntemle ölçtük. Ortanca hız puanı genel ortalamayla aynı (**60**), ama ana içeriğin telefonda ortanca yüklenme süresi daha uzun: **12,3 saniye**. İletişim tarafı daha güçlü: Sitelerin %93'ünde tıklanabilir telefon, %76'sında WhatsApp bağlantısı var. Ancak ana sayfasında KVKK metnine atıf bulunan site oranı yalnızca **%28**. Danışan mahremiyetinin bu kadar önemli olduğu bir alanda bu oran düşük. Psikolog sitelerinde hızı ve mahremiyeti nasıl ele aldığımızı [psikologlar için web sitesi ve SEO](/psikologlar-icin-web-sitesi/) sayfamızda anlattık.
 
 ## Kendi sitenizi 5 dakikada test edin
 

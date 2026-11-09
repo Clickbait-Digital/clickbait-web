@@ -26,7 +26,7 @@ Her ay tek bir ana hedef seçmek, içerikleri o hedefe göre şekillendirmeyi ko
 
 ## 2. Önemli tarihleri ve kampanyaları işaretleyin
 
-Takvimin iskeletini ayın önemli günleri oluşturur. Resmî ve dinî bayramları, sektörünüzle ilgili özel günleri (örneğin 24 Kasım Öğretmenler Günü bir eğitim kurumu için önemlidir) ve kendi kampanyalarınızı, indirim dönemlerinizi, etkinliklerinizi baştan işaretleyin.
+Takvimin iskeletini ayın önemli günleri oluşturur. Resmî ve dinî bayramları, sektörünüzle ilgili özel günleri (örneğin 24 Kasım Öğretmenler Günü bir eğitim kurumu için önemlidir; [eğitim kurumları için dijital pazarlama](/egitim-kurumlari-icin-dijital-pazarlama/) sayfamızda bu dönemleri nasıl planladığımızı anlattık) ve kendi kampanyalarınızı, indirim dönemlerinizi, etkinliklerinizi baştan işaretleyin.
 
 Her özel güne paylaşım yapmak zorunda değilsiniz. Markanızla gerçekten bağı olan günleri seçin; ilgisiz her güne yapılan kutlama paylaşımları hesabı kalabalıklaştırır.
 

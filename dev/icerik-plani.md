@@ -31,7 +31,7 @@ Hedef kelimeler: ankara web tasarım, ankara web tasarım firmaları, web sitesi
 | ✅ | Web sitesi fiyatlarını neler belirler? | web sitesi fiyatları |
 | ✅ | Kurumsal web sitesinde mutlaka olması gereken sayfalar | kurumsal web sitesi |
 | ✅ | Ankara işletme siteleri araştırması 2026 (101 site, veri + grafik; bağlantı kazanmak için) | ankara web siteleri araştırması |
-| ⏳ | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? | e-ticaret sitesi kurmak |
+| ✅ | E-ticaret sitesi kurarken: WooCommerce mi, hazır altyapı mı? (9.11.2026) | e-ticaret sitesi kurmak |
 | ✅ | Aylık sosyal medya içerik planı nasıl hazırlanır? (24 Eki, → /sosyal-medya-yonetimi/) | sosyal medya içerik planı |
 | ✅ | Açık hava reklamı nedir? Billboard, raket ve megalight rehberi (23 Eki, → /ankara-reklam-ajansi/) | açık hava reklamı |
 | ✅ | Web sitenizi yenilerken Google sıralamasını kaybetmemek (22 Eki, /blog/web-sitesi-yenilerken-google-siralamasini-korumak/) | web sitesi yenileme |
