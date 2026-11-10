@@ -117,7 +117,7 @@ Kurallar:
 
 ### /web-tasarim/ bağlantı planı (11.11.2026)
 "ankara web tasarım" ~50, sayfa ~43. İç bağlantı yeterli (112, metinler çeşitli); eksik olan dış bağlantı ve kanıt.
-- **Müşteri sitesi imzaları** (marka adıyla, alt bilgide tek satır). Var: Form Çayyolu (http://www… eski adres, https://clickbait.com.tr/ yapılmalı), Uslu Yapı, Psychology Times, Saye Proje, EKM. Bekleyen: RN Psikoloji'nin 3 sitesi (kullanıcının diğer Claude oturumuna prompt verildi, 9.11). Yok: Active English (active-languages.com), HUBEK → kullanıcıya sor. Başka siteye yayma.
+- **Müşteri sitesi imzaları** (marka adıyla, alt bilgide tek satır). Var: Form Çayyolu (http://www… eski adres, https://clickbait.com.tr/ yapılmalı), Uslu Yapı, Psychology Times, Saye Proje, EKM. Bekleyen: RN Psikoloji'nin 3 sitesi (kullanıcının diğer Claude oturumuna prompt verildi, 9.11). Active English (active-languages.com) ve HUBEK: sunucu/admin erişimimiz yok, eklenemiyor (kullanıcı, 11.11); tekrar önerme. Başka siteye yayma.
 - **Proje kartları:** HUBEK ve Uslu Yapı kartlarında site adresi yok (kullanıcıdan bekleniyor); Saye Proje ve EKM kartı kullanıcı isteğiyle şimdilik eklenmiyor (9.11).
 - **Araştırma duyurusu:** Ankara işletme siteleri araştırması bağlantı kazanmak için hazırlandı; yerel haber siteleri ve SEO yazarlarından dönüşleri takip et.
 - **Rehberler:** dijitalajanslar.com başvurusunun onaylanıp onaylanmadığını kontrol et (listede çıkıyor; "ankara reklam ajansı"nda 2. sırada).
