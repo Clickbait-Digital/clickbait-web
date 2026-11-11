@@ -125,6 +125,18 @@ Kurallar:
 | ~18 Kas | **Psychology Times konuk yazısı (3.)**: "Psikologlar sosyal medyada nelere dikkat etmeli? Tanıtım kuralları ve danışan mahremiyeti" (Dijital Psikoloji, Şakir Yavuz adına). Metin içinde tek bağlantı → /psikologlar-icin-web-sitesi/ (bağlantı metni doğal ifade ya da "Clickbait Dijital"; "psikolog web sitesi" gibi anahtar kelime yok). Yayından önce metni kullanıcıya göster. Sonrasında ayda en fazla 1 konuk yazı | psikologlar için web sitesi | ⏳ |
 | 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim (ertelenenler: araştırmadan sektör analizi, /ankara-e-ticaret-sitesi/ güçlendirme, logolar WebP, KVKK yazısı) | | ⏳ |
 
+### Psychology Times makale dizisi: psikoloji × ajans işi (12.11.2026, kullanıcı istedi)
+Kural: Şakir Yavuz adına, "Dijital Psikoloji" bölümünde; her yazıda metin içinde **tek** bağlantı, konuya uyan sayfamıza, doğal ifadeyle (anahtar kelime bağlantı metni yok). 2–3 haftada bir, aynı anda tek yazı. Psikoloji bilgisi doğru kaynağa dayanır, uydurma araştırma/rakam yok. Metin yayından önce kullanıcıya gösterilir. PT alt bilgisindeki bağlantıya dokunma (kullanıcı, 12.11).
+| Sıra | Başlık önerisi | Bağlantı verilecek sayfa |
+|---|---|---|
+| 1 (~18 Kas) | Psikologlar sosyal medyada nelere dikkat etmeli? Tanıtım kuralları ve danışan mahremiyeti | /psikologlar-icin-web-sitesi/ |
+| 2 | İlk izlenimin psikolojisi: Bir web sitesine neden birkaç saniyede güveniriz? | /web-tasarim/ |
+| 3 | Renklerin ve şekillerin psikolojisi: Logolar bizde ne çağrıştırır? | /kreatif-hizmetler/ |
+| 4 | Reklamlar aklımızda nasıl kalır? Tekrar, duygu ve hafıza | /ankara-reklam-ajansi/ |
+| 5 | Kaydırma davranışı: Sosyal medyada dikkatimizi ne yakalar, markalar bunu nasıl etik kullanır? | /sosyal-medya-yonetimi/ |
+| 6 | Yapay zekaya neden güveniriz (ya da güvenmeyiz)? Sohbet asistanlarının psikolojisi | /yapay-zeka-danismanligi/ |
+| 7 | Arama kutusundaki psikoloji: İnsanlar Google'da nasıl karar verir? | /ankara-seo/ |
+
 ### /web-tasarim/ bağlantı planı (11.11.2026)
 "ankara web tasarım" ~50, sayfa ~43. İç bağlantı yeterli (112, metinler çeşitli); eksik olan dış bağlantı ve kanıt.
 - **Müşteri sitesi imzaları** (marka adıyla, alt bilgide tek satır). Var: Form Çayyolu (http://www… eski adres, https://clickbait.com.tr/ yapılmalı), Uslu Yapı, Psychology Times, Saye Proje, EKM. Bekleyen: RN Psikoloji'nin 3 sitesi (kullanıcının diğer Claude oturumuna prompt verildi, 9.11). Active English (active-languages.com) ve HUBEK: sunucu/admin erişimimiz yok, eklenemiyor (kullanıcı, 11.11); tekrar önerme. Başka siteye yayma.
