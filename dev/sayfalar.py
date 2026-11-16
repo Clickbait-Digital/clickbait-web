@@ -154,7 +154,7 @@ HIZMETLER = [
     ],
   },
   {
-    'adres': 'sosyal-medya-yonetimi', 'kisa': 'Sosyal medya yönetimi', 'renk': 'dark',
+    'adres': 'sosyal-medya-yonetimi', 'kisa': 'Sosyal medya yönetimi', 'renk': 'dark', 'guncelleme': '2026-11-16',
     'title': 'Ankara Sosyal Medya Ajansı ve Yönetimi | Clickbait',
     'description': 'Ankara sosyal medya ajansı: aylık içerik planı, post, story ve reels tasarımı, paylaşım takvimi ve raporlama. Instagram ve LinkedIn’de markanızın sesi oluyoruz.',
     'h1': 'Ankara sosyal medya ajansı: planlı, tutarlı ve markanıza ait içerikler',
@@ -176,6 +176,8 @@ HIZMETLER = [
     'metin': [
       ('Ankara’da sosyal medya yönetimini nasıl yürütüyoruz?', 'Her ay markanızın o ayki hedefini belirleyerek başlıyoruz: bilinirlik mi, etkileşim mi, yoksa mesaj ve randevu gibi talepler mi? Ardından önemli tarihleri ve kampanyalarınızı takvime işliyor, 3–5 içerik başlığı belirliyor ve ayın paylaşımlarını tarih, format ve konuya göre bir takvimde topluyoruz. Metinler ve tasarımlar ay başlamadan hazırlanıp tek seferde onayınıza sunuluyor; onaylanan içerikler takvime göre yayınlanıyor. Bu süreci örnek bir takvimle [aylık sosyal medya içerik planı nasıl hazırlanır?](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık.'),
       ('Ay sonunda neyi raporluyoruz?', 'Takipçi sayısından çok işe yarayan ölçülere bakıyoruz: içeriklerin kaç kişiye ulaştığı, kaç kez kaydedilip paylaşıldığı, profil ziyaretleri ve sosyal medyadan gelen mesaj ve talepler. En iyi sonuç veren konu ve formatları bir sonraki ayın planında artırıyor, işe yaramayanları azaltıyoruz. İçeriklerinizi daha fazla kişiye ulaştırmak isterseniz sponsorlu paylaşımları [Ankara Instagram reklam ajansı](/ankara-instagram-reklam-ajansi/) hizmetimizle aynı plana ekliyoruz.'),
+      ('Instagram ve LinkedIn’de aynı içerik mi paylaşılıyor?', 'Hayır. Aynı konu iki platformda farklı bir biçimde anlatılıyor. Instagram’da görsel, kısa video ve story ağırlıklı, daha samimi bir dil kullanıyoruz; amaç markanızı yakından tanıtmak ve mesaj ya da randevu almak. LinkedIn’de ise karar vericilere ve iş ortaklarına konuşuyoruz: şirket haberleri, projeler, ekip ve uzmanlığınızı gösteren yazılar ön planda. Örneğin yeni bir hizmet duyurusu Instagram’da kısa bir reels, LinkedIn’de nedenini ve kimlere uygun olduğunu anlatan bir paylaşım olarak hazırlanıyor. Bütün tasarımlar aynı renk, yazı tipi ve şablonlarla üretildiği için markanız iki platformda da tanınır kalıyor; şablonların nasıl hazırlandığını [kurumsal kimlik nedir?](/blog/kurumsal-kimlik-nedir/) yazımızda anlattık.'),
+      ('Hangi hesapları yönetiyoruz?', 'Psikolog Rojin Nazik’in Instagram hesabını yönetiyoruz. Sağlık alanında tanıtım kuralları bulunduğu için bu hesapta danışan yorumu, başarı vaadi ve abartılı ifadeler kullanmadan, bilgilendirici içeriklerle ilerliyoruz; hassas sektörlerde içerik planını en baştan bu kurallara göre kuruyoruz. Kurumsal kimliği hazır olan markalarda ise yeni bir görünüm icat etmiyor, sosyal medya tasarımlarını markanın kendi renkleri, yazı tipi ve şablonlarıyla hazırlıyoruz. Sosyal medya hesabınızı web sitenizle birlikte ele almak isterseniz [web tasarım](/web-tasarim/) sayfamıza da bakabilirsiniz.'),
     ],
     'sss': [
       ('Hangi platformlarda hizmet veriyorsunuz?', 'Ağırlıklı olarak Instagram ve LinkedIn’de çalışıyoruz. Markanıza uygunsa diğer platformlar için de plan hazırlıyoruz.'),

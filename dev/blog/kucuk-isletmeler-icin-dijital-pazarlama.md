@@ -58,7 +58,7 @@ Küçük işletmeler için sık işe yarayan yol, Google Ads ile başlayıp hang
 
 Ürününüz ya da hizmetiniz henüz aranmıyorsa (yeni bir marka, yeni açılan bir mekân, görsel olarak ilgi çeken bir ürün) insanlara siz ulaşmanız gerekir. Instagram ve Facebook reklamları, belirli bir semtteki, yaş aralığındaki ya da ilgi alanındaki kişilere sizi gösterir.
 
-Burada iki şey önemlidir: Reklamdan önce hesabınızın düzenli ve güven veren göründüğünden emin olun; reklamı da beğeni için değil, mesaj, arama ya da site ziyareti için kurun. Adımları [Instagram reklamı nasıl verilir?](/blog/instagram-reklami-nasil-verilir/) rehberimizde, hesabı düzenli yürütmeyi [aylık sosyal medya içerik planı](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık.
+Burada iki şey önemlidir: Reklamdan önce hesabınızın düzenli ve güven veren göründüğünden emin olun; reklamı da beğeni için değil, mesaj, arama ya da site ziyareti için kurun. Adımları [Instagram reklamı nasıl verilir?](/blog/instagram-reklami-nasil-verilir/) rehberimizde, hesabı düzenli yürütmeyi [aylık sosyal medya içerik planı](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık. Hesabınızı bir ekibe devretmek isterseniz [sosyal medya yönetimi hizmetimizde](/sosyal-medya-yonetimi/) neleri üstlendiğimizi görebilirsiniz.
 
 ## 6. Küçük bir bütçeyle tek kanalda test edin
 

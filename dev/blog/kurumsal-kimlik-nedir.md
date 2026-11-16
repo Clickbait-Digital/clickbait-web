@@ -54,7 +54,7 @@ Logo bir işarettir; kurumsal kimlik ise o işaretin ve onu çevreleyen her şey
 
 Logonuz telefon ekranında okunmuyorsa, farklı yerlerde farklı renkler ve yazı tipleri kullanılıyorsa, işletmeniz yeni bir hizmete ya da kitleye açılıyorsa veya rakiplerinizle karıştırılıyorsanız kimliği gözden geçirme zamanı gelmiş demektir. Yenilemede amaç tanınırlığı silmek değil, onu bugünün kullanım alanlarına taşımaktır.
 
-Kimlik yenilemesi çoğu zaman web sitesi yenilemesiyle birlikte gelir. Bu durumda Google'daki sıralamanızı korumak için [web sitenizi yenilerken Google sıralamanızı korumak](/blog/web-sitesi-yenilerken-google-siralamasini-korumak/) yazımıza da göz atabilirsiniz. Açık hava uygulamalarında nelere dikkat edilmesi gerektiğini [açık hava reklamı rehberimizde](/blog/acik-hava-reklami-rehberi/), sosyal medya şablonlarının aylık plana nasıl yerleştiğini [aylık sosyal medya içerik planı](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık.
+Kimlik yenilemesi çoğu zaman web sitesi yenilemesiyle birlikte gelir. Bu durumda Google'daki sıralamanızı korumak için [web sitenizi yenilerken Google sıralamanızı korumak](/blog/web-sitesi-yenilerken-google-siralamasini-korumak/) yazımıza da göz atabilirsiniz. Açık hava uygulamalarında nelere dikkat edilmesi gerektiğini [açık hava reklamı rehberimizde](/blog/acik-hava-reklami-rehberi/), sosyal medya şablonlarının aylık plana nasıl yerleştiğini [aylık sosyal medya içerik planı](/blog/aylik-sosyal-medya-icerik-plani/) yazımızda anlattık. Bu şablonları her ay hesaplarınızda nasıl kullandığımızı [sosyal medya hesap yönetimi](/sosyal-medya-yonetimi/) sayfamızda bulabilirsiniz.
 
 ## Özetle
 
