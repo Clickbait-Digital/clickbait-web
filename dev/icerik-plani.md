@@ -68,7 +68,7 @@ Hedef kelimeler: logo tasarımı ankara, kurumsal kimlik nedir, kurumsal kimlik 
 
 | Durum | Yazı | Ana kelime |
 |---|---|---|
-| ⏳ | Kurumsal kimlik nedir, neleri kapsar? | kurumsal kimlik nedir |
+| ✅ | Kurumsal kimlik nedir, neleri kapsar? (16.11.2026) | kurumsal kimlik nedir |
 | ⏳ | Logo tasarlatırken teslim almanız gereken dosyalar | logo dosya formatları |
 
 ---
