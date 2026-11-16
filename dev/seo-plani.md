@@ -117,12 +117,12 @@ Kurallar:
 | 15 Kas | Yazı: Kurumsal kimlik nedir, neleri kapsar? (16 Kas'ta yayında; 8 parça, fiyat ve müşteri iddiası yok; /kreatif-hizmetler/ "Kurumsal kimlik kılavuzunda neler var?" bölümünden bağlantı) | kurumsal kimlik nedir | ✅ |
 | 16 Kas | RN Psikoloji görevi 3. hafta: İşletme Profili yazısına RN Psikoloji Çayyolu iletişim sayfası örneği (görev metnindeki paragraf, marka adı, dofollow). Görev tamam: toplam 7 bağlantı; bundan sonra yeni RN bağlantısı ekleme. RN'nin 3 sitesine Clickbait imzası 16 Kas'ta hâlâ yok (kullanıcının diğer oturumu) | | ✅ |
 | 17 Kas | Sosyal medya aramaları yükseliyor (17–19. sıra): /sosyal-medya-yonetimi/ için iç bağlantı ve 1–2 metin bölümü (son büyük değişiklik 24.10). **16 Kas yapıldı:** 2 bölüm (Instagram/LinkedIn farkı, yönettiğimiz hesaplar: Rojin Nazik), 3 yazıdan bağlantı (küçük işletme, Instagram reklamı, kurumsal kimlik; metinler çeşitli) | ankara sosyal medya ajansı | ✅ |
-| ~18 Kas | Psychology Times 3. konuk yazısı (aşağıdaki satır) | | ⏳ |
+| ~18 Kas | Psychology Times 3. konuk yazısı (aşağıdaki satır). **16 Kas yayında:** https://psychologytimes.com.tr/psikologlar-sosyal-medyada-nelere-dikkat-etmeli/ (Clickbase yazı id 14555) | | ✅ |
 | 19 Kas | /yapay-zeka-danismanligi/ (30 → 13): ilk sayfaya yakın; SSS ve araç bölümünü genişlet | yapay zeka danışmanlığı | ⏳ |
 | 20 Kas | Yazı: Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak (→ /yapay-zeka-danismanligi/) | | ⏳ |
 | 21–22 Kas | /ankara-reklam-ajansi/ ve /ankara-google-ads-ajansi/ etkisine bak (değişiklik yok) | | ⏳ |
 | 23–26 Kas | Ölçüm: 9 ve 11 Kas değişikliklerinin etkisi, pano ve rapor güncellemesi, yeni takvim | | ⏳ |
-| ~18 Kas | **Psychology Times konuk yazısı (3.)**: "Psikologlar sosyal medyada nelere dikkat etmeli? Tanıtım kuralları ve danışan mahremiyeti" (Dijital Psikoloji, Şakir Yavuz adına). Metin içinde tek bağlantı → /psikologlar-icin-web-sitesi/ (bağlantı metni doğal ifade ya da "Clickbait Dijital"; "psikolog web sitesi" gibi anahtar kelime yok). Yayından önce metni kullanıcıya göster. Sonrasında ayda en fazla 1 konuk yazı | psikologlar için web sitesi | ⏳ |
+| ~18 Kas | **Psychology Times konuk yazısı (3.)**: "Psikologlar sosyal medyada nelere dikkat etmeli? Tanıtım kuralları ve danışan mahremiyeti" (Dijital Psikoloji, Şakir Yavuz adına). Metin içinde tek bağlantı → /psikologlar-icin-web-sitesi/ (bağlantı metni doğal ifade ya da "Clickbait Dijital"; "psikolog web sitesi" gibi anahtar kelime yok). Yayından önce metni kullanıcıya göster. Sonrasında ayda en fazla 1 konuk yazı (bir sonraki ~16 Ara) | psikologlar için web sitesi | ✅ 16 Kas |
 | 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim (ertelenenler: araştırmadan sektör analizi, /ankara-e-ticaret-sitesi/ güçlendirme, logolar WebP, KVKK yazısı) | | ⏳ |
 
 ### Psychology Times makaleleri (12.11.2026 değerlendirmesi)
