@@ -92,7 +92,7 @@ Yapay zeka araçlarının çoğu, yazdığınız metinleri işlemek için intern
 - Kurumsal hesapların mı yoksa kişisel hesapların mı kullanılacağı
 - Yapay zekanın ürettiği metinlerin kim tarafından kontrol edileceği
 
-Kişisel verilerin işlenmesiyle ilgili yükümlülükleriniz için hukuk danışmanınızın görüşünü almanızı öneririz; danışmanlık çalışması bu kuralları günlük kullanıma çevirir.
+Kişisel verilerin işlenmesiyle ilgili yükümlülükleriniz için hukuk danışmanınızın görüşünü almanızı öneririz; danışmanlık çalışması bu kuralları günlük kullanıma çevirir. Günlük kullanımda uygulanabilecek kuralları [yapay zeka ve KVKK: şirketler için 7 kural](/blog/yapay-zeka-kvkk-uyumu/) yazımızda ayrıntılı olarak anlattık.
 
 ## Ankara'daki işletmeler için neden önemli?
 
