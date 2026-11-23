@@ -120,8 +120,18 @@ Kurallar:
 | ~18 Kas | Psychology Times 3. konuk yazısı (aşağıdaki satır). **16 Kas yayında:** https://psychologytimes.com.tr/psikologlar-sosyal-medyada-nelere-dikkat-etmeli/ (Clickbase yazı id 14555) | | ✅ |
 | 19 Kas | /yapay-zeka-danismanligi/ (30 → 13): ilk sayfaya yakın; SSS ve araç bölümünü genişlet. **23 Kas yapıldı:** 2 bölüm (hangi işte hangi araç, kullanım politikası), 2 SSS (ücretsiz sürümler, çalışanların yerini alır mı) | yapay zeka danışmanlığı | ✅ |
 | 20 Kas | Yazı: Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak (→ /yapay-zeka-danismanligi/). **23 Kas yayında:** /blog/yapay-zeka-kvkk-uyumu/ (7 kural; md. 6 ve 9'a genel atıf, hukuki danışmanlık değil notu; yapay zeka danışmanlığı nedir yazısından bağlantı) | yapay zeka kvkk | ✅ |
-| 21–22 Kas | /ankara-reklam-ajansi/ ve /ankara-google-ads-ajansi/ etkisine bak (değişiklik yok) | | ⏳ |
-| 23–26 Kas | Ölçüm: 9 ve 11 Kas değişikliklerinin etkisi, pano ve rapor güncellemesi, yeni takvim | | ⏳ |
+| 21–22 Kas | /ankara-reklam-ajansi/ ve /ankara-google-ads-ajansi/ etkisine bak (değişiklik yok). 23 Kas'ta bakıldı: reklam ajansı 47 → 59, Google Ads sayfası 31 → 39; çekirdek güncelleme sürdüğü için okunamıyor | | ✅ |
+| 23–26 Kas | Ölçüm: 9 ve 11 Kas değişikliklerinin etkisi, pano ve rapor güncellemesi, yeni takvim (23 Kas'ta yapıldı, aşağıdaki satır) | | ✅ |
+| 23 Kas (ölçüm) | **Değerlendirme (Search Console 10–23 Kas / 27 Eki–9 Kas):** tıklama 37 → 107, gösterim 2.980 → 3.540, ort. sıra 18 → 15,6. Tıklamaların çoğu Google Ads bütçesi (21), Instagram reklamı (24), WooCommerce (12) yazıları ve /ankara-seo/ (31; 12–15 Kas). **Son hafta (16–22 / 9–15 Kas):** tıklama 67 → 42, gösterim 2.110 → 1.680; Ankara aramaları birlikte geriledi: "ankara seo" 20 → 34 (canlı pws=0: 36), "ankara seo ajansı" 33 → 63, "ankara sosyal medya ajansı" 19 → 25, "e-ticaret sitesi ankara" 19 → 47; "yapay zeka danışmanlığı" 17 → 16 (etkilenmedi). **Neden:** Google Kasım 2026 çekirdek güncellemesi 10 Kas'ta başladı (≤2 hafta). Ceza yok, sayfa dizinde, yamyamlık yok. Bağlantı veren alan adı 12 → 13 (Saye Proje). **Karar:** güncelleme bitip 1 hafta geçene kadar hizmet sayfalarında büyük değişiklik yok; /ankara-seo/'da yalnızca "sonuclar" alanı yeni 3 ay verisiyle (22 Ağu–21 Kas) yenilendi (aylık rutin). Pano ve rapor güncellendi | | ✅ |
+| 24 Kas | Logolar WebP + görsel boyut kontrolü (hız; sayfa metni değişmez) | | ⏳ |
+| 25 Kas | Yazı: Dönüşüm takibi kurmadan reklam vermeyin (→ /ankara-google-ads-ajansi/) | dönüşüm takibi | ⏳ |
+| 26 Kas | Araştırmadan sektör analizi taslağı (sağlık/eğitim sitelerinin durumu; `site/assets/veri/ankara-isletme-siteleri-2026.csv`) | | ⏳ |
+| 27 Kas | Yazı: Ankara'da web tasarım firması seçerken sorulacak 12 soru (→ /web-tasarim/) | ankara web tasarım firmaları | ⏳ |
+| 28–30 Kas | Google Search Status Dashboard'da güncellemenin bittiğini kontrol et; araştırma duyurusu ve PT yazısı dönüşleri | | ⏳ |
+| 1 Ara | Yazı: Yapay zeka ile müşteri hizmetleri: neyi otomatikleştirmeli, neyi değil? (→ /yapay-zeka-danismanligi/) | yapay zeka müşteri hizmetleri | ⏳ |
+| 2–3 Ara | **Güncelleme değerlendirmesi** (bitişten ≥1 hafta sonra; güncelleme öncesi 3–9 Kas haftasıyla karşılaştır): /ankara-seo/ ve Ankara sayfaları için karar, pano + rapor | | ⏳ |
+| 4 Ara | Yazı: Logo tasarlatırken teslim almanız gereken dosyalar (→ /kreatif-hizmetler/) | logo dosya formatları | ⏳ |
+| 5–7 Ara | Değerlendirmeye göre en çok gerileyen 1–2 sayfanın güçlendirilmesi, yeni takvim | | ⏳ |
 | ~18 Kas | **Psychology Times konuk yazısı (3.)**: "Psikologlar sosyal medyada nelere dikkat etmeli? Tanıtım kuralları ve danışan mahremiyeti" (Dijital Psikoloji, Şakir Yavuz adına). Metin içinde tek bağlantı → /psikologlar-icin-web-sitesi/ (bağlantı metni doğal ifade ya da "Clickbait Dijital"; "psikolog web sitesi" gibi anahtar kelime yok). Yayından önce metni kullanıcıya göster. Sonrasında ayda en fazla 1 konuk yazı (bir sonraki ~16 Ara) | psikologlar için web sitesi | ✅ 16 Kas |
 | 9–12 Kas | Değerlendirme ölçümü, /ankara-seo/ kararı, yeni iki haftalık takvim (ertelenenler: araştırmadan sektör analizi, /ankara-e-ticaret-sitesi/ güçlendirme, logolar WebP, KVKK yazısı) | | ⏳ |
 

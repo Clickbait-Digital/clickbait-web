@@ -241,7 +241,7 @@ HIZMETLER = [
 ANKARA = [
   {
     'adres': 'ankara-seo', 'kisa': 'Ankara SEO', 'ust': 'dijital-pazarlama', 'renk': 'blue',
-    'title': 'Ankara SEO Ajansı | Aylık SEO Hizmeti | Clickbait', 'guncelleme': '2026-10-21',
+    'title': 'Ankara SEO Ajansı | Aylık SEO Hizmeti | Clickbait', 'guncelleme': '2026-11-23',
     'description': 'Ankara SEO hizmeti: teknik SEO, yerel SEO, Google İşletme Profili ve içerikle sitenizi Google’da öne çıkarmak için çalışıyoruz. Her ay şeffaf rapor.',
     'h1': 'Ankara SEO: Google’da sizi arayan müşteriler sizi bulsun',
     'giris': 'Sitenizin teknik altyapısını düzeltiyor, müşterilerinizin Ankara’da ve Türkiye genelinde gerçekten aradığı kelimelere göre içerik planlıyor, Google İşletme Profilinizi güçlendiriyoruz. Her ay neyin değiştiğini sade bir raporla paylaşıyoruz.',
@@ -283,14 +283,14 @@ ANKARA = [
     ],
     'ilgili': ['seo-nedir-ne-zaman-sonuc-verir', 'teknik-seo-kontrol-listesi', 'geo-nedir-yapay-zeka-aramalarinda-gorunmek', 'seo-firmasi-secerken-sorulacak-sorular', 'ankara-isletme-siteleri-arastirmasi-2026'],
     'sonuclar': {
-      'donem': '19 Temmuz – 18 Ekim 2026 (son 3 ay)',
+      'donem': '22 Ağustos – 21 Kasım 2026 (son 3 ay)',
       'siteler': [
-        {'ad': 'Active English', 'tur': 'Dil kursu · Ankara', 'adres': 'https://active-languages.com/', 'tiklama': '6.500', 'gosterim': '620.000', 'konum': '8,1',
-         'not': 'Adında “Ankara” geçen 524 farklı aramada görünüyor.', 'ornek': [('ankara ingilizce kursu fiyatları', '2,7'), ('ankara dil kursları fiyatları', '2,8'), ('ankara ispanyolca kursu', '5,4')]},
-        {'ad': 'Psychology Times', 'tur': 'Psikoloji yayını · Türkiye geneli', 'adres': 'https://psychologytimes.com.tr/', 'tiklama': '21.500', 'gosterim': '805.000', 'konum': '9,1',
-         'not': '1.000’den fazla farklı aramada görünüyor.', 'ornek': [('psychology times', '1,3'), ('pembe fil deneyi', '1,9'), ('psikolog feyzanur gündüz', '5,1')]},
-        {'ad': 'Rojin Nazik', 'tur': 'Psikolog · Ankara', 'adres': 'https://www.psikologrojinnazik.com/', 'tiklama': '440', 'gosterim': '33.100', 'konum': '15,3',
-         'not': 'Yerel bir psikolog sitesi; marka ve bilgi aramalarında üst sıralarda.', 'ornek': [('psikolog teşhis koyar mı', '2,1'), ('rojin nazik', '4,2'), ('yaşamkent psikolog', '12,9')]},
+        {'ad': 'Active English', 'tur': 'Dil kursu · Ankara', 'adres': 'https://active-languages.com/', 'tiklama': '13.100', 'gosterim': '1,98 milyon', 'konum': '7,3',
+         'not': 'Adında “Ankara” geçen 526 farklı aramada görünüyor.', 'ornek': [('ankara dil kursları fiyatları', '2,3'), ('ankara ingilizce kursu fiyatları', '2,6'), ('ankara ispanyolca kursu', '5,9')]},
+        {'ad': 'Psychology Times', 'tur': 'Psikoloji yayını · Türkiye geneli', 'adres': 'https://psychologytimes.com.tr/', 'tiklama': '33.300', 'gosterim': '1,76 milyon', 'konum': '7,8',
+         'not': '1.000’den fazla farklı aramada görünüyor.', 'ornek': [('psychology times', '1,1'), ('pembe fil deneyi', '1,9'), ('psikolog feyzanur gündüz', '5,1')]},
+        {'ad': 'Rojin Nazik', 'tur': 'Psikolog · Ankara', 'adres': 'https://www.psikologrojinnazik.com/', 'tiklama': '1.000', 'gosterim': '46.800', 'konum': '13,5',
+         'not': 'Yerel bir psikolog sitesi; Ankara’daki psikolog ve terapi aramalarında görünüyor.', 'ornek': [('ankara aile terapisi fiyatları', '5,4'), ('ankara çift terapisi', '8,0'), ('ankara psikolog fiyatları', '11,0')]},
       ],
     },
   },
