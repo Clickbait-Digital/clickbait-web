@@ -912,7 +912,7 @@ def projeler_bolumu(h):
       <li class="bg-white rounded-[28px] p-3 border border-slate-100 shadow-sm{' md:col-span-2' if tam else ''}">
         <div class="rounded-[20px] overflow-hidden border border-slate-200 bg-white">
           <div class="flex items-center gap-1.5 h-8 px-4 bg-slate-100 border-b border-slate-200" aria-hidden="true"><span class="w-2.5 h-2.5 rounded-full bg-[#ff5f57]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#febc2e]"></span><span class="w-2.5 h-2.5 rounded-full bg-[#28c840]"></span><span class="ml-3 h-4 flex-1 max-w-[220px] rounded-full bg-white"></span></div>
-          <img src="/assets/img/projeler/{dosya}.jpg" srcset="/assets/img/projeler/{dosya}-800.jpg 800w, /assets/img/projeler/{dosya}.jpg {g}w" sizes="{'(min-width: 1280px) 1200px, 100vw' if tam else '(min-width: 768px) 50vw, 100vw'}" alt="{e(ad)} web sitesinin açılış sayfası" width="{g}" height="{y}" loading="lazy" class="block w-full h-auto">
+          <img src="/assets/img/projeler/{dosya}.webp" srcset="/assets/img/projeler/{dosya}-800.webp 800w, /assets/img/projeler/{dosya}.webp {g}w" sizes="{'(min-width: 1280px) 1200px, 100vw' if tam else '(min-width: 768px) 50vw, 100vw'}" alt="{e(ad)} web sitesinin açılış sayfası" width="{g}" height="{y}" loading="lazy" class="block w-full h-auto">
         </div>
         <div class="px-3 pt-4 pb-2"><h3 class="text-base font-bold text-slate-900">{baslik}</h3><p class="text-xs text-slate-500 mt-0.5">{e(tur)}</p></div>
       </li>'''

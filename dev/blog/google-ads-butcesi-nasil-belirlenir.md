@@ -73,7 +73,7 @@ Bütçeniz küçükse onu her yere yaymak yerine daraltın: reklamları yalnızc
 İlk birkaç hafta bir test dönemidir. Bu dönemde amaç kâr etmek değil, kendi gerçek rakamlarınızı öğrenmektir:
 
 - **Arama terimleri raporuna** her hafta bakın: Reklamınız hangi aramalarda göründü? Alakasız olanları negatif kelime olarak ekleyin.
-- Hangi kelimelerin ve reklam metinlerinin **talep getirdiğini** ölçün. Bunun için form, telefon ve WhatsApp tıklamalarının dönüşüm olarak takip edilmesi şarttır; dönüşüm takibi olmadan bütçe kararı vermek karanlıkta yol almaktır.
+- Hangi kelimelerin ve reklam metinlerinin **talep getirdiğini** ölçün. Bunun için form, telefon ve WhatsApp tıklamalarının dönüşüm olarak takip edilmesi şarttır; dönüşüm takibi olmadan bütçe kararı vermek karanlıkta yol almaktır. Form, telefon ve WhatsApp ölçümünü nasıl kuracağınızı [dönüşüm takibi rehberimizde](/blog/donusum-takibi-nasil-kurulur/) anlattık.
 - Örnek hesaptaki varsayımları gerçek rakamlarla değiştirin: gerçek tıklama maliyeti ve gerçek talep oranı.
 
 Test döneminden sonra bütçeyi şu durumda artırın: **talep başına maliyetiniz hedefinizin altındaysa** ve Google kampanyanızı **"Bütçe nedeniyle sınırlı"** olarak gösteriyorsa. Bu, daha fazla bütçeyle aynı maliyetle daha fazla talep alabileceğiniz anlamına gelir. Talep maliyeti hedefinizin üstündeyse bütçeyi artırmak yerine önce kelimeleri, reklam metinlerini ve sitenizi iyileştirin.

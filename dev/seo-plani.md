@@ -62,7 +62,7 @@ Her hafta: **1 blog yazısı** (Claude yazar, siz onaylarsınız) + **1 İşletm
 | 8 (4–10 Ara) | ✅ Kurumsal kimlik nedir, neleri kapsar? (kreatif; 16 Kas’ta erken yayında) | **İkinci değerlendirme** |
 | 9 (11–17 Ara) | Yapay zeka araçlarını kullanırken KVKK'ya uygun kalmak (yapay zeka) | Proje sayfaları: 2 proje daha |
 | 10 (18–24 Ara) | ✅ Web sitenizi yenilerken Google sıralamasını kaybetmemek (web; 22 Eki’de erken yayında → /web-tasarim/) | |
-| 11 (25–31 Ara) | Dönüşüm takibi kurmadan reklam vermeyin (dijital pazarlama) | |
+| 11 (25–31 Ara) | ✅ Dönüşüm takibi kurmadan reklam vermeyin (26 Kas'ta erken yayında) | |
 | 12 (1–7 Oca) | Logo tasarlatırken teslim almanız gereken dosyalar (kreatif) | **Üç aylık değerlendirme**, yeni plan |
 
 ### Ek Ankara yazıları (takvimin arasına, haftada en fazla 1 ek yazı)
@@ -123,8 +123,8 @@ Kurallar:
 | 21–22 Kas | /ankara-reklam-ajansi/ ve /ankara-google-ads-ajansi/ etkisine bak (değişiklik yok). 23 Kas'ta bakıldı: reklam ajansı 47 → 59, Google Ads sayfası 31 → 39; çekirdek güncelleme sürdüğü için okunamıyor | | ✅ |
 | 23–26 Kas | Ölçüm: 9 ve 11 Kas değişikliklerinin etkisi, pano ve rapor güncellemesi, yeni takvim (23 Kas'ta yapıldı, aşağıdaki satır) | | ✅ |
 | 23 Kas (ölçüm) | **Değerlendirme (Search Console 10–23 Kas / 27 Eki–9 Kas):** tıklama 37 → 107, gösterim 2.980 → 3.540, ort. sıra 18 → 15,6. Tıklamaların çoğu Google Ads bütçesi (21), Instagram reklamı (24), WooCommerce (12) yazıları ve /ankara-seo/ (31; 12–15 Kas). **Son hafta (16–22 / 9–15 Kas):** tıklama 67 → 42, gösterim 2.110 → 1.680; Ankara aramaları birlikte geriledi: "ankara seo" 20 → 34 (canlı pws=0: 36), "ankara seo ajansı" 33 → 63, "ankara sosyal medya ajansı" 19 → 25, "e-ticaret sitesi ankara" 19 → 47; "yapay zeka danışmanlığı" 17 → 16 (etkilenmedi). **Neden:** Google Kasım 2026 çekirdek güncellemesi 10 Kas'ta başladı (≤2 hafta). Ceza yok, sayfa dizinde, yamyamlık yok. Bağlantı veren alan adı 12 → 13 (Saye Proje). **Karar:** güncelleme bitip 1 hafta geçene kadar hizmet sayfalarında büyük değişiklik yok; /ankara-seo/'da yalnızca "sonuclar" alanı yeni 3 ay verisiyle (22 Ağu–21 Kas) yenilendi (aylık rutin). Pano ve rapor güncellendi | | ✅ |
-| 24 Kas | Logolar WebP + görsel boyut kontrolü (hız; sayfa metni değişmez) | | ⏳ |
-| 25 Kas | Yazı: Dönüşüm takibi kurmadan reklam vermeyin (→ /ankara-google-ads-ajansi/) | dönüşüm takibi | ⏳ |
+| 24 Kas | Logolar WebP + görsel boyut kontrolü (hız; sayfa metni değişmez). **26 Kas'ta yapıldı:** 13 logo WebP ve 2x boyuta küçültüldü (Aden İncek ve Magna Epic PNG kaldı, WebP daha büyüktü), 12 proje ekran görüntüsü WebP (~%65 küçük); eski dosyalar sunucuda duruyor | | ✅ |
+| 25 Kas | Yazı: Dönüşüm takibi kurmadan reklam vermeyin (→ /ankara-google-ads-ajansi/). **26 Kas'ta yayında:** /blog/donusum-takibi-nasil-kurulur/; Google Ads mi SEO mu ve Google Ads bütçesi yazılarından bağlantı (hizmet sayfasına dokunulmadı, çekirdek güncelleme kuralı) | dönüşüm takibi | ✅ |
 | 26 Kas | Araştırmadan sektör analizi taslağı (sağlık/eğitim sitelerinin durumu; `site/assets/veri/ankara-isletme-siteleri-2026.csv`) | | ⏳ |
 | 27 Kas | Yazı: Ankara'da web tasarım firması seçerken sorulacak 12 soru (→ /web-tasarim/) | ankara web tasarım firmaları | ⏳ |
 | 28–30 Kas | Google Search Status Dashboard'da güncellemenin bittiğini kontrol et; araştırma duyurusu ve PT yazısı dönüşleri | | ⏳ |

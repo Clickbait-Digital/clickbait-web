@@ -58,6 +58,6 @@ Google Ads ve SEO birbirinin rakibi değil, tamamlayıcısıdır. Reklam kampany
 
 ## Başlamadan önce: dönüşüm takibi
 
-Hangi yolu seçerseniz seçin, ilk iş **ölçümü** kurmaktır. Formdan gelen talepler, telefon aramaları ve WhatsApp mesajları ölçülmüyorsa, ne reklamın ne de SEO'nun gerçekten işe yarayıp yaramadığını bilemezsiniz. Google Analytics ve Google Ads dönüşüm takibi, harcadığınız her liranın karşılığını görmenizi sağlar.
+Hangi yolu seçerseniz seçin, ilk iş **ölçümü** kurmaktır. Formdan gelen talepler, telefon aramaları ve WhatsApp mesajları ölçülmüyorsa, ne reklamın ne de SEO'nun gerçekten işe yarayıp yaramadığını bilemezsiniz. Google Analytics ve Google Ads dönüşüm takibi, harcadığınız her liranın karşılığını görmenizi sağlar. Kurulumu adım adım [dönüşüm takibi nasıl kurulur?](/blog/donusum-takibi-nasil-kurulur/) yazımızda anlattık.
 
 > Clickbait olarak Google Ads kampanyalarını ve SEO çalışmalarını aynı ekipte yürütüyoruz; reklam, SEO ve sosyal medyayı tek planda nasıl birleştirdiğimizi [dijital pazarlama hizmetimiz](/dijital-pazarlama/) sayfasında anlattık. Ayrıntılar için [Ankara Google Ads ajansı](/ankara-google-ads-ajansi/) ve [Ankara SEO](/ankara-seo/) sayfalarımıza bakabilirsiniz. Ankara'yı ya da Türkiye genelini hedefleyen bir plan için hedeflerinizi ve bütçenizi birlikte konuşalım.
